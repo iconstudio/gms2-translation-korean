@@ -126,9 +126,9 @@ ContextMenu_MoveEntryDown,Move Menu Item Down,메뉴 항목 아래로 이동,,Context men
 ContextMenu_MoveEntryUp,Move Menu Item Up,메뉴 항목 위로 이동,,Context menu option to move a menu entry or separator up
 Dialog_AreYouSure,Are you sure?,확실합니까?,,"Generic ""Are you sure?"" dialog message"
 Dialog_Confirm,Confirm,확정,,"Dialog ""confirm"" heading"
-Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,이 이벤트를 정말로 삭제하시겠습니까?,,Delete event dialog confirmation query
+Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,이 이벤트를 정말로 제거하시겠습니까?,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,이 이벤트를 정말로 잘라 내시겠습니까?,,Cut event dialog confirmation query
-Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,이벤트 {0} 와 해당하는 동작들을 정말로 삭제하시겠습니까?,,Delete multiple event dialog confirmation query
+Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,이벤트 {0} 와 해당하는 동작들을 정말로 제거하시겠습니까?,,Delete multiple event dialog confirmation query
 Dialog_DeleteFrame_Query,Delete the selected frames?,선택한 프레임을 지울까요?,,image editor delete frames confirm query
 Dialog_PasteEvent_NotReady,The event is still being copied. Please try pasting again in a few seconds.,이 이벤트는 아직 복사 중입니다. 잠시 후에 시도해주세요.,,Not ready to paste yet message
 Dialog_DontShowAgain,Don't show this message again,이 대화 창 다시 띄우지 않기,,Message next to checkbox to allow the user to choose not to see this popup in future
@@ -728,7 +728,7 @@ ImageEditor_Tool_Flip,Flip brush tool,뒤집개 도구,,ImageEditor Flip tool
 ImageEditor_Tool_Line,Line tool,선 도구,,ImageEditor Line tool
 ImageEditor_Tool_MagicWand,Magic wand tool,마법 봉 도구,,ImageEditor Magic wand tool
 ImageEditor_Tool_Mirror,Mirror brush tool,거울 붓 도구,,ImageEditor Mirror tool
-ImageEditor_Tool_Pan,Pan image tool,이미지 이동 도구,,ImageEditor Pan tool
+ImageEditor_Tool_Pan,Pan image tool,그림 이동 도구,,ImageEditor Pan tool
 ImageEditor_Tool_Polygon,Polygon tool,도형 도구,,ImageEditor Polygon tool
 ImageEditor_Tool_PolygonOutline,Polygon tool - outline,도형 도구 - 외곽선,,ImageEditor Polygon tool(outline)
 ImageEditor_Tool_PolygonFilled,Polygon tool - filled,도형 도구 - 채움,,ImageEditor Polygon tool(filled)
@@ -1107,7 +1107,7 @@ ObjectEditor_RangeMin,Min,최소,,Min ranged parameter
 ObjectEditor_RangeMax,Max,최대,,Max ranged parameter
 ObjectEditor_ListItems,List items,목록 항목,,List items label
 ObjectEditor_ResourceFilter,Resource filter,자원 필터,,Resource filter label
-ObjectEditor_RemoveListItem,Remove this item,이 항목 삭제,,Remove this item label
+ObjectEditor_RemoveListItem,Remove this item,이 항목 제거,,Remove this item label
 ObjectEditor_PhysicsProperties,Physics Properties,물리 속성,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,물리 충돌 모양,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,속성,,Object editor properties heading
@@ -1115,7 +1115,7 @@ ObjectEditor_SameMask,Same As Sprite,스프라이트와 같음,,"Object editor ""same as
 ObjectEditor_MaskSameAsSprite,Same As Sprite,스프라이트와 같음,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,볼록한 모양,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},객체: {0},,Object properties window title
-ObjectEditor_Prop_RemoveTooltip,Remove this variable,이 변수 삭제,,Remove variable row tooltip
+ObjectEditor_Prop_RemoveTooltip,Remove this variable,이 변수 제거,,Remove variable row tooltip
 ObjectEditor_Prop_OptionsTooltip,Open options...,옵션 열기…,,Open variable options tooltip
 InstanceEditor_Prop_OverrideTooltip,Override this variable,이 변수 덮어씌우기,,Override variable tooltip
 OutputPanel_Output,Output,출력,,Output panel output tab name
@@ -1176,8 +1176,8 @@ ResourceNode_AddExisting,Add Existing,추가,,Resource Tree node menu - add an alr
 ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 추가,,Resource Tree node menu - open my library to select resource to import
 ResourceNode_AddGroup,Add Group,묶음 추가,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,기본 보기에서 추가,,submenu heading to allow users to select a resource from the default view to add to their user view.
-ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 삭제,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","지금 """"{0}"""" 를 보기 """"{1}"""" 에서 삭제합니다. 계속하시겠습니까?",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 제거,,Resource Tree - remove a resource from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","지금 """"{0}"""" 를 보기 """"{1}"""" 에서 제거합니다. 계속하시겠습니까?",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,만들기,,Resource Tree node menu - create resource
 ResourceNode_DndToScript,Convert to GML,GML 로 변환,,Resource Tree node menu - Dnd To GML
 ResourceNode_ScriptToDnd,Convert to DnD™,DnD™ 로 변환,,Resource Tree node menu - Script To Dnd
@@ -1569,7 +1569,7 @@ SpriteEditor_ShowingColMask,Showing Collision Mask,충돌 마스크 보이기,,Sprite ed
 SpriteEditor_TextureGroup,Group:,묶음: ,,Sprite editor texture group label
 SpriteEditor_TextureSettings,Texture Settings:,텍스쳐 설정,,Sprite editor texture settings label
 SpriteEditor_TileHor,Tile Horizontally,횡 타일,,Sprite editor tile hor label
-SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,"횡, 종 타일 옵션은 텍스쳐 페이지에 그림이 놓일 때 가장자리가\n생성되는 방법에 관련이 있습니다. 바둑판 식으로 배열 될 이미지의 가장자리 (수평 또는 수직)에는\n 반대편 가장자리의 경계면이 추가됩니다.",,Tiling tooltip
+SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,"횡, 종 타일 옵션은 텍스쳐 페이지에 그림이 놓일 때 가장자리가\n생성되는 방법에 관련이 있습니다. 바둑판 식으로 배열 될 그림의 가장자리 (수평 또는 수직)에는\n 반대편 가장자리의 경계면이 추가됩니다.",,Tiling tooltip
 SpriteEditor_TileVer,Tile Vertically,종 타일,,Sprite editor tile ver label
 SpriteEditor_Tolerance,Tolerance,오차,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,텍스쳐 페이지로부터 분리하기,,Sprite editor use for 3D label
@@ -1620,7 +1620,7 @@ TextureGroups_AddNew,Add New,추가,,Texture group add new button
 TextureGroups_AllowScaling,Allow Scaling,스케일링 허용,,Texture group allow scaling checkbox
 TextureGroups_AutoCrop,Automatically Crop,자동으로 맞춤 자르기,,Texture group auto cropping checkbox
 TextureGroups_MipMap,Generate mipmaps,밉맵 생성,,Texture group mipmap generation checkbox
-TextureGroups_Backgrounds,Tilesets,타일 세트,,Texture group backgrounds header
+TextureGroups_Backgrounds,Tilesets,타일 셋,,Texture group backgrounds header
 TextureGroups_BorderSize,Border Size:,가장자리 크기:,,Texture group border size label
 TextureGroups_Delete,Delete,삭제,,Texture group delete button
 TextureGroups_FindResource,Add Resource,자원 추가,,Texture group find resource label
@@ -1676,9 +1676,9 @@ TileSetEditor_SeparationY,Tile Separation Y,타일 간격 Y,,tile set editor y separ
 TileSetEditor_TileHeight,Tile Height,타일 높이,,tile set editor height numeric textbox caption
 TileSetEditor_TileSize,Tile Size,타일 크기,,tile set editor size numeric textbox caption
 TileSetEditor_TileWidth,Tile Width,타일 너비,,tile set editor width numeric textbox caption
-TileSetEditor_Title,Tile Set: {0},타일 세트: {0},,tile set editor window title
-TileSetEditor_UseAsTileSet,Use As Tileset,타일 세트로 사용,,tile set editor use as tileset checkbox caption
-TileSetGenerator_Complete,Tile Set: Image generated for '{0}',타일 세트: '{0}' 용 그림이 만들어졌습니다.,,console output message for when a tile set image has been generated
+TileSetEditor_Title,Tile Set: {0},타일 셋: {0},,tile set editor window title
+TileSetEditor_UseAsTileSet,Use As Tileset,타일 셋으로 사용,,tile set editor use as tileset checkbox caption
+TileSetGenerator_Complete,Tile Set: Image generated for '{0}',타일 셋: '{0}' 용 그림이 만들어졌습니다.,,console output message for when a tile set image has been generated
 TimeLine_BtnAdd,Add,추가,,Add button caption for timeline editor
 TimeLine_BtnChange,Change,변경,,Change button caption for timeline editor
 TimeLine_BtnClear,Clear,청소,,Clear button caption for timeline editor
@@ -2262,7 +2262,7 @@ movedegreerange_description,Workspace keyboard navigation degree range,작업 공간
 resetzoomonmoving_description,Workspace keyboard navigation resets zoom,작업 공간에서 키보드로 배율 초기화,,Description for reset zoom
 background_image,Background Image,배경 그림,,Background Image
 workspacebackground_skin_description,IDE skin,IDE 스킨,,Label to use to prompt the user to pick a new skin for the IDE
-workspacebackgroundfit_description,Image Scaling,이미지 비율 조절,,Description for workspace background fit
+workspacebackgroundfit_description,Image Scaling,그림 비율 조절,,Description for workspace background fit
 showworkspacebackground_description,Show background image on workspaces,작업 공간에 배경 그림 표시,,Description for showing workspace background
 adddefaultlayers_description,Add default room layers,룸 레이어 기본값 추가,,Description for adding default layers
 defaultbackgroundroomcolour_description,Default background layer colour,배경 레이어 기본 색상,,Description for the default colour for a room background layer
@@ -3097,8 +3097,8 @@ SourceControlGit_Clone,Source Control (Git) Clone,소스 제어 (Git) 복제,,Source C
 SourceControlGit_CloneNonBareOrigin,This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.,This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.,,Message for when a clone is done on a non-bare repository but an origin has been found.
 SourceControlGit_CloneNonBareNoOrigin,This is a non-bare repository which we do not support direct cloning from.\nThere is no Origin marked on this repository so we will ask you to create one so both old and new repositories will be linked via the new bare repository,This is a non-bare repository which we do not support direct cloning from.\nThere is no Origin marked on this repository so we will ask you to create one so both old and new repositories will be linked via the new bare repository,,Message for when a clone is done on a non-bare repository and an origin has not been found.
 Survey_Title,Feedback Survey,피드백 조사,,Feedback Survey Window Title
-TileSetEditor_Add47AutoTileSet,Add 47 Tile Set,47 단위 타일 세트 추가,,Tooltip for adding a new 47 tile auto tile set
-TileSetEditor_Add16AutoTileSet,Add 16 Tile Set,16 단위 타일 세트 추가,,Tooltip for adding a new 16 tile auto tile set
+TileSetEditor_Add47AutoTileSet,Add 47 Tile Set,47 단위 타일 셋 추가,,Tooltip for adding a new 47 tile auto tile set
+TileSetEditor_Add16AutoTileSet,Add 16 Tile Set,16 단위 타일 셋 추가,,Tooltip for adding a new 16 tile auto tile set
 TileSetEditor_DeleteSelectedAutoSet,Delete Selected Set,선택된 모음 지우기,,Tooltip for deleting the selected auto tile set
 TileSetEditor_ShowAutoTileGuide,Show Guide Overlay,지시 오버레이 표사,,Tooltip for showing the auto tile guide overlaying the auto tile sets
 ZoomWidget_ToggleGrid,Toggle Grid (G),격자 토글 (G),,Tooltip for the toggle grid button
@@ -4252,7 +4252,7 @@ Debugger_CloseMessage_NoGame,This will close the debugger and permanently discar
 Debugger_CloseMessage_Game,This will close the game and the debugger and permanently discard all collected data.,모든 수집된 자료를 버리고 게임을 끌 것입니다.,,Close debugger with a running game
 Debugger_Pref_AutomaticCloseChoice,Automatic response to closing the debugger,디버거 닫기에 자동 응답,,Close automatic choice message
 Debugger_CodeError,Code Error,코드 오류,,debugger code error dialog title
-Debugger_FetchingTextures,Fetching images...,이미지 받아오는 중…,,debugger texture image fetch label
+Debugger_FetchingTextures,Fetching images...,그림 받아오는 중…,,debugger texture image fetch label
 Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,대상에서 텍스쳐 / 서피스 그림 불러오기,,debugger texture refresh button tooltip
 Help_BufferId,The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.,The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.,,Help tip
 Help_eProfileFilterType_eGML,"Show only samples for my code, excluding the underlying engine code.","Show only samples for my code, excluding the underlying engine code.",,Help tip
@@ -4338,13 +4338,13 @@ aboutbox_onlinestatus_isoffline,Offline,연결 끊김,,Is Offline status
 aboutbox_username,Username:,사용자 이름:,,Username in About Box
 aboutbox_graphicsvendor,Graphics Vendor:,그래픽 카드 제조사:,,Graphics Vendor in About Box
 aboutbox_cpuvendor,CPU Vendor:,CPU 제조사:,,CPU Vendor in About Box
-Views_Menu_ImageGenerator,Generate Project Images,프로젝트 이미지 생성,,the ide menu entry for opening the project image generator window
-PlatformImage_NoFileSelectedTitle,No Image Selected,이미지 선택되지 않음,,the title for the warning message that no image has been selected
-PlatformImage_NoFileSelectedMessage,Please select an image using the file browser,파일 탐색기에서 이미지를 하나 선택해주세요,,the warning message that no image has been selected
-PlatformImage_Images,Images:,이미지:,,the images section header
+Views_Menu_ImageGenerator,Generate Project Images,프로젝트 그림 생성,,the ide menu entry for opening the project image generator window
+PlatformImage_NoFileSelectedTitle,No Image Selected,그림 선택되지 않음,,the title for the warning message that no image has been selected
+PlatformImage_NoFileSelectedMessage,Please select an image using the file browser,파일 탐색기에서 그림을 하나 선택해주세요,,the warning message that no image has been selected
+PlatformImage_Images,Images:,그림:,,the images section header
 PlatformImage_Icons,Icons:,아이콘:,,the icons section header
 OverwriteFramesTitle,Replace all frames,모든 프레임 바꾸기,,image editor replace frames with os dnd files dialog title
-OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,모든 프레임을 그 이미지 파일로 바꾸시겠습니까?,,image editor replace frames with os dnd files dialog title
+OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,모든 프레임을 그 그림 파일로 바꾸시겠습니까?,,image editor replace frames with os dnd files dialog title
 ListBoxEnum_eSymbolType_eNone,Unknown,알수 없음,,Symbol type
 ListBoxEnum_eSymbolType_eEnumEntry,Enum Field,열거자 구획,,Symbol type
 ListBoxEnum_eSymbolType_eGlobal,Global Variable,전역 변수,,Symbol type
