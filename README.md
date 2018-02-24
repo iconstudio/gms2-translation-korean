@@ -1,0 +1,1 @@
+# Game-Maker-Studio-2-Translation-KR
