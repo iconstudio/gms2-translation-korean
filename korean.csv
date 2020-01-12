@@ -458,7 +458,7 @@ fonteditor_add_range,Add,추가,,Adding a new font range - button
 fonteditor_add_range_desc,Add new range,새 범위 추가,,Adding a new font range - description
 fonteditor_bold,Bold,굵게,,Font editor Bold caption
 fonteditor_del_range,Delete,삭제,,Delete the currently selected font range - button
-fonteditor_del_range_desc,Delete selected range,선택된 범위 삭제하기.,,Delete the currently selected font range - description
+fonteditor_del_range_desc,Delete selected range,선택된 범위 삭제하기,,Delete the currently selected font range - description
 fonteditor_regenerate,Regenerate,텍스처 생성,,Regenerate this font texture
 fonteditor_regenerate_desc,Regenerate font texture,글꼴의 텍스처 생성하기,,Regenerate this font texture
 fonteditor_helloworld,Hello World!!,Hello World!!,,Inital text window in the Font Editor
@@ -681,7 +681,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면 맞춤,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,왼쪽,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -692,7 +692,7 @@ ImageEditor_ColourRightLabel,Right:,오른쪽,,right brush label
 ImageEditor_CommitToolChanges,Commit Tool Changes?,도구의 변경을 확정할까요?,,Commit tool changes
 ImageEditor_CropToSelection,Crop All Frames To Selection,선택된 모든 프레임 정돈하기,,Image editor - crop to selection menu option
 ImageEditor_AutoTrim,Auto Trim All Frames,자동으로 프레임 정돈하기,,Image editor - auto trim all frames
-ImageEditor_ReverseFrames,Reverse Frames,프레임 뒤집기,,Image Editor - reverse frames menu entry
+ImageEditor_ReverseFrames,Reverse Frames,순서 거꾸로 하기,,Image Editor - reverse frames menu entry
 ImageEditor_Cut,Cut,잘라내기,,Image editor menu option -Cut
 ImageEditor_CutFrame,Cut Frame,프레임 잘라내기,,Image editor menu option -Cut
 ImageEditor_CutSelection,Cut Selection,선택 영역 잘라내기,,Image editor menu option -Cut
@@ -712,7 +712,7 @@ ImageEditor_EffectApplyToLabel,Apply To:,적용 대상,,effect apply to heading
 ImageEditor_EffectCancel,Cancel,취소,,effect cancel button
 ImageEditor_Effects,Effects,효과,,Image editor menu heading -Effects
 ImageEditor_EffectAllFrames,Apply to All Frames,모든 프레임에 적용,,apply to all frames label
-ImageEditor_Flip,Flip,뒤집기,,Image editor menu option -Flip
+ImageEditor_Flip,Flip,상하 반전,,Image editor menu option -Flip
 ImageEditor_GridColour,Colour,색상,,Image editor grid colour label
 ImageEditor_GridSettings,Grid Settings,격자 설정,,Image editor grid settings label
 ImageEditor_GridX,X Spacing,X 간격,,Image editor grid x spacing label
@@ -784,7 +784,7 @@ ImageEditor_Tool_Erase,Erase tool,지우개 도구,,ImageEditor Erase tool
 ImageEditor_Tool_Fill,Fill tool,채우기 도구,,ImageEditor Fill tool
 ImageEditor_Tool_ColourReplace,Colour replace tool,색 바꾸기 도구,,ImageEditor Colour replace tool
 ImageEditor_Tool_ColourRemover,Colour remove tool,색 제거 도구,,ImageEditor Colour remove tool
-ImageEditor_Tool_Flip,Flip brush tool,뒤집개 붓 도구,,ImageEditor Flip tool
+ImageEditor_Tool_Flip,Flip brush tool,뒤집개 도구,,ImageEditor Flip tool
 ImageEditor_Tool_Line,Line tool,선 도구,,ImageEditor Line tool
 ImageEditor_Tool_MagicWand,Magic wand tool,마술 지팡이 도구,,ImageEditor Magic wand tool
 ImageEditor_Tool_Mirror,Mirror brush tool,반전 붓 도구,,ImageEditor Mirror tool
@@ -801,9 +801,9 @@ ImageEditor_Tool_FreeRotate,Free rotate brush tool,자유회전 붓 도구,,Imag
 ImageEditor_Tool_SplitMagnify,Split Magnify,분할 돋보기,,Image editor split magnify tool name
 ImageEditor_Tool_Text,Text tool,글자 도구,,Image editor text tool
 ImageEditor_ToolboxPanelTitle,Toolbox,도구상자,,toolbox panel title
-ImageEditor_Transform,Animation,동화,,Image editor menu - animation transform heading
-ImageEditor_Menu_Flip,Flip,좌우 뒤집기,,Image editor menu flip
-ImageEditor_Menu_Mirror,Mirror,반전,,Image editor menu mirror
+ImageEditor_Transform,Animation,애니메이션,,Image editor menu - animation transform heading
+ImageEditor_Menu_Flip,Flip,상하 반전,,Image editor menu flip
+ImageEditor_Menu_Mirror,Mirror,좌우 반전,,Image editor menu mirror
 ImageEditor_Menu_AllFrames,All Frames,모든 프레임,,Image editor menu flip animation
 ImageEditor_Menu_CurrentFrame,Selected Frames,현재 프레임,,Image editor menu flip current frame
 ImageEditor_Menu_RotateImageCW,Rotate All Frames (clockwise 90),모든 프레임 회전 (시계방향으로 90도),,Image editor rotate clockwise menu entry
@@ -847,7 +847,7 @@ ImageEditor_FillStyle_Fill,Fill,채우기,,shape tool fill style
 ImageEditor_FillStyle_Both,Both,둘 다,,shape tool both style
 ImageEditor_SwatchMenu_Copy,Copy colours to sprite:,색을 스프라이트로 복사,,swatch panel menu copy colours
 ImageEditor_SwatchMenu_Import,Import colours from sprite:,스프라이트에서 색상 가져오기,,swatch panel menu import colours
-ImageEditor_OnionBurger_Tooltip,Onion skin,어니언 스킨 (이전 프레임 투영),,burger button tooltip
+ImageEditor_OnionBurger_Tooltip,Onion skin,투영 모드,,burger button tooltip
 ImageEditor_LoopBurger_Tooltip,Loop mode,반복 모드,,burger button tooltip
 ImageEditor_PlayBurger_Tooltip,Play,재생,,burger button tooltip
 ImageEditor_AddLayer_TT,Add Layer To All Frames,모든 프레임 레이어 추가,,image editor add layer tooltip
@@ -869,8 +869,8 @@ ListBoxEnum_eBlurType_Box,Box,박스,,blur type enum
 ListBoxEnum_eBlurType_Gaussian,Gaussian,가우시안,,blur type enum
 GridWidgetSettings_Colour,Grid Colour:,격자 색상,,zoom widget grid settings colour label
 GridWidgetSettings_Alpha,Alpha:,투명도,,zoom widget grid settings alpha label
-GridWidgetSettings_GridX,Grid X,X 격자,,grid settings grid x
-GridWidgetSettings_GridY,Grid Y,Y 간격,,grid settings grid y
+GridWidgetSettings_GridX,Grid X,가로 격자,,grid settings grid x
+GridWidgetSettings_GridY,Grid Y,세로 격자,,grid settings grid y
 GridWidgetSettings_Snap,Snap,맞춤,,grid settings grid snap to grid
 SplitWidgetSettings_NoSplit,No Split,분할 없음,,split settings no split
 SplitWidgetSettings_Horizontal,Split Horizontal,수평 분할,,split settings horizontal split
@@ -1128,7 +1128,7 @@ ObjectEdior_PhysicsShape_ZoomOut,Zoom out,축소,,Object editor physics window l
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,줌 재설정,,Object editor physics window label
 ObjectEditor_AddEvent,Add Event,이벤트 추가,,Object editor add event
 ObjectEditor_Sprite,Sprite,스프라이트,,Object editor sprite group
-ObjectEditor_AnimSpeed,Animation Speed,동화 속도,,Physics collision window playback speed
+ObjectEditor_AnimSpeed,Animation Speed,재생 속도,,Physics collision window playback speed
 ObjectEditor_Arg0,{0},{0},,"empty string, single unlocalised argument"
 ObjectEditor_Box,Box,상자,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,이벤트 바꾸기,,Object editor change event menu option
@@ -1257,7 +1257,7 @@ PropertyButton_NoGMSprite,No Sprite,스프라이트 없음,,Button caption for w
 PropertyButton_NoGMTileSet,No Tileset,타일 세트 없음,,no background selected caption for the layer background button
 ResourceNode_AddExisting,Add Existing,기존 항목 추가,,Resource Tree node menu - add an already existing resource
 ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 항목 추가,,Resource Tree node menu - open my library to select resource to import
-ResourceNode_AddGroup,Add Group,묶음 추가,,Add a group
+ResourceNode_AddGroup,Add Group,폴더 추가,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,기본 보기에서 추가,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 제거,,Resource Tree - remove a resource from the current view
 ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","보기 """"{1}"""" 에서 """"{0}""""을 제거합니다. 계속할까요?",,Resource Tree - confirmation of removal from the current view
@@ -1383,7 +1383,7 @@ RoomEditor_NewPathLayer,Create New Path Layer,새로운 경로 레이어 생성,
 RoomEditor_NewTileLayer,Create New Tile Layer,새로운 타일 레이어 생성,,Tool tip for the new tile layer button
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
 RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) 부모 - {3}",,instance/graphic tooltip when there is no parent item
-RoomEditor_RoomProperties,Properties - {0},속성,,Window title for room properties
+RoomEditor_RoomProperties,Properties - {0},룸 속성,,Window title for room properties
 RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},개체 생성 순서,,Window title for instance creation order
 RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,개체 생성 순서,,menu entry for instance creation order window
 RoomEditor_SelectedTileBrush,Brush:,붓,,Label for the currently selected tile editing brush
@@ -1408,9 +1408,9 @@ RoomEditorTool_AutoTile,Auto Tile (A),자동 타일 (A),,tooltip for auto tile t
 RoomEditorTool_SelectTiles,Select Tiles (S),타일 선택 (S),,tooltip for tile selection tool
 RoomEditorTool_TileBrush,Paint Tiles,타일 그리기,,Button tooltip for the tile brush tool
 RoomEditorTool_TileEraser,Eraser (E),지우개 (E),,tooltip for tile eraser tool
-RoomEditorTool_TileFlip,Flip (Y),뒤집기 (Y),,tooltip for flip tile brush
+RoomEditorTool_TileFlip,Flip (Y),상하 반전 (Y),,tooltip for flip tile brush
 RoomEditorTool_TileInheritance,Show Tile Inheritance,타일 상속 표시,,Tooltip message for the show tile inheritance button
-RoomEditorTool_TileMirror,Mirror (X),반전 (X),,tooltip for mirror tile brush
+RoomEditorTool_TileMirror,Mirror (X),좌우 반전 (X),,tooltip for mirror tile brush
 RoomEditorTool_TilePaintInheritance,Edit Tile Inheritance (I),타일 상속 편집 (I),,tooltip for inheritance tile brush
 RoomEditorTool_TilePen,Pen (D),펜 (D),,tooltip for tile pen tool
 RoomEditorTool_TileRotate,Rotate Tile (Z),회전 (Z),,tooltip for rotate tile brush
@@ -1460,7 +1460,7 @@ remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remo
 remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,{0}'은(는) 원격 작업자의 이름으로 사용할 수 없습니다. 다른 이름을 입력하고 다시 시도하세요.,,Remote worker invalid name
 Saving,Saving...,저장 중...,,Saving
 SCM_Add_Path,Add Path,경로 추가,,Add a path to the SCM
-SCM_Clone,Clone Repository,저장소 복제,,Clone a Source Control Repository
+SCM_Clone,Clone Repository,저장소 복제하기,,Clone a Source Control Repository
 SCM_Commit,Commit Changes,변경 사항 확정하기,,Commit local changes to Repository
 SCM_Conflicts,Show Conflicts,충돌 사항 보기,,Show Conflicts within Repository
 SCM_Create,Create Project Repository,프로젝트 저장소 만들기,,Create a local Source Control Repository for this project
@@ -1503,7 +1503,7 @@ SearchReplace_Title,Search & Replace,검색 및 바꾸기,,Search and Replace ti
 SearchReplace_WholeWordOnly,Whole Word Only,단어 완전 일치,,Search and Replace - Whole Word Only
 SearchReplace_MoreResults,There are more results available...,검색 결과가 더 있습니다.,,There are too many results to display
 SearchReplace_StopSearch,Stop Search,검색 중지,,Search And Replace - stop search
-SoundEditor_Attributes,Attributes:,속성,,Sound Editor Attributes - for choosing uncompressed/streaming options
+SoundEditor_Attributes,Attributes:,소리 특성,,Sound Editor Attributes - for choosing uncompressed/streaming options
 SoundEditor_AudioGroup,Audio Group:,오디오 묶음,,Sound Editor Audio Group labal
 SoundEditor_BitRate,Bit Rate (kbps):,비트 전송속도 (kbps),,Sound Editor Target Bit Rate ( in kbps )
 SoundEditor_Compressed_NotStreamed,Compressed - Not Streamed,압축됨 - 스트림 되지 않음,,Sound Editor Attribute - Compressed and Not Streamed
@@ -2302,7 +2302,7 @@ ggs_half_ipad1_textures,Halve iPad 1 texture sizes,iPad 1에선 텍스처 크기
 ggs_homepage,Homepage,홈페이지,,Homepage
 ggs_short_description,Short Description,짧은 설명,,Short Description
 ggs_long_description,Long Description,긴 설명,,Long Description
-ggs_start_fullscreen,Start fullscreen,전체화면으로 시작하기.,,Start Fullscreen
+ggs_start_fullscreen,Start fullscreen,전체화면으로 시작,,Start Fullscreen
 ggs_vsync,Use synchronization to avoid tearing,화면 갈림 방지를 위해 수직 동기화 사용,,Use synchronization to avoid tearing
 ggs_vsync_winuwp_tooltip,synchronization must be enabled for this platform,이 플랫폼에서는 항상 활성화됩니다.,,vsync tooltip in win uwp options
 ggs_player_resize_window,Allow window resize,창 크기 조정 허용,,Allow player to resize window
@@ -2450,11 +2450,11 @@ UpdateSystemFonts_Message,Do you want to refresh system fonts? Font resources mu
 restoredefaults,Restore defaults,기본 설정 복구,,Restore default settings
 assetcachelocation,Asset cache directory,자산 캐시 위치,,Location of Asset Cache setting
 myprojectslocation,'My Projects' directory,프로젝트 위치,,My Projects location setting
-autoreloadchangedfiles,Automatically reload changed files,자동으로 변경된 파일 새로 고침,,Automatically reload changed files setting
+autoreloadchangedfiles,Automatically reload changed files,수정된 파일 자동으로 갱신하기,,Automatically reload changed files setting
 deleteassetcache,Delete Asset Cache,자산 캐시 삭제,,Delete the asset cache now
 deleteassetcacheonquit,Automatically delete asset cache directory on close,종료 시 자산 캐시 삭제,,Delete the asset cache on quit setting
 deletetemponquit,Delete temp folder on quit,종료 시 임시 폴더 삭제,,Delete the temp folder on quit setting
-opennewresources,Open new resources for edit on creation,자원을 만들 때 열기,,Open new resources setting
+opennewresources,Open new resources for edit on creation,자원을 만들고 열기,,Open new resources setting
 alwaysopendroppedresources,Open new resources for edit on dragging files into IDE,IDE에 파일을 끌어와서 새 자원 만들기,,Setting to stop the IDE from opening new resources via drag/drop
 externalswfeditor,SWF files,SWF 파일,,Path to external swf editor
 externalspineeditor,Spine files,Spine 파일,,Path to external spine editor
@@ -3041,7 +3041,7 @@ SpriteSelector_EditImage,Edit Image,그림 편집,,The edit image button tooltip
 SpriteSelector_NewSprite,New Sprite,새 스프라이트,,The new sprite button tooltip
 TileSet_Properties,Tile Set Properties,타일 세트 속성,,the tile set properties window title
 TileSet_BrushBuilder,Brush Builder,붓 제작기,,the tile set scratchpad window title
-TileSet_Animation,Tile Animation,타일 동화,,the tile set animation window title
+TileSet_Animation,Tile Animation,타일 애니메이션,,the tile set animation window title
 TileSet_AutoTile,Auto Tiling,자동 타일,,the tile set auto tile window title
 TileSetEditor_Editors,Editors:,편집기,,the tile set heading for the various sub editor buttons
 IDE_FatalErrorWarning,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,GameMaker Studio 2가 불안정해졌습니다. \n수정 사항을 저장하고 종료하시기 바랍니다.,,Warn the user they should try saving changes and exit
@@ -3080,9 +3080,9 @@ TileSetEditor_Tools,Tools,도구,,the tile editing tools panel heading
 TileSetEditor_Brushes,Brushes,붓,,the tile editing brush scratchpad panel heading
 columnpadding_description,Workspace chain column padding (px),연결선으로 이어진 열 사이의 간격,,the prefernces label for workspace column padding
 TileSetEditor_SelectedTiles,Selected Tiles:,선택된 타일,,the selected tiles label in the tile set sub editor status bars
-TileSetEditor_AnimationsLibrary,Animations Library,동화 추가,,the window panel title for the animations library
+TileSetEditor_AnimationsLibrary,Animations Library,애니메이션 라이브러리,,the window panel title for the animations library
 TileSetEditor_AutoTileLibrary,Auto Tile Library,자동 타일 라이브러리,,the window panel title for the auto tile library
-TileSetEditor_AddAnimation,Add Animation,동화 추가,,the add animation label beside the add animation button
+TileSetEditor_AddAnimation,Add Animation,애니메이션 추가,,the add animation label beside the add animation button
 TileSetEditor_SelectedFrame,Selected Frame:,선택된 프레임,,the caption in the animations window status bar
 TileSetEditor_SelectedTile,Selected Tile:,선택된 타일,,the caption in the animations window status bar
 TileSetEditor_SelectAnimationFrameCount,Set number of frames,프레임 수 설정,,the message displayed on a new animation which the user has not selected the frame count
@@ -3203,33 +3203,33 @@ ExtensionEditor_AddArgument,Add Argument,인자 추가,,function properties cont
 Extension_Error,Extension Error,확장 기능 오류,,Error with Extension setup
 ExtensionFunction_4DiffArgs,Extensions with more than 4 arguments on DLL types must all have the same argument type.\n{0},DLL 에 4개 이상의 인자가 있는 확장 기능은 모두 동일한 인자 자료형을 가져야합니다.\n{0},,Extensions with more than 4 arguments on DLL types must all have the same argument type warning
 ExtensionFunction_ConfigIssue,The DLL {0} on extension {1} with function {2} has more than 4 arguments and are not all the same type.,함수 {2}이(가) 있는 확장 기능 {1}의 DLL '{0}'에 4개 이상의 인자가 있고 전부 동일한 자료형이 아닙니다.,,The DLL extension with function has more than 4 arguments and are not all the same type.
-animations_settings,Disable IDE transition animations,IDE 전환 애니메이션 비활성화,,Transition animation preference
+animations_settings,Disable IDE transition animations,IDE 애니메이션 끄기,,Transition animation preference
 Survey_Later,Close,닫기,,Choose to answer survey questions later
 Survey_SubmitAll,Send Now,지금 보내기,,Choose to submit all questions now
-Survey_SubmitMoreFeedback,Send and Take More,보내고 더 받기,,Choose to submit all questions and provide more feedback
+Survey_SubmitMoreFeedback,Send and Take More,보내고 더 보내기,,Choose to submit all questions and provide more feedback
 Survey_Rating_5,Excellent,최고,,Excellent Rating
 Survey_Rating_4,Good,좋음,,Good Rating
 Survey_Rating_3,Okay,괜찮음,,Okay Rating
 Survey_Rating_2,Poor,나쁨,,Poor Rating
 Survey_Rating_1,Terrible,끔찍함,,Really Bad Rating
 Survey_Rating_0,Not Applicable,해당 사항 없음,,Rating Not Applicable
-Surveys_OptIn,Opt-in to feedback surveys,피드백 설문조사에 참여,,feedback survey opt-in checkbox text
+Surveys_OptIn,Opt-in to feedback surveys,피드백 설문조사에 참여하기,,feedback survey opt-in checkbox text
 Notifications_Hub,Notification Hub,알림 허브,,Notification Hub string
 SoundMixer_ToolTip_AddGroup,Add sound group,소리 묶음 추가,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_CloseGroup,Close sound group,소리 묶음 닫기,,Sound mixer tool tip for adding a sound group to the mixer
-SoundMixer_ToolTip_SoundGroup,Sound group,사운드 묶음 닫기,,Sound mixer tool tip for the sound group
+SoundMixer_ToolTip_SoundGroup,Sound group,소리 묶음,,Sound mixer tool tip for the sound group
 SoundMixer_ToolTip_MuteGroup,Mute all sounds in group,묶음 내 모든 소리 음소거,,Sound mixer tool tip
-SoundMixer_ToolTip_ColumnVolume,Column volume,음량,,Sound mixer tool tip for the column volume
+SoundMixer_ToolTip_ColumnVolume,Column volume,현재 모음의 음량,,Sound mixer tool tip for the column volume
 SoundMixer_ToolTip_PlayGroup,Play all sounds in group,묶음 안에서 재생중인 모든 소리,,Sound mixer tool tip
-SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,묶음의 모든 소리 반복 재생,,Sound mixer tool tip
+SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,묶음의 모든 소리 반복 재생하기,,Sound mixer tool tip
 SoundMixer_ToolTip_RewindGroup,Rewind all sounds in group to start,시작할 묶음의 모든 소리 되감기,,Sound mixer tool tip
 SoundMixer_ToolTip_CloseSound,Close sound,닫기,,Tool tip for closing the sound in the mixer
-SoundMixer_ToolTip_PlaySound,Play sound,재생,,Tool tip for playing an individual sound in the sound mixer
+SoundMixer_ToolTip_PlaySound,Play sound,재생하기,,Tool tip for playing an individual sound in the sound mixer
 SoundMixer_ToolTip_MuteSound,Mute sound,음소거,,Tool tip for muting an individual sound in the sound mixer
-SoundMixer_ToolTip_RepeatSound,Loop playback,반복,,Tool tip for looping an individual sound in the sound mixer
+SoundMixer_ToolTip_RepeatSound,Loop playback,반복하기,,Tool tip for looping an individual sound in the sound mixer
 SoundMixer_ToolTip_RewindSound,Rewind to start,되감기,,Tool tip for rewinding an individual sound in the sound mixer
 SoundMixer_ToolTip_PlaybackPosition,Playback position,재생 위치,,Tool tip for setting the playback position an individual sound in the sound mixer
-SoundMixer_ToolTip_LinkGroups,Link groups,연결 묶음,,Tool tip for link groups button
+SoundMixer_ToolTip_LinkGroups,Link groups,두 모음을 연결하기,,Tool tip for link groups button
 SoundEditor_ToolTip_PlaySound,Preview sound,미리 듣기,,Tool tip for playing an individual sound in the sound editor
 SoundEditor_ToolTip_MuteSound,Mute sound,음소거,,Tool tip for muting an individual sound in the sound editor
 SoundEditor_ToolTip_RepeatSound,Preview Looped,미리 듣기 반복,,Tool tip for looping an individual sound in the sound editor
@@ -4004,8 +4004,8 @@ GMStdBuffer,Buffer,버퍼,,DnD™
 GMStdSeek,Seek,쓰기 위치 쫓기,,DnD™
 GMStdRelative,Relative,상대적,,DnD argument label
 GMStdOffset,Offset,오프셋,,DnD™
-GMStdVar_mirror,Mirror,좌우 뒤집기,,Mirror DnD™
-GMStdVar_flip,Flip,상하 뒤집기,,Flip DnD™
+GMStdVar_mirror,Mirror,좌우 반전 (X),,Mirror DnD™
+GMStdVar_flip,Flip,상하 반전 (Y),,Flip DnD™
 GMStdVar_bboxleft,Bounding Box Left,좌측 충돌 경계,,DnD label
 GMStdVar_bboxtop,Bounding Box Top,상단 충돌 경계,,DnD label
 GMStdVar_bboxright,Bounding Box Right,우측 충돌 경계,,DnD label
@@ -4138,7 +4138,7 @@ ProgressBar_SpritePreview,Sprite Preview...,스프라이트 미리보기...,,The
 ProgressBar_Archiving,Archiving...,압축 중...,,Compressing to a .zip/.yyz/etc...
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,원본 스프라이트 내보내기 사용불가,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,자동 타일 편집,,autotile tooltip
-TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,타일 동화 편집,,animation library tooltip
+TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,타일 애니메이션 편집,,animation library tooltip
 FileFilters_AllSupported,All Supported File Types,지원되는 모든 파일 형식,,file filter info
 FileFilters_ImageFiles,Image Files,그림 파일,,Sprite resource file filter
 Sprite_FileFilters_SwfFiles,Shockwave Flash Object,Shockwave Flash 객체,,Sprite resource file filter
@@ -4248,9 +4248,9 @@ Marketplace_CreatePackageDetails,Package Details:,패키지 세부사항,,packag
 Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,튜토리얼 유형을 선택한 경우 자습서 컨텐츠 설정이 여기에 표시됩니다.,,the message displayed when the tutorial settings are inactive
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?",이 작업 공간을 닫으면 포함된 편집기들이 닫힙니다. 확실한가요?,,confirmation dialog message when closing a workspace tab with open editors
 CloseNonEmptyWorkspaceTabTitle,Closing a non-empty workspace,비어 있지 않은 작업 공간 닫기,,confirmation dialog title
-enableclosetabshortcut,Allow empty tabs to be closed via the keyboard shortcut,키보드 단축키를 통해 빈 탭을 닫을 수 있도록 허용합니다.,,close tab label
-autoclosenonemptyworkspacetabs,Automatic response to closing a workspace via keyboard shortcut,키보드 단축키를 사용하여 비어 있지 않은 작업 공간 탭을 닫습니다.,,auto close tab label
-tileseteditor_automaticaccepttilesize,Automatic response to room tile layer cropping due to tile size changes,타일 크기 변경으로 인한 타일 레이어 자르기,,tile size causing tile layer crop confirmation description
+enableclosetabshortcut,Allow empty tabs to be closed via the keyboard shortcut,단축키를 통해 빈 탭을 닫을 수 있도록 허용하기,,close tab label
+autoclosenonemptyworkspacetabs,Automatic response to closing a workspace via keyboard shortcut,단축키로 비어 있지 않은 작업 공간 탭을 닫기,,auto close tab label
+tileseteditor_automaticaccepttilesize,Automatic response to room tile layer cropping due to tile size changes,타일 크기 변경으로 인한 타일 레이어 정돈하기,,tile size causing tile layer crop confirmation description
 fonteditor_fontnotavailable,Font family '{0}' is not available. Verify that you have installed this font correctly.,글꼴 패밀리 {0}을(를) 사용할 수 없습니다. 이 글꼴이 올바르게 설치됐는지 확인하세요.,,Font editor font not available
 fonteditor_fontnotavailable_listbox,Missing '{0}',{0}'가 누락되었습니다.,,Text in font dropdown to tell user the font is unavailable
 fonteditor_fontnotavailable_title,Unavailable Font,사용 불가능한 글꼴,,Title for unavailable font warning
@@ -4581,7 +4581,7 @@ ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,M
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Mac에서 가져옵니다.,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,지역 소스 폴더를 추가합니다.,,tooltip
 DnD_StoryPanel_Empty,An overview will appear here when you add an action,액션을 추가하면 여기에 개요가 표시됩니다.,,Empty panel text
-allowoverlappingchains_description,Workspace chains can overlap,작업영역 사슬이 겹치도록 허용하기.,,preference description for whether we allow overlapping chains
+allowoverlappingchains_description,Workspace chains can overlap,작업영역 사슬이 겹치도록 허용하기,,preference description for whether we allow overlapping chains
 IcoFailedLoad,An image in the {0} file failed to load.,파일 {0}의 그림을 불러오지 못했습니다.,,Ico image failed to load
 desktop_windowlockzoomlevel,Minimum zoom level for interacting with window contents (%),마우스가 창 내용과 상호 작용할 수 있는 최소 배율,,preference description for when a window is locked and only responds to mouse interaction for dragging
 PlatformImage_Generate,Generate,생성하기,,button caption for the generate images button
@@ -4993,7 +4993,7 @@ Option_NSIS_Script,NSIS Script,NSIS 스크립트,,NSIS Script file path option l
 Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio 경로,,Visual Studio Path preference location caption
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","오버레이 공유 (128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,미리보기,,Preview button caption
-Main,Main,메인,,Main option group subheading
+Main,Main,전역 설정,,Main option group subheading
 Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d'일 'h'시간 'm'분 's'초 ,"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,플랫폼,,Platform selector title for device manager
 Server,Server,서버,,Server preference group subheading
