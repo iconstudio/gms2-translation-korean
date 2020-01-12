@@ -92,18 +92,18 @@ CertProperties_CreateCertificate,Create Certificate,인증서 생성,,certificat
 CertProperties_EnterCertDetails,Enter new certificate details:,새로운 인증서 상세 입력: ,,certificate properties enter certificate details
 CertProperties_PublisherName,Publisher Name:,게시자 이름: ,,cert properties author name
 CertProperties_CreatePublisherAccount,Create Publisher Account,게시자 계정 생성,,create publisher account button label
-CodeWindow_2Column,2 columns,2 열,,Document window layout menu option - 2columns
-CodeWindow_3Column,3 columns,3 열,,Document window layout menu option - 3 columns
-CodeWindow_Fullscreen,Fullscreen workspace tab,최대화된 탭,,Document window layout menu option - fullscreen workspace tab
+CodeWindow_2Column,2 columns,2단,,Document window layout menu option - 2columns
+CodeWindow_3Column,3 columns,3단,,Document window layout menu option - 3 columns
+CodeWindow_Fullscreen,Fullscreen workspace tab,작업공간의 탭을 전체 화면으로 열기,,Document window layout menu option - fullscreen workspace tab
 CodeWindow_Menu_Help,Keyword help,단어 도움말,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,자원 보기,,Code window show resource menu option
-CodeWindow_SingleColumn,Single pane,단일 창,,Document window layout menu option - 1 column
+CodeWindow_SingleColumn,Single pane,1단,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,코드,,fullscreen code editor workspace tab title
 CodeWindow_RestoreToWorkspace,Restore to Workspace,작업공간으로 복원,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,이벤트 객체로 이동,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,이벤트 추가 / 열기,,code editor event script add event context menu option
 CodeWindow_OpenInheritedEvent,Open Inherited Event,상속된 이벤트 열기,,open inherited event context menu option
-GotoLine_Title,Go To Line,줄로 이동,,goto line dialog title
+GotoLine_Title,Go To Line,해당 줄로 이동,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),줄 번호 {0} - {1},,goto line label
 CompileErrors,Compile Errors,컴파일 오류,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,컴파일 오류가 없습니다!,,No compile errors message
