@@ -11,7 +11,7 @@ $win_OpenInExplorer,Open In Explorer,탐색기에서 열기,,Windows version of 
 $win_OpenProjectInExplorer,Open Project In Explorer,탐색기에서 프로젝트 열기,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,탐색기에서 기록 열기,,Windows version of Show Log In Explorer
 $win_explorer,explorer,탐색기,,windows version of explorer
-$mac_explorer,finder,Finder,,mac version of explorer
+$mac_explorer,finder,finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Finder에서 보기,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Finder에서 프로젝트 보기,,Mac version of Open Project In Explorer
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,Finder에서 기록 살피기,,Mac version of Show Log In Explorer
@@ -70,8 +70,9 @@ LicenseNotification_TrialExpiring,Your trial is due to expire in {0} days,{0} �
 LicenseNotification_Expiring,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,Licence expiry notification
 LicenseNotification_BuyNow,Buy Now,구매,,Buy Now label
 LicenseNotification_ButtonBuyNow,BUY NOW,바로 구매,,BUY NOW label
-IDE_License_Label,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,IDE license label
+IDE_License_Label,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,IDE licence label
 IDE_TrialLicense_Label,Your trial is due to expire in {0} days,{0} 체험판이 {1}일 이내에 만료됩니다.,,IDE trial licence label
+marketplace_certificate_settings,Marketplace Certificate Settings,Marketplace Certificate Settings,,marketplace certificate settings pref
 Certificate_GenerateSucceeded,Successfully created certificate file: {0},인증서 생성에 성공했습니다: {0},,certificate create success
 Certificate_GenerateFailed,Failed to create certificate file: {0},인증서 생성에 실패했습니다: {0},,certificate create failed
 Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,인증서 파일 '{0}'이 이미 존재합니다. 새 파일 이름을 선택하세요.,,certificate file exists
@@ -295,7 +296,7 @@ Event_Key_Home,Home,Home,,"Key event ""others"" subtype"
 Event_Key_Insert,Insert,Insert,,"Key event ""others"" subtype"
 Event_Key_Tab,Tab,Tab,,Key event others subtype
 Event_Key_Keypad,Keypad,키 패드,,Key event subtype
-Event_Key_KeypadN,Keypad {0},{0},,Keypad event N
+Event_Key_KeypadN,Keypad {0},Keypad {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,한정자,,Modifiers keyboard group title
 Event_Key_ArrowKeys,Arrow Keys,방향 키,,Arrow keys keyboard group title
 Event_Key_ControlKeys,Control Keys,조작 키,,Control keys keybaord group title
@@ -355,6 +356,7 @@ Event_Other,Other,기타,,Other event name
 Event_Other_AnimationEnd,Animation End,애니메이션 종료,,Other event subtype
 Event_Other_AnimationEvent,Animation Event,애니메이션 이벤트,,Other event subtype
 Event_Other_AnimationUpdate,Animation Update,애니메이션 갱신,,Other event subtype
+Event_Other_BroadcastMessage,Broadcast Message,Broadcast Message,,Other event subtype
 Event_Other_EndOfPath,Path Ended,경로 끝남,,Other event subtype
 Event_Other_GameEnd,Game End,게임 종료,,Other event subtype
 Event_Other_GameStart,Game Start,게임 시작,,Other event subtype
@@ -373,6 +375,13 @@ Event_Step,Step,스텝,,Step event name
 Event_StepBegin,Begin Step,스텝 시작,,Begin Step event name
 Event_StepEnd,End Step,스텝 끝,,End Step event name
 Event_Unknown,Unknown Event,알 수 없는 이벤트,,Object editor unknown event name
+SeqEvents_Tooltip,Sequence Events,Sequence Events,,Events button tooltip
+SeqEvents_TypeFunctionNameHere,Type Function Name Here,Type Function Name Here,,Type Function Name Here
+SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},This will override the following functions:\n{0},,Used in the confirmation dialog
+SeqEvents_NewFunctionQuestion,Would you like to create new functions?,Would you like to create new functions?,,Seq func question
+SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,Sequence Events - Create New Functions,,Used as the confirmation dialog's title
+SeqMessages_TypeMessageHere,Type Broadcast Message Here,Type Broadcast Message Here,,Type Broadcast Message Here
+SeqMoments_Frames,Frame,Frame,,Frames label
 Exit_AreYouSure,Are you sure you want to exit?,정말로 종료할까요?,,"On closing main desktop to quit, are you sure?"
 Exit_SaveProject,Do you want to save changes before exiting?,종료하기전 수정 사항을 저장할까요?,,Let user save project on exit
 CloseProject_Save,Do you want to save changes to the current project?,현재 프로젝트에 수정 사항을 저장할까요?,,Prompt user to save changes to current project
@@ -422,7 +431,58 @@ FileError_NotFound,File Not Found,파일 찾을 수 없음,,File Not Found
 FileError_PathTooLong,File Path Too Long,파일 경로가 너무 김,,File Path Too Long
 FileError_Timeout,File Load Timeout,파일 불러오기 시간초과,,File Load Timeout
 Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),글꼴 {0}의 텍스처 생성이 건너뛰기 됐습니다. (기기에 글꼴이 없습니다),,Font generation failed
-Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet
+Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet<
+Inspector,Inspector,Inspector,,Inspector preference heading
+Inspector_WindowTitle,Inspector,Inspector,,Inspector window title
+Inspector_WindowTitleArg,Inspector: {0},Inspector: {0},,Inspector window title with argument
+Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Inspector Window: Multiple Items,,Inspector window title multi select
+Inspector_ErrorTitle,Inspector Error,Inspector Error,,An error occurred in the inspector
+Inspector_Lock,Lock inspector to current selection,Lock inspector to current selection,,Lock inspector tooltip
+Inspector_Unlock,Unlock inspector to allow new selections,Unlock inspector to allow new selections,,Unlock inspector tooltip
+InspectorGadget_ListBox_Empty,(List is empty),(List is empty),,Label shown when a listbox is empty
+InspectorGadget_Array_Empty,(Array is empty),(Array is empty),,Label shown when an array is empty
+InspectorGadget_Object_Empty,(Object is not inspectable),(Object is not inspectable),,Label shown when an object is not inspectable
+InspectorGadget_ErrorLabel,'{0}' is not supported by the inspector,'{0}' is not supported by the inspector,,Inspector error label when layout fails
+InspectorGadget_Null,Element did not return a value,Element did not return a value,,Inspector null label
+InspectorGadget_ExceptionLabel,An exception was thrown by this element,An exception was thrown by this element,,Inspector exception label
+InspectorGadget_Coalescing_Disallowed_Tooltip,This field does not support bulk editing,This field does not support bulk editing,,Field cannot be coalesced tooltip
+InspectorGadget_Coalescing_Error_Tooltip,An error occurred in retrieving this value,An error occurred in retrieving this value,,Error occurred in retrieving value tooltip
+InspectorGadget_Coalescing_Differ_Tooltip,The selected elements have different values for this field,The selected elements have different values for this field,,Different values tooltip
+Inspector_ArrayItemNamed,Element {0} - {1},Element {0} - {1},,Label to represent array elements in inspector
+Inspector_ArrayItem,Element {0},Element {0},,Label to represent array elements in inspector
+Inspector_ArrayItemTooltip,This is an entry in the array,This is an entry in the array,,Tooltip to represent array elements in inspector
+Inspector_ArrayList_FailedToAddElement,Failed to add new element to the array list.,Failed to add new element to the array list.,,Failed to add new array list element
+Inspector_ArrayList_FailedToRemoveElement,Failed to remove element from the array list.,Failed to remove element from the array list.,,Failed to remove array list element
+Inspector_ArrayList_AddElementTooltip,Add another element,Add another element,,Tooltip to add another array list element
+Inspector_ArrayList_RemoveElementTooltip,Remove this element,Remove this element,,Tooltip to remove array list element
+Inspector_ArrayList_Size,Size:,Size:,,Array list size
+Inspector_ArrayList_Error,An error occurred while getting this value,An error occurred while getting this value,,Error getting array list value
+Inspector_ArrayList_Differing,Selected elements have different values for this field,Selected elements have different values for this field,,Different array list values
+Inspector_ArrayList_Disallowed,This list does not support bulk editing,This list does not support bulk editing,,Array list bulk editing not supported
+Inspector_ObjectPanel_Error,An error occurred while getting this value,An error occurred while getting this value,,Error getting object panel value
+Inspector_ObjectPanel_Differing,Selected elements have different values for this field,Selected elements have different values for this field,,Different object panel values
+Inspector_ObjectPanel_Disallowed,This object does not support bulk editing,This object does not support bulk editing,,Object panel bulk editing not supported
+Inspector_EventList_Error,An error occurred while getting this value,An error occurred while getting this value,,Error getting event list value
+Inspector_EventList_CannotCoalesce,Events do not support bulk editing,Events do not support bulk editing,,Event list bulk editing error
+Inspector_EventList_AddElementTooltip,Add event,Add event,,Tooltip to add a new event
+Inspector_UndoError,An error occurred while attempting to undo a change.,An error occurred while attempting to undo a change.,,Undo error message
+Inspector_RedoError,An error occurred while attempting to redo a change.,An error occurred while attempting to redo a change.,,Redo error message
+Inspector_Category_Physics,Physics,Physics,,Inspector category
+Inspector_Category_Permissions,Permissions,Permissions,,Inspector category
+Inspector_Category_Icons,Icons,Icons,,Inspector category
+Inspector_Category_Logo,Logo,Logo,,Inspector category
+Inspector_Category_Splash,Splash Screen,Splash Screen,,Inspector category
+Inspector_Category_Sdk,Software Development Kit,Software Development Kit,,Inspector category
+Inspector_Category_Orientation,Orientation,Orientation,,Inspector category
+Inspector_Category_XboxLive,Xbox Live,Xbox Live,,Inspector category
+Inspector_Category_Viewport,Viewport,Viewport,,Inspector category
+Inspector_Category_View,View,View,,Inspector category
+Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector category
+Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
+Inspector_Category_Tiles,Tiles,Tiles,,Inspector category
+Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
+Inspector_OpenEditor,Open Editor,Open Editor,,open editor
+RulerLine_Value,Ruler Value,Ruler Value,,smart guide ruler coord value
 fonteditor_texture_size,{0} x {1},{0} x {1},,Font editor texture size label
 fonteditor_gms1mode,This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.,구형 글꼴이 자동으로 업그레이드되지 않았습니다.\n\n글꼴을 업그레이드했을 시에 차이가 있을 수 있지만 원본은 같은 폴더에 백업됩니다.,,Font editor GMS1 mode label
 fonteditor_gms1upgradebutton,Back Up and Upgrade,백업과 업그레이드,,Upgrade font button
@@ -474,7 +534,7 @@ fonteditor_size,Size,크기,,Size of font
 fonteditor_style,Presets,사전 설정,,Font Editor style group name
 fonteditor_stylename,Style,스타일,,Font editor style name
 fonteditor_toggle,Toggle,전환,,Font editor AA radio group header
-fonteditor_window,Font: {0},{0},,Font editor title
+fonteditor_window,Font: {0},Font: {0},,Font editor title
 fonteditor_options_window,Font Options,글꼴 옵션,,Font options window title
 fonteditor_includettf,Copy to project,프로젝트로 복사,,Font editor include TTF checkbox
 fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,프로젝트로 원본 글꼴 파일을 가져옵니다.\n이 자원이 포함된 장터 내의 자산에도 원본 글꼴이 삽입됩니다.,,tooltip for the 'includettf' copy to project checkbox
@@ -550,6 +610,7 @@ GadgetToolBox_Misc,Miscellaneous,미 분류,,Gadget toolbox display name for mis
 GadgetToolbox_MultiLineTextBox,Multiline Text Box,여러 줄 글 상자,,A multiline text input box
 GadgetToolbox_NumericTextBox,Numeric Textbox,숫자 글 상자,,Gadget toolbox display name for numeric textbox
 GadgetToolbox_PanArea,Pan Area,영역 이동,,Gadget toolbox pan area class name
+GadgetToolbox_SequenceCanvas,Sequence Canvas,Sequence Canvas,,Gadget toolbox sequence canvas name
 GadgetToolbox_RadioButton,Radio Button,라디오 단추,,Gadget toolbox display name for radio button
 GadgetToolbox_RadioButtons,Radio Buttons,라디오 단추들,,Gadget toolbox display name for radio buttons group
 GadgetToolbox_RadioGroup,Radio Button Group,라디오 단추 묶음,,Gadget toolbox display name for radio button group
@@ -558,12 +619,14 @@ GadgetToolbox_ScrollPanel,Scroll Panel,스크롤 창,,Gadget toolbox display nam
 GadgetToolbox_Separators,Separators,구분 기호,,Gadget toolbox display name for separators
 GadgetToolbox_Slider,Slider,슬라이더,,Gadget toolbox display name for slider
 GadgetToolbox_ThumbnailSlider,Thumbnail Slider,미리보기 슬라이더,,Gadget toolbox display name for thumbnail slider
+GadgetToolbox_AngularSelect,Angular Select,Angular Select,,Gadget toolbox display name for angular select
 GadgetToolbox_StackPanel,Stack Panel,스택 창,,Gadget toolbox display name for stack panel
 GadgetToolbox_TabControl,Tab Control Panel,탭 제어판,,Gadget toolbox display name for tab control
 GadgetToolbox_TextBox,Textbox,글 상자,,Gadget toolbox display name for textbox
+GadgetToolbox_FunctionTextBox,Function Textbox,Function Textbox,,Gadget toolbox display name for function textbox
 GadgetToolbox_TextInput,Text Input,글자 입력,,Gadget toolbox display name for  text input group
 GadgetToolbox_TitleBar,Title Bar,제목 표시줄,,Gadget toolbox display name for title bar
-GadgetToolbox_ToggleButton,Toggle Button,토글 단추,,Gadget toolbox display name for a toggle button
+GadgetToolbox_ToggleButton,Toggle Button,토글 단추,,Gadget GadgetToolbox_ExpandableCategorytoolbox display name for a toggle button
 GadgetToolbox_TreeView,Tree View,계층 보기,,Gadget toolbox display name for tree view
 GadgetToolbox_VerticalScrollbar,Vertical Scrollbar,세로 스크롤바,,Gadget toolbox display name for horizontal scrollbar
 GadgetToolbox_VerticalSeparator,Vertical Separator,세로 분리대,,Gadget toolbox display name for vertical separator
@@ -579,6 +642,7 @@ GadgetToolbox_ResourceObjectIcon,Object Icon,객체 아이콘,,Gadget toolbox di
 GadgetToolbox_ResourceTileSetIcon,Tile Set Icon,타일 세트 아이콘,,Gadget toolbox display for the tileset icon
 GadgetToolbox_SpriteSelector,Sprite Selector,스프라이트 선택,,Gadget toolbox display for the sprite selector
 GadgetToolbox_Resources,Resources,자원,,Gadget toolbox heading for the resources group
+GadgetToolbox_DnD,Drag and Drop,Drag and Drop,,Gadget toolbox heading for the Drag and Drop group
 Game_Options,Game Options - {0},게임 옵션: {0},,Takes platform argument to show type of Game Options being displayed
 AddOns,Add-ons,부가 기능,,Add-ons node label
 GameOptions_AddOns_Label,Add one or more add-ons to this project,이 프로젝트에 하나 이상의 부가 기능을 추가하세요.,,Add addon to this project label
@@ -588,6 +652,7 @@ Gamemaker_News,News,소식,,News window title
 Gmez_NoProject,Gmez Import: No project to import into,가져올 프로젝트 없음,,Error when importing without a project loaded
 GraphicProperties_AnimSpeed,Speed,속도,,The animation speed for graphics
 GraphicProperties_FrameIndex,Frame,프레임,,The initial frame for the sprite
+GraphicProperties_HeadPosition,Head,Head,,The initial head for the sprite
 GraphicProperties_Height,Height,높이,,graphic properties caption for height textbox
 GraphicProperties_PosX,X,X,,graphic properties caption for x textbox
 GraphicProperties_PosY,Y,Y,,graphic properties caption for y textbox
@@ -681,7 +746,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면 맞춤,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:1,1:1,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,왼쪽,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -884,7 +949,7 @@ IncludedFile_FileSizeKB,{0} KB,{0} KB,,display for file size in kilobytes
 IncludedFile_FileSizeMB,{0} MB,{0} MB,,display for file size in megabytes
 IncludedFile_NoPlatforms,None,없음,,caption for no platforms button
 IncludedFile_Platforms,Platforms: ,플랫폼,,caption for platforms buttons/list
-IncludedFile_Title,Included File: {0},{0},,Included file editor window title
+IncludedFile_Title,Included File: {0},Included File: {0},,Included file editor window title
 IncludedFilesPlatform_Android,Android,Android,,included files platform list entry
 IncludedFilesPlatform_Android_YYC,Android (YYC),Android (YYC),,included files platform list entry
 IncludedFilesPlatform_GameMaker_Player,GameMaker:Player,GameMaker:Player,,included files platform list entry
@@ -901,7 +966,7 @@ IncludedFilesPlatform_Windows_8_YYC,Windows 8 (YYC),Windows 8 (YYC),DO NOT TRANS
 IncludedFilesPlatform_Windows_Phone_8,Windows Phone 8,Windows Phone 8,DO NOT TRANSLATE 'windows',included files platform list entry
 IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 (YYC),DO NOT TRANSLATE 'windows',included files platform list entry
 IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (JavaScript),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),DO NOT TRANSLATE,included files platform list entry
@@ -915,8 +980,8 @@ InstanceProperties_FlipX,Flip X,가로로 뒤집기,,instance properties checkbo
 InstanceProperties_FlipY,Flip Y,세로로 뒤집기,,instance properties checkbox label for flip y
 InstanceProperties_ImageIndex,Frame,프레임,,Instance property initial image index
 InstanceProperties_ImageSpeed,Image Speed,재생 속도,,Instance property initial image speed
-InstanceProperties_PosX,X,x,,instance properties numeric box label for x pos
-InstanceProperties_PosY,Y,y,,instance properties numeric box label for y pos
+InstanceProperties_PosX,X,X,,instance properties numeric box label for x pos
+InstanceProperties_PosY,Y,Y,,instance properties numeric box label for y pos
 InstanceProperties_Rotation,Rotation,회전 각도,,instance properties numeric textbox caption for rotation
 InstanceProperties_ScaleX,Scale X,가로 비율,,instance properties numeric box label for scale x
 InstanceProperties_ScaleY,Scale Y,세로 비율,,instance properties numeric box label for scale y
@@ -1022,6 +1087,7 @@ Marketplace_CreatingPackage,Creating package...,패키지 만드는 중...,,crea
 Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,프로젝트에서 자원을 선택하여 패키지에 추가하십시오.,,marketplace create package description
 Marketplace_ProjectLabel,Project:,프로젝트,,create package project label
 Marketplace_AssetPackageLabel,Asset Package:,자산 패키지,,create package asset package label
+Marketplace_Package_Changelog,Changelog:,Changelog:,,change log label
 Marketplace_Package_AddLabel,Add,추가,,create package add resource button
 Marketplace_Package_AddAllLabel,Add All,모두 추가,,create package add all resources button
 Marketplace_Package_RemoveLabel,Remove,제거,,create package remove resource button
@@ -1060,12 +1126,12 @@ MPackage_AssetDisplayName,Display name,표기 이름,,marketplace asset display 
 MPackage_DisplayNameInvalid,Display name is invalid,이름이 잘못되었습니다.,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,이름 제한,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,"- 반드시 5글자 이상, 30글자 미만이여야 합니다.",,asset create restriction label
-MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
-MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
+MPackage_DisplayNameRule2,- Must start with a letter,- Must start with a letter,,asset create restriction label
+MPackage_DisplayNameRule3,"- May only contain letters, numbers, dashes and underscores","- May only contain letters, numbers, dashes and underscores",,asset create restriction label
 MPackage_PackageIdRestrictions,Package ID Restrictions,패키지 식별자 제한,,asset create restriction label
-MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
-MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
-MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
+MPackage_PackageIdRule1,- Must be in the format com.companyname.assetname,- Must be in the format com.companyname.assetname,,asset create restriction label
+MPackage_PackageIdRule2,- Cannot contain spaces,- Cannot contain spaces,,asset create restriction label
+MPackage_PackageIdRule3,- Company and asset names may contain letters and numbers,- Company and asset names may contain letters and numbers,,asset create restriction label
 MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,중요! 자원을 생성 한 후에는 패키지 식별자를 변경할 수 없습니다.,,create asset warning label
 MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,버전 {1}의 패키지 '{0}'을 업로드했습니다.\n자원 목록으로 이동할까요?,,mplace package uploaded message
 MPackage_UploadFailed,Package upload failed: {0},패키지 올리기 실패,,mplace package upload failed message
@@ -1177,8 +1243,8 @@ InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance o
 ObjectEditor_PropType,Type,유형,,Variable type
 ObjectEditor_PropDefault,Default,기본값,,Variable default value
 ObjectEditor_PropParams,Options,옵션,,Variable attributes aka parameters
-InstanceEditor_PropBoolean_Label,TRUE,TRUE,,Boolean label
-ObjectEditor_WindowOptions,Options: {0},{0},,Options window title
+InstanceEditor_PropBoolean_Label,True,True,,Boolean label
+ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
 ObjectEditor_RangeEnabled,Use Range,범위 사용,,Use ranged parameter
 ObjectEditor_RangeMin,Min,최소,,Min ranged parameter
 ObjectEditor_RangeMax,Max,최대,,Max ranged parameter
@@ -1191,7 +1257,7 @@ ObjectEditor_Properties,Properties,속성,,Object editor properties heading
 ObjectEditor_SameMask,Same As Sprite,스프라이트와 같음,,"Object editor ""same as sprite"" mask setting"
 ObjectEditor_MaskSameAsSprite,Same As Sprite,스프라이트와 같음,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,볼록한 모양,,"Object editor collision shape ""shape"""
-ObjectEditor_WindowTitle,Object: {0},{0},,Object properties window title
+ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,이 변수 삭제,,Remove variable row tooltip
 ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,기본값으로 되돌리기,,remove variable override tooltip
 ObjectEditor_Prop_OptionsTooltip,Open options...,옵션 열기...,,Open variable options tooltip
@@ -1245,16 +1311,21 @@ PathEditor_ToolTip_ZoomIn,Zoom In,확대,,Path editor tool tip
 PathEditor_ToolTip_ZoomOut,Zoom Out,축소,,Path editor tool tip
 PathEditor_ToolTip_ZoomReset,Reset Zoom,줌 재설정,,Path editor tool tip
 PathEditor_VerticalShift,Vertical Shift:,수직 이동,,Path shift dialog label
-PathEditor_WindowTitle,Path: {0},{0},,Path editor window title
+PathEditor_WindowTitle,Path: {0},Path: {0},,Path editor window title
 PathLayer_AddNewPath,<new path>,<새로운 경로>,,context menu entry for creating a new path within the path layer properties
 PrefsTree_Title,Preferences,환경 설정,,Preferences tree title
 DebugInfo_Title,Debug Info,디버그 정보,,Debug info window title
 DebugInfo_DumpMemory,Memory Usage,메모리 사용량,,Dump memory button label
 DebugInfo_CrashButton,DIE DIE DIE (Crash),죽어 죽어 죽어 (충돌),,Crash button label
 OutputPanel_Title,Output,출력,,Output panel window title
+PropertyButton_NoResourceArg,No {0},No {0},,no resource (type name) selected caption for resource button
+PropertyButton_NoResource,No Resource,No Resource,,no resource selected caption for resource button
 PropertyButton_NoGMObject,No Object,객체 없음,,no object selected caption for the view object button
 PropertyButton_NoGMSprite,No Sprite,스프라이트 없음,,Button caption for when no sprite is selected
+PropertyButton_NoGMSequence,No Sequence,No Sequence,,Button caption for when no sequence is selected
 PropertyButton_NoGMTileSet,No Tileset,타일 세트 없음,,no background selected caption for the layer background button
+PropertyButton_NoGMParticleType,No Particle Type,No Particle Type,,no particle type selected button caption
+PropertyButton_NoGMParticleSystem,No Particle System,No Particle System,,no particle system selected button caption
 ResourceNode_AddExisting,Add Existing,기존 항목 추가,,Resource Tree node menu - add an already existing resource
 ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 항목 추가,,Resource Tree node menu - open my library to select resource to import
 ResourceNode_AddGroup,Add Group,폴더 추가,,Add a group
@@ -1285,6 +1356,7 @@ ResourceNode_NewTextureGroup,Create New...,새로 만들기,,Resource Tree node 
 ResourceNode_NewAudioGroup,Create New...,새로 만들기,,Resource Tree node menu - create new audio group with selected resources
 ResourceNode_SetAudioGroup,Assign Audio Group,묶음,,Resource Tree node menu - set the audio group of selected resources
 ResourceNode_Rename,Rename,이름 바꾸기,,Resource Tree node menu - rename resource
+ResourceNode_OpenInImageEditor,Open in Image Editor,Open in Image Editor,,resource node open in image editor
 Save_RegeneratedFont,Generated font texture for '{0}',글꼴 '{0}'의 텍스처가 생성되었습니다.,,Studio console to notify user of font texture update
 Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,글꼴 '{0}'의 텍스처가 없어 새로 생성되었습니다.,,Studio console to notify user of font texture update
 RegeneratedFonts_DidNothing,No fonts were regenerated.,아무 글꼴도 생성되지 않았습니다.,,No fonts were regenerated
@@ -1301,6 +1373,7 @@ ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0
 ResourceTree_Extensions,Extensions,확장 기능,,"Resource tree ""Extensions"" label"
 ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?",파일 {0}을(를) 제거합니다. 계속할까요?,,Resource tree file delete user confirmation
 ResourceTree_Fonts,Fonts,글꼴,,"Resource tree ""Fonts"" label"
+ResourceTree_Folders,Folders,Folders,,resource tree folders resource label
 ResourceTree_IncludedFiles,Included Files,포함 파일,,"Resource tree ""Included Files"" label"
 ResourceTree_NoResourceFound,No results found,검색 결과 없음,,message when nothing found when searching resource tree
 ResourceMenu_CreateExtension,Create Extension,확장 기능 만들기,,"Resource menu ""Create Extension"" entry"
@@ -1314,6 +1387,7 @@ ResourceMenu_CreateShader,Create Shader,쉐이더 만들기,,"Resource menu ""Cr
 ResourceMenu_CreateSound,Create Sound,소리 만들기,,"Resource menu ""Create Sound"" entry"
 ResourceMenu_CreateSprite,Create Sprite,스프라이트 만들기,,"Resource menu ""Create Sprite"" entry"
 ResourceMenu_CreateTileset,Create Tile Set,타일 세트 만들기,,"Resource menu ""Create Tile Set"" entry"
+ResourceMenu_CreateNineSlice,Create Nine Slice,Create Nine Slice,,"Resource menu ""Create Nine Slice"" entry"
 ResourceMenu_CreateNote,Create Note,필기 만들기,,"Resource menu ""Create Note"" entry"
 ResourceMenu_CreateTimeline,Create Timeline,타임라인 만들기,,"Resource menu ""Create Timeline"" entry"
 ResourceMenu_Resources,Resources,자원,,Main resources menu entry
@@ -1334,7 +1408,7 @@ ResourceTree_Sounds,Sounds,소리,,"Resource tree ""Sounds"" label"
 ResourceTree_Sprites,Sprites,스프라이트,,"Resource tree ""Sprites"" label"
 ResourceTree_Tilesets,Tile Sets,타일 세트,,"Resource tree ""Tile Sets"" label"
 ResourceTree_Timelines,Timelines,타임라인,,"Resource tree ""Timelines"" label"
-ResourceTree_Title,Resources,자원,,Resource tree title
+ResourceTree_Title,Assets,자원,,Assets title
 ResourceTree_ViewNameInUse,View Name Already In Use,이미 사용중인 명칭입니다.,,label to show view name is already in use when renaming
 ResourceTree_CannotRenameDefaultView,Cannot rename Default View,기본 보기의 명칭은 바꿀 수 없습니다,,label to show that you cannot rename default view
 ResourceTree_LotsOfResourcesWarning,Do you want to open {0} resources for edit?,편집을 위해 자원 {0}을(를) 열까요?,,label to warn user they are about to open a lot of resources
@@ -1358,6 +1432,10 @@ RoomEditor_DeleteLayer,Delete Layer,레이어 제거,,context menu option for de
 RoomEditor_RenameLayer,Rename Layer,레이어 이름 변경,,context menu option for renaming a layer
 RoomEditor_DeleteSelectedLayer,Delete Selected Layers,선택된 레이어 제거,,tooltip for the delete selected layers button
 RoomEditor_GraphicProperties,Graphic: {0},그래픽,,graphic properties window
+RoomEditor_ParticleSystemProperties,Particle System: {0},Particle System: {0},,graphic properties window
+RoomEditor_SequenceProperties,Sequence: {0},Sequence: {0},,graphic properties window
+RoomEditor_NineSliceProperties,Nine Slice: {0},Nine Slice: {0},,graphic properties window
+RoomEditor_SpriteProperties,Sprite: {0},Sprite: {0},,graphic properties window
 RoomEditor_GridColour,Colour:,색상,,room editor toolbar grid colour select button caption
 RoomEditor_GridSnapX,Snap X:,X 맞춤: ,,room editor toolbar grid horizontal snap numeric textbox caption
 RoomEditor_GridSnapY,Snap Y:,Y 맞춤: ,,room editor toolbar grid vertical snap numeric textbox caption
@@ -1370,7 +1448,7 @@ RoomEditor_InheritSubLayers,Inherit Sub Layers,하위 레이어 상속,,Context 
 RoomEditor_InheritView,Inherit View,뷰 상속,,inherit toggle button caption for a single view entry
 RoomEditor_InheritViewSettings,Inherit View Properties,뷰 설정 상속,,Inherit button tool tip caption for view settings
 RoomEditor_InheritVisibility,Inherit Layer Visibility,레이어 가시성 상속,,Context menu entry for whether a layer should inherit visibility state
-RoomEditor_InstanceProperties,Instance: {0},{0},,Instance properties window title
+RoomEditor_InstanceProperties,Instance: {0},Instance: {0},,Instance properties window title
 RoomEditor_KeepAllChildLayers,Keep All,모두 유지,,layer delete confirm dialog message for the keep all button
 RoomEditor_KeepBrokenChildLayers,Keep Changed,변경 유지,,layer delete confirm dialog message for the keep changed button
 RoomEditor_LayerProperties,{1} Layer Properties - {0},{1} 속성,,Window title for the layer properties
@@ -1503,6 +1581,15 @@ SearchReplace_Title,Search & Replace,검색 및 바꾸기,,Search and Replace ti
 SearchReplace_WholeWordOnly,Whole Word Only,단어 완전 일치,,Search and Replace - Whole Word Only
 SearchReplace_MoreResults,There are more results available...,검색 결과가 더 있습니다.,,There are too many results to display
 SearchReplace_StopSearch,Stop Search,검색 중지,,Search And Replace - stop search
+SearchReplace_IgnoreComments,Ignore Comments,Ignore Comments,,Ignore Comments
+SearchReplace_FilterScripts,Scripts,Scripts,,Scripts
+SearchReplace_FilterObjects,Objects,Objects,,Objects
+SearchReplace_FilterSequences,Sequences,Sequences,,Sequences
+SearchReplace_FilterRooms,Rooms,Rooms,,Rooms
+SearchReplace_FilterNotes,Notes,Notes,,Notes
+SearchReplace_FilterTimelines,Timelines,Timelines,,Timelines
+SearchReplace_FilterShaders,Shaders,Shaders,,Shaders
+SearchReplace_FilterExtensions,Extensions,Extensions,,Extensions
 SoundEditor_Attributes,Attributes:,소리 특성,,Sound Editor Attributes - for choosing uncompressed/streaming options
 SoundEditor_AudioGroup,Audio Group:,오디오 묶음,,Sound Editor Audio Group labal
 SoundEditor_BitRate,Bit Rate (kbps):,비트 전송속도 (kbps),,Sound Editor Target Bit Rate ( in kbps )
@@ -1517,7 +1604,7 @@ SoundEditor_Quality,Quality:,품질,,Sound Editor Quality label
 SoundEditor_SampleRate,Sample Rate:,샘플 속도,,Sound Editor Target Sample Rate
 SoundEditor_SoundLoaded,Sound Loaded,소리 불러옴,,SoundEditor - Sound has been loaded
 SoundEditor_TargetOptions,Target Options:,대상 옵션,,"Sound Editor Target Options - for choosing sample rate, bit rate, etc..."
-SoundEditor_Title,Sound: {0},{0},,Title of SoundEditor window
+SoundEditor_Title,Sound: {0},Sound: {0},,Title of SoundEditor window
 SoundEditor_Uncompressed_NotStreamed,Uncompressed - Not Streamed,압축 안됨 - 스트림 되지 않음,,Sound Editor Attribute - Uncompressed and Not Streamed
 SoundEditor_UncompressOnLoad_NotStreamed,Uncompress on Load - Not Streamed,불러올 때 압축 해제 - 스트림 되지 않음,,Sound Editor Attribute - Uncompress on Load - Not Streamed
 SoundEditor_Volume,Volume:,음량,,Sound Editor Volume label
@@ -1598,6 +1685,8 @@ Splash_LoadingUserLanguages,Loading Custom Languages...,사용자 정의 언어 
 Splash_LoadingPlugins,Loading Plugins...,플러그인 불러오는 중...,,Loading the plugins
 Splash_LoadingPrefs,Loading Preferences...,환경 설정 불러오는 중...,,Loading the preferences
 Splash_LoadingDevices,Loading Devices...,장치 불러오는 중...,,Loading the devices
+Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
+Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
 Splash_UserLogin,User Login,사용자 로그인,,User Login has been started
 Splash_InitDnD,Drag and Drop...,드래그 앤 드롭...,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,RSS 확인 중...,,Checking RSS...
@@ -1661,7 +1750,7 @@ Sprite_Resize_Percentage,%,%,,Percentage label
 Sprite_Resize_ScaleIn,Scale In:,축척,,Scale in label
 Sprite_Resize_ResizeIn,Resize In:,크기 조정,,Resize in label
 SpriteEditor_Name,Name:,이름,,Sprite editor name label
-SpriteEditor_Origin,Origin:,원점,,Sprite editor origin label
+SpriteEditor_Origin,Origin,원점,,Sprite editor origin label
 SpriteEditor_Origin_BottomLeft,Bottom Left,좌측 하단,,Sprite editor origin combo menu item
 SpriteEditor_Origin_BottomMiddle,Bottom Center,중앙 하단,,Sprite editor origin combo menu item
 SpriteEditor_Origin_BottomRight,Bottom Right,우측 하단,,Sprite editor origin combo menu item
@@ -1683,7 +1772,116 @@ SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how th
 SpriteEditor_TileVer,Tile Vertically,타일을 수직으로 나열,,Sprite editor tile ver label
 SpriteEditor_Tolerance,Tolerance,오차,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,텍스처 페이지 분리,,Sprite editor use for 3D label
-SpriteEditor_WindowTitle,Sprite: {0},{0},,Sprite editor window title
+SpriteEditor_WindowTitle,Sprite: {0},Sprite: {0},,Sprite editor window title
+ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
+ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
+ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
+ParticleTypeEditor_Appearance,Appearance,Appearance,,Particle type appearance label
+ParticleTypeEditor_Properties,Properties,Properties,,Particle type properties label
+ParticleTypeEditor_BuiltInTextures,Textures,Textures,,Particle type built-in textures label
+ParticleTypeEditor_BuiltInTextures_Tooltip,Use a preset texture as a particle type,Use a preset texture as a particle type,,Help tooltip
+ParticleTypeEditor_Sprite_Tooltip,Use a Sprite from the project as a particle type,Use a Sprite from the project as a particle type,,Help tooltip
+ParticleTypeEditor_Color,Colour,Colour,,Particle type color label
+ParticleTypeEditor_ColorHelp,Sets how this particle type changes colour over time,Sets how this particle type changes colour over time,,Particle type color help
+ParticleTypeEditor_Size,Size,Size,,Particle type size label
+ParticleTypeEditor_SizeHelp,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,,Particle type size help
+ParticleTypeEditor_Scale,Scale,Scale,,Particle type scale label
+ParticleTypeEditor_ScaleHelp,Sets the scale of this particle type,Sets the scale of this particle type,,Particle type scale help
+ParticleTypeEditor_Min,Minimum,Minimum,,Particle type minimum label
+ParticleTypeEditor_Max,Maximum,Maximum,,Particle type maximum label
+ParticleTypeEditor_Incement,Increment,Increment,,Particle type increment label
+ParticleTypeEditor_IncementHelp,Sets how much this property changes over time,Sets how much this property changes over time,,Particle type increment help
+ParticleTypeEditor_Wiggle,Wiggle,Wiggle,,Particle type wiggle label
+ParticleTypeEditor_WiggleHelp,Sets how much this property can randomly change over time,Sets how much this property can randomly change over time,,Particle type wiggle help
+ParticleTypeEditor_Blending,Blending,Blending,,Particle type blending label
+ParticleTypeEditor_BlendingHelp,Enable additive blending for this particle type,Enable additive blending for this particle type,,Particle type blending help
+ParticleTypeEditor_Gravity,Gravity,Gravity,,Particle type gravity label
+ParticleTypeEditor_GravityHelp,Sets the gravity force and direction applied to this particle type over time,Sets the gravity force and direction applied to this particle type over time,,Particle type editor gravity help
+ParticleTypeEditor_GravityForce,Force,Force,,Particle type gravity force label
+ParticleTypeEditor_GravityDir,Direction,Direction,,Particle type gravity direction label
+ParticleTypeEditor_Direction,Direction,Direction,,Particle type direction label
+ParticleTypeEditor_DirectionHelp,Sets the direction of this particle type,Sets the direction of this particle type,,Particle type editor direction help
+ParticleTypeEditor_Orientation,Orientation,Orientation,,Particle type editor orientation label
+ParticleTypeEditor_OrientationHelp,Sets the rotation of this particle type,Sets the rotation of this particle type,,Particle type editor orientation help
+ParticleTypeEditor_Relative,Relative,Relative,,Particle type editor relative label
+ParticleTypeEditor_RelativeOrientationHelp,Sets whether this particle type's rotation is relative to its direction,Sets whether this particle type's rotation is relative to its direction,,Particle type editor relative orientation help
+ParticleTypeEditor_Speed,Speed,Speed,,Particle type editor speed label
+ParticleTypeEditor_SpeedHelp,Sets the speed of this particle type,Sets the speed of this particle type,,Particle type editor speed help
+ParticleTypeEditor_Life,Life,Life,,Particle type editor life label
+ParticleTypeEditor_Subparticles,Subparticles,Subparticles,,Particle type editor subparticles label
+ParticleTypeEditor_SpawnDeath,On Death,On Death,,Particle type editor spawn on death label
+ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,Spawn another particle when this dies,,Particle type editor spawn on death help label
+ParticleTypeEditor_SpawnUpdate,On Update,On Update,,Particle type editor spawn on update label
+ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,Spawn another particle each update,,Particle type editor spawn on update help label
+ParticleTypeEditor_Headposition,Head,Head,,Particle type editor head label
+ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Use the sprite frame at the given head position,,Particle type editor head help label
+ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,Incompatible Runtime,,Title for below error message
+ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,,Not supported by runtime error message
+ParticleEditor_Title,Particle System: {0},Particle System: {0},,Particle System editor window title
+ParticleEditor_System,System,System,,Particle system label
+ParticleEditor_Particles,Particles,Particles,,Particles label
+ParticleEditor_Emitters,Emitters,Emitters,,Emitters label
+ParticleEditor_DrawOrder,Draw Order,Draw Order,,Particle system draw order label
+ParticleEditor_AddParticleType,Create a new particle type,Create a new particle type,,New particle type tooltip
+ParticleEditor_RemoveParticleType,Delete selected particle type(s),Delete selected particle type(s),,Delete particle type tooltip
+ParticleEditor_AddParticleEmitter,Create a new particle emitter,Create a new particle emitter,,New particle emitter tooltip
+ParticleEditor_RemoveParticleEmitter,Delete particle emitter,Delete particle emitter,,Delete particle emitter tooltip
+ParticleEditor_EditParticleType,Edit this particle type,Edit this particle type,,Edit particle type tooltip
+ParticleEditor_EditParticleEmitter,Edit this particle emitter,Edit this particle emitter,,Edit particle emitter tooltip
+ParticleEditor_EmitterName,Name,Name,,Emitter name label
+ParticleEditor_EmitterMode,Mode,Mode,,Emitter mode label
+ParticleEditor_EmitterParticleType,Particle Type,Particle Type,,Emitter particle type label
+ParticleEditor_EmitterCount,Particle Count,Particle Count,,Emitter particle count to emit each time label
+ParticleEditor_EmitterShape,Shape,Shape,,Emitter shape label
+ParticleEditor_EmitterDistribution,Distribution,Distribution,,Emitter particle distribution label
+ParticleEditor_EmitterEnabled,Enabled,Enabled,,Emitter enabled label
+ParticleEditor_EmitterColor,Editor Colour,Editor Colour,,Emitter editor color label
+ParticleEditor_ShapeLeft,Left,Left,,Emitter shape region left label
+ParticleEditor_ShapeTop,Top,Top,,Emitter shape region top label
+ParticleEditor_ShapeWidth,Width,Width,,Emitter shape region width label
+ParticleEditor_ShapeHeight,Height,Height,,Emitter shape region height label
+ParticleEditor_ShapeRotation,Rotation,Rotation,,Emitter shape rotation label
+ParticleEditor_BackgroundSettings,Change the preview background,Change the preview background,,Change the preview background tooltip
+ParticleEditor_ToggleBackground,Toggle preview background,Toggle preview background,,Toggle preview background tooltip
+ParticleEditor_Play,Start the particle system,Start the particle system,,Start emitting particles tooltip
+ParticleEditor_Pause,Pause the particle system,Pause the particle system,,Pause emitting particles tooltip
+ParticleEditor_SelectType,Select particle type,Select particle type,,Select particle type window title
+ParticleEditor_BackgroundLabel,Display a sprite or a local image as the background of the Particle System preview.,Display a sprite or a local image as the background of the Particle System preview.,,Particle editor background explanation
+ParticleEditor_BackgroundSprite,Sprite,Sprite,,Sprite label for background
+ParticleEditor_BackgroundImage,Local image,Local image,,Texture background
+ParticleEditor_AutomaticUpdate,Automatic Update,Automatic Update,,Automatic update particle system label
+ParticleEditor_AutomaticDraw,Automatic Draw,Automatic Draw,,Automatic draw particle system label
+ParticleEditor_TimeOffset,Time Offset,Time Offset,,Time offset particle system label
+ParticleEditorStats_ParticleCount,Particles: {0},Particles: {0},,Particle editor stats label
+ParticleEditorStats_UpdateTime,Update: {0}ms,Update: {0}ms,,Particle editor stats label for how long it took to update
+ParticleEditorStats_DrawTime,Drawing: {0}ms,Drawing: {0}ms,,Particle editor stats label for how long it took to draw
+ToolTip_eParticleSystemDrawOrder_OldFirst,Draw older particles below newer particles (default),Draw older particles below newer particles (default),,Particle system draw order help tip for drawing old first
+ToolTip_eParticleSystemDrawOrder_NewFirst,Draw newer particles below older particles,Draw newer particles below older particles,,Particle system draw order help tip for drawing new first
+ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,Default,,Particle system draw order localised label
+ListBoxEnum_eParticleSystemDrawOrder_NewFirst,New Below Old,New Below Old,,Particle system draw order localised label
+ListBoxEnum_eParticleDistribution_Linear,Linear,Linear,,Linear particle distribution
+ListBoxEnum_eParticleDistribution_Gaussian,Gaussian,Gaussian,,Gaussian particle distribution
+ListBoxEnum_eParticleDistribution_InverseGaussian,Inverse Gaussian,Inverse Gaussian,,Inverse gaussian particle distribution
+ListBoxEnum_eEmitterShape_Rectangle,Rectangle,Rectangle,,Rectangular emitter shape
+ListBoxEnum_eEmitterShape_Line,Line,Line,,Line emitter shape
+ListBoxEnum_eEmitterShape_Ellipse,Ellipse,Ellipse,,Ellipse emitter shape
+ListBoxEnum_eEmitterShape_Diamond,Diamond,Diamond,,Diamond emitter shape
+ListBoxEnum_ePartTypeTexture_Pixel,Pixel,Pixel,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Disk,Disk,Disk,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Circle,Circle,Circle,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Ring,Ring,Ring,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Line,Line,Line,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Square,Square,Square,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Star,Star,Star,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Spark,Spark,Spark,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Flare,Flare,Flare,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Sphere,Sphere,Sphere,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Smoke,Smoke,Smoke,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Explosion,Explosion,Explosion,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Cloud,Cloud,Cloud,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Snow,Snow,Snow,,Particle type texture
+ListBoxEnum_eEmitMode_Stream,Stream,Stream,,Emitter mode
+ListBoxEnum_eEmitMode_Burst,Burst,Burst,,Emitter mode
 StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,시작 페이지를 불러오지 못했습니다.\n파일 메뉴에서 새 프로젝트를 만들 수 있습니다.,,Start page error text
 StartPage_ErrorTitle,An Error Occurred,오류 발생됨,,Start page error title
 StartPage_Title,Start Page,시작 페이지,,Start page title
@@ -1784,7 +1982,7 @@ TileSetEditor_SeparationY,Tile Separation Y,수직 분리 간격,,tile set edito
 TileSetEditor_TileHeight,Tile Height,타일 높이,,tile set editor height numeric textbox caption
 TileSetEditor_TileSize,Tile Size,타일 크기,,tile set editor size numeric textbox caption
 TileSetEditor_TileWidth,Tile Width,타일 너비,,tile set editor width numeric textbox caption
-TileSetEditor_Title,Tile Set: {0},{0},,tile set editor window title
+TileSetEditor_Title,Tile Set: {0},Tile Set: {0},,tile set editor window title
 TileSetEditor_UseAsTileSet,Use As Tileset,타일 세트로 사용,,tile set editor use as tileset checkbox caption
 TileSetGenerator_Complete,Tile Set: Image generated for '{0}',{0}로 생성한 그림,,console output message for when a tile set image has been generated
 TimeLine_BtnAdd,Add,추가,,Add button caption for timeline editor
@@ -1809,7 +2007,7 @@ TimeLine_ListBox_Step,Step,스텝,,Time line moments listbox step label
 TimeLine_Moments,Moment,분기,,Time line column header for moments
 TimeLine_Name,Name:,이름,,Time line editor name label
 TimeLine_Names,Description,설명,,Time line editor names caption
-TimeLine_WindowTitle,Timeline: {0},{0},,Time line editor window caption
+TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,Timeline Moments: {0},분기: {0},,Time line code editor window title
 TimeLine_ConvertType,Convert to {0},{0} (으)로 변환,,Change the event from DnD™ to script or from script to DnD™
 TreeView_AddChildNode,Add Child Node,자식 노드 추가,,context menu option to add a child node
@@ -1857,6 +2055,7 @@ UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime insta
 UserLogin_InstallRuntimeTitle,Install Runtime {0},런타임 {0} 설치,,install runtime title
 UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,설치할 드라이브 {0} 가 {1} GB 만큼의 용량 밖에 없습니다.\n최소 2 GB 의 용량이 필요합니다. 진행 전에 충분한 용량을 확보하세요.,,runtime free space warning message
 UserLogin_Continue,Continue,계속,,continue label
+UserLogin_AccessTokenGetFail,Failed to acquire access token,Failed to acquire access token,,failed to acquire access token error message
 Validate_MaxLength,{0} - Length should be less than {1},{0} - 길이는 {1} 미만이어야 합니다.,,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - 길이는 {1} 보다 커야 합니다.,,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 객체 유형이 {2}{1} 이어야 합니다.,,Failed validation by passing an object of the wrong type
@@ -1876,6 +2075,8 @@ Views_Menu_History,History,기록,,Views menu entry for undo history
 Views_Menu_Output,Output,출력,,Views menu entry for the output panel
 Views_Menu_Worker,Build Worker,빌드 작업자,,Views menu entry for the build worker window
 Views_Menu_Resources,Resources,자원,,Views menu entry for resources
+Views_Menu_AssetBrowser,Asset Browser,Asset Browser,,Views menu entry for resources
+Views_Menu_Inspector,Inspector,Inspector,,Views menu entry for inspector
 Views_Menu_Tutorial,Tutorial Windows,튜토리얼,,Views menu entry for tutorial windows
 Views_Menu_SearchResults,Search Results,검색 결과,,Views menu entry for the search results panel
 Views_Menu_SourceControl,Source Control Output,소스 제어 출력,,Views menu entry for the source control output window
@@ -1890,7 +2091,9 @@ TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be und
 TimeLine_DeleteWarningTitle,Delete Moments,분기 삭제,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},작업공간 {0},,The default tab name for workspace tabs
 Dock_TabTitle,Dock Tab{0},고정 탭 {0},,the default tab name for dock tabs
-RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","선택하신 레이어는 자원을 드래그해서 놓을 수 없습니다. 적절한 레이어 종류를 선택해주세요. 객체 -> 객체 레이어, 스프라이트 -> 자산 혹은 배경 레이어, 경로 -> 경로 레이어",, Information warning for dropping resource gadgets on a layer which won't accept them
+RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","선택하신 레이어는 자원을 드래그해서 놓을 수 없습니다. 적절한 레이어 종류를 선택해주세요. 객체 -> 객체 레이어, 스프라이트 -> 자산 혹은 배경 레이어, 경로 -> 경로 레이어",, Information warning for dropping resource gadgets on a layer which won't accept them
+RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
+RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
 Dock_FloatingDock_Title,Floating Dock,부동 고정판,,floating dock window title
 RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없습니다. 레이어 하나를 선택하세요.,, Information warning for dropping resource gadgets on the room but layer selection is invalid
 RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",자원을 룸으로 드래그 할 수 없습니다. 선택된 레이어 {0}이(가) 잠금 해제 되어있고 보이게 해주세요.,,Information warning for dropping resource gadgets on a locked or invisible selected layer
@@ -1901,7 +2104,8 @@ InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique."
 InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","유효하지 않은 이름, 예약된 키워드: {0}",,Name is a reserved keyword message
 InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","유효하지 않은 이름, 유효하지 않은 부호 포함: {0}. 0-9, a-z, A-Z 혹은 _만 포함해야 하며 0-9로 시작할 수 없습니다.",,Name contains invalid characters message
 InvalidName_InvalidModel,Invalid model.,모델이 잘못되었습니다.,,Invalid model message
-InvalidMove_DuplicateChildName,Parent folder '{0}' already has a child folder with name '{1}'.,상위 폴더 '{0}'은(는) 이미 하위 폴더로 '{1}'을(를) 갖고 있습니다.,,Parent folders cannot have multiple child folder with the same name message
+InvalidName_DuplicateGroupName,Group name '{0}' is already in use,Group name '{0}' is already in use,,invalid group folder name
+InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this location,상위 폴더 '{0}'은(는) 이미 하위 폴더로 '{1}'을(를) 갖고 있습니다.,,Parent folders or project cannot have multiple child folder with the same name message
 ResourceTree_View,View,보기,View,View
 ResourceTree_Views,Views,보기,,Views selector button label
 ResourceTree_View_Add,Add New View,새로운 보기 추가,,Add New View Prompt
@@ -2064,11 +2268,11 @@ Tutorial_Install_Failed,Tutorial Install Failed,튜토리얼 설치 실패함.,,
 Tutorial_Menu_OpenInBrowser,Open in browser,브라우저에서 열기,,tutorial context menu entry
 Tutorial_WindowTitle,Tutorial: {0},튜토리얼: {0},,tutorial window title
 Tutorial_LoadFailed,Error loading tutorial file: {0},튜토리얼 파일을 불러오는 동안 오류 발생: {0},,tutorial load error message
-Tutorial_ProjectFileMissing,Could not find tutorial template project: {0},튜토리얼 템플릿 프로젝트를 찾지 못함: {0},,tutorial missing template project error message
 Tutorial_Install_Title,Installing Tutorial,튜토리얼 설치 중,,tutorial install window title
 Tutorial_Installing_Label,Installing:{0},설치 중: {0},,tutorial install window name label
 Tutorial_Install_ErrorTitle,Error installing tutorial,튜토리얼 설치 오류,,turorial install error
-Tutorial_Install_ErrorMessage,Failed to install tutorial package '{0}',튜토리얼 패키지 {0}을(를) 설치하는데 실패했습니다.,,tutorial install fail message
+Tutorial_Install_ErrorMessage,Failed to install tutorial package: {0},튜토리얼 패키지 {0}을(를) 설치하는데 실패했습니다.,,tutorial install fail message
+Tutorial_ProjectFileMissing,Unable to locate tutorial project file: {0},튜토리얼 템플릿 프로젝트를 찾지 못함: {0},,missing tutorial project file
 Tutorial_Create_DisplayNameMissing,Display name must be set,표기 이름이 정해져야 합니다.,,tutorial create error
 Tutorial_DisplayNameLabel,Display Name:,표기 이름,,tutorial settings display name
 Tutorial_IconFileLabel,Icon File:,아이콘 파일,,tutorial setting icon file label
@@ -2107,6 +2311,7 @@ DnDNodeWindow_CMenu_ExpandAll,Expand All,모두 확장,,DnD node window context 
 DnDNodeWindow_CMenu_Evaluate,Evaluate...,평가,,DnD™ node window context menu
 ggs_graphics_scale,Scaling,비율,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,종횡 비 유지,,Game Settings Graphics Scale - Keep Aspect Ratio option
+ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,최대 비율,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,버전,,Game Settings Version title
 ImagePath_ImageError,Error Selecting Image,그림 선택 오류,,Error when using image_path gadget to select an image
@@ -2516,14 +2721,16 @@ patheditor_anchorheight,Anchor point height,기준점의 높이,,Anchor Height i
 patheditor_maskoverlay,Enable mask overlay for point insertion,점 삽입을 위한 마스크 오버레이 활성화,,Mask Overlay in Path Editor
 patheditor_maskcolour,Mask overlay colour,마스크 오버레이의  색상,,Mask colour in Path editor
 resourcetree_duplicatefoldermove,Automatically dismiss duplicate folder error,중복된 폴더 오류 무시,,Automatically dismiss duplicate folder error
-resourcetree_automaticdeletion,Automatic response to resource deletion,자원 삭제,,Automatic deletion on resource tree
-resourcetree_automaticopenall,Automatic response to opening multiple resources,다수의 자원을 열기,,Automatic button choice on opening multiple resources
-resourcetree_maxresourcesbeforewarning,Maximum number of resources to open simultaneously without warning,경고 전에 동시에 열 수 있는 최대 자원 수,,Max resources to open before showing a warning
+resourcetree_automaticdeletion,Automatic response to Asset deletion,자원 삭제,,Automatic deletion on resource tree
+resourcetree_automaticopenall,Automatic response to opening multiple Assets,다수의 자원을 열기,,Automatic button choice on opening multiple resources
+resourcetree_maxresourcesbeforewarning,Maximum number of Assets to open simultaneously without warning,경고 전에 동시에 열 수 있는 최대 자원 수,,Max resources to open before showing a warning
 roomeditor_automaticparentitemdeletion,Automatic response to parent room item deletion,부모 룸의 항목 삭제,,Automatic parent item deletion in room editor
 roomeditor_automaticparentlayerdeletion,Automatic response to parent room layer deletion,부모 룸의 레이어 삭제,,Automatic parent layer deletion in room editor
 roomeditor_automaticitemdeletion,Automatic response to room item deletion,룸의 항목 삭제,,Automatic item deletion in room editor
 roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,룸의 레이어 삭제,,Automatic layer deletion in room editor
-roomeditor_automaticacceptitemdrag,Automatic response to invalid resource drag error,유효하지 않은 자원을 룸에서 드래그,,Automatic drag acceptance on invalid items in room editor
+roomeditor_automaticacceptitemdrag,Hide warnings when dragging unusable assets onto room layers,유효하지 않은 자원을 룸에서 드래그,,Automatic drag acceptance on invalid items in room editor
+roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,Create new Instance layers when dragging objects onto unsuitable layers,,Automatic drag acceptance on invalid instance items in room editor
+roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,,Automatic drag acceptance on invalid asset items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,다중 혹은 선택되지 않은 레이어로 자원을 드래그,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,잠기었거나 투명한 레이어 속으로 자원을 드래그,,Automatic layer drag acceptance for locked or invisible layer in room editor
 roomeditor_linkcolour,Chain link colour,부동 연결 사슬의 색상,,Link Colour in Room Editor
@@ -2535,6 +2742,7 @@ roomeditor_tileselectcolour,Selected tile highlight colour,타일 편집기에�
 roomeditor_tilehighlightcolour,Mouseover tile highlight colour,타일 편집기에서 타일 위로 마우스를 올릴 때 강조 색상,,Tile Highlight Colour in Room Editor
 roomeditor_tileinheritcolour,Inherited tile highlight colour,타일 편집기에서 상속된 타일의 강조 색상,,Tile Inherit colour in Room Editor
 roomeditor_showviews,Show room views,기본적으로 룸에서 뷰 표시,,Show Views in Room Editor
+roomeditor_volume,Volume,Volume,,Volume in Room Editor
 timeline_noundoactions,Automatic response to permanent action warning,실행 취소를 할 수 없을 때 경고 메시지,,No Undo Actions in Timeline Editor
 timeline_opennewmoments,Open new moments for edit on creation,만들었을 때 새 분기를 즉시 엽니다,,Open newly created moments for editing preference
 CMenu_CloseAllButThis,Close All But This,이 창을 제외하고 모두 닫기,,Close all but this context menu
@@ -2592,6 +2800,7 @@ codeeditor_options,Options,옵션,,Options for Code Editor
 codeeditor_show_obsoletes,Colour coding/code completion enabled for obsolete content,폐기된 컨텐츠에 색 적용 / 코드 자동완성,,code editor show obsolete symbols pref
 codeeditor_highlight_pairs,Highlight symbol pairs,기호 한 쌍 강조,,code editor highlight matching symbol pairs pref
 codeeditor_obsolete_style,Obsolete functions etc,폐기된 컨텐츠에 맵시 적용 및 자동완성,,code editor text style for obsolete symbols
+codeeditor_struct_member_style,Struct members (built in),Struct members (built in),,code editor text style for struct members
 codeeditor_braces,Braces,중괄호,,code editor text style for braces
 codeeditor_folded_region,Folded region,접힌 영역,,text style for folded #region
 codeeditor_folded_region_tag,Folded region name,접힌 영역 이름,,text style for folded region tag
@@ -2617,6 +2826,7 @@ ProgressBar_sourcecontrolgit_checkout,Checking Out...,점검 중...,,Checkout pr
 ProgressBar_sourcecontrolgit_revert_files,Reverting Files...,파일 되돌리는 중...,,Revert Files progress label
 ProgressBar_sourcecontrolgit_revert_revision,Reverting Revision...,판본 되돌리는 중...,,Revert Revision progress label
 ProgressBar_sourcecontrolgit_clone,Cloning...,복제 중...,,Clone progress label
+ProgressBar_converting,Converting...,Converting...,,Converting progress label
 ExternalEditor_FailedToOpen,Failed to open external editor {0}.,외부 편집기 {0}을(를) 열지 못했습니다.,,Failed to open external editor message
 desktop_slowclicktime,Slow double-click time (ms),느린 두 번 클릭 시간 (ms),,Slow double-click time in milliseconds
 desktop_scrolllocktime,Scroll lock time (ms),가젯의 스크롤 잠기는 시간 (ms),,The time in milliseconds to lock scrolling to the gadget scrolling started on as long as the mouse is still over it
@@ -2628,6 +2838,7 @@ desktop_textselectionbias,Add bias to text selection to prevent line jumping,줄
 Desktop_EnableLaptopMode,Enable Laptop Mode on all devices,모든 기기에서 랩톱 모드 사용하기,,Preference to allow users to enable laptop mode on all devices
 folderwatcher_frequency,File watcher frequency (ms),파일 수정 확인 빈도 (ms),,File watcher frequency in milliseconds
 folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),랩톱에서의 파일 수정 확인 빈도 (ms),,File watcher frequency in milliseconds on laptops
+filewatcher_enabled,Enable File Watcher,Enable File Watcher,,enable file watcher pref
 prefs_logout_on_exit,Logout on exit,종료 시에 로그아웃,,logout on exit pref
 ggs_enable_steam,Enable steam,Steam 활성화,,Enable Steam
 ggs_steam_alternative_launcher,Use alternative launcher for Steam application,Steam 앱에 대체 실행기 사용,,"Use alternative launcher for Steam application when running from Steam IDE, this allows the correct Steam application id to be used by a game launched from the Steam IDE"
@@ -2667,7 +2878,7 @@ TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform tit
 TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
 TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
-TargetSelection_Runtime_VM,VM,VirtualMachine,, the VM (Virtual Machine) title in the runtime selection list
+TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
 TargetSelection_Device_Local,Local,로컬,, the local device title in the device selection list
@@ -2690,6 +2901,7 @@ TargetSelection_Device_Editor,Device Editor,장치 편집기,,the device editor 
 TargetSelection_Device_Editor_Tooltop,Open Device Editor,장치 편집기 열기,,the device editor button tooltip
 TargetSelection_Device_Editor_Cancel,This will lose any unapplied changes you have made - do you want to continue?,적용되지 않은 수정 사항이 손실됩니다. 계속할까요?,,Cancelling the device manager does this
 TargetSelection_Worker_Local,Local,로컬,,Local worker target
+TargetSelection_Config_Editor,Edit Configs,Edit Configs,,edit configs
 DnDModule_ToolboxWindow,Toolbox,도구 상자,,The Drag and Drop™ toolbox when in a standalone window
 DnDModule_CodeOutputWindow,Equivalent Code,동등한 코드,,The Drag and Drop™ equivalent code window for nodes
 DnDModule_Toolbox_Title,Toolbox,도구 상자,,The toolbox title when docked
@@ -2711,6 +2923,7 @@ LicensedModulesError,Your licence does not have this module enabled,현재 라�
 DnD_Pref_ToolboxLocation,DnD™ toolbox default location,DnD™ 도구 상자 위치,,DnD™ pref
 DnD_Pref_StoryMode,DnD™ node overview visibility mode,DnD™ 개요 표시 방식,,DnD™ pref
 DnD_Pref_CollapseToolbox,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,부동형 DnD™ 도구 상자가 있으면 다른 고정된 도구 상자를 숨깁니다.,,DnD™ pref
+DnD_Pref_ChainThickness,Thickness of the chain that connects DnD™ actions,Thickness of the chain that connects DnD™ actions,,DnD™ pref
 DnD_Pref_CollapseStory,Hide DnD™ node overview panel,DnD™ 노드 개요 창 숨기기,,DnD™ pref
 DnD_Pref_MaxThumbSize,Maximum size for DnD™ toolbox action thumbnails,도구 상자 동작 미리보기의 최대 크기.,,DnD™ pref
 DnD_Pref_MinThumbSize,Minimum size for DnD™ toolbox action thumbnails,도구 상자 동작 미리보기의 최소 크기.,,DnD™ pref
@@ -2743,8 +2956,11 @@ Project_InheritedLargeChanges_Message,"Base project directory '{0}' has been rec
 Project_InheritedLargeChanges_Title,Base Project Directory Modified,기본 프로젝트 디렉토리가 변경되었습니다.,,message box title when the inherited project directory has been reconnected due to a buffer overflow
 ProjectReconnected_Reload,Reload,다시 불러오기,,button message for reloading the project
 ProjectReconnected_Save,Save,저장,,button message for saving the project
+ProjectReconnected_Delete,Delete,Delete,,button message for deleting resources
 Project_Changes_Message,"Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","프로젝트 경로 {0}에 변경 사항이 있습니다.\n자원을 다시 불러올까요, 아니면 저장할까요?\n경고: 저장 시엔 현재 메모리에 있는 자원만 갱신하므로 삭제되거나 편집된 일부 파일은 복원되지 않습니다.",,message box contents when the project directory has detected changes
 Project_Changes_Title,Project Directory Modified,프로젝트 경로가 변경되었습니다.,,message box title when the project directory has detected changes
+Project_Deletions_Title,Resources have been deleted,Resources have been deleted,,Resources have been deleted
+Project_Deletions_Message,"Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,Message to show that resources have been deleted and the user can either restore or save them
 Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","기본 프로젝트 디렉토리 '{0}'에 변경 사항이 있습니다. 자원을 다시 불러올까요, 아니면 저장할까요? \n\n주의: 저장 시엔 지금 메모리에 있는 자원 파일만 갱신되므로 삭제되거나 편집된 일부 파일은 복원되지 않습니다.",,message box contents when the project directory has detected changes
 Project_InheritedChanges_Title,Project Directory Modified,기본 프로젝트 경로가 변경되었습니다.,,message box title when the project directory has detected changes
 Project_ProjFileChanged_Message,"The main project file '{0}' has changed. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","주 프로젝트 파일 '{0}'이 변경되었습니다. 자원을 다시 불러올까요, 아니면 저장할까요?\n\n경고: 저장 시엔 현재 메모리에 있는 파일만 갱신되므로 삭제되거나 편집된 파일은 복원되지 않을 수 있습니다.",,message box contents when the main project file has changed
@@ -2848,7 +3064,8 @@ ggs_support_lib,Support Library,라이브러리 지원,,Support Library
 BackgroundLayer_AnimationFPS,Animation Speed:,재생 속도,,The caption for the background layer animation fps property
 ListViewExplorer_None,None,없음,,None resource
 ListViewExplorer_GoBack,Back,뒤로 가기,,Back item
-ListView_Search,Search,검색,,ListView search label
+ListView_SearchResultsSingular,{0} item,{0} item,,ListView search results label
+ListView_SearchResultsPlural,{0} items,{0} items,,ListView search results label
 ListViewExplorer_CancelSearch,Cancel,취소,,ListView cancel search label
 DnDModule_ApplyToExplorer,Applies To...,적용 대상,,Apply to list view explorer title
 DnDModule_ApplyTo_Self,Self,자신,,Apply to self caption
@@ -2933,7 +3150,7 @@ platformdevice_webserver_ips,Allowed Web Server IPs/Hostnames/CIDR IP Ranges:,�
 platformdevice_webserver_address,Web Server Address:,웹 서버 주소,,The address used when launching a browser
 platformdevice_hostname,Host Name:,호스트 이름,,Platform Device Host Name
 platformdevice_ipaddress,IP Address:,IP 주소,,Platform Device IP Address
-platformdevice_pin,PIN:,PIN,,Platform Device PIN
+platformdevice_pin,PIN:,PIN:,,Platform Device PIN
 platformdevice_username,User Name:,사용자 이름,,Platform Device User Name
 platformdevice_password,Password:,암호,,Platform Device Password
 platformdevice_edit_amazonfire_devices,Edit Amazon Fire Devices,Amazon Fire 기기 수정,,Edit Amazon fire Devices Window Name
@@ -2977,6 +3194,7 @@ platformdevice_connection_success_title,Connection Successful,연결 성공,,Con
 platformdevice_connection_failed_title,Connection Failed,연결 실패,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,장치가 없습니다.,,no devices are found
 AssetExplorer_SelectResource,Select Resource,자원 선택,,Fallback title for asset explorer
+AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
 ParserError_DnD,{0} in DnD™ action {1},DnD™ 동작 {1} 의 {0},,DnD™ parser error message
 GadgetToolbox_ListView,List View,목록 보기,,List View dialog editor name
 GadgetToolbox_Table,Table,테이블,,Table dialog editor name
@@ -3073,6 +3291,8 @@ display_argument_descriptions,Display argument descriptions in status bar,상태
 AddExistingProjectMissing,ImportHandler: Unable to find parent project for {0}. Cannot import dependant resources.,작업 공간 내의 연결 사슬의 색상,,message for when the external project cannot be found.
 AddExistingAssetMismatch,You have selected a {0} instead of a {1}.  Would you like to import as {2} instead?,{1} 대신 {0}을(를) 선택하셨습니다. 대신 {2}을(를) 가져올까요?,,Ask use if they with tom add existing resource instead of the type they clicked on?
 AddExistingFailedTitle,Add Existing Failed,기존 항목 추가 실패,,Add Existing failed message title
+ImportAsIncludedFiles,Would you like to add these files as Included Files?,Would you like to add these files as Included Files?,,Ask the user if they want to add the dragged in files as included files
+ImportAsIncludedFilesTitle,Import As Included Files,Import As Included Files,,Import selected files as Included Files Question title
 TileSetEditor_Tiles,Tiles,타일,,the tile selection display panel heading
 TileSetEditor_Frames,Frames,프레임,,the tile animation frames panel heading
 TileSetEditor_Library,Library,라이브러리,,the tile animation/autotile library panel heading
@@ -3104,7 +3324,7 @@ SourceControlGit_PullError_Title,Source Control (Git) Pull Error,소스 제어 (
 SourceControlGit_NeedToCommitChanges,You need to commit changes before pulling.,가져 오기 수정 사항을 확정해야 합니다.,,You need to commit your changes before pulling
 skin_selection_change,You have selected to use a new skin but this change requires a restart.\nDo you wish to restart the IDE now?,새 스킨을 사용하려면 재시작해야 합니다\nIDE를 다시 시작할까요?,,User has changed the skin and we need to restart the IDE.
 FILTERED,Filtered,분류됨,,suffix used in filtered resource tree view
-ExtensionEditor_MainProperties,Extension: {0},{0},,main window title
+ExtensionEditor_MainProperties,Extension: {0},Extension: {0},,main window title
 ExtensionEditor_Name,Name:,이름,,the name title
 ExtensionEditor_Version,Version:,버전,,the version number title
 ExtensionEditor_Resources,Resources:,자원,,the resources title
@@ -3176,9 +3396,21 @@ ExtensionEditor_RemoveIosSystemFrameworkAreYouSure,Are you sure you want to dele
 ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice on iOS System Framework deletion,삭제할 iOS 시스템 프레임워크 선택,,Automatic button choice on android permission deletion setting
 ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,정말로 iOS 서드파티 프레임워크를 삭제할까요?,,confirm message
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Android 권한 삭제,,Automatic button choice on iOS 3rd Party Framework deletion setting
-GoToType_WindowTitle,Search resource name:,자원 이름 검색,,Go To Type window title
+GoToType_WindowTitle,"Search for Resources, Options, Preferences:",자원 이름 검색,,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,무엇을 찾으시나요?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,표시할 최대 검색 결과 수,,Go To max number pref
+GoToType_EnableStylingPref,Enable styling on search results (turn off for better performance),Enable styling on search results (turn off for better performance),,Go To enable styling pref
+GoTo_Pref_Resources,Search in Resources,Search in Resources,,Search resources on/off
+GoTo_Pref_Preferences,Search in Preferences,Search in Preferences,,Search preferences on/off
+GoTo_Pref_GameOptions,Search in Game Options,Search in Game Options,,Search game options on/off
+GoTo_Driver_Resources,Project Resources,Project Resources,,resources driver name
+GoTo_Driver_ResourcesDesc,This driver exposes the project resources to Go To,This driver exposes the project resources to Go To,,resources driver description
+GoTo_Driver_Preferences,Preferences,Preferences,,preferences driver name
+GoTo_Driver_PreferencesDesc,This driver exposes preferences to Go To,This driver exposes preferences to Go To,,preferences driver description
+GoTo_Driver_GameOptions,Game Options,Game Options,,game options driver name
+GoTo_Driver_GameOptionsDesc,This driver exposes game options to Go To,This driver exposes game options to Go To,,game options driver description
+GoTo_Driver_PreferenceLabel,{0} - Preference,{0} - Preference,,Preference label
+GoTo_Driver_GameOptionLabel,{0} - Game Options,{0} - Game Options,,Game options label
 ExtensionEditor_ExportPropertiesTitle,Extension Properties - Export,확장 기능 속성 내보내기,,export dialog title
 ExtensionEditor_ImportPropertiesTitle,Extension Properties - Import,확장 기능 속성 가져오기,,import dialog title
 ExtensionEditor_All,All,전체,,all label
@@ -3193,7 +3425,7 @@ WorkspaceOverview_Tabs,Workspaces,작업공간,,Workspace overview workspaces bo
 WorkspaceOverview_ActiveWindows,Active Windows,활성화된 창,,Workspace overview active window caption
 WorkspaceOverview_ActiveTabs,Active Tabs,활성화된 탭,,Workspace overview active tabs caption
 WorkspaceMenu_Windows,Windows,창,,Workspace area context menu
-WorkspaceMenu_Resources,Resources,자원,,Workspace area context menu
+WorkspaceMenu_Resources,Assets,자원,,Workspace area context menu
 WorkspaceMenu_GoTo,Go To...,바로가기,,Workspace area context menu
 ExtensionEditor_AddSDK,Add SDK,SDK 추가,,main properties context menu entry
 ExtensionEditor_AddSource,Add Source,소스 추가,,main properties context menu entry
@@ -3266,7 +3498,7 @@ RoomEditor_TileLayerStatus_Coord,"Tile map coordinate: ({0}, {1})","타일 지�
 RoomEditor_TileLayerStatus_BrushIndices,Brush tiles: ({0}),타일 붓: ({0}),,the current tile brush indices status in the room editor status bar
 RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({2})","타일 지도 좌표: ({0}, {1}) 타일 붓: ({2})",,the current tile map coordinate and tile brush indices status in the room editor status bar
 RoomEditor_PathLayerStatus,Selected control point(s): {0},선택한 제어 점: {0},,the selected control points status for the path layer shown in the room editor status bar
-RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1})",,the an individual control point status for the path layer shown in the room editor status bar
+RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,초당 프레임,,the playback type comboxbox entry for fps
 ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,게임 프레임당 프레임,,the playback type comboxbox entry for game frame locked playback
 ListBoxEnum_eObjectPropertyType_Real,Real,실수,,Real value type
@@ -3274,7 +3506,7 @@ ListBoxEnum_eObjectPropertyType_Integer,Integer,정수,,Integer value type
 ListBoxEnum_eObjectPropertyType_String,String,문자열,,String value type
 ListBoxEnum_eObjectPropertyType_Boolean,Boolean,불린,,Boolean value type
 ListBoxEnum_eObjectPropertyType_Expression,Expression,표현식,,Expression value type
-ListBoxEnum_eObjectPropertyType_Resource,Resource,자원,,Resource value type
+ListBoxEnum_eObjectPropertyType_Resource,Asset,자원,,Asset value type
 ListBoxEnum_eObjectPropertyType_Color,Colour,색상,,Color value type
 ListBoxEnum_eObjectPropertyType_List,List,배열,,List value type
 ResourcePickerButton_ToolTip,Select a resource,자원 선택,,Resource picker button tooltip
@@ -3283,7 +3515,7 @@ Help_eObjectPropertyType_Integer,The value is a whole number (allows expressions
 Help_eObjectPropertyType_String,The value is a string (quotes are optional),문자열입니다 (따옴표는 선택 사항임).,,String value type help tip
 Help_eObjectPropertyType_Boolean,The value is either true or false,true 또는 false입니다.,,Boolean value type help tip
 Help_eObjectPropertyType_Expression,The value is any code expression,표현식입니다.,,Expression value type help tip
-Help_eObjectPropertyType_Resource,The value is a resource (allows expressions),자원입니다 (표현식 허용).,,Resource value type help tip
+Help_eObjectPropertyType_Resource,The value is an asset (allows expressions),자원입니다 (표현식 허용).,,Asset value type help tip
 Help_eObjectPropertyType_Color,The value is a colour (allows expressions),색상입니다 (표현식 허용).,,Color value type help tip
 Help_eObjectPropertyType_List,The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),목록에서 하나 이상의 표현식입니다 (다중 선택이 가능하다면 \n표현식의 배열임).,,List value type help tip
 DnDToolbox_Menu_AddToWorkspace,Use {0},{0} 사용,,DnD™ Toolbox use action
@@ -3329,6 +3561,7 @@ GMStdCallFunction_Desc,Call any function with optional arguments and get the ret
 GMStdCatCommon,Common,보통,,Drag and Drop™ library category name
 GMStdCatCamera,Cameras,카메라,,Drag and Drop™ library category name
 GMStdCatInstances,Instances,개체,,Drag and Drop™ library category name
+GMStdCatSequences,Sequences,Sequences,,Drag and Drop™ library category name
 GMStdCatMouseKeyboard,Mouse & Keyboard,마우스 및 키보드,,Drag and Drop™ library category name
 GMStdCatGamepad,Gamepad,게임 패드,,Drag and Drop™ library category name
 GMStdCatMovement,Movement,이동,,Drag and Drop™ library category name
@@ -3377,7 +3610,7 @@ GMStdApplyTo_Name,Apply To,적용 대상,,Drag and Drop™ library action name
 GMStdApply,Apply,적용하기,,Apply dnd label
 GMStdApplyTo_Desc,Execute code in the context of a specific object or instance.,특정 객체 또는 개체의 문맥에서 코드를 실행합니다.,,Drag and Drop™ library action description
 GMStdRet_Name,Return,반환,,Drag and Drop™ library action name
-GMStdRet_Desc,Return a value from a script.,스크립트로부터 값 반환,,Drag and Drop™ library action description
+GMStdRet_Desc,Return a value from a function.,스크립트로부터 값 반환,,Drag and Drop™ library action description
 GMStdMacro_Name,Macro,매크로,,Drag and Drop™ library action name
 GMStdMacro_Desc,Define a global compile-time macro.,컴파일 타임에서 전역 매크로를 정의합니다.,,Drag and Drop™ library action description
 GMStdExit_Name,Exit,종료,,Drag and Drop™ library action name
@@ -3390,6 +3623,20 @@ GMStdInstChange_Name,Change Instance,개체 교체하기,,Drag and Drop™ libra
 GMStdInstChange_Desc,Change an instance to be an instance of another object.,개체를 다른 객체의 개체로 변경합니다.,,Drag and Drop™ library action description
 GMStdInstDestroy_Name,Destroy Instance,개체 제거하기,,Drag and Drop™ library action name
 GMStdInstDestroy_Desc,Destroy an instance and remove it from the room.,개체를 제거하고 룸에서 제거합니다.,,Drag and Drop™ library action description
+GMStdSeqCreate_Name,Create Sequence,Create Sequence,,Drag and Drop™ library action name
+GMStdSeqCreate_Desc,Creates an instance of a sequence.,Creates an instance of a sequence.,,Drag and Drop™ library action description
+GMStdSeqDestroy_Name,Destroy Sequence,Destroy Sequence,,Drag and Drop™ library action name
+GMStdSeqDestroy_Desc,Destroys an instance of a sequence and remove it from the room.,Destroys an instance of a sequence and remove it from the room.,,Drag and Drop™ library action description
+GMStdSeqGetPosition_Name,Get Sequence Position,Get Sequence Position,,Drag and Drop™ library action name
+GMStdSeqGetPosition_Desc,Sets the values of the x and y variables to the position of the sequence.,Sets the values of the x and y variables to the position of the sequence.,,Drag and Drop™ library action description
+GMStdSeqSetPosition_Name,Set Sequence Position,Set Sequence Position,,Drag and Drop™ library action name
+GMStdSeqSetPosition_Desc,Sets the position of the sequence.,Sets the position of the sequence.,,Drag and Drop™ library action description
+GMStdSeqPlay_Name,Play Sequence,Play Sequence,,Drag and Drop™ library action name
+GMStdSeqPlay_Desc,Plays the sequence.,Plays the sequence.,,Drag and Drop™ library action description
+GMStdSeqPause_Name,Pause Sequence,Pause Sequence,,Drag and Drop™ library action name
+GMStdSeqPause_Desc,Pauses the sequence.,Pauses the sequence.,,Drag and Drop™ library action description
+GMStdIfSeqExists_Name,If Sequence Exists,If Sequence Exists,,Drag and Drop™ library action name
+GMStdIfSeqExists_Desc,Check if a sequence exists.,Check if a sequence exists.,,Drag and Drop™ library action description
 GMStdDestroyAtPos_Name,Destroy At Position,해당 위치에 있는 개체 제거하기,,Drag and Drop™ library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,해당 위치의 모든 개체를 제거합니다.,,Drag and Drop™ library action description
 GMStdSetSprite_Name,Set Sprite,스프라이트 설정하기,,Drag and Drop™ library action name
@@ -3763,8 +4010,11 @@ GMStdTarget,Target,대상,,Drag and Drop™ library argument label
 GMStdReturnList,Return List,반환 목록,,Drag and Drop™ library argument label
 GMStdFreeTarget,Free Target,자유 대상,,Drag and Drop™ library argument label
 GMStdObject,Object,객체,,Drag and Drop™ library argument label
+GMStdSequence,Sequence,Sequence,,Drag and Drop™ library argument label
 GMStdX,X,X,,Drag and Drop™ library argument label
 GMStdY,Y,Y,,Drag and Drop™ library argument label
+GMStdTargetX,Target X,Target X,,Drag and Drop™ library argument label
+GMStdTargetY,Target Y,Target Y,,Drag and Drop™ library argument label
 GMStdLayer,Layer,레이어,,Drag and Drop™ library argument label
 GMStdAlarm,Alarm,알람,,Drag and Drop™ library argument label
 GMStdCountdown,Countdown,초 시계,,Drag and Drop™ library argument label
@@ -4136,6 +4386,7 @@ ProgressBar_Process,Processing...,처리 중...,,the progress bar caption while 
 ProgressBar_BuildProgress,Building... {0},빌드 중... {0},,The progress bar caption while compiling
 ProgressBar_SpritePreview,Sprite Preview...,스프라이트 미리보기...,,The progress bar caption while generating sprite preview
 ProgressBar_Archiving,Archiving...,압축 중...,,Compressing to a .zip/.yyz/etc...
+ProgressBar_ConvertingGMX,Converting GMX...,Converting GMX...,,converting gmx progress caption
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,원본 스프라이트 내보내기 사용불가,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,자동 타일 편집,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,타일 애니메이션 편집,,animation library tooltip
@@ -4325,7 +4576,7 @@ INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,포함 파일이 
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","한 개 이상의 포함 파일들이 유효하지 않은 파일 이름을 갖고 있습니다. a-z, A-Z, 0-9, 혹은 _만을 포함해야 합니다. \n출력 창에서 그 목록을 보세요.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',유효하지 않은 파일 이름을 가진 포함 파일: '{0}',,Invalid Included file name output message
 Validate_InvalidFilename,'{0}' contains invalid filename characters,"{0}'은(는) 유효하지 않은 문자를 포함하고 있습니다. 0-9와 a-z, A-Z만을 포함해야 합니다.",,Rename message
-InvalidIncludedFileName_Digit,{0}' starts with a number. Various platforms do not support this,{0}'은(는) 숫자로 시작하는 이름입니다. 많은 플랫폼에서 이를 지원하지 않습니다.,,Invalid Included File starting with a digit
+InvalidIncludedFileName_Digit,'{0}' starts with a number. Various platforms do not support this,{0}'은(는) 숫자로 시작하는 이름입니다. 많은 플랫폼에서 이를 지원하지 않습니다.,,Invalid Included File starting with a digit
 roomeditor_selectioncolour,Selection frame colour,룸 편집기에서 잠기지 않은 항목의 선택 프레임 색상,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,룸 편집기에서 잠긴 항목의 선택 프레임 색상,,preference name for the selection frame colour for locked items in the room editor
 roomeditor_propertiescolour,Properties frame colour,룸 편집기에서 잠기지 않은 항목의 속성 프레임 색상,,preference name for the properties frame colour for unlocked items in the room editor
@@ -4357,6 +4608,17 @@ PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,표시된 
 PhysicsShapeEditor_SnapX,Set the horizontal grid alignment.,수평 격자 정렬을 설정합니다.,,Snap x tooltip
 PhysicsShapeEditor_SnapY,Set the vertical grid alignment.,수직 격자 정렬을 설정합니다.,,Snap y tooltip
 GeneralSettings_ChainSoftness,Workspace chain rendering segment count,작업 공간의 연결 사슬의 마디 수,,Chain softness preference
+SequencePref_ChainSoftness,Canvas chain rendering segment count,Canvas chain rendering segment count,,Canvas chain softness preference
+SequencePref_TranslationPathInsertion,Translation path point insertion margin,Translation path point insertion margin,,Insertion Precision in Sequence Editor
+SequencePref_AddActionMessage,Automatic button choice on Add Action,Automatic button choice on Add Action,,Automatic button choice on Add Action dialog
+SequencePref_CreateDefaultParameterTracks,Automatically create default parameter tracks,Automatically create default parameter tracks,,Automatically create default parameter tracks prefs
+SmartGuidePref_EnableGuides,Enable Smart Guides,Enable Smart Guides,,Enable Smart Guides
+SmartGuidePref_EnableRulers,Enable Rulers,Enable Rulers,,Enable Rulers
+SmartGuidePref_SnapDistance,Snap Distance,Snap Distance,,Snap Distance
+SmartGuidePref_SnapRulers,Snap Rulers to edges,Snap Rulers to edges,,snap rulers pref
+PickWhipSettings_ChainSoftness,Pick whip chain rendering segment count,Pick whip chain rendering segment count,,Pick whip chain softness preference
+PickWhipSettings_ChainThickness,Pick whip chain thickness,Pick whip chain thickness,,Pick whip chain thickness preference
+PickWhipSettings_Color,Pick whip colour,Pick whip colour,,The color of the pick whip preference
 DnDModule_ToggleBreakpoint,Toggle Breakpoint,중단점 전환하기,,Toggle breakpoint on a DnD™ node
 DnDModule_DisableNode,Disable,비활성화하기,,Disable node output
 DnDModule_EnableNode,Enable,활성화하기,,Enable node output
@@ -4425,7 +4687,7 @@ Debugger_SurfaceView_NoneSelected,Double-click a resource in the Resource View t
 Debugger_CallStack_Empty,The call stack is empty.,호출 스택이 비어 있습니다.,,The call stack is empty label
 Debugger_StackFrame_Tooltip,Double-click to go to this stack frame,이 스택 프레임으로 이동하려면 더블 클릭 하십시오,,Debugger stack frame tooltip
 Debugger_MemoryUsage,Memory: ,메모리,,Debugger memory usage label
-Debugger_Fps,FPS: ,FPS,,Debugger fps label
+Debugger_Fps,FPS: ,FPS: ,,Debugger fps label
 Debugger_DataGrid_Name,Name,이름,,Debugger data grid name column
 Debugger_DataGrid_Value,Value,값,,Debugger data grid value column
 Debugger_Dock_Variables,Variables,변수,,Debugger variables dock
@@ -4466,7 +4728,7 @@ Debugger_Texture_View,Texture,텍스처,,Debugger texture label
 Debugger_Menu_Windows,Windows,창,,Debugger menu item
 Debugger_ResetLayout,Reset Window Layout,창 레이아웃 재설정,,Debugger reset window layout menu item
 Debugger_Graph_Mem,Mem {0},메모리 {0},,Debugger graph memory
-Debugger_Graph_Fps,Fps {0},FPS {0},,Debugger graph fps
+Debugger_Graph_Fps,Fps {0},Fps {0},,Debugger graph fps
 Debugger_Graph_GameFps,Game Fps {0},게임 FPS {0},,Debugger graph game fps
 Debugger_Graph_Avg,Avg {0},평균 {0},,Debugger graph average label
 Debugger_Graph_FpsAvg,Fps Avg {0},평균 FPS {0},,Debugger graph average label
@@ -4619,6 +4881,7 @@ ListBoxEnum_eSymbolType_eNone,Unknown,알 수 없음,,Symbol type
 ListBoxEnum_eSymbolType_eEnumEntry,Enum Field,열거형 필드,,Symbol type
 ListBoxEnum_eSymbolType_eGlobal,Global Variable,전역 변수,,Symbol type
 ListBoxEnum_eSymbolType_eLocal,Local Variable,지역 변수,,Symbol type
+ListBoxEnum_eSymbolType_eStatic,Static Variable,Static Variable,,Symbol type
 ListBoxEnum_eSymbolType_eVariable,Variable,값,,Symbol type
 ListBoxEnum_eSymbolType_eBuiltInVariable,Built-in Variable,내장 변수,,Symbol type
 ListBoxEnum_eSymbolType_eMacro,Macro,매크로,,Symbol type
@@ -4630,6 +4893,7 @@ ListBoxEnum_eSymbolType_eScript,Script,스크립트,,Symbol type
 ListBoxEnum_eSymbolType_eResource,Resource,자원,,Symbol type
 ListBoxEnum_eSymbolType_eObsolete,Obsolete,폐기됨,,Symbol type
 Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,파일 '{0}'은 지원되지 않습니다.,,Generate preview error message
+Spine_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,,Generate preview error message for Spine sprites
 serverportunavailable_title,Webserver Port Unavailable,웹 서버 포트를 사용할 수 없습니다.,,Webserver Port Unavailable title message
 serverportunavailable_message,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,포트 {0}은(는) 도움말 생성에 사용할 수 없습니다!\n환경 설정에서 변경하세요.,,Webserver port is unavailable message content
 Marketplace_MyLibrary_Empty,Your library is empty.,라이브러리가 비었습니다.,,Empty library
@@ -4661,7 +4925,7 @@ SelectTileSet_NoneSelected,No tile set was selected. Cannot complete operation.,
 DocumentWindow_Title_FragmentShader,{0} Fragment Shader,{0}: 조각 쉐이더,,Fragment Shader title
 DocumentWindow_Title_VertexShader,{0} Vertex Shader,{0}: 정점 쉐이더,,Vertex Shader title
 DocumentWindow_Title_CombinedShader,{0},{0},,Combined Shader title
-DocumentWindow_Title_ObjectEvent,{0}: {1},{1},,Single Object Event title
+DocumentWindow_Title_ObjectEvent,{0}: {1},{0}: {1},,Single Object Event title
 DocumentWindow_Title_ObjectMultipleEvents,{0}: Events,이벤트,,Single Object Multiple Events
 DocumentWindow_Title_Note,{0},{0},,Single Note
 DocumentWindow_Title_Notes,Notes,필기,,Multiple Notes
@@ -4677,6 +4941,7 @@ SearchReplaceTextSettings,Search Result Window Font Settings,검색 결과 창 �
 SyntaxErrorsTextSettings,Syntax Error Window Font Settings,문법 오류 창 글꼴 설정,,Syntax Error Window Font Settings
 CompileErrorsTextSettings,Compile Error Window Font Settings,컴파일 오류 창 글꼴 설정,,Compile Error Window Font Settings
 desktop_ctrlmousewheelzoom,Mouse wheel zoom requires ${ctrl} key,${ctrl}키를 눌러야 마우스 휠로 배율 조절을 할 수 있게 하기,,Preference description for whether the user needs to hold ctrl to zoom in/out
+desktop_wrapcursor,Wrap cursor around screen when panning,Wrap cursor around screen when panning,,pref desktop wrap cursor
 dpi_setting_change,DPI override changes requires a restart of the IDE. Do you want to restart now?,DPI 변경은 IDE를 다시 시작해야합니다. 지금 다시 시작할까요?,,Restart IDE after a DPI change
 dpi_override,Enable DPI override,DPI 무시,,DPI Override
 dpi_limits_suggested,Suggested maximum DPI for this display is {0}%,이 디스플레이에 권장되는 DPI 배율은 {0}%입니다.,,Suggested DPI limits tooltip
@@ -4709,11 +4974,13 @@ PNG2Tileset_ColourLabel,Remove Colour,색 제거,,Colour to remove on import
 PNG2Tileset_ImageTooLarge,The selected image is too large to display,선택된 그림이 화면에 비해 너무 큽니다,,Error message to display if the map is > max texture size
 platformdevice_detect_browsers,Detect Browsers,브라우저 감지하기,,Button to auto-detect installed web browsers
 RoomEditor_GenerateTileMapFromImage,Convert Image to Tilemap,그림을 타일 지도로 변환,,menu entry for taking an image and building a tileset/tilemap from it
-ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,정말로 룸 {1}의 부모로 {0}을(를) 정할까요?,,message displayed when attempting to drag a room onto another in the resource tre
+ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,정말로 룸 {1}의 부모로 {0}을(를) 정할까요?,,message displayed when attempting to drag a room onto another in the resource tree
+ResourceTree_RemoveRoomParent,Are you sure you want to remove the room inheritance parent from '{0}'?,Are you sure you want to remove the room inheritance parent from '{0}'?,,message displayed when attempting to drag a room off a parent
 resourcetree_automaticsetparentroom,Automatic response to setting a room parent via node drag,노드 드래그를 통한 룸의 부모 설정,,the automatic response to dragging rooms to become child rooms in the resource tree
 resourcetree_automaticviewdeletion,Automatic response to deleting custom views,사용자 정의 보기 삭제,,the automatic response when deleting a custom view
 RoomEditor_InstanceLockToolTip,Lock Instance,개체 잠금,,tooltip for instance lock
 RoomEditor_GraphicLockToolTip,Lock Graphic,그래픽 잠금,,tooltip for graphic lock
+RoomEditor_SequenceLockToolTip,Lock Sequence,Lock Sequence,,tooltip for sequence graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),글꼴 (?)에서 사용중인 부호를 찾을 수 없음,,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,이 글꼴에 하나 이상의 기호가 누락되어 다른 글꼴에서 대체됩니다.,,Tooltip
 FontEditor_MissingFontError,Font is not available on this machine (?),해당 글꼴이 이 기기에 없습니다.,,This font is not available on this machine
@@ -4750,6 +5017,7 @@ Event_Gesture_Global_RotateEnd,Global Rotate End,전역 회전 끝,,Global Rotat
 MarketplaceFilter_Downloaded,Downloaded,내려 받은 것만,,Downloaded filter name for marketplace library
 MarketplaceFilter_GMS2Only,GMS 2.x,GMS 2.x,,Studio 2 assets filter name for marketplace library
 MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for marketplace library
+MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE 언어,,Label beside the IDE language selection
 pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,GameMaker Studio 2의 최대 프레임,,Maximum framerate preference
 notification_popups,Enable notifications,알림 활성화,,Enable Notification messages
@@ -4800,13 +5068,19 @@ ResourceTree_TreeLineColour,Tree line colour,트리 선 색상,,Choose colour fo
 ResourceTree_DefaultBackgroundColour,Default background colour,기본 배경화면 색,,Default Background Colour
 ResourceTree_BackgroundColourHelp,Ensure alpha level is increased to display node highlight,노드 강조를 위해 불투명도를 올리세요,,Help label for the Resource Tree background colours
 ResourceTree_SpriteBackgroundColour,Sprites background colour,스프라이트 배경 색,,Background Colour for Sprites
+ResourceTree_NineSlicesBackgroundColour,Nine Slices background colour,Nine Slices background colour,,Background Colour for Nine Slices
 ResourceTree_TileSetsBackgroundColour,Tile Sets background colour,타일 세트 배경 색,,Background Colour for Tile Sets
 ResourceTree_SoundsBackgroundColour,Sounds background colour,소리 배경 색,,Background Colour for sounds
+ResourceTree_AudioEmittersBackgroundColour,Audio Emitters background colour,Audio Emitters background colour,,Background Colour for Audio Emitters
 ResourceTree_PathsBackgroundColour,Paths background colour,경로 배경 색,,Backgound Colour for Paths
+ResourceTree_AnimCurvesBackgroundColour,Animation Curves background colour,Animation Curves background colour,,Backgound Colour for Animation Curves
+ResourceTree_AnimCurves,Animation Curves,Animation Curves,,animation curve resource name
 ResourceTree_ScriptsBackgroundColour,Scripts background colour,스크립트 배경 색,,Background Colour for Scripts
 ResourceTree_ShadersBackgroundColour,Shaders background colour,쉐이더 배경 색,,Background Colour for Shaders
+ResourceTree_ParticleSystemsBackgroundColour,Particle Systems background colour,Particle Systems background colour,,Background Colour for Particle Systems
 ResourceTree_FontsBackgroundColour,Fonts background colour,글꼴 배경 색,,Background Colour for Fonts
 ResourceTree_TimelinesBackgroundColour,Timelines background colour,타임라인 배경 색,,Background Colour for Timelines
+ResourceTree_SequencesBackgroundColour,Sequences background colour,Sequences background colour,,Background Colour for Sequences
 ResourceTree_ObjectsBackgroundColour,Objects background colour,객체 배경 색,,Background Colour for Objects
 ResourceTree_RoomBackgroundColour,Rooms background colour,룸 배경 색,,Background Colour for Rooms
 ResourceTree_IncludedFilesBackgroundColour,Included Files background colour,포함 파일 배경 색,,Background Colour for Included Files
@@ -4837,13 +5111,18 @@ ResourceTree_ShowTreeLines,Show tree lines,자원 트리에 선 표시,,Show Tre
 ResourceTree_ShowGroupIcons,Show group node icons,묶음의 노드 아이콘 표시,,Show the Group Node Icons in the Resource Tree
 ResourceTree_DefaultIconColour,Default icon colour,기본 아이콘 색,,Default Icon Colour
 ResourceTree_SpriteIconColour,Sprites icon colour,스프라이트 아이콘 색,,Icon Colour for Sprites
+ResourceTree_NineSlicesIconColour,Nine Slices icon colour,Nine Slices icon colour,,Icon Colour for Nine Slices
 ResourceTree_TileSetsIconColour,Tile Sets icon colour,타일 세트 아이콘 색,,Icon Colour for Tile Sets
 ResourceTree_SoundsIconColour,Sounds icon colour,소리 아이콘 색,,Icon Colour for sounds
+ResourceTree_AudioEmittersIconColour,Audio Emitters icon colour,Audio Emitters icon colour,,Icon Colour for Audio Emitters
 ResourceTree_PathsIconColour,Paths icon colour,경로 아이콘 색,,Backgound Colour for Paths
+ResourceTree_AnimCurvesIconColour,Animation Curves icon colour,Animation Curves icon colour,,Backgound Colour for Animation Curves
 ResourceTree_ScriptsIconColour,Scripts icon colour,스크립트 아이콘 색,,Icon Colour for Scripts
 ResourceTree_ShadersIconColour,Shaders icon colour,쉐이더 아이콘 색,,Icon Colour for Shaders
+ResourceTree_ParticleSystemsIconColour,Particle Systems icon colour,Particle Systems icon colour,,Icon Colour for Particle Systems
 ResourceTree_FontsIconColour,Fonts icon colour,글꼴 아이콘 색,,icon colour for Fonts
 ResourceTree_TimelinesIconColour,Timelines icon colour,타임라인 아이콘 색,,Icon Colour for Timelines
+ResourceTree_SequencesIconColour,Sequences icon colour,Sequences icon colour,,Icon Colour for Sequences
 ResourceTree_ObjectsIconColour,Objects icon colour,객체 아이콘 색,,Icon Colour for Objects
 ResourceTree_RoomIconColour,Rooms icon colour,룸 아이콘 색,,icon colour for Rooms
 ResourceTree_IncludedFilesIconColour,Included Files icon colour,포함 파일 아이콘 색상,,Icon Colour for Included Files
@@ -4852,6 +5131,26 @@ ResourceTree_OptionsIconColour,Options icon colour,옵션 아이콘 색상,,Icon
 ResourceTree_ConfigsIconColour,Configurations icon colour,구성 아이콘 색상,,Icon Colour for Configurations
 ResourceTree_NotesIconColour,Notes icon colour,필기 아이콘 색상,,Icon Colour for Notes
 ResourceTree_NodeSelectHighlight,Node selection highlight,노드 선택 강조,,Node Selection Highlight colour
+ResourceTree_Notes_Singular,Note,Note,,Note resource name singular
+ResourceTree_Objects_Singular,Object,Object,,Object resource name singular
+ResourceTree_Paths_Singular,Path,Path,,Path resource name singular
+ResourceTree_Rooms_Singular,Room,Room,,Room resource name singular
+ResourceTree_Scripts_Singular,Script,Script,,Script resource name singular
+ResourceTree_Shaders_Singular,Shader,Shader,,Shader resource name singular
+ResourceTree_Sounds_Singular,Sound,Sound,,Sound resource name singular
+ResourceTree_Sprites_Singular,Sprite,Sprite,,Sprite resource name singular
+ResourceTree_Tilesets_Singular,Tile Set,Tile Set,,Tileset resource name singular
+ResourceTree_Timelines_Singular,Timeline,Timeline,,Timeline resource name singular
+ResourceTree_Fonts_Singular,Font,Font,,Font resource name singular
+ResourceTree_Sequences_Singular,Sequence,Sequence,,Sequence resource name singular
+ResourceTree_AnimCurves_Singular,Animation Curve,Animation Curve,,Animcurve resource name singular
+ResourceTree_Extensions_Singular,Extension,Extension,,Extension resource name singular
+ResourceTree_IncludedFiles_Singular,Included File,Included File,,Included File resource name singular
+RT_Unknown,Resource,Resource,,unknown resource type name
+RT_RoomInstance,Room Instances,Room Instances,,room instance resource name
+RT_RoomInstance_Singular,Room Instance,Room Instance,,room instance resource name singular
+RT_RoomGraphic,Room Graphics,Room Graphics,,room graphic resource name
+RT_RoomGraphic_Singular,Room Graphic,Room Graphic,,room graphic resource name singular
 recentwindows_title,Recent Windows,최근 창,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,최근 창,,Recent activated windows menu option
 Developer_Menu_Title,Developer,개발자,,Title of the main Developer menu
@@ -4893,6 +5192,7 @@ Sprite Editor,Sprite Editor,스프라이트 편집기,,Sprite Editor preference 
 Object Editor,Object Editor,객체 편집기,,Object Editor preference group heading
 Room Editor,Room Editor,룸 편집기,,Room Editor preference group heading
 Spline Editor,Spline Editor,스프라이트 편집기,,Spline Editor preference group heading
+Sequences,Sequences,Sequences,,Sequences preference group heading
 Tile Sets Editor,Tile Sets Editor,타일 세트 편집기,,Tile Sets Editor preference group heading
 Timelines,Timelines,타임라인,,Timelines preference group heading
 Extension Editor,Extension Editor,확장 기능 편집기,,Extension Editor preference group heading
@@ -4916,11 +5216,14 @@ Help,Help,도움말,,Help preference group subheading
 Input,Input,입력,,Input preference group subheading
 Output Windows,Output Windows,출력 창,,Output Windows preference group subheading
 Paths,Paths,경로,,Paths preference group subheading
+Animation Curves,Animation Curves,Animation Curves,,Animation Curves preference group subheading
 Power Saving,Power Saving,전원 절약,,Power Saving preference group subheading
 Recent Windows,Recent Windows,최근 창,,Recent Windows preference group subheading
+Pick Whip,Pick Whip,Pick Whip,,Pick Whip preference group subheading
 Resources,Resources,자원,,Resources preference group subheading
 Workspace,Workspace,작업공간,,Workspace preference group subheading
 Grid Settings,Grid Settings,격자 설정,,Grid Settings preference group subheading
+Smart Guides,Smart Guides,Smart Guides,,Smart Guides preference group subheading
 Tools,Tools,도구,,Tools preference group subheading
 Auto Tiling,Auto Tiling,자동 타일,,Auto Tiling preference group subheading
 Colours,Colours,양식,,Colours preference group subheading
@@ -5010,10 +5313,13 @@ Arc,Arc,호,,Arc preference group subheading
 Label,Label,문자,,Label preference group subheading
 Default,Default,기본,,Default preference group subheading
 Sprites,Sprites,스프라이트,,Sprites preference group subheading
+Nine Slices,Nine Slices,Nine Slices,,Nine Slices preference group subheading
 Tile Sets,Tile Sets,타일 세트,,Tile Sets preference group subheading
 Sounds,Sounds,소리,,Sounds preference group subheading
+Audio Emitters,Audio Emitters,Audio Emitters,,Audio Emitters preference group subheading
 Scripts,Scripts,스크립트,,Scripts preference group subheading
 Shaders,Shaders,쉐이더,,Shaders preference group subheading
+Particle Systems,Particle Systems,Particle Systems,,Particle Systems preference group subheading
 Fonts,Fonts,글꼴,,Fonts preference group subheading
 Objects,Objects,객체,,Objects preference group subheading
 Room,Room,룸,,Room preference group subheading
@@ -5039,6 +5345,7 @@ Enum Entries,Enum Entries,열거 항목,,Enum Entries preference group subheadin
 Macros,Macros,매크로,,Macros preference group subheading
 Local Variables,Local Variables,지역 변수,,Local Variables preference group subheading
 Global Variables,Global Variables,전역 변수,,Global Variables preference group subheading
+Static Variables,Static Variables,Static Variables,,Static Variables preference group subheading
 Line Number Text,Line Number Text,줄 번호 글자,,Line Number Text preference group subheading
 Read Only Line Numbers,Read Only Line Numbers,읽기 전용 줄 번호,,Read Only Line Numbers preference group subheading
 Bookmark Line Numbers,Bookmark Line Numbers,책갈피 줄 번호,,Bookmark Line Numbers preference group subheading
@@ -5106,8 +5413,8 @@ SyntaxError_ExpectedExp,expected expression,예상된 표현식,,syntax error
 SyntaxError_EmptyStatement,empty {0} statement,빈 문장 {0},,syntax error
 SyntaxError_NestedCalls,nested function calls are not allowed,중첩된 함수 호출은 허용되지 않습니다.,,syntax error
 SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 {0}의 사용이 불가능합니다.,,syntax error
-SyntaxError_ArgCount,number of arguments expected {0} got {1},인자 {0}개를 예상했으나 {1}개를 받았습니다.,,syntax error
-SyntaxError_ArgCountRange,number of arguments expected {0} - {1} got {2},인자 {0}개를 예상했으나 {1}에서 {2}개를 받았습니다.,,syntax error
+SyntaxError_ArgCount,number of arguments for function {2} expected {0} got {1},인자 {0}개를 예상했으나 {1}개를 받았습니다.,,syntax error
+SyntaxError_ArgCountRange,number of arguments for function {3} expected {0} - {1} got {2},인자 {0}개를 예상했으나 {1}에서 {2}개를 받았습니다.,,syntax error
 SyntaxError_DuplicateEnumEntry,duplicate enum entry found,중복된 열거 항목을 찾았습니다.,,syntax error
 SyntaxError_DuplicateEnum,duplicate enum found,중복된 열거형을 찾았습니다.,,syntax error
 SyntaxError_MissingGlobalVarName,missing variable name in globalvar,해당 이름의 globalvar 변수가 없습니다.,,syntax error
@@ -5125,6 +5432,10 @@ SyntaxError_Info,"{0} at line {1}, {2} : {3}","줄 {1}, {2} : {3} 에서 {0}",,"
 SyntaxError_MacroReferenceOnce,macro {0} is unused,매크로 {0}이(가) 사용되지 않았습니다.,,syntax error
 SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}은(는) 한번만 참조되었습니다.,,syntax error
 SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당하지않은 변수 {0}이(가) 사용되었습니다.,,syntax error
+SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,only functions that are declared as constructors can use inheritance.,,syntax error
+SyntaxError_InvalidFunctionModifier,unknown function atribute {0},unknown function atribute {0},,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument \""{0}\"" is not in function arguments","Inherited argument \""{0}\"" is not in function arguments",,syntax error
+SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,only 16 named arguments supported in a function declaration,,syntax error
 CompileError_Info,{0} at line {1} : {2},줄 {1} : {2} 에서 {0},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),정의되지 않은 변수 '{0}'이 {1} 의 변수 '{2}'에서 참조되었습니다.,,Object variable wrong type error
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),정의되지 않은 변수 '{0}'이 룸 {3} 에 있는 개체 {1} 의 변수 '{2}' 에서 참조되었습니다.,,Object variable wrong type error in room instances
@@ -5202,8 +5513,8 @@ UserLogin_ServerError,Error ({0}) - {1},오류 ({0}) - {1},,server response erro
 UserLogin_Exception,Exception - {0},예외 - {0},,exception error
 UserLogin_MachineIDMismatchDetail,Local Machine ID mismatch,지역 장치 ID가 맞지 않습니다.,,machine id mismatch error
 UserLogin_MachineIDMissingDetail,Local Machine ID missing,지역 장치 ID가 없습니다,,machine id missing error
-UserLogin_TrialExpired,"Your GameMaker Studio 2 - 30 Day Trial has expired.\n\nIf you enjoyed using GameMaker Studio 2, and want to pick up where you left off, you can get a licence from only $39.\n\nBUY NOW and Get CREATIVE!","GameMaker Studio 2의 30일 체험판 기간이 끝났습니다.\n\n만약 여러분이 GameMaker Studio 2가 마음에 드신다면, 그리고 도중에 끊긴 작업을 다시 시작하시려면 $39의 가격에 구매하실 수 있습니다.\n\n지금 구매하시고 창의력을 발휘하세요!",,Trial expired message
-UserLogin_LicenseExpired,"Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker Studio 2, and want to pick up where you left off, you can get a licence from only $39.\n\nBUY NOW and Get CREATIVE!","GameMaker Studio 2의 라이선스가 만료됐습니다.\n\n만약 여러분이 GameMaker Studio 2가 마음에 드신다면, 그리고 도중에 끊긴 작업을 다시 시작하시려면 $39의 가격에 구매하실 수 있습니다.\n\n지금 구매하시고 창의력을 발휘하세요!",,Temporary licence expired message
+UserLogin_TrialExpired,"Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","GameMaker Studio 2의 30일 체험판 기간이 끝났습니다.\n\n만약 여러분이 GameMaker Studio 2가 마음에 드신다면, 그리고 도중에 끊긴 작업을 다시 시작하시려면 $39의 가격에 구매하실 수 있습니다.\n\n지금 구매하시고 창의력을 발휘하세요!",,Trial expired message
+UserLogin_LicenseExpired,"Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","GameMaker Studio 2의 라이선스가 만료됐습니다.\n\n만약 여러분이 GameMaker Studio 2가 마음에 드신다면, 그리고 도중에 끊긴 작업을 다시 시작하시려면 $39의 가격에 구매하실 수 있습니다.\n\n지금 구매하시고 창의력을 발휘하세요!",,Temporary licence expired message
 UserLogin_TrialExpiredTitle,Trial Period Ended,체험 기간 종료,,Trial period ended dialog title
 UserLogin_LicenseExpiredTitle,Licence Expired,라이선스 만료,,Licence expired dialog title
 UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,라이선스에 이 빌드에 접근 권한이 없습니다.,,message when user licence is not allowed to access a particular build
@@ -5220,8 +5531,8 @@ SearchResult_Info,{0} at line {1}: \t{2},{1} 줄에서 {0}: \t{2},,search result
 UserLogin_ManageDevices,My Account,내 계정,,ok button caption for too many devices error
 UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",지속적인 문제가 발생하면 다음 지시사항에 따르세요:\n방화벽이 GameMaker Studio 2의 동작을 방해하는지 확인하세요.\n백신 프로그램이 GameMaker Studio 2의 동작을 방해하는지 확인하세요..\n프록시 또는 VPN 클라이언트가 GameMaker Studio 2의 동작을 방해하는지 확인하세요.\n그래도 계속 실패한다면 다음 위치에서 여러분의 ui.log 파일을 찾아 저희에게 보내주세요:\nmacOS- /Users/Shared/GameMakerStudio2\nWindows- %ProgramData%\GameMakerStudio2,,Common steps to try for internet connection failures
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
-addon_amazon_apis,Amazon APIs,Amazon API,,Amazon APIs label for addon download
-addon_google_play_services,Google Play Services,Google Play Service,,Google play services label for addon download
+addon_amazon_apis,Amazon APIs,Amazon APIs,,Amazon APIs label for addon download
+addon_google_play_services,Google Play Services,Google Play Services,,Google play services label for addon download
 addon_error,Error with addon,부가 기능 오류,,Generic error with addon title
 addon_verify_failed,Addon verification failed. Please check your project and try again.,부가 기능 확인에 실패하였습니다. 프로젝트 확인후 다시 시도해주세요.,,Addon verification failed
 addon_not_found,The addon could not be found on the marketplace,해당 부가 기능을 장터에서 찾을 수 없습니다.,,Message for when the addon could not be found on the marketplace
@@ -5245,6 +5556,7 @@ FileFilters_Export,{0} Export,{0} 추출,,export filter
 FileFilters_Directory,Directory,디렉토리,,directory filter
 FileFilters_SSHKey,SSH Key,SSH 키,,ssh key filter
 FileFilter_AssetPackage,GameMaker Studio 2 Asset Package,GameMaker Studio 2 자산 패키지,,yymp filter
+FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Save as .aab or .apk,,Save as .aab or .apk
 tvOS,tvOS,tvOS,,tvOS label for game options
 amazonfire_nodevices_title,No Amazon devices detected,검색된 Amazon 기기 없음,,No Amazon devices detected title
 amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,감지된 Amazon Fire 기기가 없습니다.,,No Amazon devices detected message
@@ -5381,7 +5693,7 @@ DESC_VS2015x64,Running Visual Studio 2015 x64 Redistributable Setup...,Visual St
 DESC_VS2015x64END,end VS2015 x64,VS2015 x64 완료,,Installer messages
 DESC_OPTIMISING,Optimising executable... this may take some time,실행 파일 최적화 중... 오래 걸리지 않습니다.,,Installer messages
 DESC_INSTBEGIN,runInstaller Begin,설치 시작,,Installer messages
-DESC_ALLREADYINST,${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade. ,${APP_NAME}는 이미 설치되어 있습니다. $\n$\n확인을 눌러 이전 버전을 제거하거나 업그레이드를 취소하세요.,,Installer prompt to uninstall first
+DESC_ALLREADYINST,"${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade. ,${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade. ,,Installer prompt to uninstall first",${APP_NAME}는 이미 설치되어 있습니다. $\n$\n확인을 눌러 이전 버전을 제거하거나 업그레이드를 취소하세요.,0,0
 DESC_ERRORSFOUND,errors found in uninstall,제거 중에 오류가 발생했습니다.,,Installer - Uninstaller errors found
 DESC_IDERUNNING,Check IDE still running (i.e. cancelled from Uninstall),IDE가 실행 중인지 확인 중(제거 중에 취소됨),,Installer messages
 DESC_IDERUNABORT,IDE still running aborting...,실행 중인 IDE 종료 중...,,Installer messages
@@ -5409,6 +5721,8 @@ ggs_ipad_retina_56_landscape,iPad Retina iOS 5/6 Landscape,iPad Retina iOS 5/6 �
 ggs_ipad_56_portrait,iPad iOS 5/6 Portrait,iPad iOS 5/6 세로 모드,,iPad iOS 5/6 Portrait
 ggs_ipad_56_landscape,iPad iOS 5/6 Landscape,iPad iOS 5/6 가로 모드,,iPad iOS 5/6 Landscape
 ggs_iphone_x_landscape,iPhone X/Xs Landscape,iPhone X/XS 가로 모드,,iPhone X/Xs Landscape
+ggs_ios_launchscreen,Launch Screen,Launch Screen,,Launch Screen
+ggs_ios_launchscreen_landscape,Launch Screen Landscape,Launch Screen Landscape,,Launch Screen Landscape
 ggs_iphone_x_portrait,iPhone X/Xs Portrait,iPhone X/XS 세로 모드,,iPhone X/Xs Portrait
 ggs_iphone_xr_portrait,iPhone Xr Portrait,iPhone XR 세로 모드,,iPhone Xr Portrait
 ggs_iphone_xr_landscape,iPhone Xr Landscape,iPhone XR 가로 모드,,iPhone Xr Landscape
@@ -5423,11 +5737,487 @@ iPhone 7+,iPhone 7+,iPhone 7+,,iPhone 7+ option group subheading
 iPhone 8,iPhone 8,iPhone 8,,iPhone 8 option group subheading
 iPhone 8+,iPhone 8+,iPhone 8+,,iPhone 8+ option group subheading
 iPhone SE,iPhone SE,iPhone SE,,iPhone SE option group subheading
-iPhone X,iPhone X/Xs,iPhone X/XS,,iPhone X/XS option group subheading
-iPhone Xr,iPhone Xr,iPhone XR,,iPhone Xr option group subheading
-iPhone Xs Max,iPhone Xs Max,iPhone XS Max,,iPhone Xs Max option group subheading
+iPhone X,iPhone X/Xs,iPhone X/Xs,,iPhone X/Xs option group subheading
+iPhone Xr,iPhone Xr,iPhone Xr,,iPhone Xr option group subheading
+iPhone Xs Max,iPhone Xs Max,iPhone Xs Max,,iPhone Xs Max option group subheading
+ResourceMenu_CreateSequence,Create Sequence,Create Sequence,,Resource menu entry
+ResourceMenu_CreateParticleSystem,Create Particle System,Create Particle System,,Resource menu entry
+ResourceMenu_CreateCurve,Create Animation Curve,Create Animation Curve,,Resource menu entry
+ResourceMenu_CreateAudioEmitter,Create Audio Emitter,Create Audio Emitter,,Resource menu entry
+ResourceTree_Sequences,Sequences,Sequences,,Resource tree label
+ResourceTree_Particles,Particle Systems,Particle Systems,,Resource tree label
+ResourceTree_Curves,Animation Curves,Animation Curves,,Resource tree label
+ResourceTree_AudioEmitters,Audio Emitters,Audio Emitters,,Resource tree label
+ResourceTree_CreateVectorSprite,Create Vector Sprite,Create Vector Sprite,,Resource tree label
+ResourceTree_OpenInShapeViewer,Open in Shape Viewer,Open in Shape Viewer,,Resource tree label
+SequenceEditor_Title,Sequence: {0},Sequence: {0},,Sequence editor window title
+SequenceEditor_Pref_AutoRecord,Automatically record changes,Automatically record changes,,Sequence auto record preference
+SequenceEditor_Pref_PauseCanvas,Pause when clicking on canvas,Pause when clicking on canvas,,Sequence pause canvas preference
+SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,Overlap selection delay in milliseconds,,Sequence canvas preference
+SequenceEditor_Pref_ShowBackdrop,Show canvas frame on newly created sequences,Show canvas frame on newly created sequences,,Show canvas frame newly created sequence preference
+SequenceEditor_Pref_BackdropWidth,Canvas frame width on newly created sequences,Canvas frame width on newly created sequences,,canvas frame width newly created sequence preference
+SequenceEditor_Pref_BackdropHeight,Canvas frame height on newly created sequences,Canvas frame height on newly created sequences,,canvas frame height newly created sequence preference
+SequenceEditor_Toolbar_Design,Design,Design,,Design button
+SequenceEditor_Toolbar_Code,Code,Code,,Code button
+SequenceEditor_Toolbar_Split,Split,Split,,Split button
+AnimCurveEditor_Title,Animation Curve: {0},Animation Curve: {0},,Animation Curve editor window title
+ShapeViewerEditor_Title,Shape Viewer: {0},Shape Viewer: {0},,Shape Viewer editor window title
+AudioEmitterEditor_Title,Audio Emitter: {0},Audio Emitter: {0},,Audio Emitter editor window title
+DopeSheet_Column_Tracks,Tracks,Tracks,,Dope sheet column tracks
+Sequence_Dopesheet_Empty_TrackPanel_Header,Track Panel,Track Panel,,empty track panel header
+Sequence_Dopesheet_Empty_TrackPanel_Description,Click or drag an asset here to create an asset track. Organise & order your tracks in this panel.,Click or drag an asset here to create an asset track. Organise & order your tracks in this panel.,,empty track panel description
+Sequence_Dopesheet_Empty_Header,Dope Sheet,Dope Sheet,,empty dopesheet panel header
+Sequence_Dopesheet_Empty_Description,'Tracks' appear here when assets have been added to the project. Click or drag assets here.,'Tracks' appear here when assets have been added to the project. Click or drag assets here.,,empty dopesheet panel description
+SequenceDopesheet_FPS,fps,fps,,dopesheet timeline FPS label
+SequenceDopeSheet_Timeline_Frames,Frames (f),Frames (f),,timeline time mode setting for frames
+SequenceDopeSheet_Timeline_Time,Time (h:m:s),Time (h:m:s),,timeline time mode setting for time
+SequenceDopeSheet_Timeline_Frames_Units,f,f,,timeline frames mode abbreviation
+SequenceDopeSheet_Timeline_Frames_Units_Tooltip,Frames,Frames,,timeline frames mode tooltip
+SequenceDopeSheet_Timeline_Time_Units,h:m:s,h:m:s,,timeline time mode abbreviation
+SequenceDopeSheet_Timeline_Time_Units_Tooltip,Timestamp,Timestamp,,timeline time mode tooltip
+SequenceDopeSheet_Timeline_Tooltip_HeadPos,Playhead position ({0}),Playhead position ({0}),,timeline playhead position textbox tooltip
+SequenceDopeSheet_Timeline_Tooltip_Duration,Sequence length ({0}),Sequence length ({0}),,timeline sequence length textbox tooltip
+SequenceDopeSheet_Timeline_ChangeTimeUnitsTooltip,Change time units,Change time units,,timeline sequence time unit change tooltip
+Seq_GoToTooltip,Go To Function,Go To Function,,go to function tooltip
+Seq_AddStubTooltip,Add Function,Add Function,,add function tooltip
+Seq_DeleteTooltip,Delete Moment,Delete Moment,,delete moment tooltip
+Seq_DeleteEventpinTooltip,Delete Broadcast Message,Delete Broadcast Message,,Delete Broadcast Message tooltip
+SE_Menu_Transform,Transform,Transform,,Transform menu
+SE_Menu_RasterizeSprite,Rasterize as Sprite,Rasterize as Sprite,,Rasterize as sprite menu
+Tag_Disable_Name,Disable,Disable,,Disable tag name
+Tag_Disable_Description,Disable a track,Disable a track,,Disable tag description
+Tag_Invisible_Name,Invisible,Invisible,,Invisible tag name
+Tag_Invisible_Description,Make a track invisible by disabling all rendering,Make a track invisible by disabling all rendering,,Invisible tag description
+Tag_Locked_Name,Locked,Locked,,Locked tag name
+Tag_Locked_Description,Prevent editing a track by locking it,Prevent editing a track by locking it,,Locked tag description
+Tag_TrackLink_Name,Link,Link,,Track link tag name
+Tag_TrackLink_Description,Link a track to another to use its keyframes instead,Link a track to another to use its keyframes instead,,Track link tag description
+TagLink_CannotLinkTooltip_Type,This track is not compatible with the selected track,This track is not compatible with the selected track,,Not compatible track for linking tooltip
+TagLink_CannotLinkTooltip_Circular,This would create a cyclic link,This would create a cyclic link,,Cyclic link tooltip
+Track_TrackInformation,Track Information,Track Information,,Track information label
+Track_Name,Name,Name,,Name of track label
+Track_Graphic,Graphic,Graphic,,Graphic track display nameSequenceParam_
+Track_Particles,Particles,Particles,,Particles track display name
+Track_SpriteFrames,Frames,Frames,,Sprite frames track display name
+Track_Text,Text,Text,,Text track display name
+Track_Instance,Instance,Instance,,Instance track display name
+Track_Sound,Sound,Sound,,Sound track display name
+Track_Sequence,Sequence,Sequence,,Sequence track display name
+Track_Code,Code,Code,,Code track display name
+Track_Real,Real,Real,,Real track display name
+Track_String,String,String,,String track display name
+Track_Resource,Resource,Resource,,Resource track display name
+Track_Color,Colour,Colour,,Colour track display name
+Track_Bool,Boolean,Boolean,,Boolean track display name
+Track_Width,Width,Width,,Width parameter track display name
+Track_Height,Height,Height,,Height parameter track display name
+Track_Group,Group,Group,,Group component track display name
+Track_ClipMask,Clipping Mask,Clipping Mask,,Clipping Mask component track display name
+Track_ClipMask_Mask,Mask,Mask,,Clipping mask mask child
+Track_ClipMask_Subject,Subject,Subject,,Clipping mask subject child
+Track_Position,Position,Position,,Track position
+Track_UserDefined,Unnamed Variable,Unnamed Variable,,User defined track
+Track_Scale,Scale,Scale,,Track scale
+Track_Rotation,Rotation,Rotation,,Track rotation
+Track_Gain,Volume,Volume,,Track gain
+Track_Pitch,Pitch,Pitch,,Track pitch
+Track_Falloff,Falloff,Falloff,,Track falloff
+Track_MultiplyColour,Colour Multiply,Colour Multiply,,Track colour
+Track_AddColour,Colour Add,Colour Add,,Track colour
+Track_Origin,Origin,Origin,,Sequence parameter
+Track_ImageSpeed,Image Speed,Image Speed,,Sequence parameter
+Track_ImageIndex,Image Index,Image Index,,Sequence parameter
+Track_ImageAngle,Image Angle,Image Angle,,Sequence parameter
+Track_ImageBlend,Image Blend,Image Blend,,Sequence parameter
+Track_Param_Channel_X,x,x,,sequence parameter channel x
+Track_Param_Channel_Y,y,y,,sequence parameter channel y
+Track_Param_Channel_Angle,angle,angle,,sequence parameter channel angle
+Track_Param_Channel_Colour,colour,colour,,sequence parameter channel colour
+Track_Param_Channel_Colour_A,alpha,alpha,,sequence parameter channel colour alpha
+Track_Param_Channel_Colour_R,red,red,,sequence parameter channel colour red
+Track_Param_Channel_Colour_G,green,green,,sequence parameter channel colour green
+Track_Param_Channel_Colour_B,blue,blue,,sequence parameter channel colour blue
+Track_Param_Channel_Gain,volume,volume,,sequence parameter channel gain
+Track_Param_Channel_Pitch,pitch,pitch,,sequence parameter channel pitch
+Track_Param_Channel_Falloff,falloff,falloff,,sequence parameter channel falloff
+Track_Param_Channel_Index,index,index,,sequence parameter channel index
+Track_Param_Channel_Speed,speed,speed,,sequence parameter channel speed
+Track_Param_Channel_Generic,channel {0},channel {0},,sequence parameter channel generic title
+AnimCurve_DoubleClickToEdit,Double-click to edit,Double-click to edit,,Double-click to edit anim curve tooltip
+AnimCurve_Spline,Curve,Curve,,Spline submenu animation curve
+AnimCurve_FunctionLinear,Linear,Linear,,Animation curve linear function
+AnimCurve_FunctionCentripetalCatmullRom,Centripetal Catmull-Rom,Centripetal Catmull-Rom,,Animation curve centripetal catmull-rom function
+AnimCurve_Single,Single channel,Single channel,,Single channel animation curve
+AnimCurve_Dual,Dual channel,Dual channel,,Dual channel animation curve
+AnimCurve_Color,Color channels,Color channels,,Color channels animation curve
+AnimCurveDesc_Single,A single channel animation curve,A single channel animation curve,,Default animation curve description
+AnimCurveDesc_Dual,A dual channel animation curve,A dual channel animation curve,,Dual-channel animation curve description
+AnimCurveDesc_Color,A color channel animation curve,A color channel animation curve,,Color animation curve description
+AnimCurveChannelDesc_Default,The default curve channel,The default curve channel,,Default animation curve channel
+AnimCurveChannelDesc_R,The red color channel,The red color channel,,rgba animation curve channel
+AnimCurveChannelDesc_G,The green color channel,The green color channel,,rgba animation curve channel
+AnimCurveChannelDesc_B,The blue color channel,The blue color channel,,rgba animation curve channel
+AnimCurveChannelDesc_A,The alpha color channel,The alpha color channel,,rgba animation curve channel
+AnimCurve_ZoomIn,Zoom In,Zoom In,,zoom in
+AnimCurve_ZoomOut,Zoom Out,Zoom Out,,zoom out
+AnimCurve_CentreFit,Centre Fit,Centre Fit,,centre fit
+AnimCurve_PointLabel,point {0}:,point {0}:,,curve point label
+AnimCurve_SetRange,Set Range,Set Range,,set range
+AnimCurve_Upper,Upper,Upper,,range upper
+AnimCurve_Lower,Lower,Lower,,range lower
+AnimCurve_InsertPoint,Insert Point,Insert Point,,insert point
+AnimCurve_EditColour,Edit Colour,Edit Colour,,edit colour
+AnimCurve_DeletePoint,Delete Point,Delete Point,,delete point
+AnimCurve_DeletePoints,Delete Points,Delete Points,,delete points
+AnimCurve_DeleteConfirm,Are you sure you want to delete {0}?,Are you sure you want to delete {0}?,,Delete confirmation
+AnimCurve_DeleteAllConfirm,Are you sure you want to delete all curves?,Are you sure you want to delete all curves?,,Delete confirmation
+AnimCurveEditor,Anim Curve Editor,Anim Curve Editor,,anim curved editor pref type name
+animcurve_automaticdeletion,Automatic response to curve deletion,Automatic response to curve deletion,,Automatic deletion in animation curve editor
+animcurve_compactlayout,Use compact layout,Use compact layout,,animcurve editor compact layout pref
+KeyMenu_StretchParam,Stretch Parameter Key,Stretch Parameter Key,,Stretch key until sequence ends for parameters
+KeyMenu_StretchAsset,Stretch Asset Key,Stretch Asset Key,,Stretch key until sequence ends for assets
+KeyMenu_DeleteParam,Delete Parameter Key,Delete Parameter Key,,Delete key for parameters
+KeyMenu_DeleteAsset,Delete Asset Key,Delete Asset Key,,Delete key for assets
+KeyMenu_CopyToEnd,Copy to End,Copy to End,,Copy to end menu entry
+KeyMenu_CopyToStart,Copy to Start,Copy to Start,,Copy to start menu entry
+KeyMenu_CopyKey,Copy Key,Copy Key,,Copy key menu entry
+KeyMenu_CutKey,Cut Key,Cut Key,,Cut key menu entry
+KeyMenu_PasteKey,Paste Key,Paste Key,,Paste key menu entry
+KeyMenu_PasteInPlaceKey,Paste Key In Place,Paste Key In Place,,Paste key in place menu entry
+Seq_KeyMenu_Disabled,Disabled,Disabled,,Disabled key context menu entry
+SequenceEditor_SetKeyAsset,Set Key Asset,Set Key Asset,,set key asset dialog title
+SelectTrackDialog_Title,Select Track,Select Track,,Select track dialog title
+SequenceTrackGroupName,Group,Group,,Group
+SequenceCanvas_Menu_Select,Select,Select,,Select another canvas item submenu
+SequenceCanvas_Menu_Rename,Rename,Rename,,Rename selected canvas item
+SequenceCanvas_Menu_GroupSelected,Group,Group,,Group all selected canvas items together
+SequenceCanvas_Menu_FindInDopeSheet,Find in Sheet,Find in Sheet,,Find the clicked item in the dope sheet
+SequenceCanvas_Menu_FindOtherInDopeSheet,Find Other,Find Other,,Find another item in the dope sheet
+SequenceCanvas_Menu_CannotGroupSelected_Tooltip,The selected items cannot be grouped together because they do not have the same parent,The selected items cannot be grouped together because they do not have the same parent,,Tooltip reason for not being able to group selected items together
+SequenceCanvas_Menu_Record,Record,Record,,Sequence canvas context menu entry to record something
+SequenceCanvas_Menu_RecordTranslation,Record Position,Record Position,,Sequence canvas context menu entry to record translation
+SequenceCanvas_Menu_RecordScale,Record Scale,Record Scale,,Sequence canvas context menu entry to record scale
+SequenceCanvas_Menu_RecordRotation,Record Rotation,Record Rotation,,Sequence canvas context menu entry to record rotation
+SequenceCanvas_Menu_OpenEditor,Open Editor...,Open Editor...,,Open editor for item resource
+SequenceCanvas_Menu_Remove,Remove Key,Remove Key,,Sequence canvas context menu entry to remove selected items
+SequenceCanvas_Menu_RemoveTracks,Remove Track,Remove Track,,Sequence canvas context menu entry to remove selected tracks
+SequenceCanvas_ToggleGizmos,Toggle Gizmos,Toggle Gizmos,,Toggle gizmos on/off tooltip
+SequenceCanvas_ToggleGizmosSpecific,Toggle specific gizmos,Toggle specific gizmos,,Toggle specific gizmos on/off tooltip
+SequenceCanvas_ToggleTransformGizmo,Toggle Transform Gizmo Mode,Toggle Transform Gizmo Mode,,Tooltip for transform gizmo settings button
+SequenceCanvas_ToggleTransformGizmoSpecific,Select Transform Gizmo Mode,Select Transform Gizmo Mode,,Tooltip for transform gizmo settings menu
+SequenceCanvas_ToggleGizmoTranslate,Translate,Translate,,Toggle to translate canvas gizmo
+SequenceCanvas_ToggleGizmoScale,Scale,Scale,,Toggle to scale canvas gizmo
+SequenceCanvas_ToggleGizmoRotate,Rotate,Rotate,,Toggle to rotate canvas gizmo
+SequenceCanvas_ToggleGizmoOrigin,Origin,Origin,,Toggle to origin canvas gizmo
+SequenceCanvas_ToggleBackdrop,Toggle canvas frame,Toggle canvas frame,,Toggle canvas frame on/off tooltip
+SequenceCanvas_ToggleBackdropSpecific,Canvas frame settings,Canvas frame settings,,canvas frame settings tooltip
+SequenceCanvas_BackdropEnabled,Canvas frame enabled,Canvas frame enabled,,canvas frame enabled label
+SequenceCanvas_BackdropImageRefEnabled,Image reference enabled,Image reference enabled,,image reference enabled label
+SequenceCanvas_BackdropWidth,Width,Width,,canvas frame width label
+SequenceCanvas_BackdropHeight,Height,Height,,canvas frame height label
+SequenceCanvas_xorigin,Origin X,Origin X,,canvas origin x
+SequenceCanvas_yorigin,Origin Y,Origin Y,,canvas origin y
+SequenceCanvas_Toolbox_Events,Events,Events,,Toolbox events tooltip
+SequenceCanvas_Toolbox_AddAction,Add action,Add action,,Toolbox add action tooltip
+SequenceCanvas_Toolbox_Edit,Edit,Edit,,Toolbox edit tooltip
+SequenceCanvasWindow_Multiselect,Multiselect,Multiselect,,Canvas window multiselect label
+SequenceCanvas_Toolbox_MultiselectTooltip,Multiple targets,Multiple targets,,Multiple toolbox targets tooltip
+SequenceCanvas_EditWindow_Title,Edit,Edit,,Edit window title
+SequenceCanvas_DeleteWindow_Title,Delete,Delete,,Delete window title
+SequenceCanvas_DeleteWindow_Message,Are you sure you want to delete {0}?,Are you sure you want to delete {0}?,,Delete confirmation label
+SequenceCanvas_DeleteWindow_Multiselect_Message,Are you sure you want to delete the selected items?,Are you sure you want to delete the selected items?,,Delete confirmation label
+SequenceCanvas_EventsWindow_Title,Events,Events,,Events window title
+SequenceCanvas_Toolbox_Delete,Delete,Delete,,Toolbox delete tooltip
+SequenceCanvas_Toolbox_SelectThisItem,Select {0},Select {0},,Select item tooltip
+SequenceCanvas_MousePosStatus,"({0}, {1})","({0}, {1})",,the mouse position label in the sequence editor canvas status bar
+SequenceCanvas_SelectedItemStatus,{0},{0},,the current selection status label in the room editor status bar for one selection
+SequenceAddAction_SelectEvent,Select Event,Select Event,,Select event label
+SequenceAddAction_SelectTarget,Select Target,Select Target,,Select target label
+SequenceAddAction_SelectAction,Select Action,Select Action,,Select action label
+SequenceAddAction_QuickAdd,Add Action,Add Action,,Add action window title
+SequenceAddAction_EditAction,Action Properties,Action Properties,,Action Properties window title
+SequenceAddAction_NoProperties,This action has no properties,This action has no properties,,Action has no properties
+SequenceAddAction_Search,Search...,Search...,,Search for action
+SequenceAddAction_AddAction,Add Action,Add Action,,Add action button
+SequenceAddAction_Event,Event,Event,,Event label
+SequenceAddAction_Target,Target,Target,,Target label
+SequenceAddAction_Action,Action,Action,,Action label
+SequenceAddAction_Properties,Properties,Properties,,Properties label
+SequenceAddAction_AddActionDialog,Are you sure you want to add this action?,Are you sure you want to add this action?,,Are you sure
+SequenceAddAction_ActionAdded,Action added!,Action added!,,Action added to event confirmation message
+SequenceAddAction_EventActionLabel,On {0}: {1},On {0}: {1},,What action was added to what event label
+SequenceAddAction_AddAnotherAction,Continue,Continue,,Continue button label
+SequenceEditWindow_Position,Position,Position,,Position label
+SequenceEditWindow_CannotBulkEdit,The selected items cannot be edited in bulk.,The selected items cannot be edited in bulk.,,Cannot edit in bulk label
+SequenceEditWindow_Scale,Scale,Scale,,Scale label
+SequenceEditWindow_Flip,Flip,Flip,,Flip label
+SequenceEditWindow_Horizontal,Horizontal,Horizontal,,Horizontal label
+SequenceEditWindow_Vertical,Vertical,Vertical,,Vertical label
+SequenceEditWindow_Arrange,Arrange,Arrange,,Arrange render order label
+SequenceEditWindow_Volume,Volume,Volume,,Volume label
+SequenceCanvas_UnnamedTrack,'???','???',,Unknown track name
+SequenceGizmo_MissingResource,Missing Resource,Missing Resource,,Missing resource gizmo text
+SequenceGizmo_AudioEmitter,Audio Emitter,Audio Emitter,,Audio emitter gizmo text
+SequenceGizmo_ClippingMask,Clipping Mask,Clipping Mask,,Clipping mask gizmo text
+SequenceGizmo_Sound,Sound,Sound,,Sound gizmo text
+SequenceGizmo_Sequence,Sequence,Sequence,,Sequence gizmo text
+SequenceGizmo_Group,Group,Group,,Group gizmo text
+SequenceGizmo_Ghosting,Delta Ghosting,Delta Ghosting,,Ghosting gizmo text
+SequenceGizmo_Origin,Origin,Origin,,Origin gizmo text
+SequenceGizmo_ZeroZero,Zero zero,Zero zero,,Zero zero gizmo text
+SequenceGizmo_AxisTransform,Transform,Transform,,Transform gizmo text
+SequenceGizmo_ShowAxes,Show Axes,Show Axes,,Show axes gizmo text
+SequenceGizmo_TranslationPath,Translation Path,Translation Path,,Translation path gizmo text
+Sequence_AddTagTooltip,Add tag,Add tag,,Add tag tooltip
+Sequence_RemoveTagsTooltip,Remove selected tags,Remove selected tags,,Remove selected tags tooltip
+DopeSheet_Tooltip_NewKey,Record a new key,Record a new key,,New key tooltip
+DopeSheet_Tooltip_AutoRecord,Automatically record changes,Automatically record changes,,Auto record tooltip
+DopeSheet_Tooltip_SplitKey,Split the selected keys,Split the selected keys,,Split key tooltip
+DopeSheet_Tooltip_DeleteKey,Delete the selected keys,Delete the selected keys,,Delete key tooltip
+DopeSheet_Tooltip_RaiseEvent,Broadcast message,Broadcast message,,Broadcast message tooltip
+DopeSheet_Tooltip_GlobalSpace,Global space,Global space,,Current space is global
+DopeSheet_Tooltip_LocalSpace,Local space,Local space,,Current space is local
+DopeSheet_Tooltip_GlobalLocalSpace,Toggle between local and global space,Toggle between local and global space,,Toggle local-global space tooltip
+DopeSheet_Tooltip_TrackOptions,Options,Options,,Track options tooltip
+DopeSheet_Tooltip_Tags,Tags,Tags,,Tags options tooltip
+DopeSheet_Tooltip_TrackLink,Link to another track,Link to another track,,Track link to other tooltip
+DopeSheet_RootNode,Root,Root,,Root node
+ContextMenu_AddCodeKey,Add code,Add code,,Add a code key
+ContextMenu_AddCurveKey,Add curve,Add curve,,Add an animation curve
+ContextMenu_TrackInterpolation,Interpolation,Interpolation,,Real number interpolation
+ContextMenu_TrackInterpOff,Off,Off,,Real number interpolation off
+ContextMenu_TrackInterpLerp,Linear,Linear,,Real number interpolation linear
+ContextMenu_Cut,Cut,Cut,,Cut
+ContextMenu_Copy,Copy,Copy,,Copy
+ContextMenu_Paste,Paste,Paste,,Paste
+ContextMenu_AddResourceTrack,New Resource,New Resource,,Create resource track
+ContextMenu_AddComponentTrack,New Component,New Component,,Create component track
+ContextMenu_AddParameterTrack,New Parameter,New Parameter,,Create parameter track
+ContextMenu_DeleteTrack,Delete track(s),Delete track(s),,Delete this track
+ContextMenu_EditEvents,Edit Broadcast Message,Edit Broadcast Message,,Edit broadcast message
+ContextMenu_RemoveRaisedEvents,Remove Broadcast Message,Remove Broadcast Message,,Remove broadcast message
+ContextMenu_EditMoment,Edit Moment,Edit Moment,,Edit Moment
+ContextMenu_RemoveMomentKey,Remove Moment,Remove Moment,,Remove Moment
+ContextMenu_EditCode,Edit code,Edit code,,Edit code
+ContextMenu_SetValue,Set Value,Set Value,,Set value of key at location
+ContextMenu_SetAsset,Set Asset,Set Asset,,Set value of asset key at location
+ContextMenu_SwapAsset,Swap Asset,Swap Asset,,Set value of asset key at location
+ContextMenu_CopyKeys,Copy key(s),Copy key(s),,Copy multiple keys menu entry
+ContextMenu_CutKeys,Cut key(s),Cut key(s),,Cut multiple keys menu entry
+ContextMenu_PasteKeys,Paste key(s),Paste key(s),,Paste multiple keys menu entry
+ContextMenu_PasteKeysInPlace,Paste key(s) in place,Paste key(s) in place,,Paste multiple keys in place menu entry
+ContextMenu_DuplicateTrack,Duplicate Track,Duplicate Track,,Duplicate track menu entry
+ContextMenu_DeleteKeys,Delete key(s),Delete key(s),,Delete multiple keys menu entry
+ContextMenu_SplitKeys,Split key(s),Split key(s),,Delete multiple keys menu entry
+ContextMenu_AddKeys,Add key(s),Add key(s),,Delete multiple keys menu entry
+ContextMenu_PasteKeysWarning,Some copied keys were not pasted successfully due to target track types not matching up,Some copied keys were not pasted successfully due to target track types not matching up,,Warning when attempting to paste keys into invalid target tracks
+ContextMenu_ConvertToAnimCurve,Convert to embedded anim curve,Convert to embedded anim curve,,Convert to embedded anim curve menu entry
+ContextMenu_SetToAnimCurve,Set to external anim curve,Set to external anim curve,,Set to external anim curve menu entry
+ContextMenu_ExportEmbeddedAnimCurve,Export embedded anim curve,Export embedded anim curve,,Export embedded anim curve menu entry
+ContextMenu_ConvertToKeys,Convert to keys,Convert to keys,,Convert to keys menu entry
+SequenceEditor_SetTrackAnimCurve,Select animation curve,Select animation curve,,Select animation curve menu entry
+SequenceEditor_SetTrackAnimCurveFilter,Compatible curves: {0} of {1},Compatible curves: {0} of {1},,Compatible anim curves filter string
+SequenceMessage_ParameterAlreadyExistsMsg,Parameter '{0}' already exists in this track as '{1}'.,Parameter '{0}' already exists in this track as '{1}'.,,Already exists
+SequenceMessage_TagAlreadyExistsMsg,Tag '{0}' already exists on this track.,Tag '{0}' already exists on this track.,,Already exists
+SequenceMessage_AddedParameterMsg,Added parameter '{0}' to the track.,Added parameter '{0}' to the track.,,Parameter added message
+SequenceMessage_DeleteTagMsg,Do you want to delete tag(s) {0} from the track?,Do you want to delete tag(s) {0} from the track?,,Do you want to delete tags question message
+SequenceTooltip_TagAlreadyExists,This tag is already on the track,This tag is already on the track,,Tag already on track tooltip
+SequencePref_ParameterConfirmDialog,Whether a confirmation dialog should be shown when a new track parameter is added,Whether a confirmation dialog should be shown when a new track parameter is added,,Confirm dialog preference
+SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when a new track tag is added,Whether a confirmation dialog should be shown when a new track tag is added,,Confirm dialog preference
+SequencePref_DeleteTagDialog,Whether a confirmation dialog should be shown when trying to delete a tag,Whether a confirmation dialog should be shown when trying to delete a tag,,Delete tag confirm dialog preference
+SequencePref_ChainThickness,Canvas chain thickness,Canvas chain thickness,,Canvas chain thickness preference
+SequencePref_ChainColor,Canvas chain colour,Canvas chain colour,,Canvas chain colour preference
+Seq_ContextMenu_Rename,Rename,Rename,,Rename track
+Seq_ContextMenu_Tags,Tags,Tags,,Tags context menu entry
+Seq_ContextMenu_Parameters,Parameters,Parameters,,Add parameter track context menu entry
+Seq_ContextMenu_DefaultParameters,Default,Default,,Add default parameters context menu entry
+Seq_ContextMenu_TrackParameters,Track,Track,,Add track parameters context menu entry
+Seq_ContextMenu_AllParameters,All,All,,Add all parameters context menu entry
+Seq_ContextMenu_Hidden,Hidden,Hidden,,Hidden dopesheet track context menu entry
+Seq_ContextMenu_Locked,Locked,Locked,,Locked dopesheet track context menu entry
+SequenceTrack_ParamReal,Number,Number,,Add real parameter track
+SequenceTrack_ParamString,String,String,,Add string parameter track
+SequenceTrack_ParamBool,Boolean,Boolean,,Add boolean parameter track
+SequenceTrack_ParamResource,Resource,Resource,,Add resource parameter track
+SequenceTrack_ParamColor,Colour,Colour,,Add colour parameter track
+WindowTitle_RaiseEvents,Broadcast messages,Broadcast messages,,Broadcast messages dialog title
+WindowTitle_Moments,Moment,Moment,,Add a moment
+WindowTitle_NewKeyValue,Assign Value at Key {0},Assign Value at Key {0},,assign key value dialog title
+WindowTitle_BaseValue,Assign Base Value for Track {0},Assign Base Value for Track {0},,assign base track value dialog title
+ValueDialog_Value,Value,Value,,Value label
+ValueDialog_TabTitle,Channel {0},Channel {0},,Value dialog channel tab title
+ValueDialog_Resource,Resource,Resource,,Resource label
+ValueDialog_EditEmbedCurve,Edit embedded curve,Edit embedded curve,,Resource label
+ValueDialog_EnterBaseValue,Enter the base value of this track:,Enter the base value of this track:,,Enter a base value for this track label
+ValueDialog_RealValue,Numeric Value,Numeric Value,,Real value for real track
+ValueDialog_AnimCurve,Animation Curve,Animation Curve,,Animation curve for real track
+ValueDialog_EmbedAnimCurve,Embed Animation Curve,Embed Animation Curve,,Embed animation curve for real track
+ValueDialog_WarningFailed,Value Error,Value Error,,Value error warning dialog title
+ValueDialog_WarningValueError,The value was not entered or it was not in the correct format.,The value was not entered or it was not in the correct format.,,Value error label
+ValueDialog_Key,Key,Key,,Key label in value dialog
+ValueDialog_Channel,Channel,Channel,,Channel label in value dialog
+ValueDialog_Length,Length,Length,,Length label in value dialog
+ValueDialog_SoundResource,Sound,Sound,,Value dialog sound label
+ValueDialog_EmitterResource,Audio Emitter,Audio Emitter,,Value dialog audio emitter label
+Sequence_Speed_Label,Fps,Fps,,Sequence speed label
+Sequence_Length_Label,Length,Length,,Sequence length label
+Sequence_Head_Label,Head,Head,,Sequence head label
+Sequence_Volume,Volume,Volume,,Volume label
+Sequence_Tooltip_Volume,Master volume for IDE playback,Master volume for IDE playback,,Master volume tooltip
+Sequence_Tooltip_Play,Play sequence from head marker,Play sequence from head marker,,Play sequence tooltip
+Sequence_Tooltip_Stop,Pause sequence,Pause sequence,,Pause sequence tooltip
+Sequence_Tooltip_PlaybackMode,Change playback mode,Change playback mode,,Change playback mode tooltip
+Sequence_Tooltip_Button_Menu,Show Menu,Show Menu,,Show Menu tooltip
+Sequence_Tooltip_Rewind,Jump to start,Jump to start,,Rewind sequence tooltip
+Sequence_Tooltip_Fastfoward,Jump to end,Jump to end,,Fastforward sequence tooltip
+Sequence_Tooltip_Add_Label,Add Broadcast Message,Add Broadcast Message,,Add Broadcast Message tooltip
+Sequence_Tooltip_Moment_Tooltip,Add Moment,Add Moment,,Add Moment tooltip
+Sequence_Tooltip_Search,Search,Search,,Search tooltip
+Sequence_Tooltip_LockUnlock_All_Tracks,Lock\Unlock All Tracks,Lock\Unlock All Tracks,,Lock\Unlock All Tracks tooltip
+Sequence_Tooltip_ShowHide_All_Tracks,Show\Hide All Tracks,Show\Hide All Tracks,,Show\Hide All Tracks tooltip
+Sequence_Tooltip_Collapse_All,Expand\Collapse all,Expand\Collapse all,,Expand\Collapse all tooltip
+SequenceDopeSheet_Components,Components,Components,,Components label
+SequenceDopeSheet_Tracks,Tracks,Tracks,,Tracks label
+SequenceDopeSheet_SelectResource,Select Resource,Select Resource,,Select resource to add as new track
+SequenceDopeSheet_SelectComponent,Select Component,Select Component,,Select component to add as new track
+SequenceDopeSheet_SearchResults,{0} of {1} results,{0} of {1} results,,Sequence track panel hierarchy search results
+SequenceDopeSheet_SearchResultsNone,No results found,No results found,,Sequence track panel hierarchy search results
+Sequence_Tooltip_Dopesheet_Zoom_Bar_BG,Zoom Bar,Zoom Bar,,Zoom Bar tooltip
+Sequence_Tooltip_Dopesheet_Track_New_Group,Add New Group,Add New Group,,Add New Group tooltip
+Sequence_Tooltip_Dopesheet_Track_New_ClipMask,Add New Clip Mask,Add New Clip Mask,,Add New Clip Mask tooltip
+Sequence_Tooltip_Dopesheet_Track_Add,Add Track,Add Track,,Add Track tooltip
+Sequence_Tooltip_Dopesheet_Track_Copy,Duplicate Track,Duplicate Track,,Duplicate Track tooltip
+Sequence_Tooltip_Dopesheet_Track_Delete,Delete Track,Delete Track,,Delete Track tooltip
+SequenceHierarchy_Tooltip_KeyNavPrev,Jump to previous key,Jump to previous key,,Jump to prev key tooltip
+SequenceHierarchy_Tooltip_KeyNavNext,Jump to next key,Jump to next key,,Jump to next key tooltip
+SequenceHierarchy_Tooltip_KeyToggleOn,Toggle key on,Toggle key on,,Toggle key on tooltip
+SequenceHierarchy_Tooltip_KeyToggleOff,Toggle key off,Toggle key off,,Toggle key on tooltip
+SequenceHierarchy_Tooltip_AddParameter,Add parameter track,Add parameter track,,Add parameter track tooltip
+SequenceHierarchy_Tooltip_KeyEditorLink,Link values,Link values,,Link values tooltip
+SequenceHierarchy_Tooltip_ToggleVisibility,Toggle visiblity,Toggle visiblity,,Toggle visiblity tooltip
+SequenceHierarchy_Tooltip_ToggleLocked,Toggle lock,Toggle lock,,Toggle lock tooltip
+SequenceHierarchy_Tooltip_ChangeColour,Change track colour,Change track colour,,Change track colour tooltip
+ListBoxEnum_eSequencePlayback_Normal,Normal,Normal,,Normal playback
+ListBoxEnum_eSequencePlayback_Loop,Loop,Loop,,Loop playback
+ListBoxEnum_eSequencePlayback_PingPong,Ping Pong,Ping Pong,,Ping pong playback
+Tooltip_eSequencePlayback_Normal,Normal playback of the indicated range,Normal playback of the indicated range,,Normal playback
+Tooltip_eSequencePlayback_Loop,Looped playback of the indicated range,Looped playback of the indicated range,,Loop playback
+Tooltip_eSequencePlayback_PingPong,Ping pong between start and end of indicated range,Ping pong between start and end of indicated range,,Ping pong playback
+Tooltip_EventsRaised,Events raised:\n{0},Events raised:\n{0},,Events raised tooltip
+CodeKey_ScriptDeletedTitle,Script missing,Script missing,,Message title
+CodeKey_ScriptDeleted,Script resource has been deleted.,Script resource has been deleted.,,Script deleted message
+CodeKey_TabTitle,Sequence Keyframe,Sequence Keyframe,,Keyframe code tab title
+CurveKey_OpenInEditor,Open Editor...,Open Editor...,,Open an animation curve in a pop-out editor
+AnimCurve_ToggleChannel,Toggle channel visibility,Toggle channel visibility,,Toggle channel visibility tooltip
 ResourceNode_Edit,Edit,편집,,Edit resource from resource tree
 ResourceNode_EditAll,Edit All,모두 편집,,Edit All resource from a resource tree group
+AssetBrowser_Title,Asset Browser,Asset Browser,,Asset browser window title
+AssetBrowser_Title_Arg,Asset Browser: {0},Asset Browser: {0},,Asset browser window title with argument
+AssetBrowser_CreateNew,Create Asset,Create Asset,,Asset browser create new
+AssetBrowser_ImportAssets,Import Asset,Import Asset,,Asset browser import assets
+AssetBrowser_SortFilter,Filter/Sort,Filter/Sort,,Asset browser filter/sort tooltip
+AssetBrowser_NoResults,No results found,No results found,,Asset browser no results
+AssetBrowser_SortAZ,A-Z,A-Z,,asset browser sort type label
+AssetBrowser_SortZA,Z-A,Z-A,,asset browser sort type label
+AssetBrowser_SortGroupFirst,Folders First,Folders First,,asset browser sort type label
+AssetBrowser_SortCustom,Custom Order,Custom Order,,asset browser custom sort order label
+AssetBrowser_QuickAccess,Quick Access,Quick Access,,quick access node title
+AssetBrowser_Recent,Recent,Recent,,quick access node recent title
+AssetBrowser_Favourites,Favourites,Favourites,,quick access node title
+AssetBrowser_RoomOrder,Room Order,Room Order,,quick access node title
+AssetBrowser_RoomInheritance,Room Inheritance,Room Inheritance,,room inheritance title
+AssetBrowser_RoomManager,Room Manager,Room Manager,,room manager title
+AssetBrowser_SavedFilters,Saved Searches,Saved Searches,,quick access node title
+AssetBrowser_EditTags,Edit Tags,Edit Tags,,edit tags label
+AssetBrowser_CreateGroup,Create Group,Create Group,,create group
+AssetBrowser_Create,Create,Create,,create asset
+AssetBrowser_CreateResourceType,Create {0},Create {0},,create (resource type name)
+AssetBrowser_AddFavourite,Favourite,Favourite,,add to favourites
+AssetBrowser_RemoveFavourite,Unfavourite,Unfavourite,,remove from favourites or unfavourite
+AssetBrowser_DefaultGroupName,group,group,,default name for new group/folder
+AssetBrowser_NewAssetBrowser,Open in new Asset Browser,Open in new Asset Browser,,open in new asset browser
+AssetBrowser_ClearFavourites,Clear Favourites,Clear Favourites,,asset browser clear favourites menu entry
+AssetBrowser_ClearRecent,Clear Recent Items,Clear Recent Items,,asset browser clear recently edited menu entry
+AssetBrowser_SaveCurrentFilter,Save Current Filter,Save Current Filter,,asset save current filter menu entry
+AssetBrowser_ResetFilter,Reset Filter,Reset Filter,,reset filter menu entry
+AssetBrowser_AllTypes,Any Types,Any Types,,all types label
+AssetBrowser_AllTags,Any Tags,Any Tags,,all tags label
+AssetBrowser_ApplyFilter,Apply Filter,Apply Filter,,apply filter menu entry
+AssetBrowser_ApplyTagFilter,Filter by Tag,Filter by Tag,,apply tag filter menu entry
+AssetBrowser_RemoveTagFilter,Remove from Filter,Remove from Filter,,un-apply tag filter menu entry
+AssetBrowser_Rename,Rename,Rename,,rename
+AssetBrowser_Edit,Edit,Edit,,Edit resource from resource tree
+AssetBrowser_EditAll,Edit All,Edit All,,Edit All resource from a resource tree group
+AssetBrowser_Tags,Tags,Tags,,tags
+AssetBrowser,Asset Browser,Asset Browser,,AssetBrowser preference group heading
+AssetBrowser_ResourceDelete_Confirm,Are you sure you want to delete {0}?,Are you sure you want to delete {0}?,,asset tree delete confirmation label
+AssetBrowser_ResourceDelete_ConfirmWithDependents,Are you sure you want to delete {0}?\nIt is referenced by {1},Are you sure you want to delete {0}?\nIt is referenced by {1},,asset tree delete with known dependents confirmation label
+AssetBrowser_MultipleResourceDelete_Confirm,Are you sure you want to delete {0} Assets: {1}?,Are you sure you want to delete {0} Assets: {1}?,,delete multiple resources confirmation label
+AssetBrowser_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,,Resource tree delete events confirmation label
+AssetBrowser_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted,Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted,,Resource tree delete confirmation label
+AssetBrowser_AssignSpriteToObject,Assign Sprite to Object,Assign Sprite to Object,,assign sprite to object
+AssetBrowser_CreateChildRoom,Create Child Room,Create Child Room,,create child room
+AssetBrowser_MultipleResourceSelection,<Multiple Assets>,<Multiple Assets>,,multiple resource selected
+AssetBrowser_ColourCellTT,Right-click to edit,Right-click to edit,,colour picker cell tooltip
+AssetBrowser_ColourPicker,Colour Picker,Colour Picker,,colour picker title
+AssetBrowser_ResourceTreeEmpty,No Assets,No Assets,,empty resource tree label
+AssetBrowser_SearchEmpty,No Search Results,No Search Results,,no search results label
+AssetBrowser_ExpandChildren,Expand Children,Expand Children,,expand child nodes menu entry
+AssetBrowser_ConfigEditor,Config Editor,Config Editor,,config editor
+AssetBrowser_ItemCountSingle,{0} item,{0} item,,item count label singular
+AssetBrowser_ItemCountPlural,{0} items,{0} items,,item count label plural
+AssetBrowser_SelectedCount,{0} selected,{0} selected,,selected count label
+AssetBrowser_Filters,Filters,Filters,,filters
+AssetBrowser_ClearFilters,Clear Filters,Clear Filters,,clear filters
+AssetBrowser_AssetType,Asset Type,Asset Type,,asset type
+AssetBrowser_SaveSearch,Save Search,Save Search,,save search
+AssetBrowser_ListView,List View,List View,,list view
+AssetBrowser_GridView,Grid View,Grid View,,grid view
+AssetBrowser_ShowTreeLocation,Show Tree Location,Show Tree Location,,show main tree location
+AssetBrowser_GameOptions,Game Options,Game Options,,game options
+AssetBrowser_IncludedFiles,Included Files,Included Files,,included files
+AssetBrowser_TTSortFilter,Sort/Filter,Sort/Filter,,sort filter button tooltip
+AssetBrowser_TTMenu,Menu,Menu,,menu button tooltip
+AssetBrowser_DeleteTagConfirmMessage,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,,delete tag confirm message
+ListBoxEnum_eAssetListStyle_Grid,Grid,Grid,,
+ListBoxEnum_eAssetListStyle_List,List,List,,
+ConfigEditor_CreateConfig,Create,Create,,create config
+ConfigEditor_DeleteConfig,Delete,Delete,,delete config
+ConfigEditor_AddConfig,Add Config,Add Config,,add config
+ConfigEditor_RenameConfig,Rename,Rename,,rename config
+ConfigEditor_SetConfig,Set Config,Set Config,,set config
+AnimCurveEditor_CurveType,Curve Type:,Curve Type:,,curve type
+AnimCurveEditor_Interpolation,Interpolation,Interpolation,,interpolation
+AnimCurveEditor_Graph,Graph,Graph,,graph
+AnimCurveEditor_Curves,Curves,Curves,,curves
+AnimCurve_Editor_AddCurve,Add Curve,Add Curve,,add curve
+AnimCurveEditor_ToggleVis,Toggle Visibility,Toggle Visibility,,toggle visibility
+AnimCurveEditor_DeleteAllCurves,Delete all curves,Delete all curves,,deleted all curves
+AnimCurveEditor_MultipleCurves,<Multiple Curves>,<Multiple Curves>,,anim curve editor multiple curves selected
+AnimCurve_CopyCurve,Copy Curve,Copy Curve,,copy curve
+AnimCurve_PasteCurve,Paste Curve,Paste Curve,,paste curve
+AnimCurve_CurveType,Curve Type,Curve Type,,curve type
+AnimCurve_Ease,Ease,Ease,,ease
+AnimCurve_Linear,Linear,Linear,,linear
+AnimCurve_EaseIn,Ease-In,Ease-In,,ease-in
+AnimCurve_EaseOut,Ease-Out,Ease-Out,,ease-out
+AnimCurve_EaseInOut,Ease-In-Out,Ease-In-Out,,ease in-out
+AnimCurve_Smooth,Smooth,Smooth,,smooth
+AnimCurve_Rename,Rename,Rename,,rename
+AnimCurve_Delete,Delete,Delete,,delete
+AnimCurve_DefaultChannelName,curve{0},curve{0},,default channel name
+AnimCurve_EmbeddedCurveName,Embedded Curve,Embedded Curve,,anim curve embedded curve
+assetbrowser_defaultfolders,Create default folders in new project,Create default folders in new project,,create default folders
+assetbrowser_maxrecentlyedited,Maximum recently edited items,Maximum recently edited items,,max recently edited count
+assetbrowser_palette_entry_count,Colour palette size,Colour palette size,,colour palette entry count
+assetbrowser_apply_qacolours,Apply Asset colours in Quick Access,Apply Asset colours in Quick Access,,apply colours in quick access
+assetbrowser_group_colour_override,Group colours override child colours,Group colours override child colours,,group colour override
+assetbrowser_asset_list_style,Create Asset dialogue style,Create Asset dialogue style,,create resource dialog style
+assetbrowser_defaultsortorder,Default sort order for new Asset Browsers,Default sort order for new Asset Browsers,,default sort order for new Asset Browsers
+assetbrowser_defaultfoldersfirst,Default sort folders first,Default sort folders first,,default sort folders first
+assetbrowser_duplicatefoldermove,Automatic response to duplicate group name error,Automatic response to duplicate group name error,,Automatically dismiss duplicate folder error
+assetbrowser_show_quickaccess,Show Quick Access,Show Quick Access,,asset browser quick access enabled pref
+assetbrowser_deletetag,Automatic response to delete tag confirmation,Automatic response to delete tag confirmation,,delete tag confirmation pref
 preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,선택된 API 수준에 미리 SDK 값 할당하기,,Pre-populate SDK values to chosen API Level
 preferences_android_genadaptive_icon,Generate Foregrounds From File:,파일로부터 배경 생성,,generate adaptive icons widget foreground file label
 preferences_android_genadaptive_bg,Generate Backgrounds From File:,파일로부터 전경 생성,,generate adaptive icons widget background file label
@@ -5462,7 +6252,7 @@ sourcecontrolgit_pull_complete,Pull Complete,가져오기 완료,,Pull Competed
 sourcecontrolgit_nothingtopush,There are no commits to push,발행할 사안이 없습니다.,,There are no commits to push
 sourcecontrolgit_push_complete,Push Complete,발행 완료,,Push Completed
 keystore_alias_password,Alias Password,대체 암호,,Alias Password Label
-ConfigurationProblem_MacDevice,Configuration Problem: No Mac device found. Check your target settings.,구성 문제: Mac을 실행하는 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem: No Mac device found. Check your target settings.
+ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,구성 문제: Mac을 실행하는 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No Mac device found. Check your target settings.
 ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 식별자가 정해지지 않았습니다.,,Configuration problem when no mac app id set
 ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 결과물이 정해지지 않았습니다.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
 ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK가 설치되지 않았습니다. 환경 설정을 확인하세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
@@ -5520,6 +6310,8 @@ ggs_xboxone_stats_2017,Stats 2017,통계 2017,,the radio group option for 2017 s
 ggs_xboxone_stats_2013,Stats 2013,통계 2013,,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,2013 시스템은 Microsoft에 의해 퇴역했으며 이미 개발 중인 타이틀에서만 사용이 가능합니다. \n2017 시스템에선 이제 서비스 명세가 필요 없습니다. \nMicrosoft에서 관련 문서를 참조하세요.,,tooltip for the stats sytem radio group
 Error_ResourceLoadFailures_Message,Resource load failures encountered...,자원을 불러오는데 실패했습니다.,,non-blocking errors have occurred message
+Error_ResourceFailedToLoad,Failed to load {0},Failed to load {0},,Failed to load given resource
+Error_ResourceMissing,Missing Resource {0},Missing Resource {0},,Resource missing during load
 android_build_settings_invalid,The SDK Build Settings are invalid,SDK 빌드 설정이 유효하지 않습니다.,,Android/Amazon Fire SDK Build Settings are invalid
 clean_runtimes_now,Clean Runtimes Now,지금 런타임을 청소합니다.,,Clean out older runtimes now
 clean_all_runtimes,Do you want to delete older runtimes from all feeds?,모든 공급처에서 구 런타임(들)을 삭제할까요?,,Clean out all runtimes from runtime folder
@@ -5530,19 +6322,6 @@ ggs_requires_nex,Enable support for NEX libraries,NEX 라이브러리 지원,,En
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,구성된 SLIM 자료가 없습니다. https://slim.mng.nintendo.net/slim/home에서 새로 만들까요?,,No SLIM data message box
 Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,오류: 장치 {0}이(가) 연결되지 않았습니다. 올바른 공급 프로필이 있나요?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
 Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,다음 기기들이 연결되지 않았습니다. 올바른 공급 프로필을 갖고 있는지 확인하세요.,,The following devices have not been paired. Please ensure they have valid provisioning profiles
-codecomp_rinstance,Room Instance,룸 개체,,Room Instance Code Completion label
-codecomp_audiogroup,Audio Group,오디오 묶음,,Audio Group Code Completion label
-codecomp_texturegroup,Texture Group,텍스처 묶음,,Texture Group Code Completion label
-codecomp_sprite,Sprite,스프라이트,,Sprite resource Code Completion label
-codecomp_tileset,Tile Set,타일 세트,,Tile Set resource Code Completion label
-codecomp_sound,Sound,소리,,Sound resource Code Completion label
-codecomp_path,Path,경로,,Path resource Code Completion label
-codecomp_script,Script,스크립트,,Script resource Code Completion label
-codecomp_shader,Shader,쉐이더,,Shader resource Code Completion label
-codecomp_font,Font,글꼴,,Font resource Code Completion label
-codecomp_timeline,Timeline,타임라인,,Timeline resource Code Completion label
-codecomp_object,Object,객체,,Object resource Code Completion label
-codecomp_room,Room,룸,,Room resource Code Completion label
 IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,FFmpegWrapper가 누락됨,,Missing FFmpegWrapper Title
 IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,FFmpegWrapper.dll 혹은 이의 의존성 파일이 없는 것 같습니다. 이는 잘못된 설치 과정 때문이거나 백신에 영향을 받았을 수 있습니다. 활성화된 바이러스 백신을 확인하시고 다시 진행하세요.,,Missing FFmpegWrapper dll message
 ProjectLoad_VerificationErrorTitle,Project Verification Error,프로젝트 검증 오류,,Project Verification Error Title
@@ -5566,14 +6345,63 @@ beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,GameMaker Studio 2 베타에
 beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,GameMaker Studio 2 베타에서 나가기,,beta_check_opt-out caption
 beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,GameMaker Studio 2를 재시작 할까요?,,beta channel warning
 beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",베타에서 나가시려면 확인을 누르시고 일반 대상 분기의 프로그램을 재설치해야 합니다. 출시 내역의 내려 받기 링크에서 설치하세요.,,beta channel downgrade info
-exception_faq_button_caption,"To see what data this report contains, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>""","이 보고에 어떤 내용이 포함되는지 보려면 <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">여길 참조하세요.</a>""",,exception faq button caption
+beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,,beta channel splash
+Convert_ConfirmMessage,This project is of an older format and will need to be converted. Proceed?,This project is of an older format and will need to be converted. Proceed?,,sequences project conversion confirmation dialogue message
+Convert_Success_Title,Conversion Success,Conversion Success,,Project Conversion success title
+Convert_Success_Message,The Project has successfully converted,The Project has successfully converted,,Project Conversion success message
+Convert_Failed_Title,Conversion Failed,Conversion Failed,,Project Conversion failed title
+Convert_Failed_Message,The Project conversion has failed,The Project conversion has failed,,Project Conversion failed message
+Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,You cannot save the converted project to the same folder as the original. Please select a new location.,,convert same folder dont do it message
+exception_faq_button_caption,"To see what data this report contains, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992>click here</a>","이 보고에 어떤 내용이 포함되는지 보려면 <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">여길 참조하세요.</a>""",,exception faq button caption
 exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience.,GameMaker Studio 2에 치명적인 오류가 발생하여 작동을 중단합니다.\n\n불편함을 끼쳐 죄송합니다.,,exception fatal error header caption
 exception_problem_header_caption,Please tell us about this problem.,이 문제에 대해 말씀해주세요.,,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",저희는 오류 보고를 받아 문제가 무엇인지 파악할 수 있습니다. 만약 더 자세한 경위를 말씀해주시면 큰 도움이 될 것입니다. 특히 발생 바로 직전에 어떤 일이 있었는지 알려주세요..\n\n중요!\n보내기 버튼을 누르면 여러분은 아래의 저희 개인정보 정책에 동의함을 내포합니다.,,exception blurb
 exception_send_caption,Send,보내기,,exception send button caption
 exception_dont_send_caption,Don't Send,보내지 않기,,exception dont send button caption
-exception_legal_blurb,"Our <a href=https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent  you may do so via our Preference Centre or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data  please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: ""","<a href=https://www.yoyogames.com/legal/privacy"">개인 정보 보호 정책</a>과 <a href=""https://www.yoyogames.com/legal/cookies"">쿠키 정책</a>은 여러분의 정보를 수집하고 처리하는 방식에 관여합니다. 꼭 시간을 내어 읽어 보세요.\n\n청약 철회 조건: 여러분은 언제든지 동의를 철회 할 권리가 있습니다. 동의를 철회하려면 Preference 센터 또는 도움 센터를 통해 문의하세요.\n\n저희의 정보 이용에 우려가 있으시다면<a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>의 정보 관리자에 문의 메일을 보내주세요.\n\n양식 버전: ",,exception legal blurb
+exception_legal_blurb,"Our <a href=https://www.yoyogames.com/legal/privacy>Privacy Policy</a> and <a href=https://www.yoyogames.com/legal/cookies>Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=mailto:datacontroller@yoyogames.com>datacontroller@yoyogames.com</a>\n\nForm version: ","<a href=https://www.yoyogames.com/legal/privacy"">개인 정보 보호 정책</a>과 <a href=""https://www.yoyogames.com/legal/cookies"">쿠키 정책</a>은 여러분의 정보를 수집하고 처리하는 방식에 관여합니다. 꼭 시간을 내어 읽어 보세요.\n\n청약 철회 조건: 여러분은 언제든지 동의를 철회 할 권리가 있습니다. 동의를 철회하려면 Preference 센터 또는 도움 센터를 통해 문의하세요.\n\n저희의 정보 이용에 우려가 있으시다면<a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>의 정보 관리자에 문의 메일을 보내주세요.\n\n양식 버전: ",,exception legal blurb
 exception_privacy_policy_caption,Privacy Policy,개인정보 정책,,exception privacy policy
 exception_form_version,crash-0.2,crash-0.2,,exception form version
 exception_upload_caption,Upload Status,상태,,exception form confirmation box caption
 exception_upload_confirmation,Upload Successful.,업로드가 성공했습니다.,,exception form confirmation box message
+Project_OldFormat_Title,Old Project Format,Old Project Format,,Old Project Format
+Project_OldFormat_Message,Project was created in an older IDE which may have format changes,Project was created in an older IDE which may have format changes,,Project was created in an older IDE which may have format changes
+ImportFromYY_Title,Importing Resources,Importing Resources,,Importing Resources Title
+ImportFromYY_NoProjectFound,Could not find a project for the resource file at {0},Could not find a project for the resource file at {0},,Project not found message for the given resource
+ImportFromYY_OldFormat,The project at {0} requires upgrading before you can import the requested resource(s). Do you want to do this now?,The project at {0} requires upgrading before you can import the requested resource(s). Do you want to do this now?,,The project requires an update do a newer format before we can import from it
+ImportFromYY_NothingToImport,There no resources found that we can import,There no resources found that we can import,,We cannot import any resources within the given set
+CoreResources_MissingResourceTitle,Project has missing Resources,Project has missing Resources,,Project has missing Resources title
+CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). Please check the Output log for more information.,This project has {0} missing Resource(s). Please check the Output log for more information.,,Project has missing x-amount of resources so check the log
+CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0} is missing and has {1} reference(s).,,Message to display in Output log due to missing resource
+CoreResources_LostResource,{0} was lost and moved to root of project.,{0} was lost and moved to root of project.,,Message to display when a resource has lost its parent
+Sequences_Events,Sequence Events,Sequence Events,,Events Window Caption
+Event_Async_Event,Async Event,Async Event,,Async Event
+Event_Broadcast_Message,Broadcast Message,Broadcast Message,,Broadcast Message
+Create_Event_Definition,Create Event Definitions,Create Event Definitions,,Create Event Definitions
+CanvasItem_TrackName,Track Name,Track Name,,track name
+CanvasItem_X,X,X,,x
+CanvasItem_Y,Y,Y,,x
+CanvasItem_Position,Position,Position,,position
+CanvasItem_Scale,Scale,Scale,,scale
+CanvasItem_Origin,Origin,Origin,,origin
+CanvasItem_ScaleX,Scale X,Scale X,,x scale
+CanvasItem_ScaleY,Scale Y,Scale Y,,x scale
+CanvasItem OriginX,Origin X,Origin X,,origin X
+CanvasItem OriginY,Origin Y,Origin Y,,origin Y
+CanvasItem_Sprite,Sprite,Sprite,,sprite resource
+CanvasItem_Object,Object,Object,,object resource
+CanvasItem_Sound,Sound,Sound,,sound resource
+Category_SpriteInfo,Sprite Information,Sprite Information,,inspector category label
+Category_BasicInfo,Basic Information,Basic Information,,inspector category label
+Category_SoundInfo,Sound Information,Sound Information,,inspector category label
+Category_InstanceInfo,Instance Information,Instance Information,,inspector category label
+Category_SequenceInfo,Sequence Information,Sequence Information,,inspector category label
+GMScript_BoilerPlate,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n},// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n},,GML Boiler plate for a new script
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
+AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,Do you want to create {0} Assets?,,label to warn user they are about to create a lot of resources
+AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,Creating Lots of Assets,,title for warning dialog box
+YoYoImage_UnknownFileFormat,Image format not recognised,Image format not recognised,,This image format was not recognised
+YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,The image '{0}' cannot be loaded.,,Message to show when an image cannot be loaded
+IDE_Warning,Warning,Warning,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},,File permissions failure on startup
+code_completion_builtin_struct,BuiltIn {0} Member,BuiltIn {0} Member,,Code Completion when built-in structure member used.
