@@ -11,7 +11,7 @@ $win_OpenInExplorer,Open In Explorer,탐색기에서 열기,,Windows version of 
 $win_OpenProjectInExplorer,Open Project In Explorer,탐색기에서 프로젝트 열기,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,탐색기에서 기록 열기,,Windows version of Show Log In Explorer
 $win_explorer,explorer,탐색기,,windows version of explorer
-$mac_explorer,finder,finder,,mac version of explorer
+$mac_explorer,finder,Finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Finder에서 보기,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Finder에서 프로젝트 보기,,Mac version of Open Project In Explorer
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,Finder에서 기록 살피기,,Mac version of Show Log In Explorer
@@ -23,10 +23,10 @@ $win_IDEMenuHelpAbout,About,알아보기,,Windows version of the About main menu
 $mac_IDEMenuHelpAbout,About GameMaker Studio 2,GameMaker Studio 2 알아보기,,Windows version of the About main menu entry
 $win_IDEMenuViews,Windows,창,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,창,,Mac version of the views menu entry
-$win_LaptopRHSKeys,Right Control and Right Alt,오른쪽 Ctrl과 Alt,,Windows version of laptop mode keys
-$mac_LaptopRHSKeys,Right Command and Right Alt,오른쪽 Command와 Alt,,Mac version of laptop mode keys
-$win_LaptopLZoomKey,Left Control,왼쪽 Ctrl,,Windows laptop mode zoom key
-$mac_LaptopLZoomKey,Left Command,왼쪽 Command,,Mac laptop mode zoom key
+$win_LaptopRHSKeys,Right Control and Right Alt,우측 Ctrl과 Alt,,Windows version of laptop mode keys
+$mac_LaptopRHSKeys,Right Command and Right Alt,우측 Command와 Alt,,Mac version of laptop mode keys
+$win_LaptopLZoomKey,Left Control,좌측 Ctrl,,Windows laptop mode zoom key
+$mac_LaptopLZoomKey,Left Command,좌측 Command,,Mac laptop mode zoom key
 Account_Menu_Login,Login,로그인,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,로그아웃,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,계정 관리,,"Account menu ""Account"""
@@ -72,7 +72,7 @@ LicenseNotification_BuyNow,Buy Now,구매,,Buy Now label
 LicenseNotification_ButtonBuyNow,BUY NOW,바로 구매,,BUY NOW label
 IDE_License_Label,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,IDE licence label
 IDE_TrialLicense_Label,Your trial is due to expire in {0} days,{0} 체험판이 {1}일 이내에 만료됩니다.,,IDE trial licence label
-marketplace_certificate_settings,Marketplace Certificate Settings,Marketplace Certificate Settings,,marketplace certificate settings pref
+marketplace_certificate_settings,Marketplace Certificate Settings,인증서 설정,,marketplace certificate settings pref
 Certificate_GenerateSucceeded,Successfully created certificate file: {0},인증서 생성에 성공했습니다: {0},,certificate create success
 Certificate_GenerateFailed,Failed to create certificate file: {0},인증서 생성에 실패했습니다: {0},,certificate create failed
 Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,인증서 파일 '{0}'이 이미 존재합니다. 새 파일 이름을 선택하세요.,,certificate file exists
@@ -356,7 +356,7 @@ Event_Other,Other,기타,,Other event name
 Event_Other_AnimationEnd,Animation End,애니메이션 종료,,Other event subtype
 Event_Other_AnimationEvent,Animation Event,애니메이션 이벤트,,Other event subtype
 Event_Other_AnimationUpdate,Animation Update,애니메이션 갱신,,Other event subtype
-Event_Other_BroadcastMessage,Broadcast Message,Broadcast Message,,Other event subtype
+Event_Other_BroadcastMessage,Broadcast Message,메시지 송출,,Other event subtype
 Event_Other_EndOfPath,Path Ended,경로 끝남,,Other event subtype
 Event_Other_GameEnd,Game End,게임 종료,,Other event subtype
 Event_Other_GameStart,Game Start,게임 시작,,Other event subtype
@@ -367,24 +367,24 @@ Event_Other_RoomStart,Room Start,룸 시작,,Other event subtype
 Event_Other_UserDefined,User Events,사용자 이벤트,,Other event subtype
 Event_Other_UserN,User Event {0},사용자 이벤트 {0},,event other user N
 Event_Other_Views,Views,뷰,,Other event subtype
-Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,뷰 {0} 의 경계선과 만남,,"Other-Views ""Boundary view"" event numberN"
-Event_Other_Views_OutsideViewN,Outside View {0},뷰 {0} 의 외부로 나감,,"Other-Views ""Outside view"" event numberN"
+Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,뷰 {0}의 경계선과 만남,,"Other-Views ""Boundary view"" event numberN"
+Event_Other_Views_OutsideViewN,Outside View {0},뷰 {0}의 외부로 나감,,"Other-Views ""Outside view"" event numberN"
 Event_Other_Views_Boundary,Intersect Boundary,뷰 경계선 만남,,Intersect boundary view group title
 Event_Other_Views_Outside,Outside View,뷰 외부로 나감,,Outside view group title
 Event_Step,Step,스텝,,Step event name
 Event_StepBegin,Begin Step,스텝 시작,,Begin Step event name
 Event_StepEnd,End Step,스텝 끝,,End Step event name
 Event_Unknown,Unknown Event,알 수 없는 이벤트,,Object editor unknown event name
-SeqEvents_Tooltip,Sequence Events,Sequence Events,,Events button tooltip
-SeqEvents_TypeFunctionNameHere,Type Function Name Here,Type Function Name Here,,Type Function Name Here
-SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},This will override the following functions:\n{0},,Used in the confirmation dialog
-SeqEvents_NewFunctionQuestion,Would you like to create new functions?,Would you like to create new functions?,,Seq func question
-SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,Sequence Events - Create New Functions,,Used as the confirmation dialog's title
-SeqMessages_TypeMessageHere,Type Broadcast Message Here,Type Broadcast Message Here,,Type Broadcast Message Here
-SeqMoments_Frames,Frame,Frame,,Frames label
+SeqEvents_Tooltip,Sequence Events,시퀀스 이벤트,,Events button tooltip
+SeqEvents_TypeFunctionNameHere,Type Function Name Here,여기에 함수의 이름을 입력하세요.,,Type Function Name Here
+SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},함수 '{0}'을(를) 덮어씌웁니다.,,Used in the confirmation dialog
+SeqEvents_NewFunctionQuestion,Would you like to create new functions?,새로운 함수를 만들까요?,,Seq func question
+SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,새 함수,,Used as the confirmation dialog's title
+SeqMessages_TypeMessageHere,Type Broadcast Message Here,여기에 송출할 메시지의 내용을 입력하세요.,,Type Broadcast Message Here
+SeqMoments_Frames,Frame,프레임,,Frames label
 Exit_AreYouSure,Are you sure you want to exit?,정말로 종료할까요?,,"On closing main desktop to quit, are you sure?"
 Exit_SaveProject,Do you want to save changes before exiting?,종료하기전 수정 사항을 저장할까요?,,Let user save project on exit
-CloseProject_Save,Do you want to save changes to the current project?,현재 프로젝트에 수정 사항을 저장할까요?,,Prompt user to save changes to current project
+CloseProject_Save,Do you want to save changes to the current project?,현재 프로젝트의 수정 사항을 저장할까요?,,Prompt user to save changes to current project
 Extension_Export,Enable in game,게임에서 사용,,Enable this extension in the game
 Extension_Import,Import extension,확장 기능 가져오기,,Extension import title
 Extension_Import_Button_Add,Add -->,추가 → ,,extension add resource button
@@ -432,31 +432,31 @@ FileError_PathTooLong,File Path Too Long,파일 경로가 너무 김,,File Path 
 FileError_Timeout,File Load Timeout,파일 불러오기 시간초과,,File Load Timeout
 Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),글꼴 {0}의 텍스처 생성이 건너뛰기 됐습니다. (기기에 글꼴이 없습니다),,Font generation failed
 Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet<
-Inspector,Inspector,Inspector,,Inspector preference heading
-Inspector_WindowTitle,Inspector,Inspector,,Inspector window title
-Inspector_WindowTitleArg,Inspector: {0},Inspector: {0},,Inspector window title with argument
-Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Inspector Window: Multiple Items,,Inspector window title multi select
-Inspector_ErrorTitle,Inspector Error,Inspector Error,,An error occurred in the inspector
-Inspector_Lock,Lock inspector to current selection,Lock inspector to current selection,,Lock inspector tooltip
-Inspector_Unlock,Unlock inspector to allow new selections,Unlock inspector to allow new selections,,Unlock inspector tooltip
-InspectorGadget_ListBox_Empty,(List is empty),(List is empty),,Label shown when a listbox is empty
-InspectorGadget_Array_Empty,(Array is empty),(Array is empty),,Label shown when an array is empty
-InspectorGadget_Object_Empty,(Object is not inspectable),(Object is not inspectable),,Label shown when an object is not inspectable
-InspectorGadget_ErrorLabel,'{0}' is not supported by the inspector,'{0}' is not supported by the inspector,,Inspector error label when layout fails
-InspectorGadget_Null,Element did not return a value,Element did not return a value,,Inspector null label
-InspectorGadget_ExceptionLabel,An exception was thrown by this element,An exception was thrown by this element,,Inspector exception label
-InspectorGadget_Coalescing_Disallowed_Tooltip,This field does not support bulk editing,This field does not support bulk editing,,Field cannot be coalesced tooltip
-InspectorGadget_Coalescing_Error_Tooltip,An error occurred in retrieving this value,An error occurred in retrieving this value,,Error occurred in retrieving value tooltip
-InspectorGadget_Coalescing_Differ_Tooltip,The selected elements have different values for this field,The selected elements have different values for this field,,Different values tooltip
-Inspector_ArrayItemNamed,Element {0} - {1},Element {0} - {1},,Label to represent array elements in inspector
-Inspector_ArrayItem,Element {0},Element {0},,Label to represent array elements in inspector
-Inspector_ArrayItemTooltip,This is an entry in the array,This is an entry in the array,,Tooltip to represent array elements in inspector
-Inspector_ArrayList_FailedToAddElement,Failed to add new element to the array list.,Failed to add new element to the array list.,,Failed to add new array list element
-Inspector_ArrayList_FailedToRemoveElement,Failed to remove element from the array list.,Failed to remove element from the array list.,,Failed to remove array list element
-Inspector_ArrayList_AddElementTooltip,Add another element,Add another element,,Tooltip to add another array list element
-Inspector_ArrayList_RemoveElementTooltip,Remove this element,Remove this element,,Tooltip to remove array list element
-Inspector_ArrayList_Size,Size:,Size:,,Array list size
-Inspector_ArrayList_Error,An error occurred while getting this value,An error occurred while getting this value,,Error getting array list value
+Inspector,Inspector,계측기,,Inspector preference heading
+Inspector_WindowTitle,Inspector,계측기,,Inspector window title
+Inspector_WindowTitleArg,Inspector: {0},{0},,Inspector window title with argument
+Inspector_WindowTitleMulti,Inspector Window: Multiple Items,다수의 감시 항목,,Inspector window title multi select
+Inspector_ErrorTitle,Inspector Error,계측기 오류,,An error occurred in the inspector
+Inspector_Lock,Lock inspector to current selection,현재 선택 사항에 계측기 고정,,Lock inspector tooltip
+Inspector_Unlock,Unlock inspector to allow new selections,계측기 고정 해제,,Unlock inspector tooltip
+InspectorGadget_ListBox_Empty,(List is empty),(목록이 비었습니다),,Label shown when a listbox is empty
+InspectorGadget_Array_Empty,(Array is empty),(배열이 비었습니다),,Label shown when an array is empty
+InspectorGadget_Object_Empty,(Object is not inspectable),(이 객체는 계측 불가능합니다),,Label shown when an object is not inspectable
+InspectorGadget_ErrorLabel,'{0}' is not supported by the inspector,{0}'은(는) 계측을 지원하지 않습니다.,,Inspector error label when layout fails
+InspectorGadget_Null,Element did not return a value,그 요소가 값을 반환하지 않았습니다.,,Inspector null label
+InspectorGadget_ExceptionLabel,An exception was thrown by this element,이 요소에서 예외가 발생했습니다.,,Inspector exception label
+InspectorGadget_Coalescing_Disallowed_Tooltip,This field does not support bulk editing,이 필드는 벌크 편집을 지원하지 않습니다.,,Field cannot be coalesced tooltip
+InspectorGadget_Coalescing_Error_Tooltip,An error occurred in retrieving this value,이 값을 읽어들일 때 오류가 발생했습니다.,,Error occurred in retrieving value tooltip
+InspectorGadget_Coalescing_Differ_Tooltip,The selected elements have different values for this field,선택된 요소들은 이 필드에 대해 각기 다른 값을 지니고 있습니다.,,Different values tooltip
+Inspector_ArrayItemNamed,Element {0} - {1},요소 {0} - {1},,Label to represent array elements in inspector
+Inspector_ArrayItem,Element {0},요소 {0},,Label to represent array elements in inspector
+Inspector_ArrayItemTooltip,This is an entry in the array,배열 안에 있는 개체입니다.,,Tooltip to represent array elements in inspector
+Inspector_ArrayList_FailedToAddElement,Failed to add new element to the array list.,변수 목록에 새 요소를 추가하지 못했습니다.,,Failed to add new array list element
+Inspector_ArrayList_FailedToRemoveElement,Failed to remove element from the array list.,변수 목록에서 요소를 제거하지 못했습니다.,,Failed to remove array list element
+Inspector_ArrayList_AddElementTooltip,Add another element,다른 요소 추가,,Tooltip to add another array list element
+Inspector_ArrayList_RemoveElementTooltip,Remove this element,이 요소 제거,,Tooltip to remove array list element
+Inspector_ArrayList_Size,Size:,크기:,,Array list size
+Inspector_ArrayList_Error,An error occurred while getting this value,이 값을 가져올 때 오류가 발생했습니다.,,Error getting array list value
 Inspector_ArrayList_Differing,Selected elements have different values for this field,Selected elements have different values for this field,,Different array list values
 Inspector_ArrayList_Disallowed,This list does not support bulk editing,This list does not support bulk editing,,Array list bulk editing not supported
 Inspector_ObjectPanel_Error,An error occurred while getting this value,An error occurred while getting this value,,Error getting object panel value
@@ -492,7 +492,7 @@ fonteditor_toomanyglyphs,and more (too many glyphs), 등등 (너무 많은 문�
 fonteditor_aa_off,Off,끄기,,Font Editor aa off
 fonteditor_aa_tooltip,"To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'","좀 더 나은 흑백 서체를 얻으려면, 옵션에서 획을 흑백으로 설정하세요.",,Monochrome font aa tooltip help
 fonteditor_font,Select Font,글꼴,,TTF font name
-fonteditor_texlastregen,Last generated on {0},{0}에 생성됨.,,Last font texture generate time stamp
+fonteditor_texlastregen,Last generated on {0},{0}에 생성됨,,Last font texture generate time stamp
 fonteditor_pref_successregendialog,Automatic choice for successful font regeneration dialog,글꼴 생성 성공,,Automatic choice for font dialog after regeneration
 fonteditor_pref_errorregendialog,Automatic choice for failed font regeneration dialog,글꼴 생성 실패,,Automatic choice for font dialog after regeneration
 fonteditor_pref_upgradedialog,Automatic choice for upgrading imported legacy font,구 글꼴 업그레이드,,Automatic choice for upgrading imported legacy font
@@ -534,7 +534,7 @@ fonteditor_size,Size,크기,,Size of font
 fonteditor_style,Presets,사전 설정,,Font Editor style group name
 fonteditor_stylename,Style,스타일,,Font editor style name
 fonteditor_toggle,Toggle,전환,,Font editor AA radio group header
-fonteditor_window,Font: {0},Font: {0},,Font editor title
+fonteditor_window,Font: {0},{0},,Font editor title
 fonteditor_options_window,Font Options,글꼴 옵션,,Font options window title
 fonteditor_includettf,Copy to project,프로젝트로 복사,,Font editor include TTF checkbox
 fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,프로젝트로 원본 글꼴 파일을 가져옵니다.\n이 자원이 포함된 장터 내의 자산에도 원본 글꼴이 삽입됩니다.,,tooltip for the 'includettf' copy to project checkbox
@@ -581,7 +581,7 @@ ComboBox_FlagMode_AllSelected,Everything,전부,,All items selected in combobox 
 GadgetToolbox_Button,Button,단추,,Gadget toolbox display name for button
 GadgetToolbox_BrowseButton,Browse Button,탐색 단추,,Gadget toolbox display name for the browse button
 GadgetToolbox_Buttons,Buttons,단추,,Gadget toolbox display name for the buttons group
-GadgetToolbox_CheckBox,Checkbox,체크박스,,Gadget toolbox display name for checkbox
+GadgetToolbox_CheckBox,Checkbox,체크 박스,,Gadget toolbox display name for checkbox
 GadgetToolbox_CloseButton,Close Button,닫기 단추,,Gadget toolbox display name for a close button
 GadgetToolbox_Colour,Colour,색상,,Gadget toolbox display name for colour group
 GadgetToolbox_ColourDialog,Colour Dialog,색상 대화상자,,Gadget toolbox display name for colour dialog
@@ -652,7 +652,7 @@ Gamemaker_News,News,소식,,News window title
 Gmez_NoProject,Gmez Import: No project to import into,가져올 프로젝트 없음,,Error when importing without a project loaded
 GraphicProperties_AnimSpeed,Speed,속도,,The animation speed for graphics
 GraphicProperties_FrameIndex,Frame,프레임,,The initial frame for the sprite
-GraphicProperties_HeadPosition,Head,Head,,The initial head for the sprite
+GraphicProperties_HeadPosition,Head,머리,,The initial head for the sprite
 GraphicProperties_Height,Height,높이,,graphic properties caption for height textbox
 GraphicProperties_PosX,X,X,,graphic properties caption for x textbox
 GraphicProperties_PosY,Y,Y,,graphic properties caption for y textbox
@@ -746,7 +746,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면 맞춤,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:1,1:1,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,왼쪽,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -1126,12 +1126,12 @@ MPackage_AssetDisplayName,Display name,표기 이름,,marketplace asset display 
 MPackage_DisplayNameInvalid,Display name is invalid,이름이 잘못되었습니다.,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,이름 제한,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,"- 반드시 5글자 이상, 30글자 미만이여야 합니다.",,asset create restriction label
-MPackage_DisplayNameRule2,- Must start with a letter,- Must start with a letter,,asset create restriction label
-MPackage_DisplayNameRule3,"- May only contain letters, numbers, dashes and underscores","- May only contain letters, numbers, dashes and underscores",,asset create restriction label
+MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
+MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRestrictions,Package ID Restrictions,패키지 식별자 제한,,asset create restriction label
-MPackage_PackageIdRule1,- Must be in the format com.companyname.assetname,- Must be in the format com.companyname.assetname,,asset create restriction label
-MPackage_PackageIdRule2,- Cannot contain spaces,- Cannot contain spaces,,asset create restriction label
-MPackage_PackageIdRule3,- Company and asset names may contain letters and numbers,- Company and asset names may contain letters and numbers,,asset create restriction label
+MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
+MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
+MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
 MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,중요! 자원을 생성 한 후에는 패키지 식별자를 변경할 수 없습니다.,,create asset warning label
 MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,버전 {1}의 패키지 '{0}'을 업로드했습니다.\n자원 목록으로 이동할까요?,,mplace package uploaded message
 MPackage_UploadFailed,Package upload failed: {0},패키지 올리기 실패,,mplace package upload failed message
@@ -1243,7 +1243,7 @@ InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance o
 ObjectEditor_PropType,Type,유형,,Variable type
 ObjectEditor_PropDefault,Default,기본값,,Variable default value
 ObjectEditor_PropParams,Options,옵션,,Variable attributes aka parameters
-InstanceEditor_PropBoolean_Label,True,True,,Boolean label
+InstanceEditor_PropBoolean_Label,TRUE,TRUE,,Boolean label
 ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
 ObjectEditor_RangeEnabled,Use Range,범위 사용,,Use ranged parameter
 ObjectEditor_RangeMin,Min,최소,,Min ranged parameter
@@ -2956,11 +2956,11 @@ Project_InheritedLargeChanges_Message,"Base project directory '{0}' has been rec
 Project_InheritedLargeChanges_Title,Base Project Directory Modified,기본 프로젝트 디렉토리가 변경되었습니다.,,message box title when the inherited project directory has been reconnected due to a buffer overflow
 ProjectReconnected_Reload,Reload,다시 불러오기,,button message for reloading the project
 ProjectReconnected_Save,Save,저장,,button message for saving the project
-ProjectReconnected_Delete,Delete,Delete,,button message for deleting resources
+ProjectReconnected_Delete,Delete,삭제,,button message for deleting resources
 Project_Changes_Message,"Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","프로젝트 경로 {0}에 변경 사항이 있습니다.\n자원을 다시 불러올까요, 아니면 저장할까요?\n경고: 저장 시엔 현재 메모리에 있는 자원만 갱신하므로 삭제되거나 편집된 일부 파일은 복원되지 않습니다.",,message box contents when the project directory has detected changes
 Project_Changes_Title,Project Directory Modified,프로젝트 경로가 변경되었습니다.,,message box title when the project directory has detected changes
-Project_Deletions_Title,Resources have been deleted,Resources have been deleted,,Resources have been deleted
-Project_Deletions_Message,"Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,Message to show that resources have been deleted and the user can either restore or save them
+Project_Deletions_Title,Resources have been deleted,자원이 삭제되었습니다.,,Resources have been deleted
+Project_Deletions_Message,"Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",디스크 '{0}'의 자원이 삭제되었습니다. 다시 저장하거나 프로젝트에서 자원을 지울 수 있습니다.\n\n경고: 현재 램에 저장된 자원만 복원하기에 일부 자원은 복구할 수 없을 수도 있습니다.,,Message to show that resources have been deleted and the user can either restore or save them
 Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","기본 프로젝트 디렉토리 '{0}'에 변경 사항이 있습니다. 자원을 다시 불러올까요, 아니면 저장할까요? \n\n주의: 저장 시엔 지금 메모리에 있는 자원 파일만 갱신되므로 삭제되거나 편집된 일부 파일은 복원되지 않습니다.",,message box contents when the project directory has detected changes
 Project_InheritedChanges_Title,Project Directory Modified,기본 프로젝트 경로가 변경되었습니다.,,message box title when the project directory has detected changes
 Project_ProjFileChanged_Message,"The main project file '{0}' has changed. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","주 프로젝트 파일 '{0}'이 변경되었습니다. 자원을 다시 불러올까요, 아니면 저장할까요?\n\n경고: 저장 시엔 현재 메모리에 있는 파일만 갱신되므로 삭제되거나 편집된 파일은 복원되지 않을 수 있습니다.",,message box contents when the main project file has changed
@@ -3004,7 +3004,7 @@ android_ipaddress,IP Address,IP 주소,,IP Address
 android_keystore,Android Keystore,Android 키스토어,,Android Keystore
 android_keystorepath,Path to Keystore,키스토어 경로,,Path to Keystore
 android_keystore_warning1,IMPORTANT! Backup keystore files and info above!,중요! 키스토어 파일 및 정보는 반드시 백업해 두십시오!,,IMPORTANT! Backup keystore files and info above!
-android_keystore_warning2,"If lost, you cannot submit app updates to Google Play or Amazon",잃어버리면 Google Play 혹은 Amazon 에 업데이트가 불가능합니다.,,If lost you cannot submit app updates to Google Play or Amazon
+android_keystore_warning2,"If lost, you cannot submit app updates to Google Play or Amazon",잃어버리면 Google Play 혹은 Amazon에 업데이트가 불가능합니다.,,If lost you cannot submit app updates to Google Play or Amazon
 android_package_name_invalid_title,Package name is invalid,패키지 이름이 잘못되었습니다.,,Android package name is invalid
 android_package_name_invalid,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,개별 패키지 이름 부분은 문자로 시작해야합니다.,,Android package name is invalid message and why
 clearoutputwindowoncompile,Clear output window on compile start,컴파일 시작 시 출력 창을 지우기,,Option to clear the output window on each compile
@@ -4980,7 +4980,7 @@ resourcetree_automaticsetparentroom,Automatic response to setting a room parent 
 resourcetree_automaticviewdeletion,Automatic response to deleting custom views,사용자 정의 보기 삭제,,the automatic response when deleting a custom view
 RoomEditor_InstanceLockToolTip,Lock Instance,개체 잠금,,tooltip for instance lock
 RoomEditor_GraphicLockToolTip,Lock Graphic,그래픽 잠금,,tooltip for graphic lock
-RoomEditor_SequenceLockToolTip,Lock Sequence,Lock Sequence,,tooltip for sequence graphic lock
+RoomEditor_SequenceLockToolTip,Lock Sequence,시퀀스 잠금,,tooltip for sequence graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),글꼴 (?)에서 사용중인 부호를 찾을 수 없음,,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,이 글꼴에 하나 이상의 기호가 누락되어 다른 글꼴에서 대체됩니다.,,Tooltip
 FontEditor_MissingFontError,Font is not available on this machine (?),해당 글꼴이 이 기기에 없습니다.,,This font is not available on this machine
