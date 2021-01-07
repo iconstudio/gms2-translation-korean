@@ -74,22 +74,22 @@ LicenseNotification_ButtonBuyNow,BUY NOW,구매하기,,BUY NOW label
 IDE_License_Label,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,IDE licence label
 IDE_TrialLicense_Label,Your trial is due to expire in {0} days,{0} 체험판이 {1}일 이내에 만료됩니다.,,IDE trial licence label
 marketplace_certificate_settings,Marketplace Certificate Settings,인증서 설정,,marketplace certificate settings pref
-Certificate_GenerateSucceeded,Successfully created certificate file: {0},인증서 생성에 성공했습니다: {0},,certificate create success
-Certificate_GenerateFailed,Failed to create certificate file: {0},인증서 생성에 실패했습니다: {0},,certificate create failed
-Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,인증서 파일 '{0}'이 이미 존재합니다. 다른 파일 이름을 고르세요.,,certificate file exists
+Certificate_GenerateSucceeded,Successfully created certificate file: {0},인증서 생성 성공: {0},,certificate create success
+Certificate_GenerateFailed,Failed to create certificate file: {0},인증서 생성 실패: {0},,certificate create failed
+Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,인증서 파일 '{0}'이 이미 있어요. 다른 파일 이름을 골라주세요.,,certificate file exists
 Certificate_RequiredFieldsMissing,Name and Password fields must be set,이름 및 암호를 입력해야 해요.,,create certificate missing fields
 Certificate_FileMissing,Unable to find certificate file '{0}',인증서 '{0}'을 찾을 수 없어요.,,certificate file missing
 Certificate_Test_Title,Certificate Check,인증서 확인,,certificate test title
-Certificate_PasswordFail,Password is NOT valid for certificate,올바르지 않은 암호입니다.,,certificate password fail
-Certificate_PasswordOK,Password is valid for certificate,올바른 암호입니다.,,certificate password ok
+Certificate_PasswordFail,Password is NOT valid for certificate,올바르지 않은 암호에요.,,certificate password fail
+Certificate_PasswordOK,Password is valid for certificate,올바른 암호에요.,,certificate password ok
 CertProperties_Heading,Set .pem certificate file and password,.pem 인증서 파일과 암호 설정,,certificate properties heading
 CertProperties_Heading2,(you can use an existing GameMaker:Studio marketplace certificate),(기존 GameMaker:Studio의 인증서를 사용할 수 있습니다),,certificate properties heading 2
 CertProperties_CertificateFile,Certificate File:,인증서 파일,,certificate file label
 CertProperties_CertificatePassword,Certificate Password:,인증서 암호,,certificate password label
 CertProperties_Check,Check,검증,,certificate properties check certificate button label
 CertProperties_CheckTooltip,Check that the password is valid for the selected certficate file,인증서의 암호를 제대로 입력했는지 확인하세요.,,certificate properties check tooltip
-CertProperties_CreateInfoLabel,"If you don't have a certificate, you can create one:",인증서가 없는 경우에는 만들 수 있습니다:,,certificate properties create info
-CertProperties_CreateNewCertificate,Create new certificate,새 인증서 생성,,certificate properties create new certificate button label
+CertProperties_CreateInfoLabel,"If you don't have a certificate, you can create one:",인증서가 없다면 새로 만들 수도 있어요:,,certificate properties create info
+CertProperties_CreateNewCertificate,Create new certificate,인증서 만들기,,certificate properties create new certificate button label
 CertProperties_CreateCertificate,Create Certificate,인증서 만들기,,certificate properties create certificate button label
 CertProperties_EnterCertDetails,Enter new certificate details:,인증서 상세 입력:,,certificate properties enter certificate details
 CertProperties_PublisherName,Publisher Name:,게시자 이름: ,,cert properties author name
@@ -101,42 +101,42 @@ CodeWindow_Menu_Help,Keyword help,단어 도움말,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,자원 보기,,Code window show resource menu option
 CodeWindow_SingleColumn,Single pane,1단,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,코드,,fullscreen code editor workspace tab title
-CodeWindow_RestoreToWorkspace,Restore to Workspace,작업공간으로 복원,,code editor restore to workspace context menu option
+CodeWindow_RestoreToWorkspace,Restore to Workspace,작업공간으로 되돌리기,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,이벤트 객체로 이동,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,이벤트 추가 / 열기,,code editor event script add event context menu option
 CodeWindow_OpenInheritedEvent,Open Inherited Event,상속된 이벤트 열기,,open inherited event context menu option
 GotoLine_Title,Go To Line,해당 줄로 이동,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),줄 번호 {0} - {1},,goto line label
 CompileErrors,Compile Errors,컴파일 오류,,Compile Errors tab title
-CompileErrors_NoErrors,There are no compile errors to show!,컴파일 오류가 없습니다!,,No compile errors message
+CompileErrors_NoErrors,There are no compile errors to show!,컴파일 오류가 없어요.,,No compile errors message
 Configuration,Configuration,구성,,Configuration
 Configuration_Select,Select Configuration,구성 선택,,Window title for config select
 Configurations,Configurations,구성,,Configurations
 Configurations_Add,Add New Configuration,구성 추가,,Add configuration window title
-Configurations_Delete,Are you sure you want to delete configuration '{0}'?,정말로 구성 {0}을(를) 지울까요?,,Confirm for deleting a configuration
-Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,확실한가요? 구성 {0}을(를) 삭제하면 구성 {1}이(가) 같이 삭제됩니다.,,Warning about deleting a configuration deleting child configs
-Configurations_DeleteError,Cannot delete configuration '{0}',구성 {0}을(를) 삭제할 수 없어요.,,Cannot delete a configuration error message
+Configurations_Delete,Are you sure you want to delete configuration '{0}'?,정말로 구성 '{0}' 지울까요?,,Confirm for deleting a configuration
+Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,확실한가요? 구성 '{0}'을 삭제하면 구성 '{1}'이 함께 지워져요.,,Warning about deleting a configuration deleting child configs
+Configurations_DeleteError,Cannot delete configuration '{0}',구성 '{0}'을 지울 수 없어요.,,Cannot delete a configuration error message
 Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,존재하는 구성의 이름을 복제할 수 없어요.,,Configuration name cannot be duplicated error message
-Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 구성을 만들 수 없어요.,,Cannot create configurations with the Trial version of GameMaker Studio 2 error message
-Configurations_InvalidNameError,The configuration name '{0}' is not valid,구성 이름 '{0}'이 유효하지 않아요.,,Configuration name provided is invalid
+Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 구성을 만들 수가 없어요.,,Cannot create configurations with the Trial version of GameMaker Studio 2 error message
+Configurations_InvalidNameError,The configuration name '{0}' is not valid,구성 이름 '{0}'이 올바르지 않아요.,,Configuration name provided is invalid
 Configurations_Manage,Manage Configurations,구성 관리,,Manage Configurations window title
 Configurations_NameEmptyError,New configuration name cannot be empty,구성의 이름은 공란으로 둘 수 없어요.,,Configuration name cannot be empty error message
 Configurations_NewName,New Configuration Name,새 구성 이름,,New configuration label
 Configurations_Parent,Parent Configuration,부모 구성,,Choose parent configuration label
 Configurations_Promote,Promote,승격,,Promotion of a config up the config hierarchy
 Configurations_Rename,Rename Configuration,구성 이름 바꾸기,,Rename configuration
-Configurations_RenameError,Cannot rename '{0}' configuration,구성 '{0}'의 이름을 바꿀 수 없습니다.,,Configuration name cannot be renamed error message
-Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,확실한가요? 구성 승격은 취소할 수 없습니다.,,Confirm the user really wants to promote a config
-ContextMenu_AddMenuEntry,Add Menu Entry,메뉴 항목 추가,,Context menu option to add a menu entry at the end of the context menu
-ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,아래에 메뉴 항목 추가,,Context menu option to add a menu entry below the selected entry
-ContextMenu_AddMenuEntryBefore,Add Menu Entry Above,위에 메뉴 항목 추가,,Context menu option to add a menu entry above the selected entry
-ContextMenu_AddMenuSeparatorAfter,Add Menu Separator Below,아래에 메뉴 분리대 추가,,Context menu option to add a separator below the selected entry
-ContextMenu_AddMenuSeparatorBefore,Add Menu Separator Above,위에 메뉴 분리대 추가,,Context menu option to add a separator above the selected entry
-ContextMenu_AddSubMenuEntry,Add Sub Menu Entry,하위 메뉴 항목 추가,,Context menu option to add a sub menu entry at the end of the context menu
-ContextMenu_AddSubMenuEntryAfter,Add Sub Menu Entry Below,아래에 하위 메뉴 항목 추가,,Context menu option to add a sub menu entry before the selected entry
-ContextMenu_AddSubMenuEntryBefore,Add Sub Menu Entry Above,위에 하위 메뉴 항목 추가,,Context menu option to add a sub menu entry after the selected entry
-ContextMenu_MoveEntryDown,Move Menu Item Down,메뉴 항목 아래로 이동,,Context menu option to move a menu entry or separator down
-ContextMenu_MoveEntryUp,Move Menu Item Up,메뉴 항목 위로 이동,,Context menu option to move a menu entry or separator up
+Configurations_RenameError,Cannot rename '{0}' configuration,구성 '{0}'의 이름은 바꿀 수 없어요.,,Configuration name cannot be renamed error message
+Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,확실한가요? 구성 승격은 취소할 수 없어요.,,Confirm the user really wants to promote a config
+ContextMenu_AddMenuEntry,Add Menu Entry,메뉴 항목 추가하기,,Context menu option to add a menu entry at the end of the context menu
+ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,아래에 메뉴 항목 추가하기,,Context menu option to add a menu entry below the selected entry
+ContextMenu_AddMenuEntryBefore,Add Menu Entry Above,위에 메뉴 항목 추가하기,,Context menu option to add a menu entry above the selected entry
+ContextMenu_AddMenuSeparatorAfter,Add Menu Separator Below,아래에 메뉴 분리대 추가하기,,Context menu option to add a separator below the selected entry
+ContextMenu_AddMenuSeparatorBefore,Add Menu Separator Above,위에 메뉴 분리대 추가하기,,Context menu option to add a separator above the selected entry
+ContextMenu_AddSubMenuEntry,Add Sub Menu Entry,하위 메뉴 항목 추가하기,,Context menu option to add a sub menu entry at the end of the context menu
+ContextMenu_AddSubMenuEntryAfter,Add Sub Menu Entry Below,아래에 하위 메뉴 항목 추가하기,,Context menu option to add a sub menu entry before the selected entry
+ContextMenu_AddSubMenuEntryBefore,Add Sub Menu Entry Above,위에 하위 메뉴 항목 추가하기,,Context menu option to add a sub menu entry after the selected entry
+ContextMenu_MoveEntryDown,Move Menu Item Down,메뉴 항목 아래로 이동시키기,,Context menu option to move a menu entry or separator down
+ContextMenu_MoveEntryUp,Move Menu Item Up,메뉴 항목 위로 이동시키기,,Context menu option to move a menu entry or separator up
 Dialog_AreYouSure,Are you sure?,확실한가요?,,"Generic ""Are you sure?"" dialog message"
 Dialog_Confirm,Confirm,확정,,"Dialog ""confirm"" heading"
 Dialog_Ignore,Ignore,무시,,dialog ignore label
@@ -150,10 +150,10 @@ Dialog_Error,Error,오류,,error dialog title
 Dialog_NotReady,Not Ready,준비되지 않음,,not ready dialog title
 Dialog_Success,Success,성공,,success dialog title
 Dialog_Invalid,Invalid,무효,,Dialog caption text for invalid input
-Dialog_InvalidInput,Invalid input. Please provide the required information.,유효하지 않은 입력입니다. 필요한 정보를 입력해주세요.,,A dialog message for invalid input in dialogs
+Dialog_InvalidInput,Invalid input. Please provide the required information.,유효하지 않은 입력이에요. 필요한 정보를 입력해주세요.,,A dialog message for invalid input in dialogs
 Dialog_SaveChangesToX,Save the changes to {0}?,수정 사항을 {0}에 저장할까요?,,Save changes to X query
 Dialog_Warning,Warning,경고,,"Dialog ""Warning"" title"
-DialogEditor_AddContextMenu,Add Context Menu,문맥 메뉴 추가,,Context menu option to add a context menu to the selected gadget
+DialogEditor_AddContextMenu,Add Context Menu,문맥 메뉴 추가하기,,Context menu option to add a context menu to the selected gadget
 DialogEditor_Cell,Grid Cell,격자 칸,,Layout Hierarchy heading for a grid cell group
 DialogEditor_ChildGadgets,Child Gadgets,자식 가젯,,Layout Hierarchy heading for a child gadgets group
 DialogEditor_ChildWindows,Child Windows,자식 윈도우,,Layout Hierarchy heading for a child windows group
@@ -173,10 +173,10 @@ DialogEditor_CutGadget,Cut Gadget,가젯 잘라내기,,menu entry for cutting a 
 DialogEditor_DeleteGadget,Delete Gadget,가젯 삭제,,menu entry for deleting the currently highlighted gadget
 DialogEditor_DeleteLayout,Delete Layout,레이아웃 삭제,,Dialog editor delete layout menu entry
 DialogEditor_DeleteLayout_AreYouSure,Are you sure you want to delete this layout?,정말로 이 레이아웃을 지울까요?,,Check the user really wants to delete the layout
-DialogEditor_DuplicateLayoutName,Dialog Editor: Duplicate Layout Name,레이아웃 이름 복제,,log prompt for user to indicate the layout name is already in use
-DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1}'\nthe style will continue to be saved in\n'{2}',복제하려는 스타일 이름 '{0}' 이 \n'{1}' 에 존재합니다.\n스타일은 다음 위치에 저장됩니다. \n'{2}'.,,warning message that a duplicate of a style name was found but will be ignored
+DialogEditor_DuplicateLayoutName,Dialog Editor: Duplicate Layout Name,대화상자 편집기: 레이아웃 이름 복제,,log prompt for user to indicate the layout name is already in use
+DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1}'\nthe style will continue to be saved in\n'{2}',스타일 이름 '{0}'이 \n'{1}'에 이미 있어요.\n스타일은 다음 위치에 저장돼요: \n'{2}'.,,warning message that a duplicate of a style name was found but will be ignored
 DialogEditor_Error,Error,오류,,dialog editor error box title
-DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',대화상자 편집기: .json 파일을 여는데 실패했습니다: '{0}',,The .json file selected failed to load
+DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',대화상자 편집기: json 파일을 여는데 실패했어요: '{0}',,The .json file selected failed to load
 DialogEditor_FileBrowse,Browse...,찾아보기...,,browse for filepath
 DialogEditor_FileName,File name:,파일 이름: ,,layout file name
 DialogEditor_FlattenSubLayout,Flatten SubLayout,하위 레이아웃 평탄화,,Context menu/menu bar entry for flattening a sub layout within a layout hierarchy
@@ -186,7 +186,7 @@ DialogEditor_GUIStyle,Style,스타일,,Gadget properties heading for the guistyl
 DialogEditor_Hierarchy,Layout Hierarchy,레이아웃 계층,,the title for the layout hierarchy window
 DialogEditor_HighlightedGadgetInfo,"relative position: ({0}px, {1}px) dimension: ({2}px, {3}px)","상대적 위치: ({0}px, {1}px) 차원: ({2}px, {3}px)",,display position and dimension of the currently highlighted gadget
 DialogEditor_HSVTextEntry,HSV Input,HSV 입력,,layout hierarchy label for the HSV input boxes
-DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,스타일 '{0}'은(는) 유효한 json 구조가 아닙니다. 스타일을 수정하거나 되돌리십시오. 수정 사항이 저장되지 않습니다.,,Error message when the user attempts to save a broken json style
+DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,스타일 '{0}'은 올바른 json 구조가 아니에요. 스타일을 수정하거나 되돌리세요. 수정 사항은 저장돼지 않아요.,,Error message when the user attempts to save a broken json style
 DialogEditor_LabelAndIconCollection,Name And Icon,이름과 아이콘,,Gadget properties heading for the LabelAndIcon class properties
 DialogEditor_Layout,Layout,레이아웃,,Gadget properties heading for the basic layout properties group
 DialogEditor_LayoutName,Layout name:,레이아웃 이름 ,,layout name
@@ -194,7 +194,7 @@ DialogEditor_ListBoxItems,List Items,목록 항목,,The layout hierarchy label f
 DialogEditor_LoadLayoutXML,Load Layout File,레이아웃 파일 불러오기,,Button prompt for loading a layout xml file
 DialogEditor_MenuBarEntry,Menu Bar Entry,메뉴 표시줄 개체,,layout hierarchy label for menubarentry gadget
 DialogEditor_MenuEntry,Menu Entry,메뉴 개체,,Layout Hierarchy heading for a menu entry
-DialogEditor_NewLayout,New Layout,새 레이아웃,,Dialog editor new layout menu entry
+DialogEditor_NewLayout,New Layout,새 레이아웃 만들기,,Dialog editor new layout menu entry
 DialogEditor_Node,Tree View Node,트리 보기 노드,,Tree view node label in the gadget layout hierarchy
 DialogEditor_NoJSONSelected,Dialog Editor: No JSON File Selected,JSON 파일이 선택되지 않았습니다.,,There was no .json file selected by the user
 DialogEditor_NoLayoutSelected,Dialog Editor: No Layout Selected,레이아웃이 선택되지 않았습니다.,,log prompt for user to indicate no layout was selected
@@ -716,7 +716,7 @@ IDEMenu_SoundMixer,Sound Mixer,소리 혼합기,,Open Sound Mixer
 IDEMenu_Layouts,Layouts,레이아웃,,Layouts
 IDEMenu_LoadLayout,Load Layout,불러오기,,Main menu entry for load layouts
 IDEMenu_SaveLayout,Save Layout,저장,,Main menu entry for save layouts
-IDEMenu_ResetLayout,Reset Layout,재설정,,Main menu entry for resetting the layout
+IDEMenu_ResetLayout,Reset Layout,초기화,,Main menu entry for resetting the layout
 IDETooltip_StartPage,Start Page,시작,,IDE toolbar tooltip for the home button
 IDETooltip_NewProject,New Project (${show_new_projects_page}),새 프로젝트 만들기 (${show_new_projects_page}),,IDE toolbar tooltip
 IDETooltip_OpenProject,Open Project (${load_project_dialog}),프로젝트 열기 (${load_project_dialog}),,IDE toolbar tooltip
@@ -735,17 +735,17 @@ IDETooltop_WorkspaceZoomIn,Zoom In (${zoom_in_workspace}),확대 (${zoom_in_work
 IDETooltop_WorkspaceZoomOut,Zoom Out (${zoom_out_workspace}),축소 (${zoom_out_workspace}),,workspace zoom out ide toolbar tooltip
 IDETooltop_WorkspaceZoomReset,Zoom Reset (${reset_workspace_zoom}),배율 재설정 (${reset_workspace_zoom}),,workspace zoom reset ide toolbar tooltip
 IDETooltop_CollapseDocks,Collapse/Expand dock panels (F12),도크 접거나 펼치기 (F12),,collapse/expand docks tooltip
-ImageEditor_AddFrame,Add Frame,프레임 추가,,Image editor menu option -Add frame
+ImageEditor_AddFrame,Add Frame,프레임 추가하기,,Image editor menu option -Add frame
 ImageEditor_AddFromFile,Import Image(s),그림 가져오기,,Add images from file menu option
-ImageEditor_CreateFromStrip,Convert to Frames,프레임으로 변환,,create from strip menu option
+ImageEditor_CreateFromStrip,Convert to Frames,프레임으로 변환하기,,create from strip menu option
 ImageEditor_ImportFromStrip,Import Strip Image,연속되는 그림 가져오기,,import strip image menu option
-ImageEditor_ExportToPNG,Export to PNG,PNG로 추출,,export to png image menu option
-ImageEditor_AddGroup,Add group,묶음 추가,,Image editor layer context menu - add group
-ImageEditor_AddLayer,Add layer,레이어 추가,,Image editor layer context menu - add layer
+ImageEditor_ExportToPNG,Export to PNG,PNG로 내보내기,,export to png image menu option
+ImageEditor_AddGroup,Add group,폴더 추가하기,,Image editor layer context menu - add group
+ImageEditor_AddLayer,Add layer,레이어 추가하기,,Image editor layer context menu - add layer
 ImageEditor_AllLayers,All Layers,모든 레이어,,effect all layers option
 ImageEditor_Arc_Iterations,Iterations:,반복,,Iterations slider label for Arc Tool
 ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
-ImageEditor_CancelSelection,Cancel Selection,선택 취소,,Image editor menu option -Cancel selection
+ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
 ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
@@ -800,14 +800,14 @@ ImageEditor_ImportScale_Import,Scale imported image,가져오는 그림 비율 �
 ImageEditor_InsertFrame,Insert Frame,프레임 삽입하기,,Image editor menu option -Insert frame
 ImageEditor_IntensityLabel,Intensity:,강도,,effect intensity
 ImageEditor_InterpLabel,Interpolation:,보간,,Image editor interpolation label
-ImageEditor_InvertSelection,Invert Selection,선택 영역 반전,,Image editor menu option -Invert selection
-ImageEditor_KeepAspectRatio,Keep aspect ratio,종횡 비 유지,,image editor keep aspect ratio label
+ImageEditor_InvertSelection,Invert Selection,선택 영역 반전하기,,Image editor menu option -Invert selection
+ImageEditor_KeepAspectRatio,Keep aspect ratio,종횡 비 유지하기,,image editor keep aspect ratio label
 ImageEditor_LayerBlendMode,Blend Mode:,혼합 방식,,Image layer properties - blend mode
 ImageEditor_LayerName,Name:,이름,,Layer Name label in Layer Preferences
 ImageEditor_LayerOpacity,Opacity:,불투명도,,Image layer properties - opacity
 ImageEditor_LayerPanelTitle,Layers,레이어,,layers panel title
 ImageEditor_LayerProperties,Layer Properties,레이어 속성,,Image layer properties title
-ImageEditor_Loop_Tooltip,Toggle loop/ping-pong,반복/핑퐁 전환,,Image editor loop/ping pong button tooltip
+ImageEditor_Loop_Tooltip,Toggle loop/ping-pong,반복/왕복 전환,,Image editor loop/ping pong button tooltip
 ImageEditor_Menu_Save,Save,저장,,Image editor menu option -Save
 ImageEditor_MergeAllLayers,Merge all layers,모든 레이어를 병합하기,,Image editor layer context menu - merge all layers
 ImageEditor_MergeGroup,Merge group,폴더를 병합하기,,Image editor layer context menu - merge group
@@ -2140,11 +2140,11 @@ DnD_Gadget_ResourceSelection_SelectResource,Select Resource,자원 선택하기,
 DnD_Gadget_BooleanInput,Boolean Input,불린 입력,,DnD™ gadget for boolean input
 DnD_Gadget_BooleanExprInput,Boolean Expression Input,불린 식 입력,,DnD™ gadget for boolean input
 DnD_Gadget_ColorPicker,Colour Picker,색상 선택 도구,,DnD™ gadget for picking a color
-DnD_Gadget_ColorPalette,Colour Palette,색 팔레트,,DnD™ gadget for picking a color
-DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),글자 입력 (다중 줄),,DnD™ gadget for multiline text input
+DnD_Gadget_ColorPalette,Colour Palette,색상 팔레트,,DnD™ gadget for picking a color
+DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),글자 입력 (여러 줄),,DnD™ gadget for multiline text input
 DnD_Gadget_CodeInput,Code Input,코드 입력,,DnD™ gadget for code input
 DnD_Gadget_Caption_GroupSelector,Options,옵션,,DnD™ label caption for the group selector gadget
-DnD_Gadget_GroupSelector,Group Selector,묶음 선택,,DnD™ group selector gadget name
+DnD_Gadget_GroupSelector,Group Selector,묶음 선택기,,DnD™ group selector gadget name
 DnD_Gadget_Caption_IsRelative,Relative,상대적,,DnD™ gadget caption name for Is Relative
 DnD_Gadget_Caption_IsTemp,Temp,임시,,DnD™ gadget caption name for Is Temp
 DnD_Gadget_Caption_ApplyTo,Apply To,적용 대상,,DnD™ gadget caption name for Apply To
@@ -2153,7 +2153,7 @@ DnDMaker_Arguments,Arguments,인수,,DnD™ Maker argument gadgets header
 DnDMaker_Gadgets,Gadgets,가젯,,DnD™ Maker gui gadgets header
 DnDMaker_Properties,Argument Properties,인자 속성,,DnD™ Maker properties header
 DnDMaker_Layout,Argument Layout,인자 레이아웃,,DnD™ Maker layout header
-DnDMaker_LivePreview,Node Designer ({0}),노드 설계 ({0}),,DnD™ Maker live preview header
+DnDMaker_LivePreview,Node Designer ({0}),노드 디자이너 ({0}),,DnD™ Maker live preview header
 DnDMaker_NoAction,No Action,동작 없음,,DnD™ Maker designer title no action selected
 DnDMaker_Groups,Layout Groups,레이아웃 묶음,,DnD™ Maker layout groups view header
 DnDMaker_Menu_Library,Library,라이브러리,,DnD™ Maker menu entry
@@ -2166,78 +2166,78 @@ DnDMaker_LangTrans,Translation,번역,,column
 DnDMaker_LangRes,Restrictions,제한 사항,,column
 DnDMaker_LangDesc,Description,설명,,column
 DnDMaker_Menu_Languages,Languages,언어,,DnD™ Maker menu entry
-DnDMaker_Menu_NewLang,New Language,새로운 언어,,DnD™ Maker menu entry
+DnDMaker_Menu_NewLang,New Language,새로운 언어 만들기,,DnD™ Maker menu entry
 DnDMaker_Menu_EditLang,Edit Language,언어 편집,,DnD™ Maker menu entry
-DnDMaker_Group_Default,Default,기본값,,DnD™ Maker default group name
+DnDMaker_Group_Default,Default,기본,,DnD™ Maker default group name
 DnDMaker_NewGroup,Group,묶음,,DnD™ Maker default new group name
-DnDMaker_NewSection,New Section,새 구역,,DnD™ Maker default new section name
-DnDMaker_NewAction,New Action,새 동작,,DnD™ Maker default new action name
-DnDMaker_Menu_NewNode,New Node,새 노드,,DnD™ Maker new node menu item
-DnDMaker_Menu_SaveNode,Save Node,노드 저장,,DnD™ Maker save node menu item
+DnDMaker_NewSection,New Section,새 구획 만들기,,DnD™ Maker default new section name
+DnDMaker_NewAction,New Action,새 동작 만들기,,DnD™ Maker default new action name
+DnDMaker_Menu_NewNode,New Node,새 노드 만들기,,DnD™ Maker new node menu item
+DnDMaker_Menu_SaveNode,Save Node,노드 저장하기,,DnD™ Maker save node menu item
 DnDMaker_Menu_PreviewNode,Preview,미리보기,,DnD™ Maker preview node menu item
 DnDMaker_Menu_EvaluateNode,Evaluate,평가하기,,DnD™ Maker evaluate node menu item
 DnDMaker_Menu_LoadLibrary,Load Library,라이브러리 불러오기,,DnD™ Maker load library menu item
 DnDMaker_Menu_SaveLibrary,Save Library,라이브러리 저장하기,,DnD™ Maker save library menu item
 DnDMaker_Menu_NewLibrary,New Library,새 라이브러리,,DnD™ Maker new library menu item
 DnDMaker_Library,My Library,내 라이브러리,,DnD™ Maker library header text
-DnDMaker_Menu_ExportLibrary,Export Library,라이브러리 추출,,DnD™ Maker export library menu item
+DnDMaker_Menu_ExportLibrary,Export Library,라이브러리 추출하기,,DnD™ Maker export library menu item
 DnDMaker_LibWizard_Label,Write new library name,새 라이브러리 이름 쓰기,,DnD™ Maker library wizard name label
 DnDMaker_LibWizard_OK,Create Library,라이브러리 만들기,,DnD™ Maker library wizard OK button
 DnDMaker_LibWizard_Cancel,Cancel,취소,,DnD™ Maker library wizard Cancel button
-DnDMaker_Menu_Sections,Sections,구역,,DnD™ Maker sections menu item
-DnDMaker_Menu_AddSection,Add Section,구역 추가,,DnD™ Maker add section menu item
+DnDMaker_Menu_Sections,Sections,구획,,DnD™ Maker sections menu item
+DnDMaker_Menu_AddSection,Add Section,구획 추가,,DnD™ Maker add section menu item
 DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,레이아웃 마법사 열기...,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_ExpandLocalisation,Expand Localisation,현지화 확장,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_AddGroup,Add Layout Group,레이아웃 묶음 추가,,DnD™ Maker add layout group menu item
+DnDMaker_Menu_ExpandLocalisation,Expand Localisation,현지화 확장하기,,DnD™ Maker Open Layout Wizard menu item
+DnDMaker_Menu_AddGroup,Add Layout Group,레이아웃 묶음 추가하기,,DnD™ Maker add layout group menu item
 DnDMaker_Menu_RenameGroup,Rename Layout Group,레이아웃 묶음 이름 바꾸기,,DnD™ Maker rename layout group menu item
-DnDMaker_Menu_RemoveGroup,Remove Layout Group,레이아웃 묶음 제거,,DnD™ Maker remove layout group menu item
-DnDMaker_CMenu_AddSection,Add Section,구역 추가,,DnD™ Maker context menu add section caption
+DnDMaker_Menu_RemoveGroup,Remove Layout Group,레이아웃 묶음 제거하기,,DnD™ Maker remove layout group menu item
+DnDMaker_CMenu_AddSection,Add Section,구획 추가하기,,DnD™ Maker context menu add section caption
 DnDMaker_CMenu_RemoveSectionOrAction,Remove,제거,,DnD™ Maker library context menu remove caption
 DnDMaker_CMenu_RenameSectionOrAction,Rename,이름 바꾸기,,DnD™ Maker library context menu rename caption
 DnDMaker_CMenu_EditAction,Edit Action,동작 편집,,DnD™ Maker library context menu edit caption
-DnDMaker_CMenu_RemoveGadget,Remove Gadget,가젯 제거,,DnD™ Maker designer remove gadget menu entry
-DnDMaker_CMenu_CopyGadget,Copy Gadget,가젯 복사,,DnD™ Maker designer copy gadget menu entry
+DnDMaker_CMenu_RemoveGadget,Remove Gadget,가젯 제거하기,,DnD™ Maker designer remove gadget menu entry
+DnDMaker_CMenu_CopyGadget,Copy Gadget,가젯 복사하기,,DnD™ Maker designer copy gadget menu entry
 DnDMaker_CMenu_CutGadget,Cut Gadget,가젯 잘라내기,,DnD™ Maker designer cut gadget menu entry
 DnDMaker_CMenu_PasteGadget,Paste Gadget,가젯 붙여넣기,,DnD™ Maker designer paste gadget menu entry
 DnDMaker_PopUp_OK,OK,확인,,DnD™ Maker popup window OK button
-DnDMaker_MustMakeLibrary,No library loaded.,불러온 라이브러리가 없습니다.,,DnD™ Maker no library loaded warning message
-DnDMaker_CMenu_AddGroup,Add Group,묶음 추가,,DnD™ Maker add group menu entry
+DnDMaker_MustMakeLibrary,No library loaded.,불러온 라이브러리가 없어요.,,DnD™ Maker no library loaded warning message
+DnDMaker_CMenu_AddGroup,Add Group,묶음 추가하기,,DnD™ Maker add group menu entry
 DnDMaker_CMenu_RenameGroup,Rename Group,묶음 이름 바꾸기,,DnD™ Maker rename group menu entry
-DnDMaker_CMenu_RemoveGroup,Remove Group,묶음 제거,,DnD™ Maker remove group menu entry
-DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,기본 묶음은 삭제될 수 없습니다.,,DnD™ Maker warning message
-DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,라이브러리는 삭제될 수 없습니다.,,DnD™ Maker cannot delete library node warning message
-DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,잘못된 동작 이름 : XML와 호환되어야 합니다.,,DnD™ Maker invalid action name warning message
-DnDMaker_NoActionLayout,This action has no layout.,이 동작은 레이아웃이 없습니다.,,DnD™ Maker invalid action layout warning message
-DnDMaker_CantShowPreview,Error -- Cannot show preview.,오류 - 미리보기 할 수 없습니다.,,DnD™ Maker cannot show preview warning message
-DnDMaker_NotEditingAction,You are not editing an action.,동작을 편집하고있지 않습니다.,,DnD™ Maker not editing action warning message
-DnDMaker_NotPreviewingAction,You are not previewing an action.,작업 미리보기가 아닙니다.,,DnD™ Maker not previewing action warning message
-DnDMaker_EvaluationResult,Evaluation Result,평가결과,,DnD™ Maker evaluation result window caption
-DnDMaker_ActionProperties,Action Properties,동작 속성,,DnD™ Maker action properties caption
-DnDMaker_DefaultCode,// Your code here,// 여기에 코드 작성,,DnD™ Maker default code input for group
+DnDMaker_CMenu_RemoveGroup,Remove Group,묶음 제거하기,,DnD™ Maker remove group menu entry
+DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,기본 묶음은 지워질 수 없어요.,,DnD™ Maker warning message
+DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,라이브러리는 지워질 수 없어요.,,DnD™ Maker cannot delete library node warning message
+DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,잘못된 동작 이름: XML와 호환돼야 해요.,,DnD™ Maker invalid action name warning message
+DnDMaker_NoActionLayout,This action has no layout.,이 동작엔 레이아웃이 없어요.,,DnD™ Maker invalid action layout warning message
+DnDMaker_CantShowPreview,Error -- Cannot show preview.,지금 미리 볼 수는 없어요.,,DnD™ Maker cannot show preview warning message
+DnDMaker_NotEditingAction,You are not editing an action.,동작을 편집 중이 아니세요.,,DnD™ Maker not editing action warning message
+DnDMaker_NotPreviewingAction,You are not previewing an action.,동작을 보고있지 않으세요.,,DnD™ Maker not previewing action warning message
+DnDMaker_EvaluationResult,Evaluation Result,평가 결과,,DnD™ Maker evaluation result window caption
+DnDMaker_ActionProperties,Action Properties,속성,,DnD™ Maker action properties caption
+DnDMaker_DefaultCode,// Your code here,// 코드 작성,,DnD™ Maker default code input for group
 DnDMaker_CodeCaption,Code (Group: {0}),코드 (묶음: {0}),,DnD™ Maker code for selected group caption
-DnDMaker_SaveError,Saving failed.,저장이 실패했습니다.,,DnD™ Maker save error message
-DnDMaker_SaveComplete,Library saved.,라이브러리가 저장되었습니다.,,DnD™ Maker library save message
+DnDMaker_SaveError,Saving failed.,저장할 수 없어요.,,DnD™ Maker save error message
+DnDMaker_SaveComplete,Library saved.,라이브러리를 저장했어요.,,DnD™ Maker library save message
 DnDMaker_DialogTitle,DnD™ Maker,DnD™ 제작기,,DnD™ Maker dialog title
-DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,저장되지 않은 수정 사항이 있습니다. 저장할까요?,,DnD™ Maker unsaved changes confirmation dialog
+DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,저장되지 않은 변경 사항이 있는데 저장할까요?,,DnD™ Maker unsaved changes confirmation dialog
 DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,계속하기 전에 현재 라이브러리를 저장할까요?,,DnD™ Maker unsaved library
-DnDMaker_ExportFailed,Exporting library failed.,라이브러리 추출을 실패했습니다.,,DnD™ Maker export failed message
-DnDMaker_OpenFailed,Couldn't open the specified library.,지정된 라이브러리를 열 수 없습니다.,,DnD™ Maker open library error message
-DnDMaker_CantParentAction,Actions can't be parents.,동작이 부모가 될 수 없습니다.,,DnD™ Maker drag into action error
-DnDMaker_CantParentGadget,Gadgets can't be parents.,가젯은 부모가 될 수 없습니다.,,DnD™ Maker drag into Gadgets error
-DnDMaker_NoSelectedGadget,You have not selected a gadget.,가젯을 선택하지 않으셨습니다.,,DnD™ Maker no selected gadget error
-DnDMaker_NoCopiedGadget,You have not copied a gadget.,가젯를 복사하지 않으셨습니다.,,DnD™ Maker no copied gadget error
+DnDMaker_ExportFailed,Exporting library failed.,라이브러리 내보내기가 실패했어요.,,DnD™ Maker export failed message
+DnDMaker_OpenFailed,Couldn't open the specified library.,지정된 라이브러리를 열 수 없어요.,,DnD™ Maker open library error message
+DnDMaker_CantParentAction,Actions can't be parents.,동작은 부모 항목이 될 수가 없어요.,,DnD™ Maker drag into action error
+DnDMaker_CantParentGadget,Gadgets can't be parents.,가젯은 부모 항목이 될 수가 없어요.,,DnD™ Maker drag into Gadgets error
+DnDMaker_NoSelectedGadget,You have not selected a gadget.,가젯을 고르지 않으셨어요.,,DnD™ Maker no selected gadget error
+DnDMaker_NoCopiedGadget,You have not copied a gadget.,가젯을 복사하지 않으셨어요.,,DnD™ Maker no copied gadget error
 DnDMaker_LayoutWizard,Layout Wizard,레이아웃 마법사,,DnD™ Maker layout wizard name
-DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD™ action.,이 마법사를 사용하면 DnD 동작에 대한 레이아웃을 쉽게 만들 수 있습니다.,,DnD™ Maker layout wizard help text
-DnDMaker_LayoutWizardArgCount,How many arguments do you need?,몇개의 인수가 필요합니까?,,DnD™ Maker layout wizard arg count
+DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD™ action.,이 마법사에서 DnD 동작에 대한 레이아웃을 쉽게 만들 수 있게 도와드려요.,,DnD™ Maker layout wizard help text
+DnDMaker_LayoutWizardArgCount,How many arguments do you need?,몇개의 인수가 필요한가요?,,DnD™ Maker layout wizard arg count
 DnDMaker_LayoutWizardArgCaption,Caption,표제,,DnD™ Maker layout wizard arg caption label
 DnDMaker_LayoutWizardArgGadget,Gadget,인자 가젯,,DnD™ Maker layout wizard arg gadget label
 DnDMaker_LayoutWizardArgTagName,Tag Name,태그 이름,,DnD™ Maker layout wizard arg tag name label
-DnDMaker_LayoutWizardIsRelative,Can Be Relative?,상대적입니까?,,DnD™ Maker layout wizard can be relative label
+DnDMaker_LayoutWizardIsRelative,Can Be Relative?,상대적 값인가요?,,DnD™ Maker layout wizard can be relative label
 DnDMaker_LayoutWizardProperties,Properties,속성,,DnD™ Maker layout wizard properties label
-DnDMaker_LayoutWizardIsTemp,Can Be Temp?,임시입니까?,,DnD™ Maker layout wizard can be temp label
-DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,레이아웃 마법사의 레이아웃이 누락되었습니다.,,DnD™ Maker layout wizard error
+DnDMaker_LayoutWizardIsTemp,Can Be Temp?,임시 값인가요?,,DnD™ Maker layout wizard can be temp label
+DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,레이아웃 마법사의 레이아웃이 누락됐어요.,,DnD™ Maker layout wizard error
 DnD_Loading,Loading...,불러오는 중...,,Loading dnd script
-DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,현지화를 확장하지 못했습니다.,,expand localisation error message
+DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,현지화를 확장하지 못했어요.,,expand localisation error message
 DnD_Gadget_Label,Label,글귀,,DnD™ Label gadget localised name
 DnD_Gadget_StackPanel,Stack Panel,스택 창,,DnD™ Stack Panel gadget localised name
 DnD_Gadget_Grid,Grid,격자,,DnD™ Grid gadget localised name
@@ -2246,7 +2246,7 @@ kbv_type_default,Default,기본,,Default virtual keyboard type
 kbv_type_ascii,ASCII,ASCII,,ASCII virtual keyboard type
 kbv_type_url,URL,URL 주소,,URL virtual keyboard type
 kbv_type_email,Email,전자메일,,Email virtual keyboard type
-kbv_type_numbers,Numbers,번호,,Numbers virtual keyboard type
+kbv_type_numbers,Numbers,숫자,,Numbers virtual keyboard type
 kbv_type_phone,Phone,전화,,Phone virtual keyboard type
 kbv_type_phone_name,Alphanumeric,이름,,Phone name virtual keyboard type
 kbv_returnkey_default,Default,기본값,,Return key type of virtual keyboard
@@ -2265,64 +2265,64 @@ kbv_autocapitalize_none,None,없음,,No autocapitalization
 kbv_autocapitalize_words,Words,단어,,Words autocapitalization
 kbv_autocapitalize_sentences,Sentences,문장,,Sentence autocapitalization
 kbv_autocapitalize_characters,Characters,글자,,Character autocapitalization
-Tutorial_Install_NoTutorials,Failed to find any tutorials in the installed package,설치된 패키지 중에서 튜토리얼을 발견하지 못했습니다.,,tutorial install error message
+Tutorial_Install_NoTutorials,Failed to find any tutorials in the installed package,설치된 패키지 중엔 튜토리얼이 없어요.,,tutorial install error message
 Tutorial_Install_Complete,Tutorial install complete!,튜토리얼 설치 완료!,,tutorial install complete message
-Tutorial_Download_Error,Error Downloading Tutorial: '{0}',튜토리얼 파일을 받아오는 동안 오류 발생: {0},,tutorial download error message
-Tutorial_Install_Failed,Tutorial Install Failed,튜토리얼 설치 실패함.,,tutorial install failed message
+Tutorial_Download_Error,Error Downloading Tutorial: '{0}',튜토리얼 파일 받아오기오류: {0},,tutorial download error message
+Tutorial_Install_Failed,Tutorial Install Failed,튜토리얼 설치 실패함,,tutorial install failed message
 Tutorial_Menu_OpenInBrowser,Open in browser,브라우저에서 열기,,tutorial context menu entry
 Tutorial_WindowTitle,Tutorial: {0},튜토리얼: {0},,tutorial window title
-Tutorial_LoadFailed,Error loading tutorial file: {0},튜토리얼 파일을 불러오는 동안 오류 발생: {0},,tutorial load error message
+Tutorial_LoadFailed,Error loading tutorial file: {0},튜토리얼 파일 불러오기 오류: {0},,tutorial load error message
 Tutorial_Install_Title,Installing Tutorial,튜토리얼 설치 중,,tutorial install window title
 Tutorial_Installing_Label,Installing:{0},설치 중: {0},,tutorial install window name label
 Tutorial_Install_ErrorTitle,Error installing tutorial,튜토리얼 설치 오류,,turorial install error
-Tutorial_Install_ErrorMessage,Failed to install tutorial package: {0},튜토리얼 패키지 {0}을(를) 설치하는데 실패했습니다.,,tutorial install fail message
+Tutorial_Install_ErrorMessage,Failed to install tutorial package: {0},튜토리얼 패키지 설치 실패: {0},,tutorial install fail message
 Tutorial_ProjectFileMissing,Unable to locate tutorial project file: {0},튜토리얼 템플릿 프로젝트를 찾지 못함: {0},,missing tutorial project file
-Tutorial_Create_DisplayNameMissing,Display name must be set,표기 이름이 정해져야 합니다.,,tutorial create error
+Tutorial_Create_DisplayNameMissing,Display name must be set,표기 이름이 정해져야 해요.,,tutorial create error
 Tutorial_DisplayNameLabel,Display Name:,표기 이름,,tutorial settings display name
 Tutorial_IconFileLabel,Icon File:,아이콘 파일,,tutorial setting icon file label
-Tutorial_VideoSettingsLabel,Optional video settings,선택적 영상 설정,,tutorial settings optional video label
+Tutorial_VideoSettingsLabel,Optional video settings,선택 영상 설정,,tutorial settings optional video label
 Tutorial_VideoUrlLabel,Video URL:,영상 URL,,tutorial setting label
-Tutorial_VideoHtmlLabel,HTML Video Page:,HTML 비디오 페이지,,tutorial setting label
+Tutorial_VideoHtmlLabel,HTML Video Page:,HTML 영상 페이지,,tutorial setting label
 Tutorial_StartPageLabel,HTML Start Page:,HTML 시작 페이지,,tutorial setting label
 Tutorial_Settings_Description,Tutorial Content Settings:,튜토리얼 내용 설정,,tutorial setting description
 Tutorial_Dock_Title,Tutorial,튜토리얼,,tutorial dock tab title
-Tutorial_FileMissing,Could not find {0},{0}을(를) 찾을 수 없음.,,tutorial missing file message
-Tutorial_DisplayNameMissing,Display name must be set,표기 이름이 정해져야 합니다.,,tutorial missing display name message
+Tutorial_FileMissing,Could not find {0},{0}을(를) 찾을 수 없어요.,,tutorial missing file message
+Tutorial_DisplayNameMissing,Display name must be set,표기 이름이 정해져야 해요.,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},오류로 인해 튜토리얼 가져오기에 실패했습니다: {0},,tutorial purchase error message
-Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder",포함 파일에 TutorialContent 폴더의 내용 추가,,tutorial package create info label
-Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder",포함 파일에 TutorialResources 폴더로 가져올 사용자의 파일 추가,,tutorial package create info label
+Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder",포함 파일에 TutorialContent 폴더의 내용물을 추가해요.,,tutorial package create info label
+Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder",포함 파일에 TutorialResources 폴더로 가져올 사용자의 파일을 추가해요.,,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},사용 가능한 업데이트: {0},,tutorial package update available notification
-Demo_PurchaseFailed,Error Acquiring Demo: {0},오류로 인해 데모 가져오기에 실패했습니다: {0},,demo purchase error message
-Demo_Download_Error,Error Downloading Demo: '{0}',오류로 인해 데모 받아오기에 실패했습니다: {0},,demo download error
+Demo_PurchaseFailed,Error Acquiring Demo: {0},데모 가져오기 실패: {0},,demo purchase error message
+Demo_Download_Error,Error Downloading Demo: '{0}',데모 받아오기 실패: {0},,demo download error
 yyzimporter_message,YYZ Importer,YYZ 가져오기,,YYZ Importer Message Title
-yyzimporter_failed,Failed to import YYZ,YYZ 가져오기를 실패했습니다.,,Failed to import YYZ error message
+yyzimporter_failed,Failed to import YYZ,YYZ 가져오기를 실패했어요.,,Failed to import YYZ error message
 yyzexport_message,YYZ Exporter,YYZ 내보내기,,YYZ Exporter Message Title
-yyzexport_success,YYZ Exported Successfully,YYZ를 성공적으로 내보냈습니다.,,YYZ Exported Successfully
-yyzexport_failed,YYZ Export Failed,YYZ 내보내기를 실패했습니다.,,YYZ Export Failed
+yyzexport_success,YYZ Exported Successfully,YYZ를 성공적으로 내보냈어요.,,YYZ Exported Successfully
+yyzexport_failed,YYZ Export Failed,YYZ 내보내기를 실패했어요.,,YYZ Export Failed
 InheritFromDialog_Title,Inherit From Project,프로젝트로부터 상속,,title for inherit from project dialog
 DnDEditor_Menu_Workspace,Workspace,작업공간,,DnD™ Editor Workspace caption
-DnDEditor_Menu_Save,Save,저장,,DnD™ Editor Workspace Save caption
+DnDEditor_Menu_Save,Save,저장하기,,DnD™ Editor Workspace Save caption
 DnDEditor_Menu_Reload,Reload,다시 불러오기,,DnD™ Editor Workspace Reload caption
 DnDEditor_CMenu_Preview,Live Preview,실시간 미리보기,,DnD™ Editor Workspace Reload caption
 DnDEditor_LivePreviewTitle,DnD™ Preview,DnD™ 미리보기,,DnD live preview tab title
-DnDNodeWindow_CMenu_PanToThis,Pan,이동,,DnD™ node window context menu
+DnDNodeWindow_CMenu_PanToThis,Pan,바로 보기,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Copy,Copy,복사,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Cut,Cut,자르기,,DnD™ node window context menu
-DnDNodeWindow_CMenu_Help,Show Help...,도움말 표시,,DnD node window context menu
+DnDNodeWindow_CMenu_Help,Show Help...,도움말 보기,,DnD node window context menu
 DnDNodeWindow_CMenu_Paste,Paste,붙여넣기,,DnD™ node window context menu
-DnDNodeWindow_CMenu_CollapseAll,Collapse All,모두 축소,,DnD node window context menu collapse all nodes
-DnDNodeWindow_CMenu_ExpandAll,Expand All,모두 확장,,DnD node window context menu expand all nodes
+DnDNodeWindow_CMenu_CollapseAll,Collapse All,모두 접기,,DnD node window context menu collapse all nodes
+DnDNodeWindow_CMenu_ExpandAll,Expand All,모두 펼치기,,DnD node window context menu expand all nodes
 DnDNodeWindow_CMenu_Evaluate,Evaluate...,평가,,DnD™ node window context menu
 ggs_graphics_scale,Scaling,비율,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,종횡 비 유지,,Game Settings Graphics Scale - Keep Aspect Ratio option
-ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
+ggs_launchscreen_fill,Launchscreen fill,시작 화면 채우기,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,최대 비율,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,버전,,Game Settings Version title
 ImagePath_ImageError,Error Selecting Image,그림 선택 오류,,Error when using image_path gadget to select an image
-ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}으로 예상됐지만 {2}x{3}을(를) 받았습니다,,Image wrong size with 0x1 being expected size and 2x3 being the image size
-ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),이 그림은 투명도 채널을 갖고 있을 거라 예상되었습니다 (32비트).,,The image needs to have an alpha channel but the selected one does not
+ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}으로 예상됐지만 {2}x{3}을 받았어요.,,Image wrong size with 0x1 being expected size and 2x3 being the image size
+ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),이 그림은 투명도 채널을 갖고 있을 거라 예상됐어요 (32비트).,,The image needs to have an alpha channel but the selected one does not
 ImagePath_FileError,Cannot access file: {0},접근할 수 없는 파일: {0},,Error when trying to access file where 0 is the filename
-ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,선택한 그림은 올바른 '{0}' 형식이 아닙니다.,,invalid image format message
+ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,선택한 그림은 올바른 '{0}' 형식이 아니에요.,,invalid image format message
 ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<게임 이름>,,Save Path to Local App Data
 ggs_windows_save_appdata,%appdata%\<Game Name>,%appdata%\<게임 이름>,,Save Path to Local App Data
 ggs_vertex_buffer_method,Vertex Buffer Method,정점 버퍼 처리기,,Vertex Buffer Method
@@ -2336,8 +2336,8 @@ ggs_texturepage_2048,2048x2048,2048x2048,,2048x2048 Texture Page Size
 ggs_texturepage_4096,4096x4096,4096x4096,,4096x4096 Texture Page Size
 ggs_texturepage_8192,8192x8192,8192x8192,,8192x8192 Texture Page Size
 ggs_certificate_install,Install,설치,,Install Certificate
-ggs_win8_logo_foreground_light,Light,밝음,,Light foreground text on Windows 8 logo
-ggs_win8_logo_foreground_dark,Dark,어두움,,Dark foreground text on Windows 8 logo
+ggs_win8_logo_foreground_light,Light,밝은 테마,,Light foreground text on Windows 8 logo
+ggs_win8_logo_foreground_dark,Dark,어두운 테마,,Dark foreground text on Windows 8 logo
 Edit,Edit,편집,,Edit label
 ggs_ps_package_id,Package Content ID,패키지 컨텐츠 식별자,,Package Content Id
 ggs_ps_passcode,Package Passcode,패키지 통과번호,,Package Passcode
@@ -2352,29 +2352,29 @@ ggs_package_name,Package Name,패키지 이름,,Package Name
 ggs_target_sdk,Target SDK,대상 SDK,,Target SDK
 ggs_minimum_sdk,Minimum SDK,최소 SDK,,Minimum SDK
 ggs_compile_sdk,Compile SDK,컴파일 SDK,,Compile SDK
-ggs_0_seconds,0 seconds,0 seconds,,0 seconds
-ggs_1_seconds,1 second,1 second,,1 second
-ggs_2_seconds,2 seconds,2 seconds,,2 seconds
-ggs_3_seconds,3 seconds,3 seconds,,3 seconds
-ggs_4_seconds,4 seconds,4 seconds,,4 seconds
-ggs_5_seconds,5 seconds,5 seconds,,5 seconds
-ggs_6_seconds,6 seconds,6 seconds,,6 seconds
-ggs_7_seconds,7 seconds,7 seconds,,7 seconds
-ggs_8_seconds,8 seconds,8 seconds,,8 seconds
-ggs_9_seconds,9 seconds,9 seconds,,9 seconds
-ggs_10_seconds,10 seconds,10 seconds,,10 seconds
-ggs_android_install_auto,Automatic,Automatic,,Automatic install location
-ggs_android_install_prefer_external,Prefer External,Prefer External,,Prefer External install location
-ggs_16bit,16bit,16bit,,16 bit depth
-ggs_24bit,24bit,24bit,,24 bit depth
-ggs_android_device_gpu,Only support Android devices with a GPU,Only support Android devices with a GPU,,Only install on Android devices with a GPU
-ggs_android_device_any,Install on any supported Android device,Install on any supported Android device,,Install on any Android Device
+ggs_0_seconds,0 seconds,0초,,0 seconds
+ggs_1_seconds,1 second,1초,,1 second
+ggs_2_seconds,2 seconds,2초,,2 seconds
+ggs_3_seconds,3 seconds,3초,,3 seconds
+ggs_4_seconds,4 seconds,4초,,4 seconds
+ggs_5_seconds,5 seconds,5초,,5 seconds
+ggs_6_seconds,6 seconds,6초,,6 seconds
+ggs_7_seconds,7 seconds,7초,,7 seconds
+ggs_8_seconds,8 seconds,8초,,8 seconds
+ggs_9_seconds,9 seconds,9초,,9 seconds
+ggs_10_seconds,10 seconds,10초,,10 seconds
+ggs_android_install_auto,Automatic,자동,,Automatic install location
+ggs_android_install_prefer_external,Prefer External,외부 저장소 선호,,Prefer External install location
+ggs_16bit,16bit,16비트,,16 bit depth
+ggs_24bit,24bit,24비트,,24 bit depth
+ggs_android_device_gpu,Only support Android devices with a GPU,GPU가 있는 Android 단말만 지원하기,,Only install on Android devices with a GPU
+ggs_android_device_any,Install on any supported Android device,지원되는 모든 Android 단말에 설치하기,,Install on any Android Device
 ggs_webgl,WebGL,WebGL,,WebGL
-ggs_webgl_disabled,Disabled,Disabled,,WebGL Disabled
-ggs_webgl_required,Required,Required,,WebGL Required
-ggs_webgl_autodetect,Auto Detect,Auto Detect,,Auto Detect WebGL
-ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone or iPod Touch,,iPhone or iPod Touch device selection
-ggs_ios_defer_home_indicator,Defer Home Indicator Input,Defer Home Indicator Input,,Defer Home Indicator Input for iPhone X
+ggs_webgl_disabled,Disabled,비활성화됨,,WebGL Disabled
+ggs_webgl_required,Required,요구됨,,WebGL Required
+ggs_webgl_autodetect,Auto Detect,자동 감지,,Auto Detect WebGL
+ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone 또는 iPod touch,,iPhone or iPod Touch device selection
+ggs_ios_defer_home_indicator,Defer Home Indicator Input,홈 인디케이터의 입력을 지연시키기,,Defer Home Indicator Input for iPhone X
 ggs_ios_devices_ipad,iPad,iPad,,iPad device selection
 ggs_both,Both,둘 다,,Both selections
 ggs_orientation,Orientation,방향,,Orientation
@@ -2406,7 +2406,7 @@ ggs_flipped_landscape_orientation,Allow flipped landscape orientation,뒤집힌 
 ggs_flipped_portrait_orientation,Allow flipped portrait orientation,뒤집힌 세로 회전 허용하기,,Allow Flipped Portrait Orientation
 ggs_team_identifier,Team Identifier,팀 식별자,,Team Identifier
 ggs_install_location,Install location,설치 위치,,Install Location
-ggs_moga_gamepad_support,Enable MOGA gamepad support,MOGA 게임패드 지원 사용,,Enable MOGA Gamepad Support
+ggs_moga_gamepad_support,Enable MOGA gamepad support,MOGA 게임패드 지원 활성화하기,,Enable MOGA Gamepad Support
 ggs_android_lint,Run Lint code analysis,Lint 코드 분석 실행,,Run Lint Code Analysis
 ggs_landscape_splash_screen,Landscape Splash Screen,가로 시동 화면,,Landscape Splash Screen
 ggs_portrait_splash_screen,Portrait Splash Screen,세로 시동 화면,,Portrait Splash Screen
@@ -2415,7 +2415,7 @@ LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Crea
 ggs_use_splash_screen,Use splash screen,시동 화면 사용하기,,Use Splash Screen
 LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,Creator 플랫폼에서는 시동 화면을 끌 수 없어요.,Do not localise 'Creator' it's a product name,use splash force enabled tooltip
 ggs_minimum_display_time,Minimum time to display,최소 표시 시간,,Minimum time to display
-ggs_interpolate_pixels,Interpolate colours between pixels,화소간의 색상 보정하기,,Interpolate colours between pixels
+ggs_interpolate_pixels,Interpolate colours between pixels,화소 사이의 색상 보정하기,,Interpolate colours between pixels
 ggs_screen_colour_depth,Screen Colour Depth,화면의 색 심도,,Screen Colour Depth
 ggs_device_support,Device Support,장치 지원,,Device Support
 ggs_scaling,Scaling,비율,,Scaling
@@ -3534,7 +3534,7 @@ WorkspaceMenu_Windows_ShowAll,Show All,모두 보기,,Workspace context menu sho
 InvalidTTFCharMap,The font {0} does not contain any character maps and cannot be loaded.,{0} 글꼴에 문자표가 없어서 불러올 수 없습니다.,,TTF error when font has no character maps
 RoomEditor_MousePosStatus,"({0}, {1})","({0}, {1})",,the mouse position label in the room editor status bar
 RoomEditor_SelectedItemStatus,"{0}: ({1}, {2})","{0}: ({1}, {2})",,the current selection status label in the room editor status bar for one selection
-RoomEditor_SelectedAreaStatus,"{4} selected items - area: ({0}, {1}) -> ({2}, {3})","{4} 선택된 항목 - 구역: ({0}, {1}) -> ({2}, {3})",,the current selection area status label in the room editor status bar for multiple selections
+RoomEditor_SelectedAreaStatus,"{4} selected items - area: ({0}, {1}) -> ({2}, {3})","{4} 선택된 항목 - 구획: ({0}, {1}) -> ({2}, {3})",,the current selection area status label in the room editor status bar for multiple selections
 RoomEditor_TileLayerStatus_Coord,"Tile map coordinate: ({0}, {1})","타일 지도 좌표: ({0}, {1})",,the current tile map coordinate status in the room editor status bar
 RoomEditor_TileLayerStatus_BrushIndices,Brush tiles: ({0}),타일 붓: ({0}),,the current tile brush indices status in the room editor status bar
 RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({2})","타일 지도 좌표: ({0}, {1}) 타일 붓: ({2})",,the current tile map coordinate and tile brush indices status in the room editor status bar
@@ -3769,10 +3769,10 @@ GMStdIfAnyObjAt_Name,If Any Object At Place,만약 아무 개체가 어떤 장�
 GMStdIfAnyObjAt_Desc,Check if an instance overlaps any object instances at a position.,지정한 위치에 어느 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
 GMStdIfObjAt_Name,If Object At Place,만약 어떤 개체가 어떤 장소에 있다면 ,,Drag and Drop™ library action name
 GMStdIfObjAt_Desc,Check if an instance overlaps one or more instances of a specific object at a position.,지정한 위치에 지정한 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
-GMStdIfColShape_Name,If Collision Shape,만약 어떤 모양의 구역에 충돌하면 ,,Drag and Drop™ library action name
-GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,지정한 위치에 있는 지정한 모양의 구역에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
-GMStdIfColPoint_Name,If Collision Point,만약 어떤 점 구역에 충돌하면 ,,Drag and Drop™ library action name
-GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,지정한 위치에 있는 점 모양의 구역에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
+GMStdIfColShape_Name,If Collision Shape,만약 어떤 모양의 구획에 충돌하면 ,,Drag and Drop™ library action name
+GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,지정한 위치에 있는 지정한 모양의 구획에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
+GMStdIfColPoint_Name,If Collision Point,만약 어떤 점 구획에 충돌하면 ,,Drag and Drop™ library action name
+GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,지정한 위치에 있는 점 모양의 구획에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
 GMStdDrawSelf_Name,Draw Self,자신 그리기,,Drag and Drop™ library action name
 GMStdDrawSelf_Desc,Draw this instance's sprite.,이 개체의 스프라이트를 그립니다.,,Drag and Drop™ library action description
 GMStdDrawValue_Name,Draw Value,어떤 값 그리기,,Drag and Drop™ library action name
@@ -4117,7 +4117,7 @@ GMStdWidth,Width,너비,,Drag and Drop™ library argument label
 GMStdHeight,Height,높이,,Drag and Drop™ library argument label
 GMStdStructure,Structure,구조,,Drag and Drop™ library argument label
 GMStdList,List,리스트,,Drag and Drop™ library argument label
-GMStdIndex,Index,번호,,Drag and Drop™ library argument label
+GMStdIndex,Index,순번,,Drag and Drop™ library argument label
 GMStdGrid,Grid,그리드,,Drag and Drop™ library argument label
 GMStdStack,Stack,스택,,Drag and Drop™ library argument label
 GMStdSound,Sound,소리,,Drag and Drop™ library argument label
@@ -4473,7 +4473,7 @@ WelcomePage_InstallingTitle,While we finish up your installation...,설치를 �
 WelcomePage_WelcomeTitle,Welcome,환영합니다,,title to be used if not installing.
 Welcome_ShowOnStartup,Show on startup,시작 시 보여주기,,do not show again label
 WelcomePage_Close,Close,닫기,,close label
-WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,완전히 새로운 {0} 시작하기 {1} 영상을 확인하세요.,, {0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,완전히 새로운 {0} 시작하는 방법에 대한 영상 {1}을 확인해보세요.,, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",편히 앉으세요. 저희 {0}의 멋진 신기술 {1}을 소개해드립니다.,, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0} 모든 것을 해결하세요. {1}. 이 곳에서 튜토리얼, 장터, 고객 지원 등 필요한 모든 것을 찾을 수 있습니다!",, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,시작 시 환영 화면 보기,,preference text
@@ -5452,7 +5452,7 @@ SoundMixer_Duration,{0} / {1}s,{0} / {1}초,,the current time and overall durati
 IDE_RuntimeVersionInfo,{1} Runtime v{0},{1} 런타임 버전 {0},,the runtime version information string
 IDE_VersionInfo,{1} IDE v{0},{1} IDE 버전 {0},,the ide version information string
 IDE_SteamVersionInfo,{1} IDE v{0} Steam,Steam {1} IDE 버전 {0},,the ide version information string when running from steam
-TileSetEditor_OutputError,Output size unsupported!,그 출력 크기는 지원되지 않아요!,,message displayed when the output texture for a tileset will be too large
+TileSetEditor_OutputError,Output size unsupported!,그 크기는 지원되지 않아요!,,message displayed when the output texture for a tileset will be too large
 TileSetEditor_OutputErrorTooltip,"Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes",출력될 텍스처의 크기가 너무 크면 일부 타일이 소실될 수도 있어요.\n원본 그림 또는 테두리 크기를 줄이세요.,,tooltip for the ouptut size unsupported error
 Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 도구 누락됨,,error dialog title when unable to find a ps4 tool
 Options_PS4ToolsSetupTrophyMessage,Unable to find PlayStation 4 trophy editor.\nPlease update your tools directory.\n{0},PlayStation 4 트로피 편집기를 찾을 수 없어요. 도구의 위치를 수정하세요.\n{0},,error message when failed to find the trophy editor
@@ -5520,24 +5520,24 @@ CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance
 CompileError_Script,Script: {0},스크립트: {0},,script error
 CompileError_Object,Object: {0},객체: {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},룸의 생성 코드: {0},,room creation code error
-CompileError_RoomInstance,Instance Code in Room: {0},룸 안의 개체의 코드: {0},,instance creation code error
+CompileError_RoomInstance,Instance Code in Room: {0},룸 안에 개체의 코드: {0},,instance creation code error
 CompileError_Vertex,Vertex Shader: {0},정점 쉐이더: {0},,vertex shader error
 CompileError_Fragment,Fragment Shader: {0},조각 쉐이더: {0},,fragment shader error
 CompileError_Timeline,Timeline: {0},타임라인: {0},,timeline error
-CompileError_Collision,{0} Collision Event With {1},{0}의 {1}와 충돌,,event error
+CompileError_Collision,{0} Collision Event With {1},{0}의 {1}와의 충돌,,event error
 CompileError_KeyEvent,{0} Key Event: {1},{0} 키: {1},,event error
 CompileError_KeyPressed,{0} Key Pressed: {1},{0} 키 눌렀음: {1},,event error
 CompileError_KeyReleased,{0} Key Released: {1},{0} 키 뗌: {1},,event error
 CompileError_Event,{0} Event: {1},{1}의 이벤트 {0}:,,event error
 CompileError_RoomInstanceName,{0} instance {1}: ,{1}의 개체 {0}:,,room instance error
 SyntaxError_RoomCode,{0} Creation Code,{0}의 생성 코드,,room creation code syntax error
-Notification_UpdatedRuntime,An updated runtime is available in {0}!,업데이트된 런타임을 {0}에서 사용할 수 있습니다!,,notification when a new runtime is available
+Notification_UpdatedRuntime,An updated runtime is available in {0}!,업데이트된 런타임을 {0}에서 사용할 수 있어요.,,notification when a new runtime is available
 Notification_Runtimes,Runtimes,런타임,,notification title
 Notification_Surveys,Surveys,설문 조사,,notification title
 Notification_Tutorials,Tutorials,튜토리얼,,notification title
 Notification_Demos,Demos,데모,,notification title
 General_Pref_RegenerateFontsImport,Update fonts imported from GameMaker Studio 1 projects,GameMaker Studio 1 프로젝트에서 가져온 글꼴 업그레이드,,Regenerate fonts on import from GMS1
-ConversionLog_SteamID,"Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct",{0} Steam 앱 ID 감지: Steam 앱 ID는 주 옵션 한 곳에서만 확인할 수 있어요. 기본 옵션이 맞는지 확인하세요.,,conversion log for steam app - param 0 platform (windows/mac/linux)
+ConversionLog_SteamID,"Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct",{0} Steam 앱 ID 감지: Steam 앱 ID는 주 옵션 한 곳에서만 확인할 수 있어요. 설정이 들어맞는지 확인해주세요.,,conversion log for steam app - param 0 platform (windows/mac/linux)
 ConversionLog_Windows,Windows,Windows,,conversion log windows platform
 ConversionLog_Mac,Mac,Mac,,conversion log mac platform
 ConversionLog_Linux,Linux,Linux,,conversion log linux platform
@@ -5798,8 +5798,8 @@ ggs_ipad_retina_56_landscape,iPad Retina iOS 5/6 Landscape,iPad Retina iOS 5/6 �
 ggs_ipad_56_portrait,iPad iOS 5/6 Portrait,iPad iOS 5/6 세로 모드,,iPad iOS 5/6 Portrait
 ggs_ipad_56_landscape,iPad iOS 5/6 Landscape,iPad iOS 5/6 가로 모드,,iPad iOS 5/6 Landscape
 ggs_iphone_x_landscape,iPhone X/Xs Landscape,iPhone X/XS 가로 모드,,iPhone X/Xs Landscape
-ggs_ios_launchscreen,Launch Screen,Launch Screen,,Launch Screen
-ggs_ios_launchscreen_landscape,Launch Screen Landscape,Launch Screen Landscape,,Launch Screen Landscape
+ggs_ios_launchscreen,Launch Screen,시작 화면,,Launch Screen
+ggs_ios_launchscreen_landscape,Launch Screen Landscape,시작 화면 가로 모드,,Launch Screen Landscape
 ggs_iphone_x_portrait,iPhone X/Xs Portrait,iPhone X/XS 세로 모드,,iPhone X/Xs Portrait
 ggs_iphone_xr_portrait,iPhone Xr Portrait,iPhone XR 세로 모드,,iPhone Xr Portrait
 ggs_iphone_xr_landscape,iPhone Xr Landscape,iPhone XR 가로 모드,,iPhone Xr Landscape
@@ -6190,7 +6190,7 @@ Sequence_Tooltip_Search,Search,Search,,Search tooltip
 Sequence_Tooltip_LockUnlock_All_Tracks,Lock\Unlock All Tracks,Lock\Unlock All Tracks,,Lock\Unlock All Tracks tooltip
 Sequence_Tooltip_ShowHide_All_Tracks,Show\Hide All Tracks,Show\Hide All Tracks,,Show\Hide All Tracks tooltip
 Sequence_Tooltip_Collapse_All,Expand\Collapse all,Expand\Collapse all,,Expand\Collapse all tooltip
-Sequence_Tooltip_AnimCurveMode,Toggle Curve Mode,곡선 켜고 끄기,,anim curve mode button tooltip
+Sequence_Tooltip_AnimCurveMode,Toggle Curve Mode,곡선 모드 켜고 끄기,,anim curve mode button tooltip
 SequenceDopeSheet_Components,Components,구성요소,,Components label
 SequenceDopeSheet_Tracks,Tracks,트랙,,Tracks label
 SequenceDopeSheet_SelectResource,Select Resource,자원 선택,,Select resource to add as new track
@@ -6214,8 +6214,8 @@ SequenceHierarchy_Tooltip_ToggleLocked,Toggle lock,잠그거나 풀기,,Toggle l
 SequenceHierarchy_Tooltip_ChangeColour,Change track colour,트랙 색상 변경,,Change track colour tooltip
 ListBoxEnum_eSequencePlayback_Normal,Normal,보통,,Normal playback
 ListBoxEnum_eSequencePlayback_Loop,Loop,반복,,Loop playback
-ListBoxEnum_eSequencePlayback_PingPong,Ping Pong,왔다갔다,,Ping pong playback
-Tooltip_eSequencePlayback_Normal,Normal playback of the indicated range,지시된 범위에서 재생해요.,,Normal playback
+ListBoxEnum_eSequencePlayback_PingPong,Ping Pong,왕복,,Ping pong playback
+Tooltip_eSequencePlayback_Normal,Normal playback of the indicated range,지시된 범위에서 재생돼요.,,Normal playback
 Tooltip_eSequencePlayback_Loop,Looped playback of the indicated range,지시된 범위에서 반복돼요.,,Loop playback
 Tooltip_eSequencePlayback_PingPong,Ping pong between start and end of indicated range,지시된 범위의 시작과 끝을 반복해요.,,Ping pong playback
 Tooltip_EventsRaised,Events raised:\n{0},이벤트가 발생됐어요:\n{0},,Events raised tooltip
@@ -6302,38 +6302,38 @@ AssetBrowser_UpOne,Up One,Up One,,arrange up one
 AssetBrowser_DownOne,Down One,Down One,,arrange down one
 ListBoxEnum_eAssetListStyle_Grid,Grid,Grid,,
 ListBoxEnum_eAssetListStyle_List,List,List,,
-ConfigEditor_CreateConfig,Create,Create,,create config
-ConfigEditor_DeleteConfig,Delete,Delete,,delete config
-ConfigEditor_AddConfig,Add Config,Add Config,,add config
-ConfigEditor_RenameConfig,Rename,Rename,,rename config
-ConfigEditor_SetConfig,Set Config,Set Config,,set config
-AnimCurveEditor_CurveType,Curve Type:,Curve Type:,,curve type
-AnimCurveEditor_Interpolation,Interpolation,Interpolation,,interpolation
-AnimCurveEditor_Graph,Graph,Graph,,graph
-AnimCurveEditor_Curves,Curves,Curves,,curves
-AnimCurveEditor_Curve,Curve:,Curve:,,curve label
-AnimCurve_Editor_AddCurve,Add Curve,Add Curve,,add curve
-AnimCurve_Editor_DeleteCurve,Delete Curve,Delete Curve,,delete curve
-AnimCurveEditor_ToggleVis,Toggle Visibility,Toggle Visibility,,toggle visibility
-AnimCurveEditor_DeleteAllCurves,Delete all curves,Delete all curves,,deleted all curves
-AnimCurveEditor_MultipleCurves,<Multiple Curves>,<Multiple Curves>,,anim curve editor multiple curves selected
-AnimCurve_CopyCurve,Copy Curve,Copy Curve,,copy curve
-AnimCurve_PasteCurve,Paste Curve,Paste Curve,,paste curve
-AnimCurve_CurveType,Curve Type,Curve Type,,curve type
-AnimCurve_Ease,Ease,Ease,,ease
-AnimCurve_Linear,Linear,Linear,,linear
-AnimCurve_EaseIn,Ease-In,Ease-In,,ease-in
-AnimCurve_EaseOut,Ease-Out,Ease-Out,,ease-out
-AnimCurve_EaseInOut,Ease-In-Out,Ease-In-Out,,ease in-out
-AnimCurve_Smooth,Smooth,Smooth,,smooth
-AnimCurve_2DBezier,Bezier,Bezier,,bezier2D
-AnimCurve_Rename,Rename,Rename,,rename
-AnimCurve_Delete,Delete,Delete,,delete
-AnimCurve_DefaultChannelName,curve{0},curve{0},,default channel name
-AnimCurve_EmbeddedCurveName,Embedded Curve,Embedded Curve,,anim curve embedded curve
+ConfigEditor_CreateConfig,Create,만들기,,create config
+ConfigEditor_DeleteConfig,Delete,지우기,,delete config
+ConfigEditor_AddConfig,Add Config,구성 추가하기,,add config
+ConfigEditor_RenameConfig,Rename,이름 바꾸기,,rename config
+ConfigEditor_SetConfig,Set Config,구성 정하기,,set config
+AnimCurveEditor_CurveType,Curve Type:,곡선 종류:,,curve type
+AnimCurveEditor_Interpolation,Interpolation,보간,,interpolation
+AnimCurveEditor_Graph,Graph,도표,,graph
+AnimCurveEditor_Curves,Curves,곡선,,curves
+AnimCurveEditor_Curve,Curve:,곡선:,,curve label
+AnimCurve_Editor_AddCurve,Add Curve,곡선 추가,,add curve
+AnimCurve_Editor_DeleteCurve,Delete Curve,곡선 삭제,,delete curve
+AnimCurveEditor_ToggleVis,Toggle Visibility,가시성 켜고 끄기,,toggle visibility
+AnimCurveEditor_DeleteAllCurves,Delete all curves,모든 곡선 삭제,,deleted all curves
+AnimCurveEditor_MultipleCurves,<Multiple Curves>,<다중 곡선>,,anim curve editor multiple curves selected
+AnimCurve_CopyCurve,Copy Curve,곡선 복제,,copy curve
+AnimCurve_PasteCurve,Paste Curve,곡선 붙여넣기,,paste curve
+AnimCurve_CurveType,Curve Type,곡선 종류,,curve type
+AnimCurve_Ease,Ease,보간,,ease
+AnimCurve_Linear,Linear,선형,,linear
+AnimCurve_EaseIn,Ease-In,작아지기,,ease-in
+AnimCurve_EaseOut,Ease-Out,키우기,,ease-out
+AnimCurve_EaseInOut,Ease-In-Out,작아졌다 키우기,,ease in-out
+AnimCurve_Smooth,Smooth,부드럽게,,smooth
+AnimCurve_2DBezier,Bezier,베지어,,bezier2D
+AnimCurve_Rename,Rename,이름 바꾸기,,rename
+AnimCurve_Delete,Delete,삭제,,delete
+AnimCurve_DefaultChannelName,curve{0},곡선 {0},,default channel name
+AnimCurve_EmbeddedCurveName,Embedded Curve,포함된 곡선,,anim curve embedded curve
 AnimCurve_ChannelValue_H,h,h,,h channel value
 AnimCurve_ChannelValue_V,v,v,,v channel value
-assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들 만들기,,create default folders
+assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들을 만들기,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최대로 보여줄 최근에 편집된 항목들의 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상 팔레트의 크기,,colour palette entry count
 assetbrowser_apply_qacolours,Apply Asset colours in Quick Access,빠른 실행에서 자산들에 색깔 적용하기,,apply colours in quick access 
@@ -6366,21 +6366,21 @@ preferences_android_genadaptive_mask_teardrop,Teardrop mask,물방울,,generate 
 ProgressBar_DownloadManual,Downloading Manual,설명서 내려 받는 중,MAX of 18 characters,Progress bar info
 Manual_Language_Selection,Manual Language,설명서 언어,,Manual Language Selection label
 LocalisedManual_NotInstalled,Would you like to download this manual?,이 설명서를 내려 받을까요?,,Localised manual not installed text
-LocalisedManual_NotInstalledTitle,Localised manual not installed,현지화 설명서가 설치되지 않았습니다.,,Localised manual not installed title
-LocalisedManual_NotLocalisedTitle,Manual not localised,설명서가 번역되지 않았습니다.,,Manual no localised title
-LocalisedManual_NotLocalised,The manual is not currently localised for this language,설명서가 이 언어에선 번역되지 않았습니다.,,Manual not localised message
+LocalisedManual_NotInstalledTitle,Localised manual not installed,현지화 설명서가 설치되지 않음,,Localised manual not installed title
+LocalisedManual_NotLocalisedTitle,Manual not localised,번역되지 않은 설명서,,Manual no localised title
+LocalisedManual_NotLocalised,The manual is not currently localised for this language,설명서가 이 언어에선 번역되지 않았어요.,,Manual not localised message
 LocalisedManual_DownloadFailedTitle,Manual download failed,설명서 내려 받기 실패,,The download of the manual failed
-LocalisedManual_DownloadFailed,An error occurred while trying to download the manual,설명서를 내려 받는 중에 오류가 발생했습니다.,,Error while downloading the manual
-LocalisedManual_DownloadMsg,"The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?","현재 언어 ({0})용 설명서가 설치돼 있지 않아요. 내려 받으시겠어요, 아니면 웹에서 이용할까요?",,manual download message
+LocalisedManual_DownloadFailed,An error occurred while trying to download the manual,설명서를 내려 받는 중에 오류가 발생했어요.,,Error while downloading the manual
+LocalisedManual_DownloadMsg,"The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?","현재 언어 ({0})용 설명서가 설치돼 있지 않아요. 내려 받으시겠어요, 아니면 온라인으로 볼까요?",,manual download message
 Manual_Download,Download,내려 받기,,manual download button text
 Manual_UseOnline,Use online manual,온라인 설명서,,manual use online text
 LocaliseManual_UpdateAvailableMsg,An update is available for the current manual language ({0}). Would you like to download it now?,현재 설명서를 업데이트할 수 있는데 지금 받을까요?,,manual update available message
 LocaliseManual_UpdateAvailableTitle,Manual update available,설명서 업데이트 사용 가능함,,manual update available title
-RuntimeDownload_FailedTitle,Runtime install incomplete,런타임 설치가 완료되지 않았습니다.,,Runtime download failed title
-RuntimeDownload_Failed,The selected runtime could not fully install,선택하신 런타임을 설치할 수 없습니다.,,Runtime download failed message
-sourcecontrolgit_noauthfound,No User/Pass authentication details found for {0},{0}에 맞는 사용자 인증 상세가 없습니다.,,No User/Pass authentication details found for the given url
-sourcecontrolgit_nosshfound,No SSH Keypair authentication details found for {0},{0}에 맞는 인증용 SSH 키 쌍이 없습니다.,,No SSH authentication details found for the given url
-sourcecontrolgit_projecthasrepository,Project already has repository!,프로젝트에 이미 저장소가 있습니다.,,This project already has a repository
+RuntimeDownload_FailedTitle,Runtime install incomplete,완료되지 않은 런타임 설치,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,선택하신 런타임을 설치할 수 없어요.,,Runtime download failed message
+sourcecontrolgit_noauthfound,No User/Pass authentication details found for {0},{0}에 맞는 사용자 인증 상세가 없어요.,,No User/Pass authentication details found for the given url
+sourcecontrolgit_nosshfound,No SSH Keypair authentication details found for {0},{0}에 맞는 인증용 SSH 키 쌍이 없어요.,,No SSH authentication details found for the given url
+sourcecontrolgit_projecthasrepository,Project already has repository!,프로젝트에 저장소가 이미 있어요.,,This project already has a repository
 sourcecontrolgit_creatingrepo,Creating Repository at {0},{0}에 저장소를 만드는 중,,Creating repository at the given url
 sourcecontrolgit_importingrepo,Importing Project to {0},{0}로 프로젝트를 가져가는 중,,Importing project to the given url
 sourcecontrolgit_nocommitsinrepoonpull,There are no commits to pull. Please commit and push first,"가져올 사안이 없어요. 먼저 확정 후 발행해주세요,",,There are no commits when trying to pull
@@ -6389,42 +6389,42 @@ sourcecontrolgit_pull_complete,Pull Complete,가져오기 완료,,Pull Competed
 sourcecontrolgit_nothingtopush,There are no commits to push,발행할 사안이 없어요.,,There are no commits to push
 sourcecontrolgit_push_complete,Push Complete,발행 완료,,Push Completed
 keystore_alias_password,Alias Password,대체 암호,,Alias Password Label
-ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,구성 문제: Mac을 실행하는 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No Mac device found. Check your target settings.
+ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,구성 문제: Mac을 실행하는 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No Mac device found. Check your target settings.
 ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 식별자가 정해지지 않았습니다.,,Configuration problem when no mac app id set
 ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 결과물이 정해지지 않았습니다.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
-ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK가 설치되지 않았습니다. 환경설정을 확인하세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK가 설치되지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
 ConfigurationProblem_MacAppStoreSteam,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,구성 문제: Mac App Store와 Steam에서 동시에 빌드할 수 없습니다.,,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.
 ConfigurationProblem_MacSteamIDMissing,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,구성 문제: Mac 빌드 용 Steam이 선택됐지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.
 ConfigurationProblem_MacSteamIDInvalid,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,구성 문제: Mac 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Mac Build for Steam has invalid Steam App Id.
-ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,구성 문제: iOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인하세요.,,Configuration Problem : iOS install path not set. Check your Preferences.
-ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,구성 문제: iOS 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No iOS device found. Check your target settings.
-ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,구성 문제: Linux 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No Linux device found. Check your target settings.
-ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,구성 문제: iOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : iOS install path not set. Check your Preferences.
+ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,구성 문제: iOS 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No iOS device found. Check your target settings.
+ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,구성 문제: Linux 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No Linux device found. Check your target settings.
+ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
 ConfigurationProblem_LinuxSteamIDMissing,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,구성 문제: Linux 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.
 ConfigurationProblem_LinuxSteamIDInvalid,Configuration Problem : Linux Build for Steam has invalid Steam App Id.,구성 문제: Linux 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Linux Build for Steam has invalid Steam App Id.
-ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,구성 문제: 아이콘 파일이 올바른 '*.png' 형식의 그림이 아닙니다.,,Configuration Problem : Linux icon file invalid
+ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,구성 문제: 아이콘 파일이 올바른 '*.png' 형식의 그림이 아니에요.,,Configuration Problem : Linux icon file invalid
 ConfigurationProblem_WindowsPackageName,Configuration Problem : Windows Package requires a valid Display Name.,구성 문제: Windows 패키지는 올바른 표기 이름을 가져야 합니다.,,Configuration Problem : Windows Package requires a valid Display Name.
 ConfigurationProblem_WindowsExeName,Configuration Problem : Windows Package requires a valid Executable Name.,구성 문제: Windows 패키지는 올바른 실행 파일 제목을 가져야 합니다.,,Configuration Problem : Windows Package requires a valid Executable Name.
 ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,구성 문제: 아이콘 파일이 올바른 '*.ico' 형식의 그림이 아닙니다.,,Configuration Problem : Icon file is not a valid '.ico' format image.
 ConfigurationProblem_WindowsVSPath,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Windows에서의 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
+ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
 ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,구성 문제: Windows 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.
 ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build for Steam has invalid Steam App Id.,구성 문제: Windows 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Windows Build for Steam has invalid Steam App Id.
-ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,구성 문제: PS4 SDK를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
-ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,구성 문제: PS4 도구 디렉토리를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
-ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: PS4에서의 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,구성 문제: tvOS 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No tvOS device found. Check your target settings.
-ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,구성 문제: tvOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인하세요.,,Configuration Problem : tvOS install path not set. Check your Preferences.
-ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,구성 문제: Windows UWP 기기를 찾을 수 없습니다. 대상 설정을 확인하세요.,,Configuration Problem : No Windows UWP device found. Check your target settings.
+ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,구성 문제: PS4 SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
+ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,구성 문제: PS4 도구를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: PS4에서는 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,구성 문제: tvOS 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No tvOS device found. Check your target settings.
+ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,구성 문제: tvOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : tvOS install path not set. Check your Preferences.
+ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,구성 문제: Windows UWP 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No Windows UWP device found. Check your target settings.
 ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,구성 문제: Windows UWP 환경설정에서 정의된 경로에서는 Windows 10 SDK를 찾을 수 없습니다.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
-ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Windows UWP에서의 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Windows UWP에서는 Visual Studio로의 경로는 배치 파일(.bat)로 정해져야 해요.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,구성 문제: Windows의 최소 대상 버전이 명시되지 않았습니다.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
 ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,구성 문제: Windows의 대상 버전이 명시되지 않았습니다.,,Configuration Problem : Windows Target Platform Version has not been filled out.
-ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,구성 문제: Xbox One 도구 디렉토리를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,구성 문제: Xbox One SDK 디렉토리를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,구성 문제: Xbox One SDK의 버전 {0}이 맞지 않습니다. 환경설정을 확인하세요.,,Configuration Problem : Xbox One SDK Version does not match
-ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,구성 문제: Microsoft Xbox One 디렉토리를 찾을 수 없습니다. 환경설정을 확인하세요.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Xbox One에서의 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,구성 문제: Xbox One 도구 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,구성 문제: Xbox One SDK 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,구성 문제: Xbox One SDK의 버전 {0}이 맞지 않습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Version does not match
+ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,구성 문제: Microsoft Xbox One 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Xbox One에서의+C6392:C6427,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 Provisioning,Provisioning,공급,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 메모리,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 프로 메모리,,title for options related to memory pool sizes
@@ -6445,16 +6445,16 @@ ggs_splash_screen_2x,Splash Screen Image 2x,시동 화면 그림 2x,,Splash Scre
 ggs_xboxone_stats_system,Microsoft Stats System,Microsoft 통계 시스템,,Microsoft Stats System
 ggs_xboxone_stats_2017,Stats 2017,통계 2017,,the radio group option for 2017 stats
 ggs_xboxone_stats_2013,Stats 2013,통계 2013,,the radio group option for 2013 stats
-ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,2013 시스템은 Microsoft에 의해 퇴역했으며 이미 개발 중인 타이틀에서만 사용이 가능합니다. \n2017 시스템에선 이제 서비스 명세가 필요 없습니다. \nMicrosoft에서 관련 문서를 참조하세요.,,tooltip for the stats sytem radio group
-Error_ResourceLoadFailures_Message,Resource load failures encountered...,자원을 불러오는데 실패했습니다.,,non-blocking errors have occurred message
-Error_ResourceFailedToLoad,Failed to load {0},Failed to load {0},,Failed to load given resource
-Error_ResourceMissing,Missing Resource {0},Missing Resource {0},,Resource missing during load
-android_build_settings_invalid,The SDK Build Settings are invalid,SDK 빌드 설정이 유효하지 않습니다.,,Android/Amazon Fire SDK Build Settings are invalid
-clean_runtimes_now,Clean Runtimes Now,지금 런타임을 청소합니다.,,Clean out older runtimes now
-clean_all_runtimes,Do you want to delete older runtimes from all feeds?,모든 공급처에서 구 런타임(들)을 지울까요?,,Clean out all runtimes from runtime folder
+ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,2013 시스템은 Microsoft에 의해 퇴역됐으며 이미 개발 중인 타이틀에서만 사용이 가능해요. \n2017 시스템에선 서비스 명세가 필요없어요. \nMicrosoft에서 관련 문서를 참조해주세요.,,tooltip for the stats sytem radio group
+Error_ResourceLoadFailures_Message,Resource load failures encountered...,자원을 불러오는데 실패했어요.,,non-blocking errors have occurred message
+Error_ResourceFailedToLoad,Failed to load {0},{0}을(를) 불러오는데 실패했어요.,,Failed to load given resource
+Error_ResourceMissing,Missing Resource {0},자원 {0}이(가) 누락됐어요.,,Resource missing during load
+android_build_settings_invalid,The SDK Build Settings are invalid,SDK 빌드 설정이 올바르지 않아요.,,Android/Amazon Fire SDK Build Settings are invalid
+clean_runtimes_now,Clean Runtimes Now,런타임 청소,,Clean out older runtimes now
+clean_all_runtimes,Do you want to delete older runtimes from all feeds?,모든 공급처에서 예전 런타임을 지울까요?,,Clean out all runtimes from runtime folder
 runtime_clean_title,Runtime Deletion,런타임 삭제됨,,Runtime Deletion title
 tvos_show_file_warning,Automatic response to tvOS persistent storage limitation warning,tvOS 지속 저장소 제한 경고,,Show tvOS file system warning preference setting
-tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS의 지속 저장소의 공간은 NSUserDefaults에서 500k 까지 제한되어 있습니다. 이 빌드 대상으로는 다른 클라우드 저장소를 이용하세요.,,Warning message for the tvos file system limitations
+tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS의 지속 저장소의 공간은 NSUserDefaults에서 500k까지 제한돼있어요. 이 빌드에서는 다른 클라우드 저장소를 이용해주세요.,,Warning message for the tvos file system limitations
 ggs_requires_nex,Enable support for NEX libraries,NEX 라이브러리 지원,,Enable support for NEX libraries
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,구성된 SLIM 자료가 없습니다. https://slim.mng.nintendo.net/slim/home에서 새로 만들까요?,,No SLIM data message box
 Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,오류: 장치 {0}이(가) 연결되지 않았습니다. 올바른 공급 프로필이 있나요?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
@@ -6472,7 +6472,7 @@ Beta Channel,Beta Channel,베타 분기,,Beta Channel preferences tag
 beta_1,Here you can opt in or out of the GameMaker Studio 2 Beta.,여기서 GameMaker Studio 2 베타에 참가하실 수 있습니다.,,beta_1 caption
 beta_2,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,여러분에게 정식 출시되기 전에 나온 GameMaker Studio 2 미리보기 버전을 받아 보실 수 있습니다.,,beta_2 caption
 beta_3,This product is covered by Section 2 of our ,이는 저희의 계약서 두번째 단락에 명시돼 있습니다.,,beta_3 caption
-beta_4,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"미리보기 빌드를 받는다는 것을 명심하세요. 이는 프로그램에 버그가 있거나 프로젝트를 손상시킬 수 있음을 의미합니다.\n따라서 저희는 무조건 프로젝트를 백업하고, 실제 사용 시에는 프로젝트 복사본을 이용하며, 또한 소스 제어를\n사용하시는 걸 추천 드립니다.",,beta_4 caption
+beta_4,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드라는 것을 명심하시길 바랍니다. 곧 프로그램에 버그가 있거나 프로젝트를 손상시킬 수 있음을 의미합니다.\n저희는 무조건 프로젝트를 백업하고, 실제 사용 시에는 프로젝트 복사본을 이용하며, 또한 소스 제어를\n사용하시는 걸 추천해 드립니다.",,beta_4 caption
 beta_5,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,만약 베타 빌드를 사용하시던 중에 프로젝트가 손상되었더라도 이를 복구할 방법은 없습니다.,,beta_5 caption
 beta_6,You can revert back to a non-beta build by clicking the button below.,아래의 단추를 눌러 일반 분기로 되돌아갈 수 있습니다.,,beta_6 caption
 beta_7,End User Licence Agreement,최종 사용자 라이선스 계약,,beta_7 caption
@@ -6482,15 +6482,15 @@ beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,GameMaker Studio 2 베타에
 beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,GameMaker Studio 2 베타에서 나가기,,beta_check_opt-out caption
 beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,GameMaker Studio 2를 재시작 할까요?,,beta channel warning
 beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",베타에서 나가시려면 확인을 누르시고 일반 대상 분기의 프로그램을 재설치해야 합니다. 출시 내역의 내려 받기 링크에서 설치하세요.,,beta channel downgrade info
-beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,,beta channel splash 
-Convert_ConfirmMessage,This project is of an older format and will need to be converted. Proceed?,This project is of an older format and will need to be converted. Proceed?,,sequences project conversion confirmation dialogue message
+beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드라는 것을 명심해주세요. 곧 프로그램에 버그가 있거나 프로젝트를 손상시킬 수도 있어요.\n꼭 프로젝트를 백업하시고, 실제 사용 시에는 프로젝트 복사본을 이용하며, 또한 소스 제어\n사용을 추천해드려요.",,beta channel splash 
+Convert_ConfirmMessage,This project is of an older format and will need to be converted. Proceed?,이 프로젝트는 예전의 프로젝트 구조를 띄고 있어서 변환이 필요해요. 계속할까요?,,sequences project conversion confirmation dialogue message
 Convert_Success_Title,Conversion Success,전환 성공,,Project Conversion success title
 Convert_Success_Message,The Project has successfully converted,프로젝트가 성공적으로 전환됐어요.,,Project Conversion success message
 Convert_Failed_Title,Conversion Failed,전환 실패,,Project Conversion failed title
 Convert_Failed_Message,The Project conversion has failed,프로젝트를 전환시키지 못했어요.,,Project Conversion failed message
 Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,원본과 같은 폴더에 저장할 수 없어요. 다른 위치를 지정해주세요.,,convert same folder dont do it message
-exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","보고서에 어떤 내용이 포함되는지 보시려면 <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">여길 참조하세요.</a>""",,exception faq button caption
-exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience.,GameMaker Studio 2에 치명적인 오류가 발생하여 작동을 중단됐어요.\n\n불편함을 끼쳐 죄송합니다.,,exception fatal error header caption
+exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","보고서에 어떤 내용이 포함되는지 보려면 <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">여길 참조해주세요.</a>""",,exception faq button caption
+exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience.,GameMaker Studio 2에 치명적인 오류가 발생해서 작동이 중단됐어요.\n\n불편함을 끼쳐드려 죄송해요.,,exception fatal error header caption
 exception_problem_header_caption,Please tell us about this problem.,이 문제에 대해 말씀해주세요.,,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",저희는 오류 보고를 받아 문제가 무엇인지 파악할 수 있어요. 더 자세한 경위를 말씀해주시면 큰 도움이 돼요. 특히 바로 직전에 어떤 일이 있었는지 알려주세요..\n\n중요!\n보내기 버튼을 누르는 것은 여러분의 저희의 개인정보 정책에 동의함을 내포합니다.,,exception blurb
 exception_send_caption,Send,보내기,,exception send button caption
@@ -6540,7 +6540,7 @@ AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다량의 자산
 YoYoImage_UnknownFileFormat,Image format not recognised,그림 형식이 인식되지 않았어요.,,This image format was not recognised
 YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,{0}'을 불러올 수 없어요.,,Message to show when an image cannot be loaded
 IDE_Warning,Warning,경고,,Warning for IDE
-IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2는 중요한 시스템 폴더에 접근할 수 없어요.\n환경설정을 보시고 접근 권한을 부여해주시거나 시스템 관리자에 연락하세요.\n\n{0},,File permissions failure on startup
+IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2는 중요한 시스템 폴더에 접근할 수 없어요.\n환경설정을 보고 접근 권한을 부여해주시거나 시스템 관리자에 연락하세요.\n\n{0},,File permissions failure on startup
 code_completion_builtin_struct,BuiltIn {0} Member,내장 {0} 멤버,,Code Completion when built-in structure member used.
 SnappableControls_Orientation_Top,Snap to top,상단에 맞추기,,Snappable widget controls snap to top button tooltip
 SnappableControls_Orientation_Bottom,Snap to bottom,하단에 맞추기,,Snappable widget controls snap to bottom button tooltip
