@@ -44,7 +44,7 @@ Breakpoints,Breakpoints,중단점,,Breakpoints
 Breakpoint_Delete,Delete Breakpoint,중단점 삭제,,delete breakpoint menu option
 Breakpoint_GotoCode,Go To Code,코드로 이동,,breakpoint show code menu option
 Breakpoint_MenuToggle,Toggle Breakpoint,중단점 전환,,toggle breakpoint menu option
-Breakpoint_Help,"There are no breakpoints to display.\nTo place one, press F9 on the desired line in a code editor.",중단점이 존재하지 않아요.\n코드 편집기의 원하는 곳에 F9를 눌러서 놓아보세요.,,Breakpoint help text to be displayed when there are no breakpoints
+Breakpoint_Help,"There are no breakpoints to display.\nTo place one, press F9 on the desired line in a code editor.",중단점이 없어요.\n코드 편집기의 원하는 곳에 F9를 눌러서 놓아보세요.,,Breakpoint help text to be displayed when there are no breakpoints
 Build_FailedCompile,ERROR: Project failed to compile: error code {0},프로젝트 컴파일 실패: {0},,Error message when the project fails to compile
 Build_FailedDeploy,ERROR: Project failed to deploy: error code {0},프로젝트 배포 실패: {0},,Error message when the project fails to deploy
 Build_FailedRun,ERROR: Project failed to run: error code {0},프로젝트 실행 실패: {0},,Error message when the project fails to run
@@ -213,7 +213,7 @@ DialogEditor_RevertStyleToOriginal,Revert Style To Original State,스타일을 �
 DialogEditor_RGBATextEntry,RGBA Input,RGBA 입력,,layout hierarchy label for the RGBA input boxes
 DialogEditor_RowSplitter,Grid Row Splitter,격자 행 구분자,,Layout Heirarchy heading for a grid row splitter
 DialogEditor_SaveAllStyles,Save All Styles,모든 스타일 저장,,Menu option to save all open styles to file
-DialogEditor_SaveAsLayout,Save Layout As...,레이아웃 다른 이름으로 저장,,Dialog editor save as layout menu entry
+DialogEditor_SaveAsLayout,Save Layout As...,레이아웃을 다른 이름으로 저장,,Dialog editor save as layout menu entry
 DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},오류 {0} - {1} 로 인해 저장이 실패하였습니다,,lop propmt for user to indicate the save failed
 DialogEditor_SaveLayout,Save Layout,레이아웃 저장,,Dialog editor save layout menu entry
 DialogEditor_SaveStyle,Save Style,스타일 저장,,Menu option to save a style to file
@@ -422,8 +422,8 @@ File_Menu_NewProject,New Project,새 프로젝트 만들기,,The New Project men
 File_Menu_OpenProject,Open Project,프로젝트 열기,,The Open Project menu item
 File_Menu_Preferences,Preferences,환경설정,,The Preferences menu item
 File_Menu_RecentProjects,Recent Projects,최근 프로젝트,,The Recent Projects menu item
-File_Menu_Save,Save Project,프로젝트를 저장하기 ,,The Save menu item
-File_Menu_SaveAs,Save Project As,프로젝트를 다른 이름으로 저장하기 ,,The Save As menu item
+File_Menu_Save,Save Project,저장하기 ,,The Save menu item
+File_Menu_SaveAs,Save Project As,다른 이름으로 저장하기 ,,The Save As menu item
 FileError_Cancelled,File Load Cancelled,파일 불러오기 취소됨,,File Load Cancelled
 FileError_DirectoryNotFound,File Directory Not Found,파일 디렉토리 찾을 수 없음,,File Directory Not Found
 FileError_Inaccessible,File Inaccessible,접근할 수 없는 파일,,File Inaccessible
@@ -466,7 +466,7 @@ Inspector_ObjectPanel_Differing,Selected elements have different values for this
 Inspector_ObjectPanel_Disallowed,This object does not support bulk editing,그 리스트는 일괄 편집을 지원하지 않아요.,,Object panel bulk editing not supported
 Inspector_EventList_Error,An error occurred while getting this value,이 값을 가져올 때 오류가 발생했어요.,,Error getting event list value
 Inspector_EventList_CannotCoalesce,Events do not support bulk editing,그 이벤트는 일괄 편집을 지원하지 않아요.,,Event list bulk editing error
-Inspector_EventList_AddElementTooltip,Add event,이벤트 추가하기.,,Tooltip to add a new event
+Inspector_EventList_AddElementTooltip,Add event,이벤트를 추가합니다.,,Tooltip to add a new event
 Inspector_UndoError,An error occurred while attempting to undo a change.,실행 취소할 때 오류가 발생했어요.,,Undo error message
 Inspector_RedoError,An error occurred while attempting to redo a change.,다시 실행할 때 오류가 발생했어요.,,Redo error message
 Inspector_Category_Physics,Physics,물리,,Inspector category
@@ -536,12 +536,12 @@ fonteditor_size,Size,크기,,Size of font
 fonteditor_style,Presets,사전 설정,,Font Editor style group name
 fonteditor_stylename,Style,스타일,,Font editor style name
 fonteditor_toggle,Toggle,전환,,Font editor AA radio group header
-fonteditor_window,Font: {0},{0},,Font editor title
-fonteditor_options_window,Font Options,글꼴 옵션,,Font options window title
+fonteditor_window,Font: {0},글꼴,,Font editor title
+fonteditor_options_window,Font Options,글꼴 설정,,Font options window title
 fonteditor_includettf,Copy to project,프로젝트로 복사,,Font editor include TTF checkbox
 fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,원본 글꼴 파일을 가져올 수 있어요.\n이 자원이 포함된 장터 내의 자산에도 원본 글꼴이 삽입돼요.,,tooltip for the 'includettf' copy to project checkbox
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
-fonteditor_selectttf,Select Font to Include,포함할 글꼴 선택하기,,Font editor include Font dialog title
+fonteditor_selectttf,Select Font to Include,포함할 글꼴 선택,,Font editor include Font dialog title
 fontrange_add_range,Add Range,범위 추가,,Confirm adding the range
 fontrange_ascii,ASCII,ASCII,,Font range dialog - ASCII characters button
 fontrange_caption,Font Range,글꼴 범위,,Name of the font range dialog
@@ -719,8 +719,8 @@ IDEMenu_SaveLayout,Save Layout,저장,,Main menu entry for save layouts
 IDEMenu_ResetLayout,Reset Layout,초기화,,Main menu entry for resetting the layout
 IDETooltip_StartPage,Start Page,시작,,IDE toolbar tooltip for the home button
 IDETooltip_NewProject,New Project (${show_new_projects_page}),새 프로젝트 만들기 (${show_new_projects_page}),,IDE toolbar tooltip
-IDETooltip_OpenProject,Open Project (${load_project_dialog}),프로젝트 열기 (${load_project_dialog}),,IDE toolbar tooltip
-IDETooltip_Save,Save Project (${menu_save_project_incremental}),프로젝트 저장하기 (${menu_save_project_incremental}),,IDE toolbar tooltip
+IDETooltip_OpenProject,Open Project (${load_project_dialog}),열기 (${load_project_dialog}),,IDE toolbar tooltip
+IDETooltip_Save,Save Project (${menu_save_project_incremental}),저장하기 (${menu_save_project_incremental}),,IDE toolbar tooltip
 IDETooltip_Package,Create Executable (${package_program}),실행 파일 만들기 (${package_program}),,IDE toolbar tooltip
 IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),실행 파일 만들기 (체험판에서는 사용 불가능합니다.),,IDE toolbar tooltip
 IDETooltip_Debug,Debug (F6),디버그 (F6),,IDE toolbar tooltip
@@ -748,7 +748,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,좌측,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -976,389 +976,389 @@ IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,inclu
 IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
-InstanceProperties_CreationCode,Creation Code,Creation Code,,instance properties button caption for opening the creation code
-InstanceProperties_EditObject,Edit Object,Edit Object,,instance properties button caption for opening the object for edit
-InstanceProperties_FlipX,Flip X,Flip X,,instance properties checkbox label for flip x
-InstanceProperties_FlipY,Flip Y,Flip Y,,instance properties checkbox label for flip y
-InstanceProperties_ImageIndex,Frame,Frame,,Instance property initial image index
-InstanceProperties_ImageSpeed,Image Speed,Image Speed,,Instance property initial image speed
+InstanceProperties_CreationCode,Creation Code,생성 코드,,instance properties button caption for opening the creation code
+InstanceProperties_EditObject,Edit Object,객체 편집하기,,instance properties button caption for opening the object for edit
+InstanceProperties_FlipX,Flip X,가로로 뒤집기,,instance properties checkbox label for flip x
+InstanceProperties_FlipY,Flip Y,세로로 뒤집기,,instance properties checkbox label for flip y
+InstanceProperties_ImageIndex,Frame,프레임,,Instance property initial image index
+InstanceProperties_ImageSpeed,Image Speed,재생 속도,,Instance property initial image speed
 InstanceProperties_PosX,X,X,,instance properties numeric box label for x pos
 InstanceProperties_PosY,Y,Y,,instance properties numeric box label for y pos
-InstanceProperties_Rotation,Rotation,Rotation,,instance properties numeric textbox caption for rotation
-InstanceProperties_ScaleX,Scale X,Scale X,,instance properties numeric box label for scale x
-InstanceProperties_ScaleY,Scale Y,Scale Y,,instance properties numeric box label for scale y
-LanguageSelect_Title,Please select a language,Please select a language,,Title of the language select dialog
-ListBoxEnum_eAntiAliasMode_Mono,Off,Off,,Anti-aliasing off
-ListBoxEnum_eAntiAliasMode_Normal,On,On,,Anti-aliasing on
-ListBoxEnum_eGMSoundBitDepth__16bit,16 bit,16 bit,,16 bit audio bit depth ListBox Enum
-ListBoxEnum_eGMSoundBitDepth__8bit,8 bit,8 bit,,8 bit audio bit depth ListBox Enum
+InstanceProperties_Rotation,Rotation,회전 각도,,instance properties numeric textbox caption for rotation
+InstanceProperties_ScaleX,Scale X,가로 비율,,instance properties numeric box label for scale x
+InstanceProperties_ScaleY,Scale Y,세로 비율,,instance properties numeric box label for scale y
+LanguageSelect_Title,Please select a language,언어 선택,,Title of the language select dialog
+ListBoxEnum_eAntiAliasMode_Mono,Off,끄기,,Anti-aliasing off
+ListBoxEnum_eAntiAliasMode_Normal,On,켜기,,Anti-aliasing on
+ListBoxEnum_eGMSoundBitDepth__16bit,16 bit,16비트,,16 bit audio bit depth ListBox Enum
+ListBoxEnum_eGMSoundBitDepth__8bit,8 bit,8비트,,8 bit audio bit depth ListBox Enum
 ListBoxEnum_eGMSoundType__3D,3D,3D,,3D Sound Listbox Enum
-ListBoxEnum_eGMSoundType_Mono,Mono,Mono,,Mono Sound Listbox Enum
-ListBoxEnum_eGMSoundType_Stereo,Stereo,Stereo,,Stereo Sound Listbox Enum
-ListBoxEnum_eImageBGStyle_BlockPattern,Block Pattern,Block Pattern,,image editor image background style enum
-ListBoxEnum_eImageBGStyle_SingleColour,Single Colour,Single Colour,,image editor image background style enum
-ListBoxEnum_eAnimLoopMode_PlayOnce,Play once,Play once,,image editor anim loop mode enum
-ListBoxEnum_eAnimLoopMode_Loop,Loop,Loop,,image editor anim loop mode enum
-ListBoxEnum_eAnimLoopMode_PingPong,Ping pong,Ping pong,,image editor anim loop mode enum
-ListBoxEnum_eImageInterp_Cubic,Cubic,Cubic,,Image interpolation enum  - cubic
-ListBoxEnum_eImageInterp_Linear,Linear,Linear,,Image interpolation enum  -linear
-ListBoxEnum_eImageInterp_Nearest,None,None,,Image interpolation enum  - nearest / none
-ListBoxEnum_eImageSizeUnits_Percent,Percent,Percent,,image size units enum
-ListBoxEnum_eImageSizeUnits_Pixel,Pixels,Pixels,,image size units enum
-ListBoxEnum_eLayerBlendType_Add,Add,Add,,Listbox auto-enum blend mode for add
-ListBoxEnum_eLayerBlendType_Multiply,Multiply,Multiply,,Listbox auto-enum blend mode for multiply
-ListBoxEnum_eLayerBlendType_Normal,Normal,Normal,,Listbox auto-enum blend mode for normal
-ListBoxEnum_eLayerBlendType_Subtract,Subtract,Subtract,,Listbox auto-enum blend mode for subtract
-ListBoxEnum_eRoomEditorParentDeletePreference_DeleteAll,Delete All,Delete All,,
-ListBoxEnum_eRoomEditorParentDeletePreference_KeepAll,Keep All,Keep All,,
-ListBoxEnum_eRoomEditorParentDeletePreference_KeepChanged,Keep Changed,Keep Changed,,
-ListBoxEnum_eRoomEditorParentDeletePreference_ShowDialog,Show Message,Show Message,,
-ListBoxEnum_eStandardConfirmPreference_No,No,No,,
-ListBoxEnum_eStandardConfirmPreference_ShowDialog,Show Message,Show Message,,
-ListBoxEnum_eStandardConfirmPreference_Yes,Yes,Yes,,
-ListBoxEnum_eStandardAcceptancePreference_OK,OK,OK,,
-ListBoxEnum_eStandardAcceptancePreference_ShowDialog,Show Message,Show Message,,
-ListBoxEnum_TileDataSize_Bit_16,16 Bit,16 Bit,,drop down list label for 16bit tile data size
-ListBoxEnum_TileDataSize_Bit_32,32 Bit,32 Bit,,drop down list label for 32bit tile data size
-ListBoxEnum_TileDataSize_Bit_64,64 Bit,64 Bit,,drop down list label for 64bit tile data size
-ListBoxEnum_eImageFit_Stretch,Stretch,Stretch,,Stretch Image Scaling option
-ListBoxEnum_eImageFit_Tile,Tile,Tile,,Tile Image Scaling option
-ListBoxEnum_eImageFit_BestFit,Best Fit,Best Fit,,Best Fit Image Scaling option
-ListBoxEnum_eImageFit_DesktopStretch,Desktop Stretch,Desktop Stretch,,Desktop Stretch Image Scaling option
-ListBoxEnum_eImageFit_ScreenStretch,Screen Stretch,Screen Stretch,,Screen Stretch Image Scaling option
-Loading,Loading...,Loading...,,Loading
-Marketplace_Go,Open Marketplace,Open Marketplace,,Open Marketplace
-Marketplace_Assets,My Library,My Library,,Downloaded assets
-Marketplace_Downloads,Downloads,Downloads,,Downloads
-Marketplace_Login,Login,Login,,Login
-Marketplace_MyLibrary_Overview,Overview,Overview,,Overview title
-Marketplace_MyLibrary_Header_Title,Title,Title,,Header Title
-Marketplace_MyLibrary_Header_Developer,Developer,Developer,,Developer Title
-Marketplace_MyLibrary_Header_Rating,Rating,Rating,,Rating Title
-Marketplace_MyLibrary_Pagination,Page {0} / {1},Page {0} / {1},,Pagination
-Marketplace_MyLibrary_Header_Status,Status,Status,,Status Title
-Marketplace_MyLibrary_Screens,Screenshots,Screenshots,,Screens Title
-Marketplace_MyLibrary_ViewMoreFrom,View more from developer.,View more from developer.,,View more from Developer text
-Marketplace_MyLibrary_Description,Description:,Description:,,Description label
-Marketplace_MyLibrary_AgeRating,Age Rating:,Age Rating:,,Age Rating Label
-Marketplace_MyLibrary_Version,Version:,Version:,,Version Label
-Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,Version {0}. Published {1}.,,Version label
-Marketplace_MyLibrary_PackageContains,Package Contains:,Package Contains:,,Package Contains Label
-Marketplace_MyLibrary_EULA,End User Licence Agreement: (EULA),End User Licence Agreement: (EULA),,EULA Label
-Marketplace_MyLibrary_Categories,Categories,Categories,,Marketplace Categories title
-Marketplace_MyLibary_AssetVerifying,Verifying...,Verifying...,,Marketplace my library asset being verified label
-Marketplace_MyLibary_AssetDownloaded,Downloaded,Downloaded,,Marketplace my library asset downloaded label
-Marketplace_MyLibrary_ViewAsset,View in marketplace,View in marketplace,,Marketplace view asset
-Marketplace_MyLibrary_Author,By {0},By {0},,Marketplace author line
-Marketplace_MyLibrary_Delete,Delete,Delete,,Delete marketplace asset button caption
-Marketplace_MyLibrary_Download,Download,Download,,Download asset button
-Marketplace_MyLibrary_Update,Update,Update,,Update asset button
-Marketplace_MyLibrary_RefreshTooltip,Refresh library.,Refresh library.,,Refresh assets button tooltip
-Marketplace_MyLibrary_UpdateTooltip,An update is available for this asset.,An update is available for this asset.,,Update available tooltip
-Marketplace_MyLibrary_Import,Import,Import,,Import asset button
-Marketplace_MyLibrary_LeaveReview,Review This Asset,Review This Asset,,Review this asset marketplace tooltip
-Marketplace_MyLibrary_Title,My Library,My Library,,Marketplace my library window title
-Marketplace_MyLibrary_ViewMarketplace,View in Marketplace,View in Marketplace,,View asset button
-Marketplace_MyLibrary_Install,Install,Install,,marketplace library install label
-Marketplace_MyLibrary_Installing,Installing...,Installing...,,marketplace library installing label
-Marketplace_MyLibrary_Installed,Installed,Installed,,marketplace library installed label
-Marketplace_MyLibrary_NoAssetsDisplayed,You do not currently have any assets in your Library. Click to visit the Marketplace and browse assets.,You do not currently have any assets in your Library. Click to visit the Marketplace and browse assets.,,marketplace library no assets displayed button
-Marketplace_MyLibrary_DownloadCancelled,Download cancelled,Download cancelled,,marketplace asset download cancelled status
-Marketplace_MyLibrary_Downloading,Downloading...,Downloading...,,marketplace asset download progress label
-Marketplace_MyLibrary_DownloadFailed,Download failed,Download failed,,marketplace asset download failed label
-Marketplace_Password,Password,Password,,Password
-Marketplace_Register,Register,Register,,Register marketplace account
-Marketplace_StoreCredentials,Save Username/Password,Save Username/Password,,Store credentials
-Marketplace_Username,Username,Username,,Username
-Marketplace_Offline,Cannot access Marketplace: User is offline,Cannot access Marketplace: User is offline,,Marketplace is offline error message
-Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,Cannot access Marketplace. Try again later.,,Marketplace cannot be accessed try again later
-Marketplace_WaitForServer,Marketplace will open when a connection has been established.,Marketplace will open when a connection has been established.,,Marketplace wait for server result message
-Marketplace_CreateNewPackage,Create Package,Create Package,,marketplace menu create package
-Marketplace_UpdatePackage,Update Existing Package,Update Existing Package,,marketplace menu update existing package
-Marketplace_CreatePackage,Create Package,Create Package,,marketplace menu create package
-Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,Select publisher and enter a new package name and ID,,marketplace create new package instructions
-Marketplace_ChooseAssetTitle,Choose an Asset,Choose an Asset,,marketplace choose publisher package title
-Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,Please select the name and package ID of your asset from the marketplace,,marketplace choose publisher package id
-Marketplace_PackageName,Name:,Name:,,marketplace package name label
-Marketplace_PublisherSelectionRequired,No Publisher selected,No Publisher selected,,marketplace package no publisher selected error
-Marketplace_PublisherName,Publisher Name:,Publisher Name:,,marketplace packge publisher name label
-Marketplace_PackageId,Package ID:,Package ID:,,marketplace package id label
-Marketplace_PackageVersion,Version:,Version:,,marketplace version label
-Marketplace_PackageIdRequired,Package ID required,Package ID required,,create asset package missing package id
-Marketplace_CreatingPackage,Creating package...,Creating package...,,create package progress title
-Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,Select resources from your project and add them to your package:,,marketplace create package description
-Marketplace_ProjectLabel,Project:,Project:,,create package project label
-Marketplace_AssetPackageLabel,Asset Package:,Asset Package:,,create package asset package label
-Marketplace_Package_Changelog,Changelog:,Changelog:,,change log label
-Marketplace_Package_AddLabel,Add,Add,,create package add resource button
-Marketplace_Package_AddAllLabel,Add All,Add All,,create package add all resources button
-Marketplace_Package_RemoveLabel,Remove,Remove,,create package remove resource button
-Marketplace_Package_CertSettingsMissing,Certificate file has not been set - please check Marketplace certificate settings,Certificate file has not been set - please check Marketplace certificate settings,,create package certificate settings error
-Marketplace_Package_CertFileMissing,Certificate file '{0}' could not be found - please check Marketplace certificate settings,Certificate file '{0}' could not be found - please check Marketplace certificate settings,,create package missing certificate file error
-Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,You will need to set up a signing certificate before you can create and publish packages.,,mplace need certificate message
-Marketplace_Package_CertFileSettingsButton,Go to Certificate Settings,Go to Certificate Settings,,mplace go to certificate settings button
-Marketplace_Package_CreateError,Error creating package,Error creating package,,create package error title
-Marketplace_Package_ImportError,Error importing package,Error importing package,,package import error title
-Marketplace_Package_Verifying,Verifying package...,Verifying package...,,marketplace pacakge verifying progress title
-Marketplace_Package_VerifyError,Failed to verify the package,Failed to verify the package,,marketplace package verification error
-Marketplace_Package_GenericError,Failed with error:\n'{0}',Failed with error:\n'{0}',,generic marketplace package error
-Marketplace_Package_SigningError,Package signing error,Package signing error,,marketplace package signing error
-Marketplace_Package_ExtractFailed,Error extracting package archive: '{0}',Error extracting package archive: '{0}',,marketplace package extract fail
-Marketplace_Package_ImportCompleted,Import Completed!,Import Completed!,,marketplace package import completed
-Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,Select resources from the asset package and add them to your project:,,package import description
-Marketplace_Package_ImportNoProject,You must first open a project to import resources into,You must first open a project to import resources into,,marketplace package import no project open message
-Marketplace_Package_ExportNoResources,You must include at least one resource,You must include at least one resource,,package export no resources selected message
-Marketplace_Package_ImportToNewProject,Import all resources to a new project,Import all resources to a new project,,package import new project
-Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,Some resources failed to import - see output window for details,,resource import error message
-Marketplace_Package_PackageResources,Package Resources:,Package Resources:,,package import- package resources caption
-Marketplace_Package_ImportResources,Resources to Import:,Resources to Import:,,package import - resource to import caption
-Marketplace_CheckForUpdates,Check For Updates,Check For Updates,,check for updates button label
-Marketplace_Updating,Updating...,Updating...,,marketplace updating label
-Marketplace_WindowTitle,Marketplace,Marketplace,,Marketplace webview window title
-Marketplace_PurchaseHistory,My Purchase History,My Purchase History,,Marketplace purchase history menu entry
-Marketplace_NoPublisherTitle,Publisher Account Required,Publisher Account Required,,marketplace no publisher title
-Marketplace_NoPublisherMessage,You do not have a Publisher attached to this account. Do you want to add one now?,You do not have a Publisher attached to this account. Do you want to add one now?,,marketplace no publisher account message
-Marketplace_ProjectRequiredDialogTitle,Project Required,Project Required,,marketplace import project required dialog title
-Marketplace_ProjectRequiredDialogMessage,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,,marketplace import project required dialog message
-MPackage_PackageUploadTitle,Package Upload,Package Upload,,package upload dialog title
-MPackage_PackageCreated,Created package '{0}' version {1},Created package '{0}' version {1},,package create success message
-MPackage_PackageUploading,Uploading to Marketplace...,Uploading to Marketplace...,,package uploading message
-MPackage_PackageIDInvalid,Package ID is invalid,Package ID is invalid,,mplace create package package id error
-MPackage_AssetDisplayName,Display name,Display name,,marketplace asset display name label
-MPackage_DisplayNameInvalid,Display name is invalid,Display name is invalid,,marketplace package display name error
-MPackage_DisplayNameRestrictions,Display name restrictions,Display name restrictions,,package display name restrictions label
-MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,- Must be between 5 and 30 characters long,,asset create restriction label
+ListBoxEnum_eGMSoundType_Mono,Mono,모노,,Mono Sound Listbox Enum
+ListBoxEnum_eGMSoundType_Stereo,Stereo,스테레오,,Stereo Sound Listbox Enum
+ListBoxEnum_eImageBGStyle_BlockPattern,Block Pattern,블록 무늬,,image editor image background style enum
+ListBoxEnum_eImageBGStyle_SingleColour,Single Colour,단일 색상,,image editor image background style enum
+ListBoxEnum_eAnimLoopMode_PlayOnce,Play once,한번 재생,,image editor anim loop mode enum
+ListBoxEnum_eAnimLoopMode_Loop,Loop,반복,,image editor anim loop mode enum
+ListBoxEnum_eAnimLoopMode_PingPong,Ping pong,왕복,,image editor anim loop mode enum
+ListBoxEnum_eImageInterp_Cubic,Cubic,사선형,,Image interpolation enum  - cubic
+ListBoxEnum_eImageInterp_Linear,Linear,선형,,Image interpolation enum  -linear
+ListBoxEnum_eImageInterp_Nearest,None,안함,,Image interpolation enum  - nearest / none
+ListBoxEnum_eImageSizeUnits_Percent,Percent,백분율,,image size units enum
+ListBoxEnum_eImageSizeUnits_Pixel,Pixels,화소,,image size units enum
+ListBoxEnum_eLayerBlendType_Add,Add,더하기,,Listbox auto-enum blend mode for add
+ListBoxEnum_eLayerBlendType_Multiply,Multiply,곱하기,,Listbox auto-enum blend mode for multiply
+ListBoxEnum_eLayerBlendType_Normal,Normal,일반,,Listbox auto-enum blend mode for normal
+ListBoxEnum_eLayerBlendType_Subtract,Subtract,빼기,,Listbox auto-enum blend mode for subtract
+ListBoxEnum_eRoomEditorParentDeletePreference_DeleteAll,Delete All,모두 삭제,,
+ListBoxEnum_eRoomEditorParentDeletePreference_KeepAll,Keep All,모두 유지,,
+ListBoxEnum_eRoomEditorParentDeletePreference_KeepChanged,Keep Changed,변경 유지,,
+ListBoxEnum_eRoomEditorParentDeletePreference_ShowDialog,Show Message,메시지 보기,,
+ListBoxEnum_eStandardConfirmPreference_No,No,아니요,,
+ListBoxEnum_eStandardConfirmPreference_ShowDialog,Show Message,메시지 보기,,
+ListBoxEnum_eStandardConfirmPreference_Yes,Yes,예,,
+ListBoxEnum_eStandardAcceptancePreference_OK,OK,확인,,
+ListBoxEnum_eStandardAcceptancePreference_ShowDialog,Show Message,메시지 보기,,
+ListBoxEnum_TileDataSize_Bit_16,16 Bit,16비트,,drop down list label for 16bit tile data size
+ListBoxEnum_TileDataSize_Bit_32,32 Bit,32비트,,drop down list label for 32bit tile data size
+ListBoxEnum_TileDataSize_Bit_64,64 Bit,64비트,,drop down list label for 64bit tile data size
+ListBoxEnum_eImageFit_Stretch,Stretch,작업 공간에 늘려서 놓기,,Stretch Image Scaling option
+ListBoxEnum_eImageFit_Tile,Tile,작업 공간에 타일로 놓기,,Tile Image Scaling option
+ListBoxEnum_eImageFit_BestFit,Best Fit,원래 비율로 놓기,,Best Fit Image Scaling option
+ListBoxEnum_eImageFit_DesktopStretch,Desktop Stretch,바탕화면에 맞춰서 놓기,,Desktop Stretch Image Scaling option
+ListBoxEnum_eImageFit_ScreenStretch,Screen Stretch,화면에 맞춰서 놓기,,Screen Stretch Image Scaling option
+Loading,Loading...,불러오는 중...,,Loading
+Marketplace_Go,Open Marketplace,장터 열기,,Open Marketplace
+Marketplace_Assets,My Library,내 라이브러리,,Downloaded assets
+Marketplace_Downloads,Downloads,내려 받기,,Downloads
+Marketplace_Login,Login,로그인,,Login
+Marketplace_MyLibrary_Overview,Overview,개요,,Overview title
+Marketplace_MyLibrary_Header_Title,Title,제목,,Header Title
+Marketplace_MyLibrary_Header_Developer,Developer,개발자,,Developer Title
+Marketplace_MyLibrary_Header_Rating,Rating,평점,,Rating Title
+Marketplace_MyLibrary_Pagination,Page {0} / {1},{0} / {1} 페이지,,Pagination
+Marketplace_MyLibrary_Header_Status,Status,상태,,Status Title
+Marketplace_MyLibrary_Screens,Screenshots,스크린샷,,Screens Title
+Marketplace_MyLibrary_ViewMoreFrom,View more from developer.,개발자에 대해 보기,,View more from Developer text
+Marketplace_MyLibrary_Description,Description:,설명,,Description label
+Marketplace_MyLibrary_AgeRating,Age Rating:,연령 등급,,Age Rating Label
+Marketplace_MyLibrary_Version,Version:,버전,,Version Label
+Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,"버전 {0}, 게시 {1}",,Version label
+Marketplace_MyLibrary_PackageContains,Package Contains:,패키지 구성물,,Package Contains Label
+Marketplace_MyLibrary_EULA,End User Licence Agreement: (EULA),최종 사용자 사용권 계약: (EULA),,EULA Label
+Marketplace_MyLibrary_Categories,Categories,범주,,Marketplace Categories title
+Marketplace_MyLibary_AssetVerifying,Verifying...,검증 중...,,Marketplace my library asset being verified label
+Marketplace_MyLibary_AssetDownloaded,Downloaded,내려 받음,,Marketplace my library asset downloaded label
+Marketplace_MyLibrary_ViewAsset,View in marketplace,장터에서 보기,,Marketplace view asset
+Marketplace_MyLibrary_Author,By {0},만든 이: {0},,Marketplace author line
+Marketplace_MyLibrary_Delete,Delete,삭제,,Delete marketplace asset button caption
+Marketplace_MyLibrary_Download,Download,내려 받기,,Download asset button
+Marketplace_MyLibrary_Update,Update,업데이트,,Update asset button
+Marketplace_MyLibrary_RefreshTooltip,Refresh library.,라이브러리를 새로 고칩니다.,,Refresh assets button tooltip
+Marketplace_MyLibrary_UpdateTooltip,An update is available for this asset.,업데이트할 수 있어요,,Update available tooltip
+Marketplace_MyLibrary_Import,Import,가져오기,,Import asset button
+Marketplace_MyLibrary_LeaveReview,Review This Asset,평가,,Review this asset marketplace tooltip
+Marketplace_MyLibrary_Title,My Library,내 라이브러리,,Marketplace my library window title
+Marketplace_MyLibrary_ViewMarketplace,View in Marketplace,장터에서 보기,,View asset button
+Marketplace_MyLibrary_Install,Install,설치,,marketplace library install label
+Marketplace_MyLibrary_Installing,Installing...,설치 중...,,marketplace library installing label
+Marketplace_MyLibrary_Installed,Installed,설치됨,,marketplace library installed label
+Marketplace_MyLibrary_NoAssetsDisplayed,You do not currently have any assets in your Library. Click to visit the Marketplace and browse assets.,라이브러리에 자산이 없어요. 클릭해서 장터를 방문해보세요.,,marketplace library no assets displayed button
+Marketplace_MyLibrary_DownloadCancelled,Download cancelled,내려 받기 취소됨,,marketplace asset download cancelled status
+Marketplace_MyLibrary_Downloading,Downloading...,내려 받는 중...,,marketplace asset download progress label
+Marketplace_MyLibrary_DownloadFailed,Download failed,내려 받기 실패,,marketplace asset download failed label
+Marketplace_Password,Password,암호,,Password
+Marketplace_Register,Register,회원 가입,,Register marketplace account
+Marketplace_StoreCredentials,Save Username/Password,사용자 이름 / 암호 저장,,Store credentials
+Marketplace_Username,Username,사용자 이름,,Username
+Marketplace_Offline,Cannot access Marketplace: User is offline,장터 접속 실패: 사용자가 연결되지 않았어요.,,Marketplace is offline error message
+Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,장터 접속 실패: 나중에 다시 시도해보세요.,,Marketplace cannot be accessed try again later
+Marketplace_WaitForServer,Marketplace will open when a connection has been established.,연결할 수 있을 때 장터가 열려요.,,Marketplace wait for server result message
+Marketplace_CreateNewPackage,Create Package,패키지 만들기,,marketplace menu create package
+Marketplace_UpdatePackage,Update Existing Package,기존 패키지 업데이트,,marketplace menu update existing package
+Marketplace_CreatePackage,Create Package,패키지 만들기,,marketplace menu create package
+Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,게시자를 선택하고 새 패키지 이름과 식별자를 입력하세요.,,marketplace create new package instructions
+Marketplace_ChooseAssetTitle,Choose an Asset,자산 선택,,marketplace choose publisher package title
+Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,장터에서 자산의 이름과 패키지 식별자를 선택하세요.,,marketplace choose publisher package id
+Marketplace_PackageName,Name:,이름,,marketplace package name label
+Marketplace_PublisherSelectionRequired,No Publisher selected,게시자가 선택되지 않음,,marketplace package no publisher selected error
+Marketplace_PublisherName,Publisher Name:,게시자 이름,,marketplace packge publisher name label
+Marketplace_PackageId,Package ID:,패키지 식별자,,marketplace package id label
+Marketplace_PackageVersion,Version:,버전,,marketplace version label
+Marketplace_PackageIdRequired,Package ID required,패키지 식별자가 필요함,,create asset package missing package id
+Marketplace_CreatingPackage,Creating package...,패키지 만드는 중...,,create package progress title
+Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,프로젝트에서 자원을 선택하여 패키지에 추가하세요.,,marketplace create package description
+Marketplace_ProjectLabel,Project:,프로젝트,,create package project label
+Marketplace_AssetPackageLabel,Asset Package:,자산 패키지,,create package asset package label
+Marketplace_Package_Changelog,Changelog:,변경 내역:,,change log label
+Marketplace_Package_AddLabel,Add,추가,,create package add resource button
+Marketplace_Package_AddAllLabel,Add All,모두 추가,,create package add all resources button
+Marketplace_Package_RemoveLabel,Remove,제거,,create package remove resource button
+Marketplace_Package_CertSettingsMissing,Certificate file has not been set - please check Marketplace certificate settings,인증서 파일이 설정되지 않았어요. \n장터 인증서 설정에서 확인해주세요.,,create package certificate settings error
+Marketplace_Package_CertFileMissing,Certificate file '{0}' could not be found - please check Marketplace certificate settings,인증서 파일 '{0}'을 찾을 수가 없어요. \n장터 인증서 설정에서 확인해주세요.,,create package missing certificate file error
+Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,패키지를 게시하기전에 서명된 인증서를 지정해야 해요.,,mplace need certificate message
+Marketplace_Package_CertFileSettingsButton,Go to Certificate Settings,인증서 설정,,mplace go to certificate settings button
+Marketplace_Package_CreateError,Error creating package,패키지 만드는 도중 오류 발생,,create package error title
+Marketplace_Package_ImportError,Error importing package,패키지 가져오는 도중 오류 발생,,package import error title
+Marketplace_Package_Verifying,Verifying package...,패키지 검증 중...,,marketplace pacakge verifying progress title
+Marketplace_Package_VerifyError,Failed to verify the package,패키지 확인 실패,,marketplace package verification error
+Marketplace_Package_GenericError,Failed with error:\n'{0}',오류와 함께 실패\n{0},,generic marketplace package error
+Marketplace_Package_SigningError,Package signing error,패키지 서명 오류,,marketplace package signing error
+Marketplace_Package_ExtractFailed,Error extracting package archive: '{0}',패키지 압축 해제 실패: {0},,marketplace package extract fail
+Marketplace_Package_ImportCompleted,Import Completed!,가져오기 완료!,,marketplace package import completed
+Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,자산 패키지에서 자원을 선택하여 프로젝트에 추가하세요:,,package import description
+Marketplace_Package_ImportNoProject,You must first open a project to import resources into,먼저 자원을 가져올 프로젝트를 열어야 합니다.,,marketplace package import no project open message
+Marketplace_Package_ExportNoResources,You must include at least one resource,한 개 이상의 자원을 포함해야 해요.,,package export no resources selected message
+Marketplace_Package_ImportToNewProject,Import all resources to a new project,모든 자원을 새 프로젝트에 가져오기,,package import new project
+Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,몇몇 자원을 가져오지 못했어요. 자세한 내용은 출력 창을 참조하세요.,,resource import error message
+Marketplace_Package_PackageResources,Package Resources:,패키지 자원:,,package import- package resources caption
+Marketplace_Package_ImportResources,Resources to Import:,불러올 자원:,,package import - resource to import caption
+Marketplace_CheckForUpdates,Check For Updates,업데이트 확인,,check for updates button label
+Marketplace_Updating,Updating...,업데이트 중...,,marketplace updating label
+Marketplace_WindowTitle,Marketplace,장터,,Marketplace webview window title
+Marketplace_PurchaseHistory,My Purchase History,구매 내역,,Marketplace purchase history menu entry
+Marketplace_NoPublisherTitle,Publisher Account Required,게시자 계정 필요,,marketplace no publisher title
+Marketplace_NoPublisherMessage,You do not have a Publisher attached to this account. Do you want to add one now?,이 계정에 게시자가 연결되어 있지 않은데 지금 추가할까요?,,marketplace no publisher account message
+Marketplace_ProjectRequiredDialogTitle,Project Required,프로젝트 필요,,marketplace import project required dialog title
+Marketplace_ProjectRequiredDialogMessage,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,자산을 가져오려면 열린 프로젝트가 필요해요.\n새 프로젝트를 만들거나 기존 프로젝트를 열까요?,,marketplace import project required dialog message
+MPackage_PackageUploadTitle,Package Upload,패키지 업로드,,package upload dialog title
+MPackage_PackageCreated,Created package '{0}' version {1},패키지 '{0}' v{1} 생성됨,,package create success message
+MPackage_PackageUploading,Uploading to Marketplace...,장터에 업로드 중...,,package uploading message
+MPackage_PackageIDInvalid,Package ID is invalid,패키지 ID가 잘못되었습니다.,,mplace create package package id error
+MPackage_AssetDisplayName,Display name,표기 이름,,marketplace asset display name label
+MPackage_DisplayNameInvalid,Display name is invalid,올바르지 않은 이름임,,marketplace package display name error
+MPackage_DisplayNameRestrictions,Display name restrictions,이름 제한,,package display name restrictions label
+MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,"반드시 5글자 이상, 30글자 미만이여야 해요",,asset create restriction label
 MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_PackageIdRestrictions,Package ID Restrictions,Package ID Restrictions,,asset create restriction label
+MPackage_PackageIdRestrictions,Package ID Restrictions,패키지 식별자 제한,,asset create restriction label
 MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,IMPORTANT: The package ID cannot be changed once your asset has been created.,,create asset warning label
-MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,Uploaded package '{0}' version {1}\nGo to the asset listing page?,,mplace package uploaded message
-MPackage_UploadFailed,Package upload failed: {0},Package upload failed: {0},,mplace package upload failed message
-MPackage_UploadCancelled,Package upload cancelled,Package upload cancelled,,mplace package upload cancelled message
-MPackage_UploadSuccess,Package upload successful!,Package upload successful!,,mplace package upload success message
-MPackage_PackageType,Package Type:,Package Type:,,mplace package type label
-MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,IMPORTANT: The asset category will be set to 'Demo' on upload,,mplace category setting message
-MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,IMPORTANT: The asset category will be set to 'Tutorial' on upload,,mplace category setting message
-MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,,mplace category setting message
-MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,,mplace category setting message
-Package_SignPackage,Sign Package,Sign Package,,sign local package
-Package_LocalPackageDescription,Enter a package name and ID,Enter a package name and ID,,local package create description
-Package_CreateLocalPackage,Create Local Package,Create Local Package,,create local package menu entry
-Package_ImportLocalPackage,Import Local Package,Import Local Package,,import local package menu entry
-Package_Local_SuccessMsg,Created package file: {0},Created package file: {0},,local package create success message
-Package_Local_ValidationError,Please enter a Display Name and Package ID\nPackage ID should be a valid filename,Please enter a Display Name and Package ID\nPackage ID should be a valid filename,,local package create validation message
-Package_LocalPackageId,Package ID (Filename):,Package ID (Filename):,,marketplace package id label
-MPackage_KeepAll,Keep All,Keep All,,package import keep all existing resources
-MPackage_ReplaceAll,Replace All,Replace All,,package replace all existing resources
-MPackage_Keep,Keep,Keep,,package import keep
-MPackage_Replace,Replace,Replace,,package import replace
-MPackage_ConflictsTitle,Resolve Import Conflicts,Resolve Import Conflicts,,resolve package import conflicts title
-MPackage_ConflictsMsg2,"The following package resource(s) have the same names as existing project resources. Please choose if you want to replace with the imported files, or keep the existing project resources.","The following package resource(s) have the same names as existing project resources. Please choose if you want to replace with the imported files, or keep the existing project resources.",,import conflict msg 2
-MPackage_ResourceName,Resource Name,Resource Name,,resource name
-MenuBar_AddMenuBarEntry,Add Menu Bar Entry,Add Menu Bar Entry,,Add a new menu bar entry at the end of the bar
-MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',Add Menu Bar Entry After '{0}',,Add a new menu bar entry after the selected entry
-MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',Add Menu Bar Entry Before '{0}',,Add a new menu bar entry before the selected entry
-MenuBar_Edit,Edit,Edit,,Menu bar heading: Edit
-MenuBar_File,File,File,,Menu bar heading: File
-MenuBar_Image,Image,Image,,menu bar heading: Image
-MenuBar_Language,Language,Language,,Menu bar heading for languages
-MenuBar_Style,Style,Style,,The menu bar heading for style
-MenuBar_Tools,Tools,Tools,,Menu bar heading: Tools
-MenuBar_View,View,View,,Menu bar heading: View
-Navigation_Back,Back,Back,,Back
-Navigation_Forward,Forward,Forward,,Forward
-Navigation_Reload,Reload,Reload,,Reload webpage
-News_ReleaseNotes,Release Notes,Release Notes,,Release notes window caption
-Object_Mask,Collision Mask:,Collision Mask:,,"object ""mask"" property"
-Object_Parent,Parent,Parent,,"object ""parent"" property"
-ObjectEditor_ParentChildren,Parent & Children,Parent & Children,,Object editor parent and children caption
-Object_Persistent,Persistent,Persistent,,"Object Model ""persistent"" property"
-Object_Persistent_Tooltip,Instances of this object will persist between rooms,Instances of this object will persist between rooms,,object editor persistent property tooltip
-Object_PhysicsAngularDamping,Angular Damping,Angular Damping,,"object ""physicsAngularDamping"" property label"
-Object_PhysicsDensity,Density,Density,,"object ""physicsDensity"" property label"
-Object_PhysicsFriction,Friction,Friction,,"object ""physicsFriction"" property label"
-Object_PhysicsGroup,Collision Group,Collision Group,,"object ""physicsGroup"" property label"
-Object_PhysicsKinematic,Kinematic,Kinematic,,"object ""physicsKinematic"" property label"
-Object_PhysicsLinearDamping,Linear Damping,Linear Damping,,"object ""physicsLinearDamping"" property label"
-Object_PhysicsRestitution,Restitution,Restitution,,"object ""physicsRestitution"" property label"
-Object_PhysicsSensor,Sensor,Sensor,,"object ""physicsSensor"" property label"
-Object_PhysicsStartAwake,Start Awake,Start Awake,,"object ""physicsStartAwake"" property label"
-Object_Solid,Solid,Solid,,"Object Model ""solid"" property"
-Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,Solid instances will automatically be placed back in their previous position when in collision,,object editor solid property tooltip
-Object_UsesPhysics,Uses Physics,Uses Physics,,"Object Model ""uses physics"" property"
-Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,Instances use physics processing when in a room with 'Enable Physics' checked,,object editor uses physics tooltip
-Object_Visible,Visible,Visible,,"Object Model ""visible"" property"
-Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","When unchecked, instances of this object will still be processed, but will not be drawn",,object editor visible property tooltip
-ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Zoom in,,Object editor physics window label
-ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Zoom out,,Object editor physics window label
-ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Reset zoom,,Object editor physics window label
-ObjectEditor_AddEvent,Add Event,Add Event,,Object editor add event
-ObjectEditor_Sprite,Sprite,Sprite,,Object editor sprite group
-ObjectEditor_AnimSpeed,Animation Speed,Animation Speed,,Physics collision window playback speed
+MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,중요! 자산을 만든 이후에는 패키지 식별자를 바꿀 수가 없어요.,,create asset warning label
+MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,버전 {1}의 패키지 '{0}'를 업로드했어요.\n자산 목록으로 이동할까요?,,mplace package uploaded message
+MPackage_UploadFailed,Package upload failed: {0},패키지 업로드가 실패했어요: {0},,mplace package upload failed message
+MPackage_UploadCancelled,Package upload cancelled,패키지 업로드가 취소됐어요.,,mplace package upload cancelled message
+MPackage_UploadSuccess,Package upload successful!,패키지 업로드가 성공했어요.,,mplace package upload success message
+MPackage_PackageType,Package Type:,패키지 유형,,mplace package type label
+MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,중요! 자산의 범주가 데모로 설정돼요.,,mplace category setting message
+MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,중요! 자산의 범주가 튜토리얼로 설정돼요.,,mplace category setting message
+MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,중요! 자원을 생성한 후에는 패키지 식별자를 바꿀 수가 없어요. 자산의 범주가 데모로 설정돼요.,,mplace category setting message
+MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,중요! 자원을 생성한 후에는 패키지 식별자를 바꿀 수가 없어요. 자산의 범주가 튜토리얼로 설정돼요.,,mplace category setting message
+Package_SignPackage,Sign Package,패키지에 서명하기,,sign local package
+Package_LocalPackageDescription,Enter a package name and ID,패키지의 제목과 식별자를 입력해주세요.,,local package create description
+Package_CreateLocalPackage,Create Local Package,지역 패키지 만들기,,create local package menu entry
+Package_ImportLocalPackage,Import Local Package,지역 패키지 가져오기,,import local package menu entry
+Package_Local_SuccessMsg,Created package file: {0},패키지 파일 생성됨: {0},,local package create success message
+Package_Local_ValidationError,Please enter a Display Name and Package ID\nPackage ID should be a valid filename,표기 이름과 패키지 식별자를 입력해주세요.\식별자는 파일의 이름으로도 가능해야만 해요.,,local package create validation message
+Package_LocalPackageId,Package ID (Filename):,패키지 식별자 (파일 이름):,,marketplace package id label
+MPackage_KeepAll,Keep All,전부 유지,,package import keep all existing resources
+MPackage_ReplaceAll,Replace All,전부 교체,,package replace all existing resources
+MPackage_Keep,Keep,유지,,package import keep
+MPackage_Replace,Replace,교체,,package import replace
+MPackage_ConflictsTitle,Resolve Import Conflicts,가져오기 충돌 해결,,resolve package import conflicts title
+MPackage_ConflictsMsg2,"The following package resource(s) have the same names as existing project resources. Please choose if you want to replace with the imported files, or keep the existing project resources.",패키지의 자원이 기존 프로젝트의 자원 이름과 충돌합니다. 패키지의 파일로 교체하거나 기존 파일을 유지하세요.,,import conflict msg 2
+MPackage_ResourceName,Resource Name,자원 이름,,resource name
+MenuBar_AddMenuBarEntry,Add Menu Bar Entry,메뉴 표시줄 개체 추가하기,,Add a new menu bar entry at the end of the bar
+MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',{0} 뒤에 메뉴 표시줄 개체 추가하기,,Add a new menu bar entry after the selected entry
+MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',{0} 앞에 메뉴 표시줄 개체 추가하기,,Add a new menu bar entry before the selected entry
+MenuBar_Edit,Edit,편집,,Menu bar heading: Edit
+MenuBar_File,File,파일,,Menu bar heading: File
+MenuBar_Image,Image,그림,,menu bar heading: Image
+MenuBar_Language,Language,언어,,Menu bar heading for languages
+MenuBar_Style,Style,스타일,,The menu bar heading for style
+MenuBar_Tools,Tools,도구,,Menu bar heading: Tools
+MenuBar_View,View,보기,,Menu bar heading: View
+Navigation_Back,Back,뒤로,,Back
+Navigation_Forward,Forward,앞으로,,Forward
+Navigation_Reload,Reload,다시 불러오기,,Reload webpage
+News_ReleaseNotes,Release Notes,출시 내역,,Release notes window caption
+Object_Mask,Collision Mask:,충돌 마스크,,"object ""mask"" property"
+Object_Parent,Parent,부모,,"object ""parent"" property"
+ObjectEditor_ParentChildren,Parent & Children,부모 & 자식,,Object editor parent and children caption
+Object_Persistent,Persistent,지속,,"Object Model ""persistent"" property"
+Object_Persistent_Tooltip,Instances of this object will persist between rooms,이 객체의 개체는 룸 마다 계속 유지됩니다.,,object editor persistent property tooltip
+Object_PhysicsAngularDamping,Angular Damping,각 운동 제동력,,"object ""physicsAngularDamping"" property label"
+Object_PhysicsDensity,Density,밀도,,"object ""physicsDensity"" property label"
+Object_PhysicsFriction,Friction,마찰력,,"object ""physicsFriction"" property label"
+Object_PhysicsGroup,Collision Group,충돌체 묶음,,"object ""physicsGroup"" property label"
+Object_PhysicsKinematic,Kinematic,운동 물체,,"object ""physicsKinematic"" property label"
+Object_PhysicsLinearDamping,Linear Damping,선 운동 제동력,,"object ""physicsLinearDamping"" property label"
+Object_PhysicsRestitution,Restitution,반발력,,"object ""physicsRestitution"" property label"
+Object_PhysicsSensor,Sensor,감지기,,"object ""physicsSensor"" property label"
+Object_PhysicsStartAwake,Start Awake,바로 물리 작동,,"object ""physicsStartAwake"" property label"
+Object_Solid,Solid,고체,,"Object Model ""solid"" property"
+Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,고체 객체들과 충돌할 때 이전 위치로 되돌아갑니다.,,object editor solid property tooltip
+Object_UsesPhysics,Uses Physics,물리 사용,,"Object Model ""uses physics"" property"
+Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,룸에서 물리를 사용하도록 해야 객체들도 물리를 사용합니다.,,object editor uses physics tooltip
+Object_Visible,Visible,보이기,,"Object Model ""visible"" property"
+Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn",해제하면 객체들은 여전히 활동하지만 그려지지는 않습니다.,,object editor visible property tooltip
+ObjectEdior_PhysicsShape_ZoomIn,Zoom in,확대,,Object editor physics window label
+ObjectEdior_PhysicsShape_ZoomOut,Zoom out,축소,,Object editor physics window label
+ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,줌 재설정,,Object editor physics window label
+ObjectEditor_AddEvent,Add Event,이벤트 추가,,Object editor add event
+ObjectEditor_Sprite,Sprite,스프라이트,,Object editor sprite group
+ObjectEditor_AnimSpeed,Animation Speed,재생 속도,,Physics collision window playback speed
 ObjectEditor_Arg0,{0},{0},,"empty string, single unlocalised argument"
-ObjectEditor_Box,Box,Box,,Object editor collision shape box
-ObjectEditor_ChangeEvent,Change Event,Change Event,,Object editor change event menu option
-ObjectEditor_ChangeEventExistsTitle,Cannot change event,Cannot change event,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,The Event cannot be changed to an existing Event.,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from DnD™ to script or from script to DnD™
+ObjectEditor_Box,Box,상자,,Object editor collision shape box
+ObjectEditor_ChangeEvent,Change Event,이벤트 바꾸기,,Object editor change event menu option
+ObjectEditor_ChangeEventExistsTitle,Cannot change event,이벤트를 바꿀 수 없습니다,,Object Editor tried to change an event to one that already exists
+ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,존재하는 이벤트로 바꿀 수 없습니다.,,Object Editor tried to change an event to one that already exists
+ObjectEditor_ConvertEventType,Convert to {0},{0}로 변환,,Change the event from DnD™ to script or from script to DnD™
 ObjectEditor_EventTypeScript,GML,GML,,Event type when script
 ObjectEditor_EventTypeDnD,DnD™,DnD™,,Event type when DnD™
-ObjectEditor_Children,Children,Children,,Children label in Object Editor
-ObjectEditor_Circle,Circle,Circle,,Object editor collision shape circle
-ObjectEditor_CodeWindow,Code,Code,,object editor code window heading
-ObjectEditor_CollisionShape,Collision Shape,Collision Shape,,Object editor collision shape label
-ObjectEditor_CurrentFrame,Current Frame,Current Frame,,Physics collision window current frame
-ObjectEditor_DeleteEvent,Delete Event,Delete Event,,Object Editor delete event menu option
-ObjectEditor_DeleteEvents,Delete Events,Delete Events,,Object Editor delete event menu option (multiple)
-ObjectEditor_CutEvent,Cut Event,Cut Event,,Object editor cut event menu option
-ObjectEditor_CopyEvent,Copy Event,Copy Event,,Object editor copy event menu option
-ObjectEditor_PasteEvent,Paste Event,Paste Event,,Object editor paste event menu option
-ObjectEditor_DuplicateEvent,Duplicate Event,Duplicate Event,,Object editor duplicate event menu option
-ObjectEditor_OpenParentObject,Open Parent Event,Open Parent Event,,Object editor open parent object menu option
-ObjectEditor_OverrideParentEvent,Override Event,Override Event,,Object editor override parent event menu option
-ObjectEditor_InheritParentEvent,Inherit Event,Inherit Event,,Object editor inherit parent event menu option
-ObjectEditor_ViewParentEvent,Show Parent Event,Show Parent Event,,Object editor show parent event menu option
-ObjectEditor_SelectSprite,Select Sprite,Select Sprite,,Object editor select sprite caption
-ObjectEditor_SelectMask,Select Mask,Select Mask,,Object editor select mask caption
-ObjectEditor_SelectParent,Select Parent,Select Parent,,Object editor select parent caption
-ObjectEditor_Event,Event,Event,,Event button
-ObjectEditor_Events,Events,Events,,object editor events heading
-ObjectEditor_ModifyCollisionShape,Modify Collision Shape,Modify Collision Shape,,"Object editor ""modify collision shape"" button label"
-ObjectEditor_Name,Name:,Name:,,Name label in obejct editor
-ObjectEditor_NewSprite,New,New,,object editor new sprite button
-ObjectEditor_NoParent,No Parent,No Parent,,"Object editor ""no parent"" setting"
-ObjectEditor_NoSprite,No Sprite,No Sprite,,"Object editor ""no sprite"" setting"
-ObjectEditor_ObjectProperties,Object Properties,Object Properties,,Object properties window title
-ObjectEditor_Physics,Physics,Physics,,Physics label in Object Editor
-ObjectEditor_InstProps,Variables,Variables,,Object Variables label in Object Editor
-ObjectEditor_InstPropsDefs,Variable Definitions,Variable Definitions,,Object Variables definitions label in Object Editor
-ObjectEditor_Multiselect,Multi-select,Multi-select,,Object editor list option multiselect
-ObjectEditor_PropAddButton_Tooltip,Add a new variable,Add a new variable,,Add variable tooltip
-ObjectEditor_ListAddButton_Tooltip,Add a new list item,Add a new list item,,Add list item tooltip
-ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the parent object {0}.,This variable has been inherited from the parent object {0}.,,Inherited variable tooltip
-ObjectEditor_PropName,Name,Name,,Variable name
-ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,This is how you will reference it in code.,,Tooltip property name
-InstanceEditor_PropValue,Value,Value,,Variable value
-InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,Set the variable to a value for this instance only.,,Set variable tooltip
-ObjectEditor_PropType,Type,Type,,Variable type
-ObjectEditor_PropDefault,Default,Default,,Variable default value
-ObjectEditor_PropParams,Options,Options,,Variable attributes aka parameters
+ObjectEditor_Children,Children,자식,,Children label in Object Editor
+ObjectEditor_Circle,Circle,원,,Object editor collision shape circle
+ObjectEditor_CodeWindow,Code,코드,,object editor code window heading
+ObjectEditor_CollisionShape,Collision Shape,충돌체 모양,,Object editor collision shape label
+ObjectEditor_CurrentFrame,Current Frame,현재 프레임,,Physics collision window current frame
+ObjectEditor_DeleteEvent,Delete Event,이벤트 제거,,Object Editor delete event menu option
+ObjectEditor_DeleteEvents,Delete Events,이벤트 제거,,Object Editor delete event menu option (multiple)
+ObjectEditor_CutEvent,Cut Event,이벤트 잘라내기,,Object editor cut event menu option
+ObjectEditor_CopyEvent,Copy Event,이벤트 복사,,Object editor copy event menu option
+ObjectEditor_PasteEvent,Paste Event,이벤트 붙여넣기,,Object editor paste event menu option
+ObjectEditor_DuplicateEvent,Duplicate Event,이벤트 복제,,Object editor duplicate event menu option
+ObjectEditor_OpenParentObject,Open Parent Event,부모 이벤트 열기,,Object editor open parent object menu option
+ObjectEditor_OverrideParentEvent,Override Event,이벤트 재정의,,Object editor override parent event menu option
+ObjectEditor_InheritParentEvent,Inherit Event,이벤트 상속,,Object editor inherit parent event menu option
+ObjectEditor_ViewParentEvent,Show Parent Event,부모 이벤트 보기,,Object editor show parent event menu option
+ObjectEditor_SelectSprite,Select Sprite,스프라이트 선택,,Object editor select sprite caption
+ObjectEditor_SelectMask,Select Mask,마스크 선택,,Object editor select mask caption
+ObjectEditor_SelectParent,Select Parent,부모 선택,,Object editor select parent caption
+ObjectEditor_Event,Event,이벤트,,Event button
+ObjectEditor_Events,Events,이벤트,,object editor events heading
+ObjectEditor_ModifyCollisionShape,Modify Collision Shape,충돌체 수정,,"Object editor ""modify collision shape"" button label"
+ObjectEditor_Name,Name:,이름,,Name label in obejct editor
+ObjectEditor_NewSprite,New,새 스프라이트,,object editor new sprite button
+ObjectEditor_NoParent,No Parent,부모 없음,,"Object editor ""no parent"" setting"
+ObjectEditor_NoSprite,No Sprite,스프라이트 없음,,"Object editor ""no sprite"" setting"
+ObjectEditor_ObjectProperties,Object Properties,객체 속성,,Object properties window title
+ObjectEditor_Physics,Physics,물리,,Physics label in Object Editor
+ObjectEditor_InstProps,Variables,변수,,Object Variables label in Object Editor
+ObjectEditor_InstPropsDefs,Variable Definitions,변수 정의,,Object Variables definitions label in Object Editor
+ObjectEditor_Multiselect,Multi-select,다중 선택,,Object editor list option multiselect
+ObjectEditor_PropAddButton_Tooltip,Add a new variable,새 변수 추가,,Add variable tooltip
+ObjectEditor_ListAddButton_Tooltip,Add a new list item,새 목록 항목 추가,,Add list item tooltip
+ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the parent object {0}.,이 변수는 부모 {0}에서 상속되었습니다.,,Inherited variable tooltip
+ObjectEditor_PropName,Name,이름,,Variable name
+ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,이는 코드에서 어떻게 참조할 지를 나타냅니다.,,Tooltip property name
+InstanceEditor_PropValue,Value,값,,Variable value
+InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,이 개체에서 사용할 값으로만 변수를 설정하십시오.,,Set variable tooltip
+ObjectEditor_PropType,Type,유형,,Variable type
+ObjectEditor_PropDefault,Default,기본값,,Variable default value
+ObjectEditor_PropParams,Options,옵션,,Variable attributes aka parameters
 InstanceEditor_PropBoolean_Label,TRUE,TRUE,,Boolean label
 ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
-ObjectEditor_RangeEnabled,Use Range,Use Range,,Use ranged parameter
-ObjectEditor_RangeMin,Min,Min,,Min ranged parameter
-ObjectEditor_RangeMax,Max,Max,,Max ranged parameter
-ObjectEditor_ListItems,List items,List items,,List items label
-ObjectEditor_ResourceFilter,Resource filter,Resource filter,,Resource filter label
-ObjectEditor_RemoveListItem,Remove this item,Remove this item,,Remove this item label
-ObjectEditor_PhysicsProperties,Physics Properties,Physics Properties,,Object editor physics properties label
-ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Physics Collision Shape,,Object editor physics shape window title
-ObjectEditor_Properties,Properties,Properties,,Object editor properties heading
-ObjectEditor_SameMask,Same As Sprite,Same As Sprite,,"Object editor ""same as sprite"" mask setting"
-ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same mask caption
-ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
+ObjectEditor_RangeEnabled,Use Range,범위 사용,,Use ranged parameter
+ObjectEditor_RangeMin,Min,최소,,Min ranged parameter
+ObjectEditor_RangeMax,Max,최대,,Max ranged parameter
+ObjectEditor_ListItems,List items,목록 항목,,List items label
+ObjectEditor_ResourceFilter,Resource filter,자원 필터,,Resource filter label
+ObjectEditor_RemoveListItem,Remove this item,이 항목 삭제,,Remove this item label
+ObjectEditor_PhysicsProperties,Physics Properties,물리 속성,,Object editor physics properties label
+ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,충돌체 모양,,Object editor physics shape window title
+ObjectEditor_Properties,Properties,속성,,Object editor properties heading
+ObjectEditor_SameMask,Same As Sprite,스프라이트와 같음,,"Object editor ""same as sprite"" mask setting"
+ObjectEditor_MaskSameAsSprite,Same As Sprite,스프라이트와 같음,,Object editor same mask caption
+ObjectEditor_Shape,Convex Shape,볼록한 모양,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
-ObjectEditor_Prop_RemoveTooltip,Remove this variable,Remove this variable,,Remove variable row tooltip
-ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,Reset to default,,remove variable override tooltip
-ObjectEditor_Prop_OptionsTooltip,Open options...,Open options...,,Open variable options tooltip
-ObjectEditor_EventReplaceMessage,"Replace the existing {0} event, or paste as a new event?","Replace the existing {0} event, or paste as a new event?",,event paste replace dialog message
-ObjectEditor_EventReplaceTitle,Replace existing event?,Replace existing event?,,event paste replace dialog title
-ObjectEditor_EventReplaceLabel,Replace,Replace,,replace button label
-ObjectEditor_EventNewLabel,New Event,New Event,,new event button label
-InstanceEditor_Prop_OverrideTooltip,Override this variable,Override this variable,,Override variable tooltip
-OutputPanel_Output,Output,Output,,Output panel output tab name
-OutputPanel_SearchResults,Search Results,Search Results,,Output panel search results tab name
-OutputPanel_SourceControl,Source Control,Source Control,,Output panel source control tab name
-PathEditor_Increment,Increment:,Increment:,,Increment path label
-PathEditor_Add,Add,Add,,Path editor add button name
-PathEditor_Closed,Closed,Closed,,Path editor closed path checkbox
-PathEditor_ConnectionKind,Connection Kind,Connection Kind,,Connection kind radio group caption
-PathEditor_ContextMenu_EditPoint,Edit,Edit,,Point label context menu item
-PathEditor_EditPoint,Edit,Edit,,Edit button text on path editor
-PathEditor_EditPoint_Cancel,Cancel,Cancel,,Cancel button text
-PathEditor_EditPoint_Save,Save,Save,,Save button text
-PathEditor_EditPoint_Title,Edit Point {0} In {1},Edit Point {0} In {1},,Edit point dialog window caption
-PathEditor_HorizontalShift,Horizontal Shift:,Horizontal Shift:,,Path shift dialog label
-PathEditor_Insert,Insert,Insert,,Path editor insert button name
-PathEditor_ListBoxItem_Speed,Speed:,Speed:,,The speed of a point in the path points collection
-PathEditor_Name,Name:,Name:,,Path editor name textbox caption
-PathEditor_Precision,Precision:,Precision:,,Path editor precision textbox caption
-PathEditor_Remove,Remove,Remove,,Path editor remove button name
-PathEditor_RoomPlugin_Inherit,Inherit,Inherit,,Path editor room editor plugin inherit button
-PathEditor_RoomPlugin_NoPath,<No path>,<No path>,,Label when no path is being edited in path editor room plugin
-PathEditor_RoomPlugin_SelectPath,Select Path...,Select Path...,,Select path property button for path editor room plugin
-PathEditor_Shift,Shift,Shift,,Path shift button text
-PathEditor_ShiftDialog_Label,Click the arrow in the direction you want to shift the path.,Click the arrow in the direction you want to shift the path.,,Path editor shift dialog help text
-PathEditor_ShiftPath_Title,Shift Path: {0},Shift Path: {0},,Path shift dialog title
-PathEditor_SmoothCurve,Smooth Curve,Smooth Curve,,Path editor smooth curve connection kind
-PathEditor_SnapX,Snap X,Snap X,,Path editor snap x label
-PathEditor_SnapY,Snap Y,Snap Y,,Path editor snap y label
-PathEditor_Speed,Speed,Speed,,Path editor speed textbox caption
-PathEditor_SplineContextMenu_EditPoints,Edit Points,Edit Points,,Path spline editor context menu entry
-PathEditor_SplineContextMenu_FlipHorizontalPath,Mirror,Mirror,,Path spline editor context menu entry
-PathEditor_SplineContextMenu_FlipVerticalPath,Flip,Flip,,Path spline editor context menu entry
-PathEditor_SplineContextMenu_PanToPath,Pan To Path,Pan To Path,,Path spline editor context menu entry
-PathEditor_SplineContextMenu_Reverse,Reverse,Reverse,,Path spline editor context menu entry
-PathEditor_SplineEditor_AddTip,Left Mouse Button: Add & Drag Anchor,Left Mouse Button: Add & Drag Anchor,,Path spline editor help tip
-PathEditor_SplineEditor_Area,"Area: {0},{1} {2},{3}","Area: {0},{1} {2},{3}",,Path spline editor area location
-PathEditor_SplineEditor_Cursor,"Cursor: {0},{1}","Cursor: {0},{1}",,Path spline editor cursor location
-PathEditor_SplineEditor_EditTip,"T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale","T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale",,Path spline editor help tip
-PathEditor_StraightLines,Straight Lines,Straight Lines,,Path editor straight lines connection kind
-PathEditor_ToolTip_ShiftPath,Shift Path,Shift Path,,Path editor tool tip
-PathEditor_ToolTip_SnapGrid,Snap Path To Grid,Snap Path To Grid,,Path editor tool tip
-PathEditor_ToolTip_ToggleGrid,Toggle Grid On/Off,Toggle Grid On/Off,,Path editor tool tip
-PathEditor_ToolTip_ZoomIn,Zoom In,Zoom In,,Path editor tool tip
-PathEditor_ToolTip_ZoomOut,Zoom Out,Zoom Out,,Path editor tool tip
-PathEditor_ToolTip_ZoomReset,Reset Zoom,Reset Zoom,,Path editor tool tip
-PathEditor_VerticalShift,Vertical Shift:,Vertical Shift:,,Path shift dialog label
+ObjectEditor_Prop_RemoveTooltip,Remove this variable,이 변수 삭제,,Remove variable row tooltip
+ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,기본값으로 되돌리기,,remove variable override tooltip
+ObjectEditor_Prop_OptionsTooltip,Open options...,옵션 열기...,,Open variable options tooltip
+ObjectEditor_EventReplaceMessage,"Replace the existing {0} event, or paste as a new event?",이벤트 {0}을 덮어씌울까요? 아니면 새 이벤트로 붙여넣기 할까요?,,event paste replace dialog message
+ObjectEditor_EventReplaceTitle,Replace existing event?,이벤트를 덮어씌울까요?,,event paste replace dialog title
+ObjectEditor_EventReplaceLabel,Replace,덮어씌우기,,replace button label
+ObjectEditor_EventNewLabel,New Event,새 이벤트,,new event button label
+InstanceEditor_Prop_OverrideTooltip,Override this variable,이 변수 덮어씌우기,,Override variable tooltip
+OutputPanel_Output,Output,출력,,Output panel output tab name
+OutputPanel_SearchResults,Search Results,검색 결과,,Output panel search results tab name
+OutputPanel_SourceControl,Source Control,소스 제어,,Output panel source control tab name
+PathEditor_Increment,Increment:,증분,,Increment path label
+PathEditor_Add,Add,추가,,Path editor add button name
+PathEditor_Closed,Closed,닫힌 경로,,Path editor closed path checkbox
+PathEditor_ConnectionKind,Connection Kind,연결 종류,,Connection kind radio group caption
+PathEditor_ContextMenu_EditPoint,Edit,편집,,Point label context menu item
+PathEditor_EditPoint,Edit,편집,,Edit button text on path editor
+PathEditor_EditPoint_Cancel,Cancel,취소,,Cancel button text
+PathEditor_EditPoint_Save,Save,저장,,Save button text
+PathEditor_EditPoint_Title,Edit Point {0} In {1},점 {0} - {1} 편집,,Edit point dialog window caption
+PathEditor_HorizontalShift,Horizontal Shift:,수평 이동,,Path shift dialog label
+PathEditor_Insert,Insert,삽입,,Path editor insert button name
+PathEditor_ListBoxItem_Speed,Speed:,속도,,The speed of a point in the path points collection
+PathEditor_Name,Name:,이름,,Path editor name textbox caption
+PathEditor_Precision,Precision:,정밀도,,Path editor precision textbox caption
+PathEditor_Remove,Remove,제거,,Path editor remove button name
+PathEditor_RoomPlugin_Inherit,Inherit,상속,,Path editor room editor plugin inherit button
+PathEditor_RoomPlugin_NoPath,<No path>,<경로 없음>,,Label when no path is being edited in path editor room plugin
+PathEditor_RoomPlugin_SelectPath,Select Path...,경로 선택,,Select path property button for path editor room plugin
+PathEditor_Shift,Shift,옮기기,,Path shift button text
+PathEditor_ShiftDialog_Label,Click the arrow in the direction you want to shift the path.,원하는 방향의 화살표를 눌러 경로를 옮기십시오.,,Path editor shift dialog help text
+PathEditor_ShiftPath_Title,Shift Path: {0},경로 옮기기,,Path shift dialog title
+PathEditor_SmoothCurve,Smooth Curve,부드러운 곡선,,Path editor smooth curve connection kind
+PathEditor_SnapX,Snap X,X 맞춤,,Path editor snap x label
+PathEditor_SnapY,Snap Y,Y 맞춤,,Path editor snap y label
+PathEditor_Speed,Speed,속도,,Path editor speed textbox caption
+PathEditor_SplineContextMenu_EditPoints,Edit Points,점 편집,,Path spline editor context menu entry
+PathEditor_SplineContextMenu_FlipHorizontalPath,Mirror,반전,,Path spline editor context menu entry
+PathEditor_SplineContextMenu_FlipVerticalPath,Flip,좌우 뒤집기,,Path spline editor context menu entry
+PathEditor_SplineContextMenu_PanToPath,Pan To Path,경로로 이동,,Path spline editor context menu entry
+PathEditor_SplineContextMenu_Reverse,Reverse,순서 반대로,,Path spline editor context menu entry
+PathEditor_SplineEditor_AddTip,Left Mouse Button: Add & Drag Anchor,왼쪽 마우스 단추로 기준점 추가 및 드래그,,Path spline editor help tip
+PathEditor_SplineEditor_Area,"Area: {0},{1} {2},{3}","영역: {0},{1} / {2},{3}",,Path spline editor area location
+PathEditor_SplineEditor_Cursor,"Cursor: {0},{1}","커서: {0},{1}",,Path spline editor cursor location
+PathEditor_SplineEditor_EditTip,"T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale","T+LMB: 이동, R+LMB: 회전, S+LMB: 비율 조절",,Path spline editor help tip
+PathEditor_StraightLines,Straight Lines,직선,,Path editor straight lines connection kind
+PathEditor_ToolTip_ShiftPath,Shift Path,경로 옮기기,,Path editor tool tip
+PathEditor_ToolTip_SnapGrid,Snap Path To Grid,경로를 격자에 맞추기,,Path editor tool tip
+PathEditor_ToolTip_ToggleGrid,Toggle Grid On/Off,격자 켜기 / 끄기,,Path editor tool tip
+PathEditor_ToolTip_ZoomIn,Zoom In,확대,,Path editor tool tip
+PathEditor_ToolTip_ZoomOut,Zoom Out,축소,,Path editor tool tip
+PathEditor_ToolTip_ZoomReset,Reset Zoom,줌 재설정,,Path editor tool tip
+PathEditor_VerticalShift,Vertical Shift:,수직 이동,,Path shift dialog label
 PathEditor_WindowTitle,Path: {0},Path: {0},,Path editor window title
-PathLayer_AddNewPath,<new path>,<new path>,,context menu entry for creating a new path within the path layer properties
-PrefsTree_Title,Preferences,Preferences,,Preferences tree title
-DebugInfo_Title,Debug Info,Debug Info,,Debug info window title
-DebugInfo_DumpMemory,Memory Usage,Memory Usage,,Dump memory button label
-DebugInfo_CrashButton,DIE DIE DIE (Crash),DIE DIE DIE (Crash),,Crash button label
-OutputPanel_Title,Output,Output,,Output panel window title
+PathLayer_AddNewPath,<new path>,<새로운 경로>,,context menu entry for creating a new path within the path layer properties
+PrefsTree_Title,Preferences,환경 설정,,Preferences tree title
+DebugInfo_Title,Debug Info,디버그 정보,,Debug info window title
+DebugInfo_DumpMemory,Memory Usage,메모리 사용량,,Dump memory button label
+DebugInfo_CrashButton,DIE DIE DIE (Crash),죽어 죽어 죽어 (충돌),,Crash button label
+OutputPanel_Title,Output,출력,,Output panel window title
 PropertyButton_NoResourceArg,No {0},No {0},,no resource (type name) selected caption for resource button
 PropertyButton_NoResource,No Resource,No Resource,,no resource selected caption for resource button
-PropertyButton_NoGMObject,No Object,No Object,,no object selected caption for the view object button
-PropertyButton_NoGMSprite,No Sprite,No Sprite,,Button caption for when no sprite is selected
+PropertyButton_NoGMObject,No Object,객체 없음,,no object selected caption for the view object button
+PropertyButton_NoGMSprite,No Sprite,스프라이트 없음,,Button caption for when no sprite is selected
 PropertyButton_NoGMSequence,No Sequence,No Sequence,,Button caption for when no sequence is selected
-PropertyButton_NoGMTileSet,No Tileset,No Tile set,,no background selected caption for the layer background button
+PropertyButton_NoGMTileSet,No Tileset,타일 세트 없음,,no background selected caption for the layer background button
 PropertyButton_NoGMParticleType,No Particle Type,No Particle Type,,no particle type selected button caption
 PropertyButton_NoGMParticleSystem,No Particle System,No Particle System,,no particle system selected button caption
-ResourceNode_AddExisting,Add Existing,Add Existing,,Resource Tree node menu - add an already existing resource
-ResourceNode_AddExistingFromLibrary,Add Existing From My Library,Add Existing From My Library,,Resource Tree node menu - open my library to select resource to import
-ResourceNode_AddGroup,Add Group,Add Group,,Add a group
-ResourceNode_AddFromDefault,Add From Default View,Add From Default View,,submenu heading to allow users to select a resource from the default view to add to their user view.
-ResourceNode_RemoveFromView,Remove From Current View,Remove From Current View,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","You are about to remove """"{0}"""" from view """"{1}"""". Continue?",,Resource Tree - confirmation of removal from the current view
-ResourceNode_Create,Create,Create,,Resource Tree node menu - create resource
-ResourceNode_DndToScript,Convert to GML,Convert to GML,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to DnD™,Convert to DnD™,,Resource Tree node menu - Script To Dnd
-ResourceNode_CreateChild,Create Child,Create Child,,Resource tree context menu label for creating a child resource of the selected node
-ResourceNode_CreateDataFile,Create Included File,Create Included File,,Resource Tree node menu - create included file
-ResourceNode_Delete,Delete,Delete,,Resource Tree node menu - delete resource
-ResourceNode_Duplicate,Duplicate,Duplicate,,Resource Tree node menu - duplicate
-ResourceNode_ImportExtension,Import Extension,Import Extension,,resource node menu - import extension
-ResourceNode_InsertDataFile,Insert Included File,Insert Included File,,Resource Tree node menu - insert included file
-ResourceNode_OpenExternally,Open Externally,Open Externally,,Resource Tree node menu - open externally
-ResourceTree_ErrorOpeningExternally,Error Opening Externally,Error Opening Externally,,Resource Tree node menu - error open externally
+ResourceNode_AddExisting,Add Existing,기존 항목 추가,,Resource Tree node menu - add an already existing resource
+ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 항목 추가,,Resource Tree node menu - open my library to select resource to import
+ResourceNode_AddGroup,Add Group,폴더 추가,,Add a group
+ResourceNode_AddFromDefault,Add From Default View,기본 보기에서 추가,,submenu heading to allow users to select a resource from the default view to add to their user view.
+ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 제거,,Resource Tree - remove a resource from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","보기 """"{1}"""" 에서 """"{0}""""을 제거합니다. 계속할까요?",,Resource Tree - confirmation of removal from the current view
+ResourceNode_Create,Create,만들기,,Resource Tree node menu - create resource
+ResourceNode_DndToScript,Convert to GML,GML로 변환,,Resource Tree node menu - Dnd To GML
+ResourceNode_ScriptToDnd,Convert to DnD™,DnD™로 변환,,Resource Tree node menu - Script To Dnd
+ResourceNode_CreateChild,Create Child,자식 생성,,Resource tree context menu label for creating a child resource of the selected node
+ResourceNode_CreateDataFile,Create Included File,포함 파일 생성,,Resource Tree node menu - create included file
+ResourceNode_Delete,Delete,삭제,,Resource Tree node menu - delete resource
+ResourceNode_Duplicate,Duplicate,복제,,Resource Tree node menu - duplicate
+ResourceNode_ImportExtension,Import Extension,확장 기능 가져오기,,resource node menu - import extension
+ResourceNode_InsertDataFile,Insert Included File,포함 파일 삽입,,Resource Tree node menu - insert included file
+ResourceNode_OpenExternally,Open Externally,외부에서 열기,,Resource Tree node menu - open externally
+ResourceTree_ErrorOpeningExternally,Error Opening Externally,외부에서 열기 오류,,Resource Tree node menu - error open externally
 ResourceNode_OpenInExplorer,${OpenInExplorer},${OpenInExplorer},,Resource Tree node menu - open in explorer
-ResourceNode_OpenAll,Open All,Open All,,Resource Tree node menu - open all
-ResourceNode_OpenProperties,Open Properties,Open Properties,,Resource Tree node menu - open properties
-ResourceNode_OpenInMixer,Open In Sound Mixer,Open In Sound Mixer,,Resource Tree node menu - open in sound mixer
-ResourceNode_RegenerateFont,Regenerate Font,Regenerate Font,,Resource Tree node menu - regenerate font
-ResourceNode_RegenerateFonts,Regenerate Fonts,Regenerate Fonts,,Resource Tree node menu - regenerate fonts
-ResourceNode_OpenObjectEvents,Open All Event Scripts,Open All Event Scripts,,Resource Tree node menu - open all event scripts
-ResourceNode_ImageAsSprite,Create Sprite From Image(s),Create Sprite From Image(s),,Resource Tree node menu - create a new sprite from image files
-ResourceNode_SetTextureGroup,Assign Texture Group,Assign Texture Group,,Resource Tree node menu - set the texture group of selected resources
-ResourceNode_NewTextureGroup,Create New...,Create New...,,Resource Tree node menu - create new texture group with selected resources
-ResourceNode_NewAudioGroup,Create New...,Create New...,,Resource Tree node menu - create new audio group with selected resources
-ResourceNode_SetAudioGroup,Assign Audio Group,Assign Audio Group,,Resource Tree node menu - set the audio group of selected resources
-ResourceNode_Rename,Rename,Rename,,Resource Tree node menu - rename resource
+ResourceNode_OpenAll,Open All,모두 열기,,Resource Tree node menu - open all
+ResourceNode_OpenProperties,Open Properties,속성,,Resource Tree node menu - open properties
+ResourceNode_OpenInMixer,Open In Sound Mixer,소리 혼합기에서 열기,,Resource Tree node menu - open in sound mixer
+ResourceNode_RegenerateFont,Regenerate Font,글꼴 텍스처 생성,,Resource Tree node menu - regenerate font
+ResourceNode_RegenerateFonts,Regenerate Fonts,글꼴 텍스처 생성,,Resource Tree node menu - regenerate fonts
+ResourceNode_OpenObjectEvents,Open All Event Scripts,모든 이벤트 열기,,Resource Tree node menu - open all event scripts
+ResourceNode_ImageAsSprite,Create Sprite From Image(s),그림에서 스프라이트 만들기,,Resource Tree node menu - create a new sprite from image files
+ResourceNode_SetTextureGroup,Assign Texture Group,묶음,,Resource Tree node menu - set the texture group of selected resources
+ResourceNode_NewTextureGroup,Create New...,새로 만들기,,Resource Tree node menu - create new texture group with selected resources
+ResourceNode_NewAudioGroup,Create New...,새로 만들기,,Resource Tree node menu - create new audio group with selected resources
+ResourceNode_SetAudioGroup,Assign Audio Group,묶음,,Resource Tree node menu - set the audio group of selected resources
+ResourceNode_Rename,Rename,이름 바꾸기,,Resource Tree node menu - rename resource
 ResourceNode_OpenInImageEditor,Open in Image Editor,Open in Image Editor,,resource node open in image editor
 Save_RegeneratedFont,Generated font texture for '{0}',Generated font texture for '{0}',,Studio console to notify user of font texture update
 Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,Generated font texture for '{0}' because non existed,,Studio console to notify user of font texture update
