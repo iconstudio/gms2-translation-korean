@@ -1201,8 +1201,8 @@ ObjectEditor_AnimSpeed,Animation Speed,재생 속도,,Physics collision window p
 ObjectEditor_Arg0,{0},{0},,"empty string, single unlocalised argument"
 ObjectEditor_Box,Box,상자,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,이벤트 바꾸기,,Object editor change event menu option
-ObjectEditor_ChangeEventExistsTitle,Cannot change event,이벤트를 바꿀 수 없습니다,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,존재하는 이벤트로 바꿀 수 없습니다.,,Object Editor tried to change an event to one that already exists
+ObjectEditor_ChangeEventExistsTitle,Cannot change event,변경할 수 없는 이벤트,,Object Editor tried to change an event to one that already exists
+ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,이미 있는 이벤트에요.,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ConvertEventType,Convert to {0},{0}로 변환,,Change the event from DnD™ to script or from script to DnD™
 ObjectEditor_EventTypeScript,GML,GML,,Event type when script
 ObjectEditor_EventTypeDnD,DnD™,DnD™,,Event type when DnD™
@@ -1312,7 +1312,7 @@ PathEditor_ToolTip_SnapGrid,Snap Path To Grid,경로를 격자에 맞추기,,Pat
 PathEditor_ToolTip_ToggleGrid,Toggle Grid On/Off,격자 켜기 / 끄기,,Path editor tool tip
 PathEditor_ToolTip_ZoomIn,Zoom In,확대,,Path editor tool tip
 PathEditor_ToolTip_ZoomOut,Zoom Out,축소,,Path editor tool tip
-PathEditor_ToolTip_ZoomReset,Reset Zoom,줌 재설정,,Path editor tool tip
+PathEditor_ToolTip_ZoomReset,Reset Zoom,배율 재설정,,Path editor tool tip
 PathEditor_VerticalShift,Vertical Shift:,수직 이동,,Path shift dialog label
 PathEditor_WindowTitle,Path: {0},경로,,Path editor window title
 PathLayer_AddNewPath,<new path>,<새로운 경로>,,context menu entry for creating a new path within the path layer properties
@@ -1360,756 +1360,756 @@ ResourceNode_NewAudioGroup,Create New...,새로 만들기,,Resource Tree node me
 ResourceNode_SetAudioGroup,Assign Audio Group,묶음,,Resource Tree node menu - set the audio group of selected resources
 ResourceNode_Rename,Rename,이름 바꾸기,,Resource Tree node menu - rename resource
 ResourceNode_OpenInImageEditor,Open in Image Editor,그림 편집기에서 열기,,resource node open in image editor
-Save_RegeneratedFont,Generated font texture for '{0}',Generated font texture for '{0}',,Studio console to notify user of font texture update
-Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,Generated font texture for '{0}' because non existed,,Studio console to notify user of font texture update
-RegeneratedFonts_DidNothing,No fonts were regenerated.,No fonts were regenerated.,,No fonts were regenerated
-RegeneratedFonts_Success,Successfully regenerated {0} fonts.,Successfully regenerated {0} fonts.,,Success message regenerate fonts
-RegeneratedFonts_Success_Legacy,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.,,Success message regenerate fonts
-RegeneratedFonts_Success_Unavailable,Successfully regenerated {0} fonts.\n{2} fonts were unavailable.,Successfully regenerated {0} fonts.\n{2} fonts were unavailable.,,Success message regenerate fonts
-RegeneratedFonts_Success_Legacy_Unavailable,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,,Success message regenerate fonts
-RegeneratedFonts_Failed,Failed to regenerate one or more fonts.,Failed to regenerate one or more fonts.,,Success message regenerate fonts
-RegeneratedFonts_Failed_Legacy,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.,,Success message regenerate fonts
-RegeneratedFonts_Failed_Unavailable,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,,Success message regenerate fonts
-RegeneratedFonts_Failed_Legacy_Unavailable,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,,Success message regenerate fonts
-ResourceTree_Configs,Configurations,Configurations,,
-ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","You are about to delete the directory ""{0}"" and all the items it contains. Continue?",,Resource tree directory delete user confirmation
-ResourceTree_Extensions,Extensions,Extensions,,"Resource tree ""Extensions"" label"
-ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","You are about to delete the file ""{0}"". Continue?",,Resource tree file delete user confirmation
-ResourceTree_Fonts,Fonts,Fonts,,"Resource tree ""Fonts"" label"
-ResourceTree_Folders,Folders,Folders,,resource tree folders resource label
-ResourceTree_IncludedFiles,Included Files,Included Files,,"Resource tree ""Included Files"" label"
-ResourceTree_NoResourceFound,No results found,No results found,,message when nothing found when searching resource tree
-ResourceMenu_CreateExtension,Create Extension,Create Extension,,"Resource menu ""Create Extension"" entry"
-ResourceMenu_CreateFont,Create Font,Create Font,,"Resource menu ""Create Font"" entry"
-ResourceMenu_CreateIncludedFile,Create Included File,Create Included File,,"Resource menu ""Create Included File"" entry"
-ResourceMenu_CreateObject,Create Object,Create Object,,"Resource menu ""Create Object"" entry"
-ResourceMenu_CreatePath,Create Path,Create Path,,"Resource menu ""Create Path"" entry"
-ResourceMenu_CreateRoom,Create Room,Create Room,,"Resource menu ""Create Room"" entry"
-ResourceMenu_CreateScript,Create Script,Create Script,,"Resource menu ""Create Script"" entry"
-ResourceMenu_CreateShader,Create Shader,Create Shader,,"Resource menu ""Create Shader"" entry"
-ResourceMenu_CreateSound,Create Sound,Create Sound,,"Resource menu ""Create Sound"" entry"
-ResourceMenu_CreateSprite,Create Sprite,Create Sprite,,"Resource menu ""Create Sprite"" entry"
-ResourceMenu_CreateTileset,Create Tile Set,Create Tile Set,,"Resource menu ""Create Tile Set"" entry"
-ResourceMenu_CreateNineSlice,Create Nine Slice,Create Nine Slice,,"Resource menu ""Create Nine Slice"" entry"
-ResourceMenu_CreateNote,Create Note,Create Note,,"Resource menu ""Create Note"" entry"
-ResourceMenu_CreateTimeline,Create Timeline,Create Timeline,,"Resource menu ""Create Timeline"" entry"
-ResourceMenu_Resources,Resources,Resources,,Main resources menu entry
-ResourceTree_MultipleResourceDelete_Confirm,Are you sure you want to delete these resources: {0}?,Are you sure you want to delete these resources: {0}?,,Resource tree delete confirmation label
-ResourceTree_MultipleResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete these resources: {0}?\nIncluded files/folders on disk will be deleted,Are you sure you want to delete these resources: {0}?\nIncluded files/folders on disk will be deleted,,Resource tree delete confirmation label
-ResourceTree_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these resources: {0}?\nCollision events with deleted objects will also be deleted,Are you sure you want to delete these resources: {0}?\nCollision events with deleted objects will also be deleted,,Resource tree delete confirmation label
-ResourceTree_Notes,Notes,Notes,,"Resource tree ""Notes"" label"
-ResourceTree_Objects,Objects,Objects,,"Resource tree ""Objects"" label"
-ResourceTree_Options,Options,Options,,options
-ResourceTree_Paths,Paths,Paths,,"Resource tree ""Paths"" label"
-ResourceTree_ResourceDelete_Confirm,Are you sure you want to delete {0}?,Are you sure you want to delete {0}?,,Resource tree delete confirmation label
-ResourceTree_ResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,,Resource tree folder delete confirmation label
-ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,,Resource tree delete events confirmation label
-ResourceTree_Rooms,Rooms,Rooms,,"Resource tree ""Rooms"" label"
-ResourceTree_Scripts,Scripts,Scripts,,"Resource tree ""Scripts"" label"
-ResourceTree_Shaders,Shaders,Shaders,,"Resource tree ""Shaders"" label"
-ResourceTree_Sounds,Sounds,Sounds,,"Resource tree ""Sounds"" label"
-ResourceTree_Sprites,Sprites,Sprites,,"Resource tree ""Sprites"" label"
-ResourceTree_Tilesets,Tile Sets,Tile Sets,,"Resource tree ""Tile Sets"" label"
-ResourceTree_Timelines,Timelines,Timelines,,"Resource tree ""Timelines"" label"
-ResourceTree_Title,Assets,Assets,,Assets title
-ResourceTree_ViewNameInUse,View Name Already In Use,View Name Already In Use,,label to show view name is already in use when renaming
-ResourceTree_CannotRenameDefaultView,Cannot rename Default View,Cannot rename Default View,,label to show that you cannot rename default view
-ResourceTree_LotsOfResourcesWarning,Do you want to open {0} resources for edit?,Do you want to open {0} resources for edit?,,label to warn user they are about to open a lot of resources
-ResourceTree_LotsOfResourcesTitle,Opening Lots of Resources,Opening Lots of Resources,,title for warning dialog box
-ResourceTree_CloneViewToolTip,Clone current view,Clone current view,,clone view tooltip
-ResourceTree_AddViewToolTip,Add new view,Add new view,,add new view tooltip
-ResourceTree_DeleteViewToolTip,Delete current view,Delete current view,,delete view tooltip
-ResourceTree_ExpandCollapseAllToolTip,Expand/Collapse All,Expand/Collapse All,,expand/collapse all elements of the resource tree tooltip
-ResourceTree_ExpandCollapseAll,Expand/Collapse All,Expand/Collapse All,,expand/collapse all elements of the resource tree tooltip
-ResourceTree_ExpandAll,Expand All,Expand All,,Expand all elements of the resource tree
-ResourceTree_CollapseAll,Collapse All,Collapse All,,Collapse all elements of the resource tree
-RoomEditor_AddSubLayer,Add Sub Layer,Add Sub Layer,,context sub menu heading for adding sub layers in the room editor layer view
-RoomEditor_AddRootLayer,Add Layer,Add Layer,,context sub menu heading for adding layers at the same level as the selected layer in the room editor layer view
-RoomEditor_AllLayers,All,All,,Layers label next to the set all layers locked/visible checkboxes
-RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},,Confirm delete instances
-RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_DeleteAllChildLayers,Delete All,Delete All,,layer delete confirm dialog message for the delete all button
-RoomEditor_DeleteLayer,Delete Layer,Delete Layer,,context menu option for deleting a layer
-RoomEditor_RenameLayer,Rename Layer,Rename Layer,,context menu option for renaming a layer
-RoomEditor_DeleteSelectedLayer,Delete Selected Layers,Delete Selected Layers,,tooltip for the delete selected layers button
-RoomEditor_GraphicProperties,Graphic: {0},Graphic: {0},,graphic properties window 
-RoomEditor_ParticleSystemProperties,Particle System: {0},Particle System: {0},,graphic properties window 
-RoomEditor_SequenceProperties,Sequence: {0},Sequence: {0},,graphic properties window 
-RoomEditor_NineSliceProperties,Nine Slice: {0},Nine Slice: {0},,graphic properties window 
-RoomEditor_SpriteProperties,Sprite: {0},Sprite: {0},,graphic properties window 
-RoomEditor_GridColour,Colour:,Colour:,,room editor toolbar grid colour select button caption
-RoomEditor_GridSnapX,Snap X:,Snap X:,,room editor toolbar grid horizontal snap numeric textbox caption
-RoomEditor_GridSnapY,Snap Y:,Snap Y:,,room editor toolbar grid vertical snap numeric textbox caption
-RoomEditor_Inherit,Inherit,Inherit,,Inherit button caption
-RoomEditor_InheritCode,Inherit Creation Code,Inherit Creation Code,,Tooltip for the button which sets if this room inherits its creation code from the parent
-RoomEditor_InheritEditorSettings,Inherit Editor Properties,Inherit Editor Properties,,Inherit button tool tip caption for editor settings
-RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,Inherit Physics Properties,,Inherit button tool tip caption for physics settings
-RoomEditor_InheritRoomSettings,Inherit Room Settings,Inherit Room Settings,,Inherit button tool tip caption for room settings
-RoomEditor_InheritSubLayers,Inherit Sub Layers,Inherit Sub Layers,,Context menu option for inheriting sub layers from the parent layer
-RoomEditor_InheritView,Inherit View,Inherit View,,inherit toggle button caption for a single view entry
-RoomEditor_InheritViewSettings,Inherit View Properties,Inherit View Properties,,Inherit button tool tip caption for view settings
-RoomEditor_InheritVisibility,Inherit Layer Visibility,Inherit Layer Visibility,,Context menu entry for whether a layer should inherit visibility state
-RoomEditor_InstanceProperties,Instance: {0},Instance: {0},,Instance properties window title
-RoomEditor_KeepAllChildLayers,Keep All,Keep All,,layer delete confirm dialog message for the keep all button
-RoomEditor_KeepBrokenChildLayers,Keep Changed,Keep Changed,,layer delete confirm dialog message for the keep changed button
-RoomEditor_LayerProperties,{1} Layer Properties - {0},{1} Layer Properties - {0},,Window title for the layer properties
-RoomEditor_Layers,Layers - {0},Layers - {0},,Window heading for the room editor layers view
-RoomEditor_NewAssetLayer,Create New Asset Layer,Create New Asset Layer,,Tool tip for the new asset layer button
-RoomEditor_NewBackgroundLayer,Create New Background Layer,Create New Background Layer,,Tool tip for the new background layer button
-RoomEditor_NewFolder,Create New Folder,Create New Folder,,Tool tip for the new folder button
-RoomEditor_NewInstanceLayer,Create New Instance Layer,Create New Instance Layer,,Tool tip for the new instance layer button
-RoomEditor_NewPathLayer,Create New Path Layer,Create New Path Layer,,Create new path layer tool tip for room editor
-RoomEditor_NewTileLayer,Create New Tile Layer,Create New Tile Layer,,Tool tip for the new tile layer button
+Save_RegeneratedFont,Generated font texture for '{0}',글꼴 '{0}'의 텍스처가 생성됐어요.,,Studio console to notify user of font texture update
+Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,글꼴 '{0}'의 텍스처가 없어 새로 생성됐어요.,,Studio console to notify user of font texture update
+RegeneratedFonts_DidNothing,No fonts were regenerated.,글꼴이 생성돼지 않았어요.,,No fonts were regenerated
+RegeneratedFonts_Success,Successfully regenerated {0} fonts.,{0}개의 글꼴들이 생성됐어요.,,Success message regenerate fonts
+RegeneratedFonts_Success_Legacy,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.,{0}개의 글꼴들이 생성됐어요.\n{1}개의 구 글꼴들은 제외돼요.,,Success message regenerate fonts
+RegeneratedFonts_Success_Unavailable,Successfully regenerated {0} fonts.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Success_Legacy_Unavailable,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Failed,Failed to regenerate one or more fonts.,글꼴 중 하나를 생성하는데 실패했어요.,,Success message regenerate fonts
+RegeneratedFonts_Failed_Legacy,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.,,Success message regenerate fonts
+RegeneratedFonts_Failed_Unavailable,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Failed_Legacy_Unavailable,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+ResourceTree_Configs,Configurations,구성,,
+ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","디렉토리 ""{0}""와 안에 포함된 모든 항목들을 삭제합니다. 계속할까요?",,Resource tree directory delete user confirmation
+ResourceTree_Extensions,Extensions,확장 기능,,"Resource tree ""Extensions"" label"
+ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","파일 ""{0}""을 제거합니다. 계속할까요?",,Resource tree file delete user confirmation
+ResourceTree_Fonts,Fonts,글꼴,,"Resource tree ""Fonts"" label"
+ResourceTree_Folders,Folders,폴더,,resource tree folders resource label
+ResourceTree_IncludedFiles,Included Files,포함 파일,,"Resource tree ""Included Files"" label"
+ResourceTree_NoResourceFound,No results found,검색 결과 없음,,message when nothing found when searching resource tree
+ResourceMenu_CreateExtension,Create Extension,확장 기능 만들기,,"Resource menu ""Create Extension"" entry"
+ResourceMenu_CreateFont,Create Font,글꼴 만들기,,"Resource menu ""Create Font"" entry"
+ResourceMenu_CreateIncludedFile,Create Included File,포함 파일 만들기,,"Resource menu ""Create Included File"" entry"
+ResourceMenu_CreateObject,Create Object,객체 만들기,,"Resource menu ""Create Object"" entry"
+ResourceMenu_CreatePath,Create Path,경로 만들기,,"Resource menu ""Create Path"" entry"
+ResourceMenu_CreateRoom,Create Room,룸 만들기,,"Resource menu ""Create Room"" entry"
+ResourceMenu_CreateScript,Create Script,스크립트 만들기,,"Resource menu ""Create Script"" entry"
+ResourceMenu_CreateShader,Create Shader,쉐이더 만들기,,"Resource menu ""Create Shader"" entry"
+ResourceMenu_CreateSound,Create Sound,소리 만들기,,"Resource menu ""Create Sound"" entry"
+ResourceMenu_CreateSprite,Create Sprite,스프라이트 만들기,,"Resource menu ""Create Sprite"" entry"
+ResourceMenu_CreateTileset,Create Tile Set,타일 세트 만들기,,"Resource menu ""Create Tile Set"" entry"
+ResourceMenu_CreateNineSlice,Create Nine Slice,9등분 스프라이트 만들기,,"Resource menu ""Create Nine Slice"" entry"
+ResourceMenu_CreateNote,Create Note,필기 만들기,,"Resource menu ""Create Note"" entry"
+ResourceMenu_CreateTimeline,Create Timeline,타임라인 만들기,,"Resource menu ""Create Timeline"" entry"
+ResourceMenu_Resources,Resources,자원,,Main resources menu entry
+ResourceTree_MultipleResourceDelete_Confirm,Are you sure you want to delete these resources: {0}?,정말로 자원 {0}을(를) 지울까요?,,Resource tree delete confirmation label
+ResourceTree_MultipleResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete these resources: {0}?\nIncluded files/folders on disk will be deleted,정말로 이 자원들을 지울까요?: {0}\n디스크의 포함 파일 및 폴더도 함께 없어져요.,,Resource tree delete confirmation label
+ResourceTree_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these resources: {0}?\nCollision events with deleted objects will also be deleted,정말로 이 자원들을 지울까요?: {0}\n삭제되는 객체와 그 충돌 이벤트도 함께 지워져요.,,Resource tree delete confirmation label
+ResourceTree_Notes,Notes,필기,,"Resource tree ""Notes"" label"
+ResourceTree_Objects,Objects,객체,,"Resource tree ""Objects"" label"
+ResourceTree_Options,Options,옵션,,options
+ResourceTree_Paths,Paths,경로,,"Resource tree ""Paths"" label"
+ResourceTree_ResourceDelete_Confirm,Are you sure you want to delete {0}?,정말로 {0}을(를) 삭제할까요?,,Resource tree delete confirmation label
+ResourceTree_ResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,정말로 {0}을(를) 삭제할까요?\n디스크의 포함 파일 및 폴더도 함께 없어져요.,,Resource tree folder delete confirmation label
+ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,정말로 {0} (를) 삭제할까요?\n삭제되는 객체와 그 충돌 이벤트도 함께 지워져요.,,Resource tree delete events confirmation label
+ResourceTree_Rooms,Rooms,룸,,"Resource tree ""Rooms"" label"
+ResourceTree_Scripts,Scripts,스크립트,,"Resource tree ""Scripts"" label"
+ResourceTree_Shaders,Shaders,쉐이더,,"Resource tree ""Shaders"" label"
+ResourceTree_Sounds,Sounds,소리,,"Resource tree ""Sounds"" label"
+ResourceTree_Sprites,Sprites,스프라이트,,"Resource tree ""Sprites"" label"
+ResourceTree_Tilesets,Tile Sets,타일 세트,,"Resource tree ""Tile Sets"" label"
+ResourceTree_Timelines,Timelines,타임라인,,"Resource tree ""Timelines"" label"
+ResourceTree_Title,Assets,자원,,Assets title
+ResourceTree_ViewNameInUse,View Name Already In Use,이미 있는 이름이에요.,,label to show view name is already in use when renaming
+ResourceTree_CannotRenameDefaultView,Cannot rename Default View,기본 보기의 이름은 바꿀 수 없어요.,,label to show that you cannot rename default view
+ResourceTree_LotsOfResourcesWarning,Do you want to open {0} resources for edit?,자원 {0}을(를) 열고 편집할까요?,,label to warn user they are about to open a lot of resources
+ResourceTree_LotsOfResourcesTitle,Opening Lots of Resources,다수의 자원 여는 중,,title for warning dialog box
+ResourceTree_CloneViewToolTip,Clone current view,현재 보기를 복제하기,,clone view tooltip
+ResourceTree_AddViewToolTip,Add new view,새로운 보기를 추가하기,,add new view tooltip
+ResourceTree_DeleteViewToolTip,Delete current view,현재 보기를 삭제하기,,delete view tooltip
+ResourceTree_ExpandCollapseAllToolTip,Expand/Collapse All,전부 펼치기 / 접기,,expand/collapse all elements of the resource tree tooltip
+ResourceTree_ExpandCollapseAll,Expand/Collapse All,전부 펼치기 / 접기,,expand/collapse all elements of the resource tree tooltip
+ResourceTree_ExpandAll,Expand All,전부 펼치기,,Expand all elements of the resource tree
+ResourceTree_CollapseAll,Collapse All,전부 접기,,Collapse all elements of the resource tree
+RoomEditor_AddSubLayer,Add Sub Layer,하위 레이어 추가하기,,context sub menu heading for adding sub layers in the room editor layer view
+RoomEditor_AddRootLayer,Add Layer,레이어 추가하기,,context sub menu heading for adding layers at the same level as the selected layer in the room editor layer view
+RoomEditor_AllLayers,All,모두,,Layers label next to the set all layers locked/visible checkboxes
+RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},정말로 다음 항목을 지울까요? (참고: 개체 생성 코드는 영구적으로 손실됩니다): {0},,Confirm delete instances
+RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},정말로 다음 레이어를 지울까요 (참고: 개체 생성 코드는 영구적으로 손실됩니다): {0},,Confirm delete layers
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},부모 룸에서 항목을 삭제하려고 합니다. (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 삭제: 자식 룸에서 일치하는 항목 삭제\n모두 유지: 모든 자식 룸에서 항목 유지\n변경 유지: 부모를 무시하고 자식 룸의 항목을 유지\n직속 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},부모 룸에서 레이어를 삭제하려고 합니다. (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 삭제: 자식 룸에서 일치하는 레이어 삭제\n모두 유지: 모든 자식 룸에서 레이어 유지\n변경 유지: 부모를 무시하고 자식 룸의 레이어를 유지\n직속 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_DeleteAllChildLayers,Delete All,전부 삭제하기,,layer delete confirm dialog message for the delete all button
+RoomEditor_DeleteLayer,Delete Layer,레이어 삭제하기,,context menu option for deleting a layer
+RoomEditor_RenameLayer,Rename Layer,레이어 이름 바꾸기,,context menu option for renaming a layer
+RoomEditor_DeleteSelectedLayer,Delete Selected Layers,선택된 레이어 삭제하기,,tooltip for the delete selected layers button
+RoomEditor_GraphicProperties,Graphic: {0},그래픽,,graphic properties window 
+RoomEditor_ParticleSystemProperties,Particle System: {0},입자 시스템,,graphic properties window 
+RoomEditor_SequenceProperties,Sequence: {0},시퀀스,,graphic properties window 
+RoomEditor_NineSliceProperties,Nine Slice: {0},9등분 스프라이트,,graphic properties window 
+RoomEditor_SpriteProperties,Sprite: {0},스프라이트,,graphic properties window 
+RoomEditor_GridColour,Colour:,색상,,room editor toolbar grid colour select button caption
+RoomEditor_GridSnapX,Snap X:,가로 격자,,room editor toolbar grid horizontal snap numeric textbox caption
+RoomEditor_GridSnapY,Snap Y:,세로 격자,,room editor toolbar grid vertical snap numeric textbox caption
+RoomEditor_Inherit,Inherit,상속,,Inherit button caption
+RoomEditor_InheritCode,Inherit Creation Code,생성 코드를 상속합니다.,,Tooltip for the button which sets if this room inherits its creation code from the parent
+RoomEditor_InheritEditorSettings,Inherit Editor Properties,편집기 설정을 상속합니다.,,Inherit button tool tip caption for editor settings
+RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,물리 설정을 상속합니다.,,Inherit button tool tip caption for physics settings
+RoomEditor_InheritRoomSettings,Inherit Room Settings,룸 설정을 상속합니다.,,Inherit button tool tip caption for room settings
+RoomEditor_InheritSubLayers,Inherit Sub Layers,하위 레이어를 상속합니다.,,Context menu option for inheriting sub layers from the parent layer
+RoomEditor_InheritView,Inherit View,뷰를 상속합니다.,,inherit toggle button caption for a single view entry
+RoomEditor_InheritViewSettings,Inherit View Properties,뷰 설정을 상속합니다.,,Inherit button tool tip caption for view settings
+RoomEditor_InheritVisibility,Inherit Layer Visibility,레이어 가시성을 상속합니다.,,Context menu entry for whether a layer should inherit visibility state
+RoomEditor_InstanceProperties,Instance: {0},인스턴스: {0},,Instance properties window title
+RoomEditor_KeepAllChildLayers,Keep All,전부 유지하기,,layer delete confirm dialog message for the keep all button
+RoomEditor_KeepBrokenChildLayers,Keep Changed,바뀐대로 두기,,layer delete confirm dialog message for the keep changed button
+RoomEditor_LayerProperties,{1} Layer Properties - {0},{1} 속성,,Window title for the layer properties
+RoomEditor_Layers,Layers - {0},레이어,,Window heading for the room editor layers view
+RoomEditor_NewAssetLayer,Create New Asset Layer,새로운 자산 레이어 만들기,,Tool tip for the new asset layer button
+RoomEditor_NewBackgroundLayer,Create New Background Layer,새로운 배경 레이어 만들기,,Tool tip for the new background layer button
+RoomEditor_NewFolder,Create New Folder,새로운 폴더 만들기,,Tool tip for the new folder button
+RoomEditor_NewInstanceLayer,Create New Instance Layer,새로운 개체 레이어 만들기,,Tool tip for the new instance layer button
+RoomEditor_NewPathLayer,Create New Path Layer,새로운 경로 레이어 만들기,,Create new path layer tool tip for room editor
+RoomEditor_NewTileLayer,Create New Tile Layer,새로운 타일 레이어 만들기,,Tool tip for the new tile layer button
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
-RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) parent - {3}",,instance/graphic tooltip when there is no parent item
-RoomEditor_RoomProperties,Properties - {0},Properties - {0},,Window title for room properties
-RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},Instance Creation Order - {0},,Window title for instance creation order
-RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,Instance Creation Order,,menu entry for instance creation order window
-RoomEditor_SelectedTileBrush,Brush:,Brush:,,Label for the currently selected tile editing brush
-RoomEditor_SelectedTileTool,Tool:,Tool:,,Label for the currently selected tile editing tool
-RoomEditor_EditingWindowMode,Editing Mode:,Editing Mode:,,Label for the TileSet macro page mode (selection or editing)
-RoomEditor_TileWindow,Tiles - {0},Tiles - {0},,Tile view/selection window title
-RoomEditor_ZoomLevel,Zoom: {0}%,Zoom: {0}%,,label to display the current zoom level
-RoomEditorMenu_LayerProperties,Layer Properties,Layer Properties,,context menu option for opening the layer properties window
-RoomEditorMenu_LayerView,Layer View,Layer View,,menu entry to open the layer view
-RoomEditorMenu_ResetWindowLayout,Reset Windows On Current Desktop,Reset Windows On Current Desktop,,menu entry to reset the room window layout bringing windows to the currently selected desktop
-RoomEditorMenu_Room,Room,Room,,menu heading for the room editor
-RoomEditorMenu_RoomProperties,Room Properties,Room Properties,,menu entry to open the room properties
-RoomEditorMenu_Windows,Windows,Windows,,sub menu entry for the room editor windows
-RoomEditorTileEditing_ClearSelection,Clear Selection,Clear Selection,,Tile editing menu entry heading for clear the current mask selection
-RoomEditorTileEditing_CopySelection,Copy Selection,Copy Selection,,Tile editing menu entry heading for copy the current mask selection
-RoomEditorTileEditing_CutSelection,Cut Selection,Cut Selection,,Tile editing menu entry heading for cut the current mask selection
-RoomEditorTileEditing_DeleteSelection,Delete Selection,Delete Selection,,Tile editing menu entry heading for delete the current mask selection
-RoomEditorTileEditing_InvertSelection,Invert Selection,Invert Selection,,Tile editing menu entry heading for invert the current mask selection
-RoomEditorTileEditing_Menu,Tile Editing,Tile Editing,,Tile editing sub menu entry heading
-RoomEditorTileEditing_TileDisplayWindow,Tile Selection Window,Tile Selection Window,,Tile editing menu entry heading for open the tile selection window
-RoomEditorTool_AutoTile,Auto Tile (A),Auto Tile (A),,tooltip for auto tile tool
-RoomEditorTool_SelectTiles,Select Tiles (S),Select Tiles (S),,tooltip for tile selection tool
-RoomEditorTool_TileBrush,Paint Tiles,Paint Tiles,,Button tooltip for the tile brush tool
-RoomEditorTool_TileEraser,Eraser (E),Eraser (E),,tooltip for tile eraser tool
-RoomEditorTool_TileFlip,Flip (Y),Flip (Y),,tooltip for flip tile brush
-RoomEditorTool_TileInheritance,Show Tile Inheritance,Show Tile Inheritance,,Tooltip message for the show tile inheritance button
-RoomEditorTool_TileMirror,Mirror (X),Mirror (X),,tooltip for mirror tile brush
-RoomEditorTool_TilePaintInheritance,Edit Tile Inheritance (I),Edit Tile Inheritance (I),,tooltip for inheritance tile brush
-RoomEditorTool_TilePen,Pen (D),Pen (D),,tooltip for tile pen tool
-RoomEditorTool_TileRotate,Rotate Tile (Z),Rotate Tile (Z),,tooltip for rotate tile brush
-RoomEditorTool_TileFill,Fill (F),Fill (F),,tooltip for fill tile tool
-RoomEditorTool_TileLine,Line (L),Line (L),,tooltip for line tile tool
-RoomEditorTool_TileRect,Rectangle (R),Rectangle (R),,tooltip for rectangle tile tool
-RoomProperties_BackgroundColour,Room Colour,Room Colour,,room properties section heading for background colour
-RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Clear Display Buffer,,checkbox caption for clear display buffer option
-RoomProperties_ClearView,Clear Viewport Background,Clear Viewport Background,,checkbox caption for clear view background option
-RoomProperties_Colour,Colour,Colour,,colour select box caption
-RoomProperties_CreationCode,Creation Code,Creation Code,,button caption for opening creation code
-RoomProperties_CreationOrder,Instance Creation Order,Instance Creation Order,, button caption for opening the instance creation order window
-RoomProperties_EnablePhysics,Enable Physics,Enable Physics,,Checkbox caption for enabling physics
-RoomProperties_EnableViews,Enable Viewports,Enable Viewports,,checkbox caption for enable views option
-RoomProperties_GravityX,Gravity X,Gravity X,,Numeric textbox caption for horizontal gravity
-RoomProperties_GravityY,Gravity Y,Gravity Y,,Numeric textbox caption for vertical gravity
-RoomProperties_HBorder,Horizontal Border,Horizontal Border,,numeric text box label for view for horizontal border
-RoomProperties_Height,Height,Height,,numeric textbox caption for room height
-RoomProperties_HSpeed,Horizontal Speed,Horizontal Speed,,numeric text box label for view for horizontal speed
-RoomProperties_Persistent,Persistent,Persistent,,checkbox caption for persistent setting
-RoomProperties_Physics,Room Physics,Room Physics,,Room properties section heading for physics
-RoomProperties_PixsToMeters,Pixels To Meters,Pixels To Meters,,Numeric textbox caption for pixels to meters conversion
-RoomProperties_Settings,Room Settings,Room Settings,,room properties section heading for settings
-RoomProperties_ShowColour,Draw Background Colour,Draw Background Colour,,checkbox caption for drawing background colour
-RoomProperties_Speed,Speed,Speed,,numeric textbox caption for room speed
-RoomProperties_VBorder,Vertical Border,Vertical Border,,numeric text box label for view for vertical border
-RoomProperties_View,Viewport {0},Viewport {0},,view instance heading in room properties
-RoomProperties_ViewArea,Camera Properties,Camera Properties,,group heading for room view area settings
-RoomProperties_ViewFollowing,Object Following,Object Following,,group heading for object following settings
-RoomProperties_ViewH,Height,Height,,numeric text box label for view or view port height
-RoomProperties_Viewport,Viewport Properties,Viewport Properties,,group heading for viewport settings
-RoomProperties_Views,Viewports and Cameras,Viewports and Cameras,,room properties section heading for views
-RoomProperties_ViewVisible,Visible,Visible,,checkbox caption for whether the view is visible from room start
-RoomProperties_ViewW,Width,Width,,numeric text box label for view or view port width
-RoomProperties_ViewX,X Pos,X Pos,,numeric text box label for view or view port x pos
-RoomProperties_ViewY,Y Pos,Y Pos,,numeric text box label for view or view port y pos
-RoomProperties_VSpeed,Vertical Speed,Vertical Speed,,numeric text box label for view for vertical speed
-RoomProperties_Width,Width,Width,,numeric textbox caption for room width
-Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
-Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
-Run_Menu_RevealRemote,Show Remote Worker Installer,Show Remote Worker Installer,,Reveal worker menu item
-Run_Menu_Run,Run,Run,,"Run menu ""Run"""
-Run_Menu_RunDebug,Debug,Debug,,"Run menu ""Debug"""
-remote_worker_error,Error,Error,,Error Connecting to Remote Worker Dialog Title
-remote_worker_error_connecting,Could not connect to Remote Worker.  Please check your setup and try again.,Could not connect to Remote Worker. Please check your setup and try again.,,Error Connecting to Remote Worker Dialog Contents
-remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remote Worker and try again.,Remote Worker was left blank. Please name your Remote Worker and try again.,,Error Connecting to Remote Worker Dialog Contents
-remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,,Remote worker invalid name
-Saving,Saving...,Saving...,,Saving
-SCM_Add_Path,Add Path,Add Path,,Add a path to the SCM
-SCM_Clone,Clone Repository,Clone Repository,,Clone a Source Control Repository
-SCM_Commit,Commit Changes,Commit Changes,,Commit local changes to Repository
-SCM_Conflicts,Show Conflicts,Show Conflicts,,Show Conflicts within Repository
-SCM_Create,Create Project Repository,Create Project Repository,,Create a local Source Control Repository for this project
-SCM_Delete_Path,Delete Path,Delete Path,,Delete a path from Source Control
-SCM_History,View History,View History,,View Source Control Repository History
-SCM_Import,Import Project into Repository,Import Project into Repository,,Import a Game Maker Project to a Source Control Repository
-SCM_Menu,Source Control,Source Control,,Source Control Menu title
-SCM_Pull,Pull Changes,Pull Changes,,Pull Changes from Source Control Repository
-SCM_Push,Push Changes,Push Changes,,Push Changes to Source Control Repository
-SCM_Revert_All,Revert All,Revert All,,Revert all changes from Source Control
-SCM_Revert_Path,Revert Path,Revert Path,,Revert an item from Source Control
-SCM_Revert_Revision,Revert To This Revision,Revert To This Revision,,Revert to the selected revision in SCM
-SCM_Conflict_Title,Source Control Conflicts,Source Control Conflicts,,Source Control Conflicts window title
-SCM_Conflict_Theirs,Use Theirs,Use Theirs,,"Use ""Their"" version to resolve conflict"
-SCM_Conflict_Merge,Merge,Merge,,Open Merge Tool
-SCM_Conflict_MergeTool,Choose Merge Tool,Choose Merge Tool,,Choose which merge tool to use
-SCM_Conflict_MergeTool_Path,Tool location,Tool location,,The Path to the Tool to use
-SCM_Conflict_MergeTool_Options,Tool options,Tool options,,The Options to send to the Tool
-SCM_Conflict_Mine,Use Mine,Use Mine,,"Use ""Mine"" to resolve conflict"
-SCM_Successful_Merge,Was the Merge operation successful?,Was the Merge operation successful?,,Wait for the Merge Tool to finish and ask the user if the operation has been a success
-SearchReplace_Cancelled,Search Cancelled,Search Cancelled,,Search and Replace - Search Cancelled
-SearchReplace_CaseSensitive,Case Sensitive,Case Sensitive,,Search and Replace - Case Sensitive
-SearchReplace_SearchStart,Searching for '{0}'...,Searching for '{0}'...,,search started message
-SearchReplace_ReplaceAllStart,Replacing '{0}' with '{1}',Replacing '{0}' with '{1}',,replace all start message
-SearchReplace_Complete,Search Complete ({0} results),Search Complete ({0} results),,Search and Replace - Search Complete
-SearchReplace_ContentHeader,Content,Content,,"Search & Replace - Output window ""content"" header"
-SearchReplace_EndOfResults,"End of search results reached, should we loop?","End of search results reached, should we loop?",,"End of Search and Replace results, loop to beginning or end?"
-SearchReplace_FindAll,Find All,Find All,,Search and Replace - Find All
-SearchReplace_FindNext,Find Next,Find Next,,Search and Replace - Find Next
-SearchReplace_FindPrevious,Find Previous,Find Previous,,Search and Replace - Find Previous
-SearchReplace_ItemHeader,Item,Item,,"Search & Replace - Output window ""item"" header"
-SearchReplace_LineHeader,Line,Line,,"Search & Replace - Output window ""line"" header"
-SearchReplace_NoResults,No results were found.,No results were found.,,Search and Replace - No results found.
-SearchReplace_Replace,Replace:,Replace:,,Search and Replace - Replace
-SearchReplace_ReplaceAll,Replace All,Replace All,,Search and Replace - Replace All
-SearchReplace_ReplaceAllQuery,Are you sure you want to Replace All?\nThis will edit files on disk.,Are you sure you want to Replace All?\nThis will edit files on disk.,,Warn user that a Replace All will edit files on disk.
-SearchReplace_ReplaceSelected,Replace,Replace,,Search and Replace - Replace Selected
-SearchReplace_Search,Search:,Search:,,Search and Replace - Search
-SearchReplace_Title,Search & Replace,Search & Replace,,Search and Replace title
-SearchReplace_WholeWordOnly,Whole Word Only,Whole Word Only,,Search and Replace - Whole Word Only
-SearchReplace_MoreResults,There are more results available...,There are more results available...,,There are too many results to display
-SearchReplace_StopSearch,Stop Search,Stop Search,,Search And Replace - stop search
-SearchReplace_IgnoreComments,Ignore Comments,Ignore Comments,,Ignore Comments
-SearchReplace_FilterScripts,Scripts,Scripts,,Scripts
-SearchReplace_FilterObjects,Objects,Objects,,Objects
-SearchReplace_FilterSequences,Sequences,Sequences,,Sequences
-SearchReplace_FilterRooms,Rooms,Rooms,,Rooms
-SearchReplace_FilterNotes,Notes,Notes,,Notes
-SearchReplace_FilterTimelines,Timelines,Timelines,,Timelines
-SearchReplace_FilterShaders,Shaders,Shaders,,Shaders
-SearchReplace_FilterExtensions,Extensions,Extensions,,Extensions
-SoundEditor_Attributes,Attributes:,Attributes:,,Sound Editor Attributes - for choosing uncompressed/streaming options
-SoundEditor_AudioGroup,Audio Group:,Audio Group:,,Sound Editor Audio Group labal
-SoundEditor_BitRate,Bit Rate (kbps):,Bit Rate (kbps):,,Sound Editor Target Bit Rate ( in kbps )
-SoundEditor_Compressed_NotStreamed,Compressed - Not Streamed,Compressed - Not Streamed,,Sound Editor Attribute - Compressed and Not Streamed
-SoundEditor_Compressed_Streamed,Compressed - Streamed,Compressed - Streamed,,Sound Editor Attribute - Compressed - Streamed
-SoundEditor_CopyingSound,Copying Sound...,Copying Sound...,,SoundEditor - copying sound to project
-SoundEditor_EditSound,Edit Sound,Edit Sound,,Sound Editor Edit Sound Button
-SoundEditor_Name,Name:,Name:,,Sound Editor Name label
-SoundEditor_NoSound,No Sound has been loaded,No Sound has been loaded,,SoundEditor - no sound has been loaded
-SoundEditor_Open,Open,Open,,Sound Editor - Open new sound
-SoundEditor_Quality,Quality:,Quality:,,Sound Editor Quality label
-SoundEditor_SampleRate,Sample Rate:,Sample Rate:,,Sound Editor Target Sample Rate
-SoundEditor_SoundLoaded,Sound Loaded,Sound Loaded,,SoundEditor - Sound has been loaded
-SoundEditor_TargetOptions,Target Options:,Target Options:,,"Sound Editor Target Options - for choosing sample rate, bit rate, etc..."
-SoundEditor_Title,Sound: {0},Sound: {0},,Title of SoundEditor window
-SoundEditor_Uncompressed_NotStreamed,Uncompressed - Not Streamed,Uncompressed - Not Streamed,,Sound Editor Attribute - Uncompressed and Not Streamed
-SoundEditor_UncompressOnLoad_NotStreamed,Uncompress on Load - Not Streamed,Uncompress on Load - Not Streamed,,Sound Editor Attribute - Uncompress on Load - Not Streamed
-SoundEditor_Volume,Volume:,Volume:,,Sound Editor Volume label
-SoundEditor_Output,Output:,Output:,,Sound Editor Output label
-SoundEditor_NoDeviceWarningTitle,No Audio Device,No Audio Device,,No audio device is available for previewing sounds warning dialog title
-SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,No audio device is available for previewing sounds.,,No audio device is available for previewing sounds warning message
-SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,,warning message for streamed sound in audio group
-SoundMixer_Title,Sound Mixer,Sound Mixer,,Title of SoundMixer window
-SoundMixer_ColumnVolume,Column Volume,Column Volume,,Column Volume Label
-SoundMixer_UntitledGroup,Untitled Group,Untitled Group,,Label of Untitled Group
-SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,Too Many Sound Mixer Groups,,There are Too Many Sound Mixer Groups title
-SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
-SourceControl_ActionEnded,"Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests","Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests",,exception message for when the code has attempted to request an action after End() has been called
-SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,Source Control Action '{0}' has not successfully completed,,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
-SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,Source Control Action '{0}' has an invalid action in the request queue,,exception message for when we have hit an invalid action request
-SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,Source Control (Git) Invalid Credentials,,Require Credentials Dialog Title
-SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,,The Git repository is expecting a different username and password message.
-SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,Source Control (Git) No Repository,,There is no Git Repository (Title)
-SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.","There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
-SourceControlGit_NoIdentity,Source Control (Git) No Identity,Source Control (Git) No Identity,,There is no Git Identity set (Title)
-SourceControlGit_NoIdentityMessage,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,,"There is no Git Identity set (Message) No identity credentials found in preferences, please set them."
-SourceControlGit_Select_All,Select/Deselect All,Select/Deselect All,,Select/Deselect all items to commit
-SourceControlGit_Merging,Merge in Progress,Merge in Progress,,Merge in Progress Status Message for Commit window
-SourceControlGit_History_Files,Files Modified in Commit - {0},Files Modified in Commit - {0},,Files Modified in Selected Commit
-SourceControlGit_History_Message,Message for Commit - {0},Message for Commit - {0},,Message for Selected Commit
-SourceControlGit_History_Commits,Commit History,Commit History,,Commit History
-SourceControlGit_PageLeft,Previous Page,Previous Page,,Previous Page of Results
-SourceControlGit_PageRight,Next Page,Next Page,,Next Page of Results
-SourceControlGit_SelectCommit,Select a Commit,Select a Commit,,Select a Commit message
-SourceControlGit_AutoPopup,Automatically open source control output window,Automatically open source control output window,,Preference title for automatically popping up the source control output window
-SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?","You have not specified a commit message, are you sure you want to continue?",,No commit message specified warning
-SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?","There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",,Conflicts Detected message
-sourcecontrolgit_auth_type,Authorisation Type,Authorisation Type,,Type of Authorisation to use
-sourcecontrolgit_auth_repository,Repository URL,Repository URL,,URL of Repository
-sourcecontrolgit_auth_username,Username,Username,,Username for authentication
-sourcecontrolgit_auth_password,Password,Password,,Password for authentication
-sourcecontrolgit_auth_public,Path to Public Key,Path to Public Key,,Path to Public Key for authentication
-sourcecontrolgit_auth_private,Path to Private Key,Path to Private Key,,Path to Private Key for authentication
-sourcecontrolgit_auth_userpass,Username/Password,Username/Password,,Username and Password combination for authentication
-sourcecontrolgit_auth_sshkeys,SSH Keys,SSH Keys,,SSH Keypair combination for authentication
-sourcecontrolgit_authentication_settings,Source Control (Git) Authentication Settings,Source Control (Git) Authentication Settings,,Source Control (Git) Authentication Settings Window Title
-sourcecontrolgit_difftool_path,Path to Diff tool,Path to Diff tool,,Path to Diff tool
-sourcecontrolgit_difftool_options,Diff Tool Options,Diff Tool Options,,Options to pass to Diff tool
-sourcecontrolgit_auth_add_userpass,Add User/Pass Authentication,Add User/Pass Authentication,,Add new User/Pass Authentication
-sourcecontrolgit_auth_add_ssh,Add SSH Keypair Authentication,Add SSH Keypair Authentication,,Add new SSH Keypair Authentication
-sourcecontrolgit_auth_failed,Source Control (Git) Authentication Failed,Source Control (Git) Authentication Failed,,Authentication failed in Source Control (Git) error title
-sourcecontrolgit_auth_userpass_failed,No Valid User/Pass Authentication details found for {0},No Valid User/Pass Authentication details found for {0},,No Valid User/Pass found for repository error message
-sourcecontrolgit_auth_ssh_failed,No Valid SSH KeyPair Authentication details found for {0},No Valid SSH KeyPair Authentication details found for {0},,No Valid SSH KeyPair found for repository error message
-sourcecontrolgit_auth_create_keypair,Create KeyPair,Create KeyPair,,Create SSH KeyPair button
-sourcecontrolgit_auth_missingfield_title,Source Control (Git) Invalid Authentication,Source Control (Git) Invalid Authentication,,Source Control (Git) Invalid Authentication title
-sourcecontrolgit_auth_missing_repo,Repository field cannot be empty,Repository field cannot be empty,,Warning that the repository field cannot be empty
-sourcecontrolgit_auth_missing_username,Username field cannot be empty,Username field cannot be empty,,Warning that the username field cannot be empty
-sourcecontrolgit_auth_missing_password,Password field cannot be empty,Password field cannot be empty,,Warning that the password field cannot be empty
-sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure path is valid,Cannot find Public key - please ensure path is valid,,Warning that the public key field is invalid
-sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,Cannot find Private key - please ensure path is valid,,Warning that the private key field is invalid
-sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,Authentication details for repository already exist,,Authentication details for repository already exist
+RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) 부모: {3}",,instance/graphic tooltip when there is no parent item
+RoomEditor_RoomProperties,Properties - {0},룸,,Window title for room properties
+RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},개체 생성 순서,,Window title for instance creation order
+RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,개체 생성 순서,,menu entry for instance creation order window
+RoomEditor_SelectedTileBrush,Brush:,붓,,Label for the currently selected tile editing brush
+RoomEditor_SelectedTileTool,Tool:,도구,,Label for the currently selected tile editing tool
+RoomEditor_EditingWindowMode,Editing Mode:,편집 모드,,Label for the TileSet macro page mode (selection or editing)
+RoomEditor_TileWindow,Tiles - {0},타일,,Tile view/selection window title
+RoomEditor_ZoomLevel,Zoom: {0}%,배율: {0}%,,label to display the current zoom level
+RoomEditorMenu_LayerProperties,Layer Properties,레이어 속성,,context menu option for opening the layer properties window
+RoomEditorMenu_LayerView,Layer View,레이어 보기,,menu entry to open the layer view
+RoomEditorMenu_ResetWindowLayout,Reset Windows On Current Desktop,현재 데스크톱에서 창 재설정,,menu entry to reset the room window layout bringing windows to the currently selected desktop
+RoomEditorMenu_Room,Room,룸,,menu heading for the room editor
+RoomEditorMenu_RoomProperties,Room Properties,룸 속성,,menu entry to open the room properties
+RoomEditorMenu_Windows,Windows,창,,sub menu entry for the room editor windows
+RoomEditorTileEditing_ClearSelection,Clear Selection,선택 지우기,,Tile editing menu entry heading for clear the current mask selection
+RoomEditorTileEditing_CopySelection,Copy Selection,선택 복사,,Tile editing menu entry heading for copy the current mask selection
+RoomEditorTileEditing_CutSelection,Cut Selection,선택 잘라내기,,Tile editing menu entry heading for cut the current mask selection
+RoomEditorTileEditing_DeleteSelection,Delete Selection,선택 삭제,,Tile editing menu entry heading for delete the current mask selection
+RoomEditorTileEditing_InvertSelection,Invert Selection,선택 반전,,Tile editing menu entry heading for invert the current mask selection
+RoomEditorTileEditing_Menu,Tile Editing,타일 편집,,Tile editing sub menu entry heading
+RoomEditorTileEditing_TileDisplayWindow,Tile Selection Window,타일 선택 창,,Tile editing menu entry heading for open the tile selection window
+RoomEditorTool_AutoTile,Auto Tile (A),자동 타일 (A),,tooltip for auto tile tool
+RoomEditorTool_SelectTiles,Select Tiles (S),타일 선택 (S),,tooltip for tile selection tool
+RoomEditorTool_TileBrush,Paint Tiles,타일 그리기,,Button tooltip for the tile brush tool
+RoomEditorTool_TileEraser,Eraser (E),지우개 (E),,tooltip for tile eraser tool
+RoomEditorTool_TileFlip,Flip (Y),상하 반전 (Y),,tooltip for flip tile brush
+RoomEditorTool_TileInheritance,Show Tile Inheritance,타일 상속 표시,,Tooltip message for the show tile inheritance button
+RoomEditorTool_TileMirror,Mirror (X),좌우 반전 (X),,tooltip for mirror tile brush
+RoomEditorTool_TilePaintInheritance,Edit Tile Inheritance (I),타일 상속 편집 (I),,tooltip for inheritance tile brush
+RoomEditorTool_TilePen,Pen (D),펜 (D),,tooltip for tile pen tool
+RoomEditorTool_TileRotate,Rotate Tile (Z),회전 (Z),,tooltip for rotate tile brush
+RoomEditorTool_TileFill,Fill (F),채우기 (F),,tooltip for fill tile tool
+RoomEditorTool_TileLine,Line (L),선 (L),,tooltip for line tile tool
+RoomEditorTool_TileRect,Rectangle (R),사각형 (R),,tooltip for rectangle tile tool
+RoomProperties_BackgroundColour,Room Colour,룸 색상,,room properties section heading for background colour
+RoomProperties_ClearDisplayBuffer,Clear Display Buffer,디스플레이의 버퍼 청소,,checkbox caption for clear display buffer option
+RoomProperties_ClearView,Clear Viewport Background,뷰 포트의 배경 청소,,checkbox caption for clear view background option
+RoomProperties_Colour,Colour,색상,,colour select box caption
+RoomProperties_CreationCode,Creation Code,생성 코드,,button caption for opening creation code
+RoomProperties_CreationOrder,Instance Creation Order,개체 생성 순서,, button caption for opening the instance creation order window
+RoomProperties_EnablePhysics,Enable Physics,물리 활성화,,Checkbox caption for enabling physics
+RoomProperties_EnableViews,Enable Viewports,뷰 포트 활성화,,checkbox caption for enable views option
+RoomProperties_GravityX,Gravity X,수평 중력,,Numeric textbox caption for horizontal gravity
+RoomProperties_GravityY,Gravity Y,수직 중력,,Numeric textbox caption for vertical gravity
+RoomProperties_HBorder,Horizontal Border,수평 테두리,,numeric text box label for view for horizontal border
+RoomProperties_Height,Height,높이,,numeric textbox caption for room height
+RoomProperties_HSpeed,Horizontal Speed,수평 속도,,numeric text box label for view for horizontal speed
+RoomProperties_Persistent,Persistent,지속,,checkbox caption for persistent setting
+RoomProperties_Physics,Room Physics,룸 물리,,Room properties section heading for physics
+RoomProperties_PixsToMeters,Pixels To Meters,픽셀 → 미터 단위 변환,,Numeric textbox caption for pixels to meters conversion
+RoomProperties_Settings,Room Settings,룸 설정,,room properties section heading for settings
+RoomProperties_ShowColour,Draw Background Colour,배경 색 그리기,,checkbox caption for drawing background colour
+RoomProperties_Speed,Speed,속도,,numeric textbox caption for room speed
+RoomProperties_VBorder,Vertical Border,수직 테두리,,numeric text box label for view for vertical border
+RoomProperties_View,Viewport {0},뷰 포트 {0},,view instance heading in room properties
+RoomProperties_ViewArea,Camera Properties,카메라 속성,,group heading for room view area settings
+RoomProperties_ViewFollowing,Object Following,추적하는 객체,,group heading for object following settings
+RoomProperties_ViewH,Height,높이,,numeric text box label for view or view port height
+RoomProperties_Viewport,Viewport Properties,뷰 포트 속성,,group heading for viewport settings
+RoomProperties_Views,Viewports and Cameras,뷰 포트와 카메라,,room properties section heading for views
+RoomProperties_ViewVisible,Visible,보이기,,checkbox caption for whether the view is visible from room start
+RoomProperties_ViewW,Width,너비,,numeric text box label for view or view port width
+RoomProperties_ViewX,X Pos,X 위치,,numeric text box label for view or view port x pos
+RoomProperties_ViewY,Y Pos,Y 위치,,numeric text box label for view or view port y pos
+RoomProperties_VSpeed,Vertical Speed,수직 속도,,numeric text box label for view for vertical speed
+RoomProperties_Width,Width,너비,,numeric textbox caption for room width
+Run_Menu_Clean,Clean,청소,,"Run menu ""Clean"""
+Run_Menu_CreateExecutable,Create Executable,실행 파일 만들기,,The Create Executable menu item
+Run_Menu_RevealRemote,Show Remote Worker Installer,원격 작업자 설치기 보기,,Reveal worker menu item
+Run_Menu_Run,Run,실행,,"Run menu ""Run"""
+Run_Menu_RunDebug,Debug,디버그,,"Run menu ""Debug"""
+remote_worker_error,Error,오류,,Error Connecting to Remote Worker Dialog Title
+remote_worker_error_connecting,Could not connect to Remote Worker.  Please check your setup and try again.,원격 작업자에 연결할 수 없습니다. 설정을 확인한 후 다시 시도하세요.,,Error Connecting to Remote Worker Dialog Contents
+remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remote Worker and try again.,원격 작업자 이름이 비어 있습니다. 원격 근무자의 이름을 입력하고 다시 시도하세요.,,Error Connecting to Remote Worker Dialog Contents
+remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,{0}'은(는) 원격 작업자의 이름으로 사용할 수 없습니다. 다른 이름을 입력하고 다시 시도하세요.,,Remote worker invalid name
+Saving,Saving...,저장 중...,,Saving
+SCM_Add_Path,Add Path,경로 추가,,Add a path to the SCM
+SCM_Clone,Clone Repository,저장소 복제하기,,Clone a Source Control Repository
+SCM_Commit,Commit Changes,변경 사항 확정하기,,Commit local changes to Repository
+SCM_Conflicts,Show Conflicts,충돌 사항 보기,,Show Conflicts within Repository
+SCM_Create,Create Project Repository,프로젝트 저장소 만들기,,Create a local Source Control Repository for this project
+SCM_Delete_Path,Delete Path,경로 삭제,,Delete a path from Source Control
+SCM_History,View History,기록 보기,,View Source Control Repository History
+SCM_Import,Import Project into Repository,프로젝트를 저장소로 가져오기,,Import a Game Maker Project to a Source Control Repository
+SCM_Menu,Source Control,소스 제어,,Source Control Menu title
+SCM_Pull,Pull Changes,변경 사항 가져오기,,Pull Changes from Source Control Repository
+SCM_Push,Push Changes,변경 사항 발행하기,,Push Changes to Source Control Repository
+SCM_Revert_All,Revert All,모두 되돌리기,,Revert all changes from Source Control
+SCM_Revert_Path,Revert Path,위치 되돌리기,,Revert an item from Source Control
+SCM_Revert_Revision,Revert To This Revision,이 판본으로 되돌리기,,Revert to the selected revision in SCM
+SCM_Conflict_Title,Source Control Conflicts,소스 제어 충돌,,Source Control Conflicts window title
+SCM_Conflict_Theirs,Use Theirs,다른 판본 사용,,"Use ""Their"" version to resolve conflict"
+SCM_Conflict_Merge,Merge,병합,,Open Merge Tool
+SCM_Conflict_MergeTool,Choose Merge Tool,병합 도구 선택,,Choose which merge tool to use
+SCM_Conflict_MergeTool_Path,Tool location,경로,,The Path to the Tool to use
+SCM_Conflict_MergeTool_Options,Tool options,옵션,,The Options to send to the Tool
+SCM_Conflict_Mine,Use Mine,내 판본 사용,,"Use ""Mine"" to resolve conflict"
+SCM_Successful_Merge,Was the Merge operation successful?,병합 작업이 성공적이었나요?,,Wait for the Merge Tool to finish and ask the user if the operation has been a success
+SearchReplace_Cancelled,Search Cancelled,검색 취소됨,,Search and Replace - Search Cancelled
+SearchReplace_CaseSensitive,Case Sensitive,대소문자 구별,,Search and Replace - Case Sensitive
+SearchReplace_SearchStart,Searching for '{0}'...,{0}' 검색 중…,,search started message
+SearchReplace_ReplaceAllStart,Replacing '{0}' with '{1}',{0}'를 '{1}'로 바꾸기,,replace all start message
+SearchReplace_Complete,Search Complete ({0} results),{0}개 검색됨,,Search and Replace - Search Complete
+SearchReplace_ContentHeader,Content,내용,,"Search & Replace - Output window ""content"" header"
+SearchReplace_EndOfResults,"End of search results reached, should we loop?",검색 결과의 끝에 도달했어요. 다시 검색할까요?,,"End of Search and Replace results, loop to beginning or end?"
+SearchReplace_FindAll,Find All,전부 찾기,,Search and Replace - Find All
+SearchReplace_FindNext,Find Next,다음,,Search and Replace - Find Next
+SearchReplace_FindPrevious,Find Previous,이전,,Search and Replace - Find Previous
+SearchReplace_ItemHeader,Item,항목,,"Search & Replace - Output window ""item"" header"
+SearchReplace_LineHeader,Line,선,,"Search & Replace - Output window ""line"" header"
+SearchReplace_NoResults,No results were found.,결과가 없어요.,,Search and Replace - No results found.
+SearchReplace_Replace,Replace:,바꾸기,,Search and Replace - Replace
+SearchReplace_ReplaceAll,Replace All,모두 바꾸기,,Search and Replace - Replace All
+SearchReplace_ReplaceAllQuery,Are you sure you want to Replace All?\nThis will edit files on disk.,정말로 모두 바꿀까요?\n디스크의 파일도 수정돼요.,,Warn user that a Replace All will edit files on disk.
+SearchReplace_ReplaceSelected,Replace,바꾸기,,Search and Replace - Replace Selected
+SearchReplace_Search,Search:,검색,,Search and Replace - Search
+SearchReplace_Title,Search & Replace,검색 및 바꾸기,,Search and Replace title
+SearchReplace_WholeWordOnly,Whole Word Only,단어 완전 일치,,Search and Replace - Whole Word Only
+SearchReplace_MoreResults,There are more results available...,검색 결과가 더 있습니다.,,There are too many results to display
+SearchReplace_StopSearch,Stop Search,검색 중지,,Search And Replace - stop search
+SearchReplace_IgnoreComments,Ignore Comments,주석 무시하기,,Ignore Comments
+SearchReplace_FilterScripts,Scripts,스크립트,,Scripts
+SearchReplace_FilterObjects,Objects,객체,,Objects
+SearchReplace_FilterSequences,Sequences,시퀀스,,Sequences
+SearchReplace_FilterRooms,Rooms,룸,,Rooms
+SearchReplace_FilterNotes,Notes,필기,,Notes
+SearchReplace_FilterTimelines,Timelines,타임라인,,Timelines
+SearchReplace_FilterShaders,Shaders,쉐이더,,Shaders
+SearchReplace_FilterExtensions,Extensions,확장 기능,,Extensions
+SoundEditor_Attributes,Attributes:,소리 특성,,Sound Editor Attributes - for choosing uncompressed/streaming options
+SoundEditor_AudioGroup,Audio Group:,오디오 묶음,,Sound Editor Audio Group labal
+SoundEditor_BitRate,Bit Rate (kbps):,비트 전송속도 (kbps),,Sound Editor Target Bit Rate ( in kbps )
+SoundEditor_Compressed_NotStreamed,Compressed - Not Streamed,압축됨 - 스트림 되지 않음,,Sound Editor Attribute - Compressed and Not Streamed
+SoundEditor_Compressed_Streamed,Compressed - Streamed,압축됨 - 스트림 됨,,Sound Editor Attribute - Compressed - Streamed
+SoundEditor_CopyingSound,Copying Sound...,소리 복사 중...,,SoundEditor - copying sound to project
+SoundEditor_EditSound,Edit Sound,소리 편집,,Sound Editor Edit Sound Button
+SoundEditor_Name,Name:,이름,,Sound Editor Name label
+SoundEditor_NoSound,No Sound has been loaded,불러온 소리가 없습니다,,SoundEditor - no sound has been loaded
+SoundEditor_Open,Open,열기,,Sound Editor - Open new sound
+SoundEditor_Quality,Quality:,품질,,Sound Editor Quality label
+SoundEditor_SampleRate,Sample Rate:,샘플 속도,,Sound Editor Target Sample Rate
+SoundEditor_SoundLoaded,Sound Loaded,소리 불러옴,,SoundEditor - Sound has been loaded
+SoundEditor_TargetOptions,Target Options:,대상 옵션,,"Sound Editor Target Options - for choosing sample rate, bit rate, etc..."
+SoundEditor_Title,Sound: {0},소리,,Title of SoundEditor window
+SoundEditor_Uncompressed_NotStreamed,Uncompressed - Not Streamed,압축 안됨 - 스트림 되지 않음,,Sound Editor Attribute - Uncompressed and Not Streamed
+SoundEditor_UncompressOnLoad_NotStreamed,Uncompress on Load - Not Streamed,불러올 때 압축 해제 - 스트림 되지 않음,,Sound Editor Attribute - Uncompress on Load - Not Streamed
+SoundEditor_Volume,Volume:,음량,,Sound Editor Volume label
+SoundEditor_Output,Output:,출력,,Sound Editor Output label
+SoundEditor_NoDeviceWarningTitle,No Audio Device,오디오 장치 없음,,No audio device is available for previewing sounds warning dialog title
+SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,사용 가능한 오디오 장치가 없어요.,,No audio device is available for previewing sounds warning message
+SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,오디오 묶음은 연속 재생을 사용할 수가 없어요.. 정말로 스트리밍하게끔 할까요? 오디오 묶음이 기본으로 지정돼요.,,warning message for streamed sound in audio group
+SoundMixer_Title,Sound Mixer,소리 혼합기,,Title of SoundMixer window
+SoundMixer_ColumnVolume,Column Volume,열 음량,,Column Volume Label
+SoundMixer_UntitledGroup,Untitled Group,제목 없는 묶음,,Label of Untitled Group
+SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,너무 많은 묶음,,There are Too Many Sound Mixer Groups title
+SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,너무 많은 묶음이 이 창에 있어요. 다른 소리 혼합기를 열거나 사용하지 않는 묶음을 닫아주세요.,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
+SourceControl_ActionEnded,"Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests","종료 호출 이후에도 '{0}'에 대한 추가 작업을 요청하시려면, 새 sourcecontrolaction 클래스를 만드시거나 대기 도중에 중단시키기 위해 WaitForPrevious를 사용하세요.",,exception message for when the code has attempted to request an action after End() has been called
+SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,소스 제어 작업 '{0}'이 제대로 완료되지 않았어요.,,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
+SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,소스 제어 작업 '{0}'이 요청 대기열에 올바르지 않은 작업이 있어요.,,exception message for when we have hit an invalid action request
+SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,소스 제어 (Git) 잘못된 인증서,,Require Credentials Dialog Title
+SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,환경 설정에서 정한 기존 저장소 '{0}'의 식별자와는 다른 사용자 이름 / 암호가 필요해요.,,The Git repository is expecting a different username and password message.
+SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,소스 제어 (Git) 저장소 없음,,There is no Git Repository (Title)
+SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",이 프로젝트에 구성된 Git 저장소가 없어요.\n로컬 저장소가 필요하시면 만들거나 기존의 저장소를 가져와보세요.,,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
+SourceControlGit_NoIdentity,Source Control (Git) No Identity,소스 제어 (Git) 식별자 없음,,There is no Git Identity set (Title)
+SourceControlGit_NoIdentityMessage,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,환경 설정에 Git 식별자가 설정돼 있지 않았어요.\n올바른 확정안을 위해서는 지정해주세요.,,"There is no Git Identity set (Message) No identity credentials found in preferences, please set them."
+SourceControlGit_Select_All,Select/Deselect All,모두 선택 / 해제,,Select/Deselect all items to commit
+SourceControlGit_Merging,Merge in Progress,병합이 진행 중이에요.,,Merge in Progress Status Message for Commit window
+SourceControlGit_History_Files,Files Modified in Commit - {0},확정안에서 수정된 파일: {0},,Files Modified in Selected Commit
+SourceControlGit_History_Message,Message for Commit - {0},확정 메시지: {0},,Message for Selected Commit
+SourceControlGit_History_Commits,Commit History,확정 내역,,Commit History
+SourceControlGit_PageLeft,Previous Page,이전 장,,Previous Page of Results
+SourceControlGit_PageRight,Next Page,다음 장,,Next Page of Results
+SourceControlGit_SelectCommit,Select a Commit,확정안 선택,,Select a Commit message
+SourceControlGit_AutoPopup,Automatically open source control output window,소스 제어 결과창 자동으로 띄우기,,Preference title for automatically popping up the source control output window
+SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?",확정 메세지를 지정하지 않았습니다. 정말로 계속할까요?,,No commit message specified warning
+SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",이 프로젝트에 충돌이 있습니다. 프로젝트를 닫거나 다시 불러오면 수동으로 밖에 해결할 수 없는 문제가 생깁니다. 정말로 계속할까요?,,Conflicts Detected message
+sourcecontrolgit_auth_type,Authorisation Type,권한 부여 유형,,Type of Authorisation to use
+sourcecontrolgit_auth_repository,Repository URL,저장소 URL,,URL of Repository
+sourcecontrolgit_auth_username,Username,사용자 이름,,Username for authentication
+sourcecontrolgit_auth_password,Password,암호,,Password for authentication
+sourcecontrolgit_auth_public,Path to Public Key,공개 키 경로,,Path to Public Key for authentication
+sourcecontrolgit_auth_private,Path to Private Key,비공개 키 경로,,Path to Private Key for authentication
+sourcecontrolgit_auth_userpass,Username/Password,사용자 이름 / 암호,,Username and Password combination for authentication
+sourcecontrolgit_auth_sshkeys,SSH Keys,SSH 키,,SSH Keypair combination for authentication
+sourcecontrolgit_authentication_settings,Source Control (Git) Authentication Settings,소스 제어 (Git) 인증 설정,,Source Control (Git) Authentication Settings Window Title
+sourcecontrolgit_difftool_path,Path to Diff tool,비교 도구 경로,,Path to Diff tool
+sourcecontrolgit_difftool_options,Diff Tool Options,비교 도구 옵션,,Options to pass to Diff tool
+sourcecontrolgit_auth_add_userpass,Add User/Pass Authentication,새로운 사용자 / 암호 인증 추가,,Add new User/Pass Authentication
+sourcecontrolgit_auth_add_ssh,Add SSH Keypair Authentication,새 SSH 키 쌍 인증 추가,,Add new SSH Keypair Authentication
+sourcecontrolgit_auth_failed,Source Control (Git) Authentication Failed,소스 제어 (Git) 인증 실패,,Authentication failed in Source Control (Git) error title
+sourcecontrolgit_auth_userpass_failed,No Valid User/Pass Authentication details found for {0},{0} 에 대해 유효한 사용자 / 암호 인증 세부 정보가 없습니다.,,No Valid User/Pass found for repository error message
+sourcecontrolgit_auth_ssh_failed,No Valid SSH KeyPair Authentication details found for {0},유효한 SSH 키 쌍이 없습니다. {0} 에 대한 인증 세부 정보가 있습니다.,,No Valid SSH KeyPair found for repository error message
+sourcecontrolgit_auth_create_keypair,Create KeyPair,키 쌍 생성,,Create SSH KeyPair button
+sourcecontrolgit_auth_missingfield_title,Source Control (Git) Invalid Authentication,소스 제어 (Git) 잘못된 인증,,Source Control (Git) Invalid Authentication title
+sourcecontrolgit_auth_missing_repo,Repository field cannot be empty,저장소 입력란은 비워 둘 수 없습니다.,,Warning that the repository field cannot be empty
+sourcecontrolgit_auth_missing_username,Username field cannot be empty,사용자 이름 입력란은 비워 둘 수 없습니다.,,Warning that the username field cannot be empty
+sourcecontrolgit_auth_missing_password,Password field cannot be empty,암호 입력란은 비워 둘 수 없습니다.,,Warning that the password field cannot be empty
+sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure path is valid,공개 키를 찾을 수 없습니다 - 경로가 유효한지 확인하세요.,,Warning that the public key field is invalid
+sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,개인 키를 찾을 수 없습니다 - 경로가 유효한지 확인하십시오,,Warning that the private key field is invalid
+sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,저장소에 대한 인증 세부 정보가 이미 있습니다.,,Authentication details for repository already exist
 SourceControlGit_UnlocalisedError,{0},{0},,For when Git dies for some reason that we dont know why - display the exception directly
-sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,Source Control (Git) Clone Repository,,Clone Repository in source control git plugin
-sourcecontrolgit_clone_urltoclone,URL of repository to clone:,URL of repository to clone:,,URL of the repository to clone
-sourcecontrolgit_clone_path,Path to clone to:,Path to clone to:,,Path to clone repository into
-sourcecontrolgit_commit,Source Control (Git) Commit,Source Control (Git) Commit,,Commit to repository title
-sourcecontrolgit_commit_stagedchanges,Stage Changes,Stage Changes,,Staged Changes label
-sourcecontrolgit_commit_unstageall,Unstage All,Unstage All,,Unstage All changes label
-sourcecontrolgit_commit_unstageselected,Unstage Selected,Unstage Selected,,Unstage Selected changes label
-sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,Unstaged Changes,,Unstaged Changes label
-sourcecontrolgit_commit_stageall,Stage All,Stage All,,Stage All changes label
-sourcecontrolgit_commit_stageselected,Stage Selected,Stage Selected,,Stage Selected changes label
-sourcecontrolgit_commit_message,Commit Message,Commit Message,,Commit Message label
-sourcecontrolgit_commit_button,Commit,Commit,,Commit button label
-sourcecontrolgit_import_project,Source Control (Git) Import Project,Source Control (Git) Import Project,,Import Project title
-sourcecontrolgit_import_repository,Repository to import project into:,Repository to import project into:,,Repository to import project into label
-sourcecontrolgit_log,Source Control (Git) Log,Source Control (Git) Log,,Revision log for source control title
-Splash_Done,Done.,Done.,,Finished loading
-Splash_Loading,Loading....,Loading....,,Generic loading text
-Splash_WaitingNetwork,Checking Network...,Checking Network...,,Network step
-Splash_LoadingLanguages,Loading Languages...,Loading Languages...,,Loading the languages prefix
-Splash_LoadingUserLanguages,Loading Custom Languages...,Loading Custom Languages...,,Loading the user supplied languages prefix
-Splash_LoadingPlugins,Loading Plugins...,Loading Plugins...,,Loading the plugins
-Splash_LoadingPrefs,Loading Preferences...,Loading Preferences...,,Loading the preferences
-Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
+sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,소스 제어 (Git) 저장소 없음,,Clone Repository in source control git plugin
+sourcecontrolgit_clone_urltoclone,URL of repository to clone:,복제할 저장소의 URL,,URL of the repository to clone
+sourcecontrolgit_clone_path,Path to clone to:,복제할 경로,,Path to clone repository into
+sourcecontrolgit_commit,Source Control (Git) Commit,소스 제어 (Git) 확정,,Commit to repository title
+sourcecontrolgit_commit_stagedchanges,Stage Changes,변경 사항 올리기,,Staged Changes label
+sourcecontrolgit_commit_unstageall,Unstage All,모두 내리기,,Unstage All changes label
+sourcecontrolgit_commit_unstageselected,Unstage Selected,선택사항 내리기,,Unstage Selected changes label
+sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,변경점 내리기,,Unstaged Changes label
+sourcecontrolgit_commit_stageall,Stage All,모두 올리기,,Stage All changes label
+sourcecontrolgit_commit_stageselected,Stage Selected,선택사항 올리기,,Stage Selected changes label
+sourcecontrolgit_commit_message,Commit Message,확정 메시지,,Commit Message label
+sourcecontrolgit_commit_button,Commit,확정,,Commit button label
+sourcecontrolgit_import_project,Source Control (Git) Import Project,소스 제어 (Git) 프로젝트 가져오기,,Import Project title
+sourcecontrolgit_import_repository,Repository to import project into:,프로젝트를 가져올 저장소 :,,Repository to import project into label
+sourcecontrolgit_log,Source Control (Git) Log,소스 제어 (Git) 기록,,Revision log for source control title
+Splash_Done,Done.,완료.,,Finished loading
+Splash_Loading,Loading....,불러오는 중...,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,네트워크 확인 중…,,Network step
+Splash_LoadingLanguages,Loading Languages...,언어 불러오는 중...,,Loading the languages prefix
+Splash_LoadingUserLanguages,Loading Custom Languages...,사용자 정의 언어 불러오는 중...,,Loading the user supplied languages prefix
+Splash_LoadingPlugins,Loading Plugins...,플러그인 불러오는 중...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,환경 설정 불러오는 중...,,Loading the preferences
+Splash_LoadingDevices,Loading Devices...,장치 불러오는 중...,,Loading the devices
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
-Splash_UserLogin,User Login,User Login,,User Login has been started
-Splash_InitDnD,Drag and Drop...,Drag and Drop...,,Initialising Drag and Drop™
-Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
-Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
-SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
-SpriteEditor_LockOrigin,Lock sprite origin,Lock sprite origin,,Lock sprite origin from editing
-SpriteEditor_Manual,Manual,Manual,,Sprite editor manual bounding box label
-SpriteEditor_Premultiply,Premultiply Alpha,Premultiply Alpha,,Premultiply alpha channel of sprite composite
-SpriteEditor_EdgeFiltering,Edge Filtering,Edge Filtering,,Edge filtering of sprite composite
-SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Premultiply the alpha channel into the sprite frame,,Premultiply alpha channel of sprite composite tooltip
-SpriteEditor_EdgeFiltering_Tooltip,Merge pixels along the edge of the graphic to correct interpolation,Merge pixels along the edge of the graphic to correct interpolation,,Edge filtering of sprite composite tooltip
-SpriteEditor_FullImage,Full Image,Full Image,,Sprite editor full image bounding box label
-SpriteEditor_Image,Image:,Image:,,Image label
-SpriteEditor_BBBottom,Bottom:,Bottom:,,Sprite editor bounding box label
+Splash_UserLogin,User Login,사용자 로그인,,User Login has been started
+Splash_InitDnD,Drag and Drop...,드래그 앤 드롭...,,Initialising Drag and Drop™
+Splash_CheckingRSS,Checking RSS...,RSS 확인 중...,,Checking RSS...
+Splash_DownloadingManual,Downloading Manual...,설명서 내려 받는 중…,,Downloading Manual...
+SplineEditor_DeletePoints,Delete Points,점 삭제,,Path spline editor context menu entry
+SpriteEditor_LockOrigin,Lock sprite origin,스프라이트 중심 잠그기,,Lock sprite origin from editing
+SpriteEditor_Manual,Manual,수동 조작,,Sprite editor manual bounding box label
+SpriteEditor_Premultiply,Premultiply Alpha,투명도 미리 곱하기,,Premultiply alpha channel of sprite composite
+SpriteEditor_EdgeFiltering,Edge Filtering,가장자리 필터링,,Edge filtering of sprite composite
+SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,스프라이트 낱장마다의 투명 채널을 미리 곱해줍니다.,,Premultiply alpha channel of sprite composite tooltip
+SpriteEditor_EdgeFiltering_Tooltip,Merge pixels along the edge of the graphic to correct interpolation,정확한 보간을 위해 그림의 가장자리를 따라서 화소를 합쳐줍니다.,,Edge filtering of sprite composite tooltip
+SpriteEditor_FullImage,Full Image,전체 그림,,Sprite editor full image bounding box label
+SpriteEditor_Image,Image:,그림,,Image label
+SpriteEditor_BBBottom,Bottom:,하단,,Sprite editor bounding box label
 SpriteEditor_ZoomLabel,{0}%,{0}%,,Zoom label format
-SpriteEditor_BBLeft,Left:,Left:,,Sprite editor bounding box label
-SpriteEditor_BBRight,Right:,Right:,,Sprite editor bounding box label
-SpriteEditor_BBTop,Top:,Top:,,Sprite editor bounding box label
-SpriteEditor_BoundingBox,Boundaries,Boundaries,,Sprite editor bounding box label
-SpriteEditor_ColDiamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
-SpriteEditor_ColEllipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor collision type
-SpriteEditor_CollisionMask,Collision Mask,Collision Mask,,Sprite editor collision mask caption
-SpriteEditor_CollisionMaskTimeline,Collision Mask:,Collision Mask:,,Sprite editor collision mask caption in timeline
-SpriteEditor_ColPrecise,Precise (Slow),Precise (Slow),,Sprite editor collision type
-SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
-SpriteEditor_ColRectangle,Rectangle,Rectangle,,Sprite editor collision type
-SpriteEditor_ColRectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
-SpriteEditor_ColMaskAutomatic,Automatic,Automatic,,Sprite editor automatic collision mask
-SpriteEditor_ContextMenu_AddFrame,Add Frame,Add Frame,,Sprite editor frame context menu
-SpriteEditor_ContextMenu_Copy,Copy,Copy,,Sprite editor frame context menu
-SpriteEditor_ContextMenu_Delete,Delete,Delete,,Sprite editor frame context menu
-SpriteEditor_ContextMenu_Paste,Paste,Paste,,Sprite editor frame context menu
-SpriteEditor_ContextMenu_SelectAll,Select All,Select All,,Sprite editor frame context menu
-SpriteEditor_EditImages,Edit Image,Edit Image,,Sprite editor open image editor button
-SpriteEditor_EditMask,Edit Collision Mask,Edit Collision Mask,,Sprite editor open collision mask button
-SpriteEditor_EnableWrap,Wrap Frames,Wrap Frames,,Sprite editor wrap frames toggle button caption
-SpriteEditor_FPS,Speed:,Speed:,,Sprite editor fps playback speed label
-SpriteEditor_Import,Import,Import,,Sprite editor import button
-SpriteEditor_LabelFrameCount,Frame Count: {0},Frame Count: {0},,Sprite editor frame label
-SpriteEditor_LabelOrigin,Origin Point:,Origin Point:,,Sprite editor origin point label
-SpriteEditor_LabelSize,Size:,Size:,,Sprite editor label size
-SpriteEditor_W,W: {0},W: {0},,Width label
-SpriteEditor_H,H: {0},H: {0},,Height label
-SpriteEditor_SWFPrecisionLabel,SWF Precision:,SWF Precision:,,SWF precision slider label
-Sprite_Resize_Title,Resize Properties: {0},Resize Properties: {0},,Resize properties title
-Sprite_Resize_CurrentSize,Current,Current,,Current size of sprite label
-Sprite_Resize_Preview,Preview,Preview,,Preview label
-SpriteEditor_PreviewColMask,Preview Mask,Preview Mask,,Preview label
-Sprite_Resize_ScaleImage,Scale Image,Scale Image,,Scale label
-Sprite_Resize_ResizeCanvas,Resize Canvas,Resize Canvas,,Resize label
-Sprite_Resize_Width,Width:,Width:,,Width label
-Sprite_Resize_Height,Height:,Height:,,Height label
-Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,Maintain Aspect Ratio:,,Maintain ratio label
-Sprite_Resize_Origin,Apply to Origin,Apply to Origin,,Also resize/scale sprite origin
-Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,,Sprite origin resize/scale tooltip
-SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,Apply resize and scale to sprite origin,,Sprite editor resize/scale origin preference
-Sprite_Resize_Pixels,pixels,pixels,,Pixels label
-SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,Sprite is a tile set resource!,,Tile set warning
-SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,,Sprite resize tile set warning
+SpriteEditor_BBLeft,Left:,좌측,,Sprite editor bounding box label
+SpriteEditor_BBRight,Right:,우측,,Sprite editor bounding box label
+SpriteEditor_BBTop,Top:,상단,,Sprite editor bounding box label
+SpriteEditor_BoundingBox,Boundaries,경계,,Sprite editor bounding box label
+SpriteEditor_ColDiamond,Diamond (Slow),마름모형 (느림),,Sprite editor collision type
+SpriteEditor_ColEllipse,Ellipse (Slow),타원형 (느림),,Sprite editor collision type
+SpriteEditor_CollisionMask,Collision Mask,충돌 마스크,,Sprite editor collision mask caption
+SpriteEditor_CollisionMaskTimeline,Collision Mask:,충돌 마스크,,Sprite editor collision mask caption in timeline
+SpriteEditor_ColPrecise,Precise (Slow),정밀형 (느림),,Sprite editor collision type
+SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),낱장마다 정밀형 (느림),,Sprite editor collision mask type
+SpriteEditor_ColRectangle,Rectangle,직사각형 (빠름),,Sprite editor collision type
+SpriteEditor_ColRectangleRotation,Rectangle with rotation,회전하는 직사각형 (빠름),,Sprite editor collision type
+SpriteEditor_ColMaskAutomatic,Automatic,자동,,Sprite editor automatic collision mask
+SpriteEditor_ContextMenu_AddFrame,Add Frame,프레임 추가하기,,Sprite editor frame context menu
+SpriteEditor_ContextMenu_Copy,Copy,복사하기,,Sprite editor frame context menu
+SpriteEditor_ContextMenu_Delete,Delete,지우기,,Sprite editor frame context menu
+SpriteEditor_ContextMenu_Paste,Paste,붙여넣기,,Sprite editor frame context menu
+SpriteEditor_ContextMenu_SelectAll,Select All,모두 선택하기,,Sprite editor frame context menu
+SpriteEditor_EditImages,Edit Image,그림 편집,,Sprite editor open image editor button
+SpriteEditor_EditMask,Edit Collision Mask,충돌 마스크 편집하기,,Sprite editor open collision mask button
+SpriteEditor_EnableWrap,Wrap Frames,프레임 감싸기,,Sprite editor wrap frames toggle button caption
+SpriteEditor_FPS,Speed:,속도,,Sprite editor fps playback speed label
+SpriteEditor_Import,Import,가져오기,,Sprite editor import button
+SpriteEditor_LabelFrameCount,Frame Count: {0},프레임 수: {0},,Sprite editor frame label
+SpriteEditor_LabelOrigin,Origin Point:,중심 점,,Sprite editor origin point label
+SpriteEditor_LabelSize,Size:,크기,,Sprite editor label size
+SpriteEditor_W,W: {0},너비: {0},,Width label
+SpriteEditor_H,H: {0},높이: {0},,Height label
+SpriteEditor_SWFPrecisionLabel,SWF Precision:,SWF 정밀도,,SWF precision slider label
+Sprite_Resize_Title,Resize Properties: {0},크기 조정: {0},,Resize properties title
+Sprite_Resize_CurrentSize,Current,현재,,Current size of sprite label
+Sprite_Resize_Preview,Preview,미리보기,,Preview label
+SpriteEditor_PreviewColMask,Preview Mask,미리보기 마스크,,Preview label
+Sprite_Resize_ScaleImage,Scale Image,그림 크기 변경,,Scale label
+Sprite_Resize_ResizeCanvas,Resize Canvas,용지 크기 변경,,Resize label
+Sprite_Resize_Width,Width:,너비,,Width label
+Sprite_Resize_Height,Height:,높이,,Height label
+Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,종횡 비 유지하기,,Maintain ratio label
+Sprite_Resize_Origin,Apply to Origin,중심 점에도 적용하기,,Also resize/scale sprite origin
+Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,스프라이트의 중심 점에도 같은 변형을 적용합니다.\n이 선택지는 중심이 사용자 정의돼 있고 잠겨 있지 않으면 적용됩니다.,,Sprite origin resize/scale tooltip
+SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,중심 점에 크기 조정과 비율 조절 적용,,Sprite editor resize/scale origin preference
+Sprite_Resize_Pixels,pixels,화소,,Pixels label
+SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,이 스프라이트는 타일 세트에요.,,Tile set warning
+SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,스프라이트가 타일 세트이기에 크기를 변경하면 타일의 내용도 변경됩니다. 계속 할까요?,,Sprite resize tile set warning
 Sprite_Resize_Percentage,%,%,,Percentage label
-Sprite_Resize_ScaleIn,Scale In:,Scale In:,,Scale in label
-Sprite_Resize_ResizeIn,Resize In:,Resize In:,,Resize in label
-SpriteEditor_Name,Name:,Name:,,Sprite editor name label
-SpriteEditor_Origin,Origin,Origin,,Sprite editor origin label
-SpriteEditor_Origin_BottomLeft,Bottom Left,Bottom Left,,Sprite editor origin combo menu item
-SpriteEditor_Origin_BottomMiddle,Bottom Center,Bottom Center,,Sprite editor origin combo menu item
-SpriteEditor_Origin_BottomRight,Bottom Right,Bottom Right,,Sprite editor origin combo menu item
-SpriteEditor_Origin_CentreLeft,Middle Left,Middle Left,,Sprite editor origin combo menu item
-SpriteEditor_Origin_CentreMiddle,Middle Center,Middle Center,,Sprite editor origin combo menu item
-SpriteEditor_Origin_CentreRight,Middle Right,Middle Right,,Sprite editor origin combo menu item
-SpriteEditor_Origin_Custom,Custom,Custom,,Sprite editor origin combo menu item
-SpriteEditor_Origin_TopLeft,Top Left,Top Left,,Sprite editor origin combo menu item
-SpriteEditor_Origin_TopMiddle,Top Center,Top Center,,Sprite editor origin combo menu item
-SpriteEditor_Origin_TopRight,Top Right,Top Right,,Sprite editor origin combo menu item
-SpriteEditor_Play,Play Animation,Play Animation,,Sprite editor play animation button
-SpriteEditor_PlaybackOptions,Playback Options,Playback Options,,Sprite editor playback options label
-SpriteEditor_PreviewFrameRanges,Previewing Frames: ,Previewing Frames: ,,Sprite editor label for displaying previewed frame ranges
-SpriteEditor_ShowingColMask,Showing Collision Mask,Showing Collision Mask,,Sprite editor label when showing collision mask over sprite
-SpriteEditor_TextureGroup,Group,Group,,Sprite editor texture group label
-SpriteEditor_TextureSettings,Texture Settings:,Texture Settings:,,Sprite editor texture settings label
-SpriteEditor_TileHor,Tile Horizontally,Tile Horizontally,,Sprite editor tile hor label
-SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,,Tiling tooltip
-SpriteEditor_TileVer,Tile Vertically,Tile Vertically,,Sprite editor tile ver label
-SpriteEditor_Tolerance,Tolerance,Tolerance,,Sprite editor alpha tolerance slider label
-SpriteEditor_Use3D,Separate Texture Page,Separate Texture Page,,Sprite editor use for 3D label
-SpriteEditor_WindowTitle,Sprite: {0},Sprite: {0},,Sprite editor window title
+Sprite_Resize_ScaleIn,Scale In:,비율 조절,,Scale in label
+Sprite_Resize_ResizeIn,Resize In:,크기 조정,,Resize in label
+SpriteEditor_Name,Name:,이름,,Sprite editor name label
+SpriteEditor_Origin,Origin,원점,,Sprite editor origin label
+SpriteEditor_Origin_BottomLeft,Bottom Left,좌측 하단,,Sprite editor origin combo menu item
+SpriteEditor_Origin_BottomMiddle,Bottom Center,중앙 하단,,Sprite editor origin combo menu item
+SpriteEditor_Origin_BottomRight,Bottom Right,우측 하단,,Sprite editor origin combo menu item
+SpriteEditor_Origin_CentreLeft,Middle Left,좌측 중간,,Sprite editor origin combo menu item
+SpriteEditor_Origin_CentreMiddle,Middle Center,중심,,Sprite editor origin combo menu item
+SpriteEditor_Origin_CentreRight,Middle Right,우측 중간,,Sprite editor origin combo menu item
+SpriteEditor_Origin_Custom,Custom,사용자 정의,,Sprite editor origin combo menu item
+SpriteEditor_Origin_TopLeft,Top Left,좌측 상단,,Sprite editor origin combo menu item
+SpriteEditor_Origin_TopMiddle,Top Center,중앙 상단,,Sprite editor origin combo menu item
+SpriteEditor_Origin_TopRight,Top Right,우측 상단,,Sprite editor origin combo menu item
+SpriteEditor_Play,Play Animation,재생,,Sprite editor play animation button
+SpriteEditor_PlaybackOptions,Playback Options,재생단 설정,,Sprite editor playback options label
+SpriteEditor_PreviewFrameRanges,Previewing Frames: ,프레임 미리보기,,Sprite editor label for displaying previewed frame ranges
+SpriteEditor_ShowingColMask,Showing Collision Mask,충돌 마스크 보이기,,Sprite editor label when showing collision mask over sprite
+SpriteEditor_TextureGroup,Group,묶음,,Sprite editor texture group label
+SpriteEditor_TextureSettings,Texture Settings:,텍스처 설정,,Sprite editor texture settings label
+SpriteEditor_TileHor,Tile Horizontally,타일을 수평으로 나열하기,,Sprite editor tile hor label
+SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,"그림이 텍스처 페이지에 놓일 때, 다른 그림 사이의 가장자리가 어떻게 생성될지와 관련되어 있습니다. 타일로 배열되는 경우에는 수평 또는 수직 가장자리가 반대편의 가장자리에 추가됩니다.",,Tiling tooltip
+SpriteEditor_TileVer,Tile Vertically,타일을 수직으로 나열하기,,Sprite editor tile ver label
+SpriteEditor_Tolerance,Tolerance,오차,,Sprite editor alpha tolerance slider label
+SpriteEditor_Use3D,Separate Texture Page,텍스처 페이지 분리하기,,Sprite editor use for 3D label
+SpriteEditor_WindowTitle,Sprite: {0},스프라이트,,Sprite editor window title
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
-ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
-ParticleTypeEditor_Appearance,Appearance,Appearance,,Particle type appearance label
-ParticleTypeEditor_Properties,Properties,Properties,,Particle type properties label
-ParticleTypeEditor_BuiltInTextures,Textures,Textures,,Particle type built-in textures label
-ParticleTypeEditor_BuiltInTextures_Tooltip,Use a preset texture as a particle type,Use a preset texture as a particle type,,Help tooltip
-ParticleTypeEditor_Sprite_Tooltip,Use a Sprite from the project as a particle type,Use a Sprite from the project as a particle type,,Help tooltip
-ParticleTypeEditor_Color,Colour,Colour,,Particle type color label
-ParticleTypeEditor_ColorHelp,Sets how this particle type changes colour over time,Sets how this particle type changes colour over time,,Particle type color help
-ParticleTypeEditor_Size,Size,Size,,Particle type size label
-ParticleTypeEditor_SizeHelp,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,,Particle type size help
-ParticleTypeEditor_Scale,Scale,Scale,,Particle type scale label
-ParticleTypeEditor_ScaleHelp,Sets the scale of this particle type,Sets the scale of this particle type,,Particle type scale help
-ParticleTypeEditor_Min,Minimum,Minimum,,Particle type minimum label
-ParticleTypeEditor_Max,Maximum,Maximum,,Particle type maximum label
-ParticleTypeEditor_Incement,Increment,Increment,,Particle type increment label
-ParticleTypeEditor_IncementHelp,Sets how much this property changes over time,Sets how much this property changes over time,,Particle type increment help
-ParticleTypeEditor_Wiggle,Wiggle,Wiggle,,Particle type wiggle label
-ParticleTypeEditor_WiggleHelp,Sets how much this property can randomly change over time,Sets how much this property can randomly change over time,,Particle type wiggle help
-ParticleTypeEditor_Blending,Blending,Blending,,Particle type blending label
-ParticleTypeEditor_BlendingHelp,Enable additive blending for this particle type,Enable additive blending for this particle type,,Particle type blending help
-ParticleTypeEditor_Gravity,Gravity,Gravity,,Particle type gravity label
-ParticleTypeEditor_GravityHelp,Sets the gravity force and direction applied to this particle type over time,Sets the gravity force and direction applied to this particle type over time,,Particle type editor gravity help
-ParticleTypeEditor_GravityForce,Force,Force,,Particle type gravity force label
-ParticleTypeEditor_GravityDir,Direction,Direction,,Particle type gravity direction label
-ParticleTypeEditor_Direction,Direction,Direction,,Particle type direction label
-ParticleTypeEditor_DirectionHelp,Sets the direction of this particle type,Sets the direction of this particle type,,Particle type editor direction help
-ParticleTypeEditor_Orientation,Orientation,Orientation,,Particle type editor orientation label
+ParticleTypeEditor_Title,Particle Types,입자 유형,,Particle type editor window title
+ParticleTypeEditor_Appearance,Appearance,외향,,Particle type appearance label
+ParticleTypeEditor_Properties,Properties,속성,,Particle type properties label
+ParticleTypeEditor_BuiltInTextures,Textures,텍스처,,Particle type built-in textures label
+ParticleTypeEditor_BuiltInTextures_Tooltip,Use a preset texture as a particle type,파티클 유형에 미리 정해진 텍스처를 사용합니다.,,Help tooltip
+ParticleTypeEditor_Sprite_Tooltip,Use a Sprite from the project as a particle type,파티클 유형에 프로젝트의 스프라이트를 사용합니다.,,Help tooltip
+ParticleTypeEditor_Color,Colour,색상,,Particle type color label
+ParticleTypeEditor_ColorHelp,Sets how this particle type changes colour over time,입자가 변하는 색이에요.,,Particle type color help
+ParticleTypeEditor_Size,Size,크기,,Particle type size label
+ParticleTypeEditor_SizeHelp,Sets the size this particle type can spawn as relative to the Sprite or texture used to display it,입자의 크기이요. 절대적인 크기는 입자에 지정된 텍스처의 크기에 비례해요.,,Particle type size help
+ParticleTypeEditor_Scale,Scale,비율,,Particle type scale label
+ParticleTypeEditor_ScaleHelp,Sets the scale of this particle type,입자의 크기 비율이에요.,,Particle type scale help
+ParticleTypeEditor_Min,Minimum,최소,,Particle type minimum label
+ParticleTypeEditor_Max,Maximum,최대,,Particle type maximum label
+ParticleTypeEditor_Incement,Increment,증분,,Particle type increment label
+ParticleTypeEditor_IncementHelp,Sets how much this property changes over time,시간마다의 변화량이에요.,,Particle type increment help
+ParticleTypeEditor_Wiggle,Wiggle,떨림,,Particle type wiggle label
+ParticleTypeEditor_WiggleHelp,Sets how much this property can randomly change over time,떨리는 정도의 양이에요.,,Particle type wiggle help
+ParticleTypeEditor_Blending,Blending,색깔 섞기,,Particle type blending label
+ParticleTypeEditor_BlendingHelp,Enable additive blending for this particle type,같은 입자끼리 색이 섞이는 지의 여부에요.,,Particle type blending help
+ParticleTypeEditor_Gravity,Gravity,중력,,Particle type gravity label
+ParticleTypeEditor_GravityHelp,Sets the gravity force and direction applied to this particle type over time,입자에 적용되는 중력의 크기와 방향을 정할 수 있어요.,,Particle type editor gravity help
+ParticleTypeEditor_GravityForce,Force,크기,,Particle type gravity force label
+ParticleTypeEditor_GravityDir,Direction,방향,,Particle type gravity direction label
+ParticleTypeEditor_Direction,Direction,방향,,Particle type direction label
+ParticleTypeEditor_DirectionHelp,Sets the direction of this particle type,입자가 운동하는 방향이에요.,,Particle type editor direction help
+ParticleTypeEditor_Orientation,Orientation,회전 방향,,Particle type editor orientation label
 ParticleTypeEditor_OrientationHelp,Sets the rotation of this particle type,Sets the rotation of this particle type,,Particle type editor orientation help
-ParticleTypeEditor_Relative,Relative,Relative,,Particle type editor relative label
+ParticleTypeEditor_Relative,Relative,상대적,,Particle type editor relative label
 ParticleTypeEditor_RelativeOrientationHelp,Sets whether this particle type's rotation is relative to its direction,Sets whether this particle type's rotation is relative to its direction,,Particle type editor relative orientation help
-ParticleTypeEditor_Speed,Speed,Speed,,Particle type editor speed label
+ParticleTypeEditor_Speed,Speed,이동 속도,,Particle type editor speed label
 ParticleTypeEditor_SpeedHelp,Sets the speed of this particle type,Sets the speed of this particle type,,Particle type editor speed help
-ParticleTypeEditor_Life,Life,Life,,Particle type editor life label
-ParticleTypeEditor_Subparticles,Subparticles,Subparticles,,Particle type editor subparticles label
-ParticleTypeEditor_SpawnDeath,On Death,On Death,,Particle type editor spawn on death label
-ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,Spawn another particle when this dies,,Particle type editor spawn on death help label
-ParticleTypeEditor_SpawnUpdate,On Update,On Update,,Particle type editor spawn on update label
-ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,Spawn another particle each update,,Particle type editor spawn on update help label
-ParticleTypeEditor_Headposition,Head,Head,,Particle type editor head label
-ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Use the sprite frame at the given head position,,Particle type editor head help label
-ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,Incompatible Runtime,,Title for below error message
-ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,,Not supported by runtime error message
-ParticleEditor_Title,Particle System: {0},Particle System: {0},,Particle System editor window title
-ParticleEditor_System,System,System,,Particle system label
-ParticleEditor_Particles,Particles,Particles,,Particles label
-ParticleEditor_Emitters,Emitters,Emitters,,Emitters label
-ParticleEditor_DrawOrder,Draw Order,Draw Order,,Particle system draw order label
-ParticleEditor_AddParticleType,Create a new particle type,Create a new particle type,,New particle type tooltip
-ParticleEditor_RemoveParticleType,Delete selected particle type(s),Delete selected particle type(s),,Delete particle type tooltip
-ParticleEditor_AddParticleEmitter,Create a new particle emitter,Create a new particle emitter,,New particle emitter tooltip
-ParticleEditor_RemoveParticleEmitter,Delete particle emitter,Delete particle emitter,,Delete particle emitter tooltip
-ParticleEditor_EditParticleType,Edit this particle type,Edit this particle type,,Edit particle type tooltip
-ParticleEditor_EditParticleEmitter,Edit this particle emitter,Edit this particle emitter,,Edit particle emitter tooltip
-ParticleEditor_EmitterName,Name,Name,,Emitter name label
-ParticleEditor_EmitterMode,Mode,Mode,,Emitter mode label
-ParticleEditor_EmitterParticleType,Particle Type,Particle Type,,Emitter particle type label
-ParticleEditor_EmitterCount,Particle Count,Particle Count,,Emitter particle count to emit each time label
-ParticleEditor_EmitterShape,Shape,Shape,,Emitter shape label
-ParticleEditor_EmitterDistribution,Distribution,Distribution,,Emitter particle distribution label
-ParticleEditor_EmitterEnabled,Enabled,Enabled,,Emitter enabled label
-ParticleEditor_EmitterColor,Editor Colour,Editor Colour,,Emitter editor color label
-ParticleEditor_ShapeLeft,Left,Left,,Emitter shape region left label
-ParticleEditor_ShapeTop,Top,Top,,Emitter shape region top label
-ParticleEditor_ShapeWidth,Width,Width,,Emitter shape region width label
-ParticleEditor_ShapeHeight,Height,Height,,Emitter shape region height label
-ParticleEditor_ShapeRotation,Rotation,Rotation,,Emitter shape rotation label
-ParticleEditor_BackgroundSettings,Change the preview background,Change the preview background,,Change the preview background tooltip
-ParticleEditor_ToggleBackground,Toggle preview background,Toggle preview background,,Toggle preview background tooltip
-ParticleEditor_Play,Start the particle system,Start the particle system,,Start emitting particles tooltip
-ParticleEditor_Pause,Pause the particle system,Pause the particle system,,Pause emitting particles tooltip
-ParticleEditor_SelectType,Select particle type,Select particle type,,Select particle type window title
-ParticleEditor_BackgroundLabel,Display a sprite or a local image as the background of the Particle System preview.,Display a sprite or a local image as the background of the Particle System preview.,,Particle editor background explanation
-ParticleEditor_BackgroundSprite,Sprite,Sprite,,Sprite label for background
-ParticleEditor_BackgroundImage,Local image,Local image,,Texture background
-ParticleEditor_AutomaticUpdate,Automatic Update,Automatic Update,,Automatic update particle system label
-ParticleEditor_AutomaticDraw,Automatic Draw,Automatic Draw,,Automatic draw particle system label
-ParticleEditor_TimeOffset,Time Offset,Time Offset,,Time offset particle system label
-ParticleEditorStats_ParticleCount,Particles: {0},Particles: {0},,Particle editor stats label
-ParticleEditorStats_UpdateTime,Update: {0}ms,Update: {0}ms,,Particle editor stats label for how long it took to update
-ParticleEditorStats_DrawTime,Drawing: {0}ms,Drawing: {0}ms,,Particle editor stats label for how long it took to draw
-ToolTip_eParticleSystemDrawOrder_OldFirst,Draw older particles below newer particles (default),Draw older particles below newer particles (default),,Particle system draw order help tip for drawing old first
-ToolTip_eParticleSystemDrawOrder_NewFirst,Draw newer particles below older particles,Draw newer particles below older particles,,Particle system draw order help tip for drawing new first
-ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,Default,,Particle system draw order localised label
-ListBoxEnum_eParticleSystemDrawOrder_NewFirst,New Below Old,New Below Old,,Particle system draw order localised label
-ListBoxEnum_eParticleDistribution_Linear,Linear,Linear,,Linear particle distribution
-ListBoxEnum_eParticleDistribution_Gaussian,Gaussian,Gaussian,,Gaussian particle distribution
-ListBoxEnum_eParticleDistribution_InverseGaussian,Inverse Gaussian,Inverse Gaussian,,Inverse gaussian particle distribution
-ListBoxEnum_eEmitterShape_Rectangle,Rectangle,Rectangle,,Rectangular emitter shape
-ListBoxEnum_eEmitterShape_Line,Line,Line,,Line emitter shape
-ListBoxEnum_eEmitterShape_Ellipse,Ellipse,Ellipse,,Ellipse emitter shape
-ListBoxEnum_eEmitterShape_Diamond,Diamond,Diamond,,Diamond emitter shape
-ListBoxEnum_ePartTypeTexture_Pixel,Pixel,Pixel,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Disk,Disk,Disk,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Circle,Circle,Circle,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Ring,Ring,Ring,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Line,Line,Line,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Square,Square,Square,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Star,Star,Star,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Spark,Spark,Spark,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Flare,Flare,Flare,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Sphere,Sphere,Sphere,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Smoke,Smoke,Smoke,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Explosion,Explosion,Explosion,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Cloud,Cloud,Cloud,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Snow,Snow,Snow,,Particle type texture
-ListBoxEnum_eEmitMode_Stream,Stream,Stream,,Emitter mode
-ListBoxEnum_eEmitMode_Burst,Burst,Burst,,Emitter mode
-StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,Start page failed to load.\nYou can create new projects from the File menu.,,Start page error text
-StartPage_ErrorTitle,An Error Occurred,An Error Occurred,,Start page error title
-StartPage_Title,Start Page,Start Page,,Start page title
-StripDialog_NumberOfImages,Number of Frames,Number of Frames,,strip dialog frame count
-StripDialog_ImagesPerRow,Frames per Row,Frames per Row,,strip dialog frames per row
-StripDialog_ImageWidth,Frame Width,Frame Width,,strip dialog frame width
-StripDialog_ImageHeight,Frame Height,Frame Height,,strip dialog frame height
-StripDialog_HCellOffset,Horizontal Cell Offset,Horizontal Cell Offset,,strip dialog horizontal cell offset
-StripDialog_VCellOffset,Vertical Cell Offset,Vertical Cell Offset,,strip dialog vertical cell offset
-StripDialog_HPixelOffset,Horizontal Pixel Offset,Horizontal Pixel Offset,,strip dialog horizontal pixel offset
-StripDialog_VPixelOffset,Vertical Pixel Offset,Vertical Pixel Offset,,strip dialog vertical pixel offset
-StripDialog_HSeparation,Horizonal Separation,Horizonal Separation,,strip dialog horizontal separation
-StripDialog_VSeparation,Vertical Separation,Vertical Separation,,strip dialog vertical separation
-StripDialogTitle,Create from Strip,Create from Strip,,strip image import dialog title
-StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,Importing strip images will replace the existing sprite frames - do you wish to proceed?,,strip image import warning
-StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false","Duplicate style '{0}' found, it will be discarded as overwrite is set to false",,Log message for when loading a duplicate style name with 'overwrite' set to false
-StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,,exception message when attempting to clone an uncloneable object
-StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,,exception message when attempting to clone an ICollection which doesn't have a deep clone available
-TabControl_AddTab,Add New Tab,Add New Tab,,Add a new tab to the tab control context menu entry
-TabControl_AddTabAfter,Add New Tab After '{0}',Add New Tab After '{0}',,Add a new tab to the tab control context menu entry after the active tab
-TabControl_MoveTabBack,Move Tab '{0}' Back,Move Tab '{0}' Back,,Move the tab back one space context menu entry
-TabControl_MoveTabForward,Move Tab '{0}' Forward,Move Tab '{0}' Forward,,Move the tab forward one space context menu entry
-TextEditor_Clear,Clear,Clear,,Clear TextEditor context menu entry
-TextEditor_Copy,Copy,Copy,,Text editor copy command
-TextEditor_Cut,Cut,Cut,,Text editor cut command
-TextEditor_Paste,Paste,Paste,,Text editor paste command
-TextEditor_SelectAll,Select All,Select All,,Select All context menu entry on Text Editor
-TextEditor_CommentSelection,Comment Selection,Comment Selection,,text editor context menu comment selection
-TextEditor_UncommentSelection,Uncomment Selection,Uncomment Selection,,text editor context menu uncomment selection
-TextEditor_TabIn,Tab In,Tab In,,text editor context menu tab in selection
-TextEditor_TabOut,Tab Out,Tab Out,,text editor context tab out selection
-TextEditor_StatusText,{0}/{1} Col:{2} Ch:{3},{0}/{1} Col:{2} Ch:{3},,text editor status bar column character
-TextEditor_RegionsMenu,Regions,Regions,,text editor regions menu
-TextEditor_FoldAllRegions,Fold All Regions,Fold All Regions,,fold all regions context menu entry
-TextEditor_UnfoldAllRegions,Unfold All Regions,Unfold All Regions,,unfold all regions context menu entry
-TextEditor_ToggleFold,Fold/Unfold region,Fold/Unfold region,,text editor toggle region fold
-TextEditor_PreviousRegion,Previous Region,Previous Region,,text editor previous region menu entry
-TextEditor_NextRegion,Next Region,Next Region,,text editor next region menu entry
-TextEditor_CodeSnippets,Code Snippets,Code Snippets,,Code snippets context menu entry
-TextureGroups_ActiveGroup,Current Group:,Current Group:,,Texture group current group
-TextureGroups_AddNew,Add New,Add New,,Texture group add new button
-TextureGroups_AllowScaling,Allow Scaling,Allow Scaling,,Texture group allow scaling checkbox
-TextureGroups_AutoCrop,Automatically Crop,Automatically Crop,,Texture group auto cropping checkbox
-TextureGroups_MipMap,Generate mipmaps,Generate mipmaps,,Texture group mipmap generation checkbox
-TextureGroups_Backgrounds,Tilesets,Tilesets,,Texture group backgrounds header
-TextureGroups_BorderSize,Border Size:,Border Size:,,Texture group border size label
-TextureGroups_Delete,Delete,Delete,,Texture group delete button
-TextureGroups_FindResource,Add Resource,Add Resource,,Texture group find resource label
-TextureGroups_Fonts,Fonts,Fonts,,Texture group fonts header
-TextureGroups_List_Backgrounds,Backgrounds,Backgrounds,,Texture group list category
-TextureGroups_List_Fonts,Fonts,Fonts,,Texture group list category
-TextureGroups_List_Sprites,Sprites,Sprites,,Texture group list category
-TextureGroups_NoResources,This group is empty.,This group is empty.,,Texture groups label when a sub-tree is empty
-TextureGroups_ParentTexGorup,Parent Texture Group,Parent Texture Group,,Texture group parent texture group label
-TextureGroups_Remove,Remove,Remove,,Texture group remove menu entry
-TextureGroups_Rename,Rename,Rename,,Texture group rename button
-TextureGroups_SettingsLabel,Group Settings,Group Settings,,Texture group settings label
-TextureGroups_Sprites,Sprites,Sprites,,Texture group sprites header
-TextureGroups_TargetPlatforms,Use Group On...,Use Group On...,,Texture group target platforms label
-TextureGroups_TypeFindResource,Type to find resource,Type to find resource,,Texture group manager tooltip
-TextureGroups_WindowTitle,Texture Groups,Texture Groups,,Texture groups window title
-TextureGroups_Menu_MoveTo,Move To,Move To,,Texture groups context menu button
-TexGroups_EditResource,Edit...,Edit...,,Texture groups window edit resource button
-AudioGroups_ActiveGroup,Current Group:,Current Group:,,Audio group current group
-AudioGroups_AddNew,Add New,Add New,,Audio group add new button
-AudioGroups_Delete,Delete,Delete,,Texture group delete button
-AudioGroups_FindResource,Add Resource,Add Resource,,Audio group find resource label
-AudioGroups_NoResources,This group is empty.,This group is empty.,,Audio groups label when a sub-tree is empty
-AudioGroups_Remove,Remove,Remove,,Audio group remove menu entry
-AudioGroups_Rename,Rename,Rename,,Audio group rename button
-AudioGroups_TargetPlatforms,Use Group On...,Use Group On...,,Audio group target platforms label
-AudioGroups_TypeFindResource,Type to find resource,Type to find resource,,Audio group manager tooltip
-AudioGroups_WindowTitle,Audio Groups,Audio Groups,,Audio groups window title
-TextureAudioGroups_SelectResource,Select Resource,Select Resource,,Asset explorer title
-AudioGroups_EditResource,Edit...,Edit...,,Audio groups window edit resource button
-TileLayer_TileDataSize,Tile Data Size,Tile Data Size,,tile layer properties caption for the data size drop down box
-TileSetEditor_EditImage,Edit Image,Edit Image,,tile set editor edit image button caption
-TileSetEditor_Name,Name:,Name:,,tile set editor name textbox caption
-TileSetEditor_NoSprite,No Sprite Selected,No Sprite Selected,,message to be shown when the user has not selected a sprite in the tile set editor window
-TileSetEditor_OffsetX,Tile Offset X,Tile Offset X,,tile set editor x offset numeric textbox caption
-TileSetEditor_OffsetY,Tile Offset Y,Tile Offset Y,,tile set editor y offset numeric textbox caption
-TileSetEditor_OutBorderX,Output Border X,Output Border X,,tile set editor label for the output border x setting
-TileSetEditor_OutBorderY,Output Border Y,Output Border Y,,tile set editor label for the output border y setting
-TileSetEditor_AnimationSpeed_ToolTip,Animation Speed: Frames Per Second,Animation Speed: Frames Per Second,,tile set editor tooltip for the animation speed setting
+ParticleTypeEditor_Life,Life,지속 시간,,Particle type editor life label
+ParticleTypeEditor_Subparticles,Subparticles,하위 입자,,Particle type editor subparticles label
+ParticleTypeEditor_SpawnDeath,On Death,파괴될 때,,Particle type editor spawn on death label
+ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,이 입자가 사라질 때 다른 입자가 생성돼요.,,Particle type editor spawn on death help label
+ParticleTypeEditor_SpawnUpdate,On Update,있는 동안에,,Particle type editor spawn on update label
+ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,이 입자가 갱신하는 동안 다른 입자가 생성돼요.,,Particle type editor spawn on update help label
+ParticleTypeEditor_Headposition,Head,머리,,Particle type editor head label
+ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,주어진 머릿단 위치에 스프라이트 프레임을 사용해요.,,Particle type editor head help label
+ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,호환되지 않는 런타임,,Title for below error message
+ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,현재 런타임이 UI에서 편집했던 입자를 지원하지 않아요. 런타임을 업데이트해주세요.,,Not supported by runtime error message
+ParticleEditor_Title,Particle System: {0},입자 시스템,,Particle System editor window title
+ParticleEditor_System,System,시스템,,Particle system label
+ParticleEditor_Particles,Particles,입자,,Particles label
+ParticleEditor_Emitters,Emitters,방출기,,Emitters label
+ParticleEditor_DrawOrder,Draw Order,그려지는 순서,,Particle system draw order label
+ParticleEditor_AddParticleType,Create a new particle type,입자 유형 만들기,,New particle type tooltip
+ParticleEditor_RemoveParticleType,Delete selected particle type(s),선택된 입자 유형 지우기,,Delete particle type tooltip
+ParticleEditor_AddParticleEmitter,Create a new particle emitter,입자 방출기 만들기,,New particle emitter tooltip
+ParticleEditor_RemoveParticleEmitter,Delete particle emitter,입자 방출기 지우기,,Delete particle emitter tooltip
+ParticleEditor_EditParticleType,Edit this particle type,이 유형을 편집합니다.,,Edit particle type tooltip
+ParticleEditor_EditParticleEmitter,Edit this particle emitter,이 방출기를 편집합니다.,,Edit particle emitter tooltip
+ParticleEditor_EmitterName,Name,이름,,Emitter name label
+ParticleEditor_EmitterMode,Mode,작동 방식,,Emitter mode label
+ParticleEditor_EmitterParticleType,Particle Type,입자 유형,,Emitter particle type label
+ParticleEditor_EmitterCount,Particle Count,입자 개수,,Emitter particle count to emit each time label
+ParticleEditor_EmitterShape,Shape,모양,,Emitter shape label
+ParticleEditor_EmitterDistribution,Distribution,분포도,,Emitter particle distribution label
+ParticleEditor_EmitterEnabled,Enabled,활성화됨,,Emitter enabled label
+ParticleEditor_EmitterColor,Editor Colour,편집기 색상,,Emitter editor color label
+ParticleEditor_ShapeLeft,Left,좌측,,Emitter shape region left label
+ParticleEditor_ShapeTop,Top,상단,,Emitter shape region top label
+ParticleEditor_ShapeWidth,Width,너비,,Emitter shape region width label
+ParticleEditor_ShapeHeight,Height,높이,,Emitter shape region height label
+ParticleEditor_ShapeRotation,Rotation,회전각,,Emitter shape rotation label
+ParticleEditor_BackgroundSettings,Change the preview background,미리보기 배경 변경,,Change the preview background tooltip
+ParticleEditor_ToggleBackground,Toggle preview background,미리보기 배경 켜고 끄기,,Toggle preview background tooltip
+ParticleEditor_Play,Start the particle system,입자 시스템 시작하기,,Start emitting particles tooltip
+ParticleEditor_Pause,Pause the particle system,입자 시스템 일시 정지하기,,Pause emitting particles tooltip
+ParticleEditor_SelectType,Select particle type,유형 선택하기,,Select particle type window title
+ParticleEditor_BackgroundLabel,Display a sprite or a local image as the background of the Particle System preview.,미리보기의 배경으로 스프라이트나 그림을 보여줘요.,,Particle editor background explanation
+ParticleEditor_BackgroundSprite,Sprite,스프라이트,,Sprite label for background
+ParticleEditor_BackgroundImage,Local image,그림,,Texture background
+ParticleEditor_AutomaticUpdate,Automatic Update,자동으로 갱신하기,,Automatic update particle system label
+ParticleEditor_AutomaticDraw,Automatic Draw,자동으로 그리기,,Automatic draw particle system label
+ParticleEditor_TimeOffset,Time Offset,시각,,Time offset particle system label
+ParticleEditorStats_ParticleCount,Particles: {0},입자: {0},,Particle editor stats label
+ParticleEditorStats_UpdateTime,Update: {0}ms,진행: {0}ms,,Particle editor stats label for how long it took to update
+ParticleEditorStats_DrawTime,Drawing: {0}ms,렌더: {0}ms,,Particle editor stats label for how long it took to draw
+ToolTip_eParticleSystemDrawOrder_OldFirst,Draw older particles below newer particles (default),새 입자들이 위에 그려집니다. (기본값),,Particle system draw order help tip for drawing old first
+ToolTip_eParticleSystemDrawOrder_NewFirst,Draw newer particles below older particles,새 입자들이 아래에 그려집니다.,,Particle system draw order help tip for drawing new first
+ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,기본 설정,,Particle system draw order localised label
+ListBoxEnum_eParticleSystemDrawOrder_NewFirst,New Below Old,아래로 깔기,,Particle system draw order localised label
+ListBoxEnum_eParticleDistribution_Linear,Linear,선형,,Linear particle distribution
+ListBoxEnum_eParticleDistribution_Gaussian,Gaussian,가우시안,,Gaussian particle distribution
+ListBoxEnum_eParticleDistribution_InverseGaussian,Inverse Gaussian,역 가우시안,,Inverse gaussian particle distribution
+ListBoxEnum_eEmitterShape_Rectangle,Rectangle,직사각형,,Rectangular emitter shape
+ListBoxEnum_eEmitterShape_Line,Line,선형,,Line emitter shape
+ListBoxEnum_eEmitterShape_Ellipse,Ellipse,타원형,,Ellipse emitter shape
+ListBoxEnum_eEmitterShape_Diamond,Diamond,마름모형,,Diamond emitter shape
+ListBoxEnum_ePartTypeTexture_Pixel,Pixel,점,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Disk,Disk,원반,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Circle,Circle,원,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Ring,Ring,반지,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Line,Line,직선,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Square,Square,네모,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Star,Star,별,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Spark,Spark,불똥,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Flare,Flare,불꽃,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Sphere,Sphere,공,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Smoke,Smoke,연기,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Explosion,Explosion,폭발,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Cloud,Cloud,구름,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Snow,Snow,눈,,Particle type texture
+ListBoxEnum_eEmitMode_Stream,Stream,지속형,,Emitter mode
+ListBoxEnum_eEmitMode_Burst,Burst,단발형,,Emitter mode
+StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,시작 페이지를 불러올 수가 없어요.\n대신 파일 메뉴에서 새 프로젝트를 만들 수 있어요.,,Start page error text
+StartPage_ErrorTitle,An Error Occurred,오류 발생,,Start page error title
+StartPage_Title,Start Page,시작 페이지,,Start page title
+StripDialog_NumberOfImages,Number of Frames,프레임 수,,strip dialog frame count
+StripDialog_ImagesPerRow,Frames per Row,행 당 프레임,,strip dialog frames per row
+StripDialog_ImageWidth,Frame Width,프레임 너비,,strip dialog frame width
+StripDialog_ImageHeight,Frame Height,프레임 높이,,strip dialog frame height
+StripDialog_HCellOffset,Horizontal Cell Offset,수평 칸 좌표,,strip dialog horizontal cell offset
+StripDialog_VCellOffset,Vertical Cell Offset,수직 칸 좌표,,strip dialog vertical cell offset
+StripDialog_HPixelOffset,Horizontal Pixel Offset,수평 화소 좌표,,strip dialog horizontal pixel offset
+StripDialog_VPixelOffset,Vertical Pixel Offset,수직 화소 좌표,,strip dialog vertical pixel offset
+StripDialog_HSeparation,Horizonal Separation,수평 간격,,strip dialog horizontal separation
+StripDialog_VSeparation,Vertical Separation,수직 간격,,strip dialog vertical separation
+StripDialogTitle,Create from Strip,연속되는 그림으로 만들기,,strip image import dialog title
+StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,연속되는 그림을 가져 오면 기존 스프라이트가 대체되는데 계속할까요?,,strip image import warning
+StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false",덮어 쓰기가 허용되지 않아서 중복되는 스타일 '{0}'은 지워져요.,,Log message for when loading a duplicate style name with 'overwrite' set to false
+StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,유형 '{0}'인 스타일 값 객체를 복제하지 못했어요. 객체 클래스는 ICloneable 인터페이스를 구현해야만 해요.,,exception message when attempting to clone an uncloneable object
+StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,유형 '{0}'인 스타일 값의 모음은 깊은 복사를 구현해야만 해서 객체를 복제하지 못했어요.,,exception message when attempting to clone an ICollection which doesn't have a deep clone available
+TabControl_AddTab,Add New Tab,새 탭 추가하기,,Add a new tab to the tab control context menu entry
+TabControl_AddTabAfter,Add New Tab After '{0}',탭 {0} 뒤에 새 탭 추가하기,,Add a new tab to the tab control context menu entry after the active tab
+TabControl_MoveTabBack,Move Tab '{0}' Back,탭 {0} 뒤로 옮기기,,Move the tab back one space context menu entry
+TabControl_MoveTabForward,Move Tab '{0}' Forward,탭 {0} 앞으로 옮기기,,Move the tab forward one space context menu entry
+TextEditor_Clear,Clear,지우기,,Clear TextEditor context menu entry
+TextEditor_Copy,Copy,복사,,Text editor copy command
+TextEditor_Cut,Cut,잘라내기,,Text editor cut command
+TextEditor_Paste,Paste,붙여넣기,,Text editor paste command
+TextEditor_SelectAll,Select All,전부 선택하기,,Select All context menu entry on Text Editor
+TextEditor_CommentSelection,Comment Selection,선택 영역을 주석으로 만들기,,text editor context menu comment selection
+TextEditor_UncommentSelection,Uncomment Selection,선택 영역을 주석에서 해제하기,,text editor context menu uncomment selection
+TextEditor_TabIn,Tab In,들여쓰기,,text editor context menu tab in selection
+TextEditor_TabOut,Tab Out,내어쓰기,,text editor context tab out selection
+TextEditor_StatusText,{0}/{1} Col:{2} Ch:{3},{0}/{1} 행: {2} 문자: {3},,text editor status bar column character
+TextEditor_RegionsMenu,Regions,영역,,text editor regions menu
+TextEditor_FoldAllRegions,Fold All Regions,모든 영역 접기,,fold all regions context menu entry
+TextEditor_UnfoldAllRegions,Unfold All Regions,모든 지역 펼치기,,unfold all regions context menu entry
+TextEditor_ToggleFold,Fold/Unfold region,영역 펼치기 / 접기,,text editor toggle region fold
+TextEditor_PreviousRegion,Previous Region,이전 영역,,text editor previous region menu entry
+TextEditor_NextRegion,Next Region,다음 영역,,text editor next region menu entry
+TextEditor_CodeSnippets,Code Snippets,코드 발췌록,,Code snippets context menu entry
+TextureGroups_ActiveGroup,Current Group:,현재 묶음,,Texture group current group
+TextureGroups_AddNew,Add New,새 텍스처,,Texture group add new button
+TextureGroups_AllowScaling,Allow Scaling,비율 조절 허용하기,,Texture group allow scaling checkbox
+TextureGroups_AutoCrop,Automatically Crop,자동으로 정돈하기,,Texture group auto cropping checkbox
+TextureGroups_MipMap,Generate mipmaps,밉맵 생성하기,,Texture group mipmap generation checkbox
+TextureGroups_Backgrounds,Tilesets,타일 세트,,Texture group backgrounds header
+TextureGroups_BorderSize,Border Size:,가장자리 크기,,Texture group border size label
+TextureGroups_Delete,Delete,삭제,,Texture group delete button
+TextureGroups_FindResource,Add Resource,자원 추가,,Texture group find resource label
+TextureGroups_Fonts,Fonts,글꼴,,Texture group fonts header
+TextureGroups_List_Backgrounds,Backgrounds,배경,,Texture group list category
+TextureGroups_List_Fonts,Fonts,글꼴,,Texture group list category
+TextureGroups_List_Sprites,Sprites,스프라이트,,Texture group list category
+TextureGroups_NoResources,This group is empty.,이 묶음은 비어 있습니다.,,Texture groups label when a sub-tree is empty
+TextureGroups_ParentTexGorup,Parent Texture Group,부모 텍스처 묶음,,Texture group parent texture group label
+TextureGroups_Remove,Remove,제거,,Texture group remove menu entry
+TextureGroups_Rename,Rename,이름 바꾸기,,Texture group rename button
+TextureGroups_SettingsLabel,Group Settings,묶음 설정,,Texture group settings label
+TextureGroups_Sprites,Sprites,스프라이트,,Texture group sprites header
+TextureGroups_TargetPlatforms,Use Group On...,묶음 사용,,Texture group target platforms label
+TextureGroups_TypeFindResource,Type to find resource,자원 검색,,Texture group manager tooltip
+TextureGroups_WindowTitle,Texture Groups,텍스처 묶음,,Texture groups window title
+TextureGroups_Menu_MoveTo,Move To,바로가기,,Texture groups context menu button
+TexGroups_EditResource,Edit...,편집,,Texture groups window edit resource button
+AudioGroups_ActiveGroup,Current Group:,현재 묶음,,Audio group current group
+AudioGroups_AddNew,Add New,추가,,Audio group add new button
+AudioGroups_Delete,Delete,삭제,,Texture group delete button
+AudioGroups_FindResource,Add Resource,새로운 자원 추가,,Audio group find resource label
+AudioGroups_NoResources,This group is empty.,이 묶음은 비어 있습니다.,,Audio groups label when a sub-tree is empty
+AudioGroups_Remove,Remove,제거,,Audio group remove menu entry
+AudioGroups_Rename,Rename,이름 바꾸기,,Audio group rename button
+AudioGroups_TargetPlatforms,Use Group On...,묶음 사용 대상,,Audio group target platforms label
+AudioGroups_TypeFindResource,Type to find resource,자원 검색,,Audio group manager tooltip
+AudioGroups_WindowTitle,Audio Groups,오디오 묶음,,Audio groups window title
+TextureAudioGroups_SelectResource,Select Resource,자원 선택,,Asset explorer title
+AudioGroups_EditResource,Edit...,편집,,Audio groups window edit resource button
+TileLayer_TileDataSize,Tile Data Size,타일 자료 크기,,tile layer properties caption for the data size drop down box
+TileSetEditor_EditImage,Edit Image,그림 편집,,tile set editor edit image button caption
+TileSetEditor_Name,Name:,이름,,tile set editor name textbox caption
+TileSetEditor_NoSprite,No Sprite Selected,선택된 스프라이트 없음,,message to be shown when the user has not selected a sprite in the tile set editor window
+TileSetEditor_OffsetX,Tile Offset X,타일 X 오프셋,,tile set editor x offset numeric textbox caption
+TileSetEditor_OffsetY,Tile Offset Y,타일 Y 오프셋,,tile set editor y offset numeric textbox caption
+TileSetEditor_OutBorderX,Output Border X,출력 경계 X,,tile set editor label for the output border x setting
+TileSetEditor_OutBorderY,Output Border Y,출력 경계 Y,,tile set editor label for the output border y setting
+TileSetEditor_AnimationSpeed_ToolTip,Animation Speed: Frames Per Second,재생 속도: 초당 프레임,,tile set editor tooltip for the animation speed setting
 TileSetEditor_AnimationSpeed,FPS,FPS,,tile set editor label for the animation speed setting
-TileSetEditor_AddAnimationButton,Add Anim,Add Anim,,label for the tile set editor button to add a new animation
-TileSetEditor_DeleteAnimationButton,Delete Anim,Delete Anim,,label for the tile set editor button to delete the currently selected animation
-TileSetEditor_AnimationTileBGColour,The background colour that should be shown behind animation frames,The background colour that should be shown behind animation frames,,preferences message for the background colour that should be shown behind animation frames
-TileSetEditor_AutoTilingTileBGColour,Auto tile background colour,Auto tile background colour,,preferences message for the background colour that should be shown behind autotiling tiles
-TileSetEditor_DeleteAutoTileSetButton,Delete,Delete,,label for the tile set editor button to delete the currently selected set of auto tiles
-TileSetEditor_AddFullAutoTileSetButton,47 Tiles,47 Tiles,,Label for the button to create a 47 tile autotile set
-TileSetEditor_AddTransitionAutoTileSetButton,16 Tiles,16 Tiles,,Label for the button to create a 16 tile autotile set
-TileSetEditor_ShowAutoTileGuideButton,Show Guide,Show Guide,,Label for the button to show the AutoTile guide
-TileSetEditor_SelectedTileBrush,Brush:,Brush:,,Label for the currently selected tile editing brush
-TileSetEditor_SelectedTileTool,Tool:,Tool:,,Label for the currently selected tile editing tool
-TileSetEditor_SeparationX,Tile Separation X,Tile Separation X,,tile set editor x separation numeric textbox caption
-TileSetEditor_SeparationY,Tile Separation Y,Tile Separation Y,,tile set editor y separation numeric textbox caption
-TileSetEditor_TileHeight,Tile Height,Tile Height,,tile set editor height numeric textbox caption
-TileSetEditor_TileSize,Tile Size,Tile Size,,tile set editor size numeric textbox caption
-TileSetEditor_TileWidth,Tile Width,Tile Width,,tile set editor width numeric textbox caption
+TileSetEditor_AddAnimationButton,Add Anim,애니메이션 추가,,label for the tile set editor button to add a new animation
+TileSetEditor_DeleteAnimationButton,Delete Anim,애니메이션 제거,,label for the tile set editor button to delete the currently selected animation
+TileSetEditor_AnimationTileBGColour,The background colour that should be shown behind animation frames,애니메이션 프레임 뒤에 표시되는 배경 색,,preferences message for the background colour that should be shown behind animation frames
+TileSetEditor_AutoTilingTileBGColour,Auto tile background colour,자동 타일 뒤에 표시되는 배경 색,,preferences message for the background colour that should be shown behind autotiling tiles
+TileSetEditor_DeleteAutoTileSetButton,Delete,삭제,,label for the tile set editor button to delete the currently selected set of auto tiles
+TileSetEditor_AddFullAutoTileSetButton,47 Tiles,47 타일,,Label for the button to create a 47 tile autotile set
+TileSetEditor_AddTransitionAutoTileSetButton,16 Tiles,16 타일,,Label for the button to create a 16 tile autotile set
+TileSetEditor_ShowAutoTileGuideButton,Show Guide,안내선 보기,,Label for the button to show the AutoTile guide
+TileSetEditor_SelectedTileBrush,Brush:,붓,,Label for the currently selected tile editing brush
+TileSetEditor_SelectedTileTool,Tool:,도구,,Label for the currently selected tile editing tool
+TileSetEditor_SeparationX,Tile Separation X,수평 타일 간격,,tile set editor x separation numeric textbox caption
+TileSetEditor_SeparationY,Tile Separation Y,수직 분리 간격,,tile set editor y separation numeric textbox caption
+TileSetEditor_TileHeight,Tile Height,타일 높이,,tile set editor height numeric textbox caption
+TileSetEditor_TileSize,Tile Size,타일 크기,,tile set editor size numeric textbox caption
+TileSetEditor_TileWidth,Tile Width,타일 너비,,tile set editor width numeric textbox caption
 TileSetEditor_Title,Tile Set: {0},Tile Set: {0},,tile set editor window title
-TileSetEditor_UseAsTileSet,Use As Tileset,Use As Tileset,,tile set editor use as tileset checkbox caption
-TileSetGenerator_Complete,Tile Set: Image generated for '{0}',Tile Set: Image generated for '{0}',,console output message for when a tile set image has been generated
-TimeLine_BtnAdd,Add,Add,,Add button caption for timeline editor
-TimeLine_BtnChange,Change,Change,,Change button caption for timeline editor
-TimeLine_BtnClear,Clear,Clear,,Clear button caption for timeline editor
-TimeLine_BtnDuplicate,Duplicate,Duplicate,,Duplicate button caption for timeline editor
-TimeLine_BtnMerge,Merge,Merge,,Merge button caption for timeline editor
-TimeLine_BtnRemove,Remove,Remove,,Remove button caption for timeline editor
-TimeLine_BtnShift,Shift,Shift,,Shift button caption for timeline editor
-TimeLine_ContextMenu_Add,Add,Add,,Time line context menu entry
-TimeLine_ContextMenu_ClearSelection,Unselect All,Unselect All,,Time line context menu entry
-TimeLine_ContextMenu_CopyMoments,Copy,Copy,,Time line context menu entry
-TimeLine_ContextMenu_CutMoments,Cut,Cut,,Time line context menu entry
-TimeLine_ContextMenu_Duplicate,Duplicate,Duplicate,,Time line context menu entry
-TimeLine_ContextMenu_Edit,Edit,Edit,,Time line context menu entry
-TimeLine_ContextMenu_EditStep,Change Moment,Change Moment,,Time line editor context menu entry
-TimeLine_ContextMenu_Merge,Merge,Merge,,Time line context menu entry
-TimeLine_ContextMenu_PasteMoments,Paste,Paste,,Time line context menu entry
-TimeLine_ContextMenu_RemoveMoments,Remove,Remove,,Time line context menu entry
-TimeLine_ContextMenu_SelectAll,Select All,Select All,,Time line context menu entry
-TimeLine_ListBox_Step,Step,Step,,Time line moments listbox step label
-TimeLine_Moments,Moment,Moment,,Time line column header for moments
-TimeLine_Name,Name:,Name:,,Time line editor name label
-TimeLine_Names,Description,Description,,Time line editor names caption
-TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
-TimeLine_WindowTitle_CodeEditor,Timeline Moments: {0},Timeline Moments: {0},,Time line code editor window title
-TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from DnD™ to script or from script to DnD™
-TreeView_AddChildNode,Add Child Node,Add Child Node,,context menu option to add a child node
-TreeView_AddNode,Add Node,Add Node,,context menu option to add a node
-TreeView_AddNodeAfter,Add Node After,Add Node After,,context menu option to add a node after
-TreeView_AddNodeBefore,Add Node Before,Add Node Before,,context menu option to add a node before
-TreeView_MoveNodeDown,Move Node Down,Move Node Down,,context menu option to move the node down
-TreeView_MoveNodeUp,Move Node Up,Move Node Up,,context menu option to move the node up
-UndoAction_AmbigousPropertyMatch,"Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?","Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?",,Log error message for undo failing to store a property
-UpdateDialogDownloadNow,Download now,Download now,,Update new version dialog - download now button
-UpdateDialogRemindMe,Remind me later,Remind me later,,Update new version dialog - remind me later button
-UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},New version is available! \nYou are on v{0}\nNew version is {1},,Update new version dialog - tell user which version they are on and which version update will take them to
-UpdateDialogReleaseNotes,View Release notes,View Release notes,,Update new version dialog - view release notes button
-UpdateDialogTitle,New Version,New Version,,Update new version dialog title
-User_Login,Login,Login,,Login button
-User_Register,Register,Register,,User Login dialog - Register button
-User_Login_Title,YoYo Account Login,YoYo Account Login,,User Login dialog
-UserLogin_Email,Email/Username,Email/Username,,User Login dialog - e-mail label
-UserLogin_Password,Password,Password,,User Login dialog - password label
-UserLogin_RememberMe,Remember Me,Remember Me,,User Login dialog - Remember Me checkbox
-User_ProxySettings,Proxy settings,Proxy settings,,Proxy setting tool-tip
-User_Authentication,Two Step Authentication,Two Step Authentication,,User Login - two step authentication title
-User_OK,OK,OK,,User Login - two step authentication ok button
-User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
-UserLogin_Retry,Retry,Retry,,User Login - Error Retry
-UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,,User Login Error response 29
-UserLogin_Error34,Invalid session (User),Invalid session (User),,User Login Error response 34
-UserLogin_Error36,Two-step login required,Two-step login required,,User Login Error response 36
-UserLogin_Error37,Required fields missing,Required fields missing,,User Login Error response 37
-UserLogin_Error38,User is banned,User is banned,,User Login Error response 38
-UserLogin_Error39,Authentication failed. Please verify your username and password and try again.,Authentication failed. Please verify your username and password and try again.,,User Login Error response 39
-UserLogin_Error40,User not found,User not found,,User Login Error response 40
-UserLogin_Error44,Device ID mismatch,Device ID mismatch,,User Login Error response 44
-UserLogin_Error45,Two-step code invalid,Two-step code invalid,,User Login Error response 45
-UserLogin_Error47,Session not found,Session not found,,User Login Error response 47
-UserLogin_Error48,Login successful,Login successful,,User Login Error response 48
-UserLogin_Error54,No beta access,No beta access,,User Login Error response 48
-UserLogin_Error58,Session has expired,Session has expired,,User Login Error response 58
-UserLogin_Error69,No licence found. Please try again later or contact the helpdesk.,No licence found. Please try again later or contact the helpdesk.,,user login response 69
-UserLogin_Error99,Errors creating session,Errors creating session,,User Login Error response 99
-UserLogin_Error88,Please complete your profile to continue.,Please complete your profile to continue.,,User Login Error response 88 (profile incomplete)
-UserLogin_EditProfile,Update Profile,Update Profile,,user login edit profile button
-UserLogin_ProfileIncomplete,Profile Incomplete,Profile Incomplete,,user login incomplete profile title
-UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.,,user login no runtime message
-UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
-UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
-UserLogin_Continue,Continue,Continue,,continue label
-UserLogin_AccessTokenGetFail,Failed to acquire access token,Failed to acquire access token,,failed to acquire access token error message
-Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
-Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
-Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
-Validate_MVCType_OrInherits,or inherit from ,or inherit from ,,Injected to requested error message if the validation is checking parent type
-Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} - List should only contain objects of type {2}{1},,Failed validation by passing a list containing objects of the wrong type
-Validate_Range,{0} - Value must be within range {1} - {2},{0} - Value must be within range {1} - {2},,Failed validation for value range
-Validate_Required,{0} - Value cannot be null,{0} - Value cannot be null,,Failed validation by passing a null value to a required property
-Validate_StringLength,{0} - String length is invalid must be between {1} and {2} characters,{0} - String length is invalid must be between {1} and {2} characters,,Failed validation for string length
-Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,Failed to set layer name '{0}' it is not unique within room,,validation error message for non-unique layer name
-Validate_UniqueName,Failed to set property on model '{0}' name is not unique,Failed to set property on model '{0}' name is not unique,,validation error message for non-unique resource name
-Validate_ImageLayerName,Layer name cannot be blank,Layer name cannot be blank,,validation error message for image layer name
-View_Menu_Bookmarks,Bookmarks,Bookmarks,,Bookmarks menu item
-View_Menu_Breakpoints,Breakpoints,Breakpoints,,View breakpoints menu item
-View_Menu_GlobalGameSettings,Global Game Settings,Global Game Settings,,View the Global Game Settings menu item
-View_Menu_OutputWindow,Output Window,Output Window,,View output window menu item
-Views_Menu_History,History,History,,Views menu entry for undo history
-Views_Menu_Output,Output,Output,,Views menu entry for the output panel
-Views_Menu_Worker,Build Worker,Build Worker,,Views menu entry for the build worker window
-Views_Menu_Resources,Resources,Resources,,Views menu entry for resources
-Views_Menu_AssetBrowser,Asset Browser,Asset Browser,,Views menu entry for resources
-Views_Menu_Inspector,Inspector,Inspector,,Views menu entry for inspector
-Views_Menu_Tutorial,Tutorial Windows,Tutorial Windows,,Views menu entry for tutorial windows
-Views_Menu_SearchResults,Search Results,Search Results,,Views menu entry for the search results panel
-Views_Menu_SourceControl,Source Control Output,Source Control Output,,Views menu entry for the source control output window
-Views_Menu_Breakpoints,Breakpoints,Breakpoints,,Views menu entry for the breakpoints window
-Views_Menu_CompileErrors,Compile Errors,Compile Errors,,Views menu entry for the compile errors window
-Views_Menu_Macros,IDE Environment Variables,IDE Environment Variables,,View Macros window
-Window_Close,Close,Close,,Close window context menu entry
-Window_Minimize,Minimize,Minimize,,Minimize window context menu entry
-TimeLine_MergeWarning,Merging moments is a permanent action that cannot be undone. Are you sure you want to continue?,Merging moments is a permanent action that cannot be undone. Are you sure you want to continue?,,Merge warning for time lines
-TimeLine_MergeWarningTitle,Merge Moments,Merge Moments,,Merge moments warning dialog title
-TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,,Delete warning for time lines
-TimeLine_DeleteWarningTitle,Delete Moments,Delete Moments,,Delete moments warning dialog title
-Workspace_TabTitle,Workspace {0},Workspace {0},,The default tab name for workspace tabs
-Dock_TabTitle,Dock Tab{0},Dock Tab{0},,the default tab name for dock tabs
-RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",, Information warning for dropping resource gadgets on a layer which won't accept them
-RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
-RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
-Dock_FloatingDock_Title,Floating Dock,Floating Dock,,floating dock window title
-RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected","Unable to drag resources into room, ensure one layer is selected",, Information warning for dropping resource gadgets on the room but layer selection is invalid
-RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible","Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",,Information warning for dropping resource gadgets on a locked or invisible selected layer
-RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,The selected tile set has no associated sprite please select a valid tile set,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
-RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,Your tile set preview will appear here when you select a tile set,,message to be shown when the user has not selected a tile set
-RoomEditor_NoLayer,No Tile Layer Selected,No Tile Layer Selected,, message to be shown when the user has not selected a tile layer
-InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","Invalid name, already in use: {0}. Names must be unique.",,Name not unique message
-InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","Invalid name, reserved keyword: {0}.",,Name is a reserved keyword message
-InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.",,Name contains invalid characters message
-InvalidName_InvalidModel,Invalid model.,Invalid model.,,Invalid model message
-InvalidName_DuplicateGroupName,Group name '{0}' is already in use,Group name '{0}' is already in use,,duplicate group folder name
-InvalidName_InvalidGroupName,Group name '{0}' cannot contain / or \,Group name '{0}' cannot contain / or \,,invalid group folder name
-InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this location,A group with name '{0}' already exists at this location,,Parent folders or project cannot have multiple child folder with the same name message
+TileSetEditor_UseAsTileSet,Use As Tileset,타일 세트로 사용,,tile set editor use as tileset checkbox caption
+TileSetGenerator_Complete,Tile Set: Image generated for '{0}',{0}로 생성한 그림,,console output message for when a tile set image has been generated
+TimeLine_BtnAdd,Add,추가,,Add button caption for timeline editor
+TimeLine_BtnChange,Change,바꾸기,,Change button caption for timeline editor
+TimeLine_BtnClear,Clear,비우기,,Clear button caption for timeline editor
+TimeLine_BtnDuplicate,Duplicate,복제,,Duplicate button caption for timeline editor
+TimeLine_BtnMerge,Merge,병합,,Merge button caption for timeline editor
+TimeLine_BtnRemove,Remove,제거,,Remove button caption for timeline editor
+TimeLine_BtnShift,Shift,이전,,Shift button caption for timeline editor
+TimeLine_ContextMenu_Add,Add,추가,,Time line context menu entry
+TimeLine_ContextMenu_ClearSelection,Unselect All,모두 선택 해제,,Time line context menu entry
+TimeLine_ContextMenu_CopyMoments,Copy,복사,,Time line context menu entry
+TimeLine_ContextMenu_CutMoments,Cut,잘라내기,,Time line context menu entry
+TimeLine_ContextMenu_Duplicate,Duplicate,복제,,Time line context menu entry
+TimeLine_ContextMenu_Edit,Edit,편집,,Time line context menu entry
+TimeLine_ContextMenu_EditStep,Change Moment,분기 바꾸기,,Time line editor context menu entry
+TimeLine_ContextMenu_Merge,Merge,병합,,Time line context menu entry
+TimeLine_ContextMenu_PasteMoments,Paste,붙여넣기,,Time line context menu entry
+TimeLine_ContextMenu_RemoveMoments,Remove,제거,,Time line context menu entry
+TimeLine_ContextMenu_SelectAll,Select All,모두 선택,,Time line context menu entry
+TimeLine_ListBox_Step,Step,스텝,,Time line moments listbox step label
+TimeLine_Moments,Moment,분기,,Time line column header for moments
+TimeLine_Name,Name:,이름,,Time line editor name label
+TimeLine_Names,Description,설명,,Time line editor names caption
+TimeLine_WindowTitle,Timeline: {0},타임라인,,Time line editor window caption
+TimeLine_WindowTitle_CodeEditor,Timeline Moments: {0},분기: {0},,Time line code editor window title
+TimeLine_ConvertType,Convert to {0},{0} (으)로 변환,,Change the event from DnD™ to script or from script to DnD™
+TreeView_AddChildNode,Add Child Node,자식 노드 추가,,context menu option to add a child node
+TreeView_AddNode,Add Node,노드 추가,,context menu option to add a node
+TreeView_AddNodeAfter,Add Node After,뒤에 노드 추가,,context menu option to add a node after
+TreeView_AddNodeBefore,Add Node Before,앞에 노드 추가,,context menu option to add a node before
+TreeView_MoveNodeDown,Move Node Down,노드 아래로 이동,,context menu option to move the node down
+TreeView_MoveNodeUp,Move Node Up,노드 위로 이동,,context menu option to move the node up
+UndoAction_AmbigousPropertyMatch,"Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?",실행 취소 속성 '{0}'을 저장하지 못했어요.\n대신 잠재적 속성 후보를 찾았어요. 그 속성은 'new' 키워드를 사용하나요?,,Log error message for undo failing to store a property
+UpdateDialogDownloadNow,Download now,지금 받기,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,나중에 알리기,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},새 버전을 사용할 수 있어요!\n현재 버전: {0}\n새로운 버전: {1},,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,출시 내역 보기,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,새로운 버전,,Update new version dialog title
+User_Login,Login,로그인,,Login button
+User_Register,Register,회원가입,,User Login dialog - Register button
+User_Login_Title,YoYo Account Login,YoYo 계정 로그인,,User Login dialog
+UserLogin_Email,Email/Username,전자메일,,User Login dialog - e-mail label
+UserLogin_Password,Password,암호,,User Login dialog - password label
+UserLogin_RememberMe,Remember Me,기억하기,,User Login dialog - Remember Me checkbox
+User_ProxySettings,Proxy settings,프록시 설정,,Proxy setting tool-tip
+User_Authentication,Two Step Authentication,2단계 인증,,User Login - two step authentication title
+User_OK,OK,확인,,User Login - two step authentication ok button
+User_AuthenticationCode,Authentication Code,인증 코드,,User Login - two step authentication label for the authentication code
+UserLogin_Retry,Retry,재시도,,User Login - Error Retry
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,최대 세션 도달. accounts.yoyogames.com에서 장치 및 세션 관리가 가능해요.,,User Login Error response 29
+UserLogin_Error34,Invalid session (User),유효하지 않은 세션 (사용자),,User Login Error response 34
+UserLogin_Error36,Two-step login required,2단계 인증 필요,,User Login Error response 36
+UserLogin_Error37,Required fields missing,필수 입력란 누락,,User Login Error response 37
+UserLogin_Error38,User is banned,차단된 사용자,,User Login Error response 38
+UserLogin_Error39,Authentication failed. Please verify your username and password and try again.,인증 실패. 다시 시도해주세요.,,User Login Error response 39
+UserLogin_Error40,User not found,없는 사용자,,User Login Error response 40
+UserLogin_Error44,Device ID mismatch,알맞지 않은 장치 식별자,,User Login Error response 44
+UserLogin_Error45,Two-step code invalid,잘못된 2단계 인증 코드,,User Login Error response 45
+UserLogin_Error47,Session not found,세션 없음,,User Login Error response 47
+UserLogin_Error48,Login successful,로그인 성공,,User Login Error response 48
+UserLogin_Error54,No beta access,베타 권한 없음,,User Login Error response 48
+UserLogin_Error58,Session has expired,만료된 세션,,User Login Error response 58
+UserLogin_Error69,No licence found. Please try again later or contact the helpdesk.,없는 라이선스. 다시 시도 해보시거나 문의해주세요.,,user login response 69
+UserLogin_Error99,Errors creating session,세션 생성 오류,,User Login Error response 99
+UserLogin_Error88,Please complete your profile to continue.,프로필을 완성해야 계속하실 수 있어요.,,User Login Error response 88 (profile incomplete)
+UserLogin_EditProfile,Update Profile,프로필 갱신,,user login edit profile button
+UserLogin_ProfileIncomplete,Profile Incomplete,프로필 미완료됨,,user login incomplete profile title
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.,런타임 공급처에 접근할 수가 없어서 설치하지 못했어요. 인터넷 연결을 확인하고 재시작하해주세요.,,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},런타임 {0} 설치,,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,설치할 드라이브 {0}가 {1}GB 만큼의 용량 밖에 없어요.\n최소 2 GB의 용량이 필요향ㅅ. 진행 전에 충분한 용량을 확보해주세요.,,runtime free space warning message
+UserLogin_Continue,Continue,계속,,continue label
+UserLogin_AccessTokenGetFail,Failed to acquire access token,접근 토큰을 얻는데 실패,,failed to acquire access token error message
+Validate_MaxLength,{0} - Length should be less than {1},{0} - 길이는 {1} 미만이어야 해요.,,Failed validation by passing an object whose length is too long
+Validate_MinLength,{0} - Length should be greater than {1},{0} - 길이가 {1} 보다 커야 해요.,,Failed validation by passing an object whose length is too short
+Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 객체 유형이 {2}{1} 이어야 해요.,,Failed validation by passing an object of the wrong type
+Validate_MVCType_OrInherits,or inherit from ,또는 다음으로부터 상속 →,,Injected to requested error message if the validation is checking parent type
+Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} - 유형이 {2}{1} 인 객체만 리스트 안에 있어야해요.,,Failed validation by passing a list containing objects of the wrong type
+Validate_Range,{0} - Value must be within range {1} - {2},{0} - 값은 범위 {1}~{2} 이내여야만 해요.,,Failed validation for value range
+Validate_Required,{0} - Value cannot be null,{0} - 값이 null일 수는 없어요.,,Failed validation by passing a null value to a required property
+Validate_StringLength,{0} - String length is invalid must be between {1} and {2} characters,{0} - 문자열 길이는 {1}자에서 {2}자 사이여야만 해요.,,Failed validation for string length
+Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,레이어의 이름으로 '{0}'을 지정할 수가 없어요. 유일한 이름이 아니에요.,,validation error message for non-unique layer name
+Validate_UniqueName,Failed to set property on model '{0}' name is not unique,모델 '{0}'의 속성을 설정하지 못했습니다. 이름이 유일하지 않습니다.,,validation error message for non-unique resource name
+Validate_ImageLayerName,Layer name cannot be blank,레이어 이름은 공란으로 둘 수 없어요.,,validation error message for image layer name
+View_Menu_Bookmarks,Bookmarks,책갈피,,Bookmarks menu item
+View_Menu_Breakpoints,Breakpoints,중단점,,View breakpoints menu item
+View_Menu_GlobalGameSettings,Global Game Settings,글로벌 게임 설정,,View the Global Game Settings menu item
+View_Menu_OutputWindow,Output Window,출력 창,,View output window menu item
+Views_Menu_History,History,기록,,Views menu entry for undo history
+Views_Menu_Output,Output,출력,,Views menu entry for the output panel
+Views_Menu_Worker,Build Worker,빌드 작업자,,Views menu entry for the build worker window
+Views_Menu_Resources,Resources,자원,,Views menu entry for resources
+Views_Menu_AssetBrowser,Asset Browser,자산 탐색기,,Views menu entry for resources
+Views_Menu_Inspector,Inspector,계측기,,Views menu entry for inspector
+Views_Menu_Tutorial,Tutorial Windows,튜토리얼,,Views menu entry for tutorial windows
+Views_Menu_SearchResults,Search Results,검색 결과,,Views menu entry for the search results panel
+Views_Menu_SourceControl,Source Control Output,소스 제어 결과,,Views menu entry for the source control output window
+Views_Menu_Breakpoints,Breakpoints,중단점,,Views menu entry for the breakpoints window
+Views_Menu_CompileErrors,Compile Errors,컴파일 오류,,Views menu entry for the compile errors window
+Views_Menu_Macros,IDE Environment Variables,IDE 환경 변수,,View Macros window
+Window_Close,Close,닫기,,Close window context menu entry
+Window_Minimize,Minimize,최소화,,Minimize window context menu entry
+TimeLine_MergeWarning,Merging moments is a permanent action that cannot be undone. Are you sure you want to continue?,분기 병합은 다시 되돌릴 수 없는데 계속할까요?,,Merge warning for time lines
+TimeLine_MergeWarningTitle,Merge Moments,분기 합병,,Merge moments warning dialog title
+TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,분기 삭제는 다시 되돌릴 수 없는데 계속할까요?,,Delete warning for time lines
+TimeLine_DeleteWarningTitle,Delete Moments,분기 삭제,,Delete moments warning dialog title
+Workspace_TabTitle,Workspace {0},작업공간 {0},,The default tab name for workspace tabs
+Dock_TabTitle,Dock Tab{0},고정 탭 {0},,the default tab name for dock tabs
+RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","선택하신 레이어에는 자산을 놓으실 수 없어요. 적절한 레이어를 선택해주세요. 객체 -> 객체 레이어, 스프라이트 -> 자산 혹은 배경 레이어, 경로 -> 경로 레이어",, Information warning for dropping resource gadgets on a layer which won't accept them
+RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,그 항목은 개체 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
+RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,그 항목은 자산 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
+Dock_FloatingDock_Title,Floating Dock,부동 고정판,,floating dock window title
+RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없습니다. 레이어 하나를 선택하세요.,, Information warning for dropping resource gadgets on the room but layer selection is invalid
+RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",자원을 룸으로 드래그 할 수 없습니다. 선택된 레이어 {0}이(가) 잠금 해제 되어있고 보이게 해주세요.,,Information warning for dropping resource gadgets on a locked or invisible selected layer
+RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,선택된 타일 세트가 스프라이트와 연결 돼있지 않습니다. 유효한 타일 세트를 선택해주십시오.,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
+RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,타일 세트를 선택하면 여기에 미리보기가 나타납니다.,,message to be shown when the user has not selected a tile set
+RoomEditor_NoLayer,No Tile Layer Selected,타일 레이어가 선택되지 않았습니다,, message to be shown when the user has not selected a tile layer
+InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","유효하지 않은 이름, 이미 사용 중: {0}. 이름은 유일해야 합니다.",,Name not unique message
+InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","유효하지 않은 이름, 예약어: {0}",,Name is a reserved keyword message
+InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","유효하지 않은 이름, 유효하지 않은 부호 포함: {0}. 0-9, a-z, A-Z 혹은 _만 포함해야 하며 0-9로 시작할 수 없습니다.",,Name contains invalid characters message
+InvalidName_InvalidModel,Invalid model.,잘못된 모델,,Invalid model message
+InvalidName_DuplicateGroupName,Group name '{0}' is already in use,폴더 이름 '{0}'은 이미 있어요.,,duplicate group folder name
+InvalidName_InvalidGroupName,Group name '{0}' cannot contain / or \,폴더 이름 '{0}'은 / 와 \ 를 포함하지 못해요.,,invalid group folder name
+InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this location,상위 폴더 '{0}'은(는) 이미 하위 폴더로 '{1}'을(를) 갖고 있습니다.,,Parent folders or project cannot have multiple child folder with the same name message
 ResourceTree_View,View,보기,View,View
 ResourceTree_Views,Views,보기,,Views selector button label
 ResourceTree_View_Add,Add New View,새로운 보기 추가,,Add New View Prompt
@@ -2148,7 +2148,7 @@ DnD_Gadget_GroupSelector,Group Selector,묶음 선택기,,DnD™ group selector 
 DnD_Gadget_Caption_IsRelative,Relative,상대적,,DnD™ gadget caption name for Is Relative
 DnD_Gadget_Caption_IsTemp,Temp,임시,,DnD™ gadget caption name for Is Temp
 DnD_Gadget_Caption_ApplyTo,Apply To,적용 대상,,DnD™ gadget caption name for Apply To
-DnDMaker_AppTitle,DnD™ Maker,DnD™ Maker,,DnD™ Maker application title
+DnDMaker_AppTitle,DnD™ Maker,DnD™,,DnD™ Maker application title
 DnDMaker_Arguments,Arguments,인수,,DnD™ Maker argument gadgets header
 DnDMaker_Gadgets,Gadgets,가젯,,DnD™ Maker gui gadgets header
 DnDMaker_Properties,Argument Properties,인자 속성,,DnD™ Maker properties header
@@ -2167,7 +2167,7 @@ DnDMaker_LangRes,Restrictions,제한 사항,,column
 DnDMaker_LangDesc,Description,설명,,column
 DnDMaker_Menu_Languages,Languages,언어,,DnD™ Maker menu entry
 DnDMaker_Menu_NewLang,New Language,새로운 언어 만들기,,DnD™ Maker menu entry
-DnDMaker_Menu_EditLang,Edit Language,언어 편집,,DnD™ Maker menu entry
+DnDMaker_Menu_EditLang,Edit Language,언어 수정하기,,DnD™ Maker menu entry
 DnDMaker_Group_Default,Default,기본,,DnD™ Maker default group name
 DnDMaker_NewGroup,Group,묶음,,DnD™ Maker default new group name
 DnDMaker_NewSection,New Section,새 구획 만들기,,DnD™ Maker default new section name
@@ -2473,7 +2473,7 @@ ggs_loading_bar_extension,Loading bar extension,로딩 막대 확장 기능,,Loa
 ggs_html5_browser_title,Browser Title,브라우저 제목,,Title for Browser
 ggs_foldername,Folder Name,폴더 이름,,Name of Folder
 ggs_outputname,Output Name,출력 이름,,Output Name
-ggs_output_debug_to_console,Output debug to console,콘솔에 디버그 출력,,Output Debug to Console
+ggs_output_debug_to_console,Output debug to console,콘솔에 디버그 출력하기,,Output Debug to Console
 ggs_generate_spotify_app,Generate Spotify App,Spotify 앱 생성,,Generate Spotify App
 ggs_display_outside_server_alert,"Display ""Running outside server"" alert",외부 서버 경고 실행 중,,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,.js로 출력,,Prepend output .js with
@@ -2755,8 +2755,8 @@ roomeditor_automaticparentlayerdeletion,Automatic response to parent room layer 
 roomeditor_automaticitemdeletion,Automatic response to room item deletion,룸의 항목 삭제,,Automatic item deletion in room editor
 roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,룸의 레이어 삭제,,Automatic layer deletion in room editor
 roomeditor_automaticacceptitemdrag,Hide warnings when dragging unusable assets onto room layers,유효하지 않은 자원을 룸에서 드래그,,Automatic drag acceptance on invalid items in room editor
-roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,Create new Instance layers when dragging objects onto unsuitable layers,,Automatic drag acceptance on invalid instance items in room editor
-roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,,Automatic drag acceptance on invalid asset items in room editor
+roomeditor_automaticacceptitemdrag_createinstancelayer,Create new Instance layers when dragging objects onto unsuitable layers,객체를 알맞지 않은 레이어에 놓을 때 개체 레이어 생성,,Automatic drag acceptance on invalid instance items in room editor
+roomeditor_automaticacceptitemdrag_createassetlayer,Create new Asset layers when dragging sequences/sprites onto unsuitable layers,스프라이트나 시퀀스를 알맞지 않은 레이어에 놓을 때 자산 레이어 생성,,Automatic drag acceptance on invalid asset items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,다중 혹은 선택되지 않은 레이어로 자원을 드래그,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,잠기었거나 투명한 레이어 속으로 자원을 드래그,,Automatic layer drag acceptance for locked or invisible layer in room editor
 roomeditor_linkcolour,Chain link colour,연결 사슬의 색상,,Link Colour in Room Editor
@@ -2770,8 +2770,8 @@ roomeditor_tileinheritcolour,Inherited tile highlight colour,타일 편집기에
 roomeditor_showviews,Show room views,기본적으로 룸에서 뷰 보이기,,Show Views in Room Editor
 roomeditor_volume,Volume,음량,,Volume in Room Editor
 roomeditor_mastervolume,Master Volume Setting,마스터 음량 값,,room editor master volume
-timeline_noundoactions,Automatic response to permanent action warning,실행 취소를 할 수 없을 때 경고 메시지,,No Undo Actions in Timeline Editor
-timeline_opennewmoments,Open new moments for edit on creation,만들었을 때 새 분기를 즉시 엽니다,,Open newly created moments for editing preference
+timeline_noundoactions,Automatic response to permanent action warning,실행 취소를 할 수 없을 때 경고,,No Undo Actions in Timeline Editor
+timeline_opennewmoments,Open new moments for edit on creation,새 분기를 만들었을 때 바로 열기,,Open newly created moments for editing preference
 CMenu_CloseAllButThis,Close All But This,이 창을 제외하고 모두 닫기,,Close all but this context menu
 CMenu_Restore,Restore,복원,,Restore context menu
 codeeditor_textcolour,Colour of text,글자 색상,,Text Colour in Code Editor
@@ -3528,7 +3528,7 @@ ResourceTree_ItemMaxSize,Resource item maximum size,자원 항목 최대 크기,
 Settings_ShowPassword,Show Password,암호 표시,,Show Password
 SourceControlGit_CreateRepoTitle,Source Control (Git) Create,소스 제어 (Git) 생성,,Source Control (Git) Create Title
 SourceControlGit_CreateRepoMessage,This will create a bare (server) repository and bind your project to it,"깨끗한 (서버) 저장소가 생성되고, 프로젝트가 업로드 됩니다.",,Create Repository message
-SourceControlGit_CreateRepoSuccess,Repository created successfully,저장소가 성공적으로 생성되었습니다.,,Create repository success message
+SourceControlGit_CreateRepoSuccess,Repository created successfully,저장소가 성공적으로 생성됐어요.,,Create repository success message
 WorkspaceMenu_Windows_CloseAll,Close All,모두 닫기,,Workspace context menu close all windows
 WorkspaceMenu_Windows_ShowAll,Show All,모두 보기,,Workspace context menu show all windows
 InvalidTTFCharMap,The font {0} does not contain any character maps and cannot be loaded.,{0} 글꼴에 문자표가 없어서 불러올 수 없습니다.,,TTF error when font has no character maps
@@ -6154,7 +6154,7 @@ SequenceTrack_ParamString,String,String,,Add string parameter track
 SequenceTrack_ParamBool,Boolean,Boolean,,Add boolean parameter track
 SequenceTrack_ParamResource,Resource,Resource,,Add resource parameter track
 SequenceTrack_ParamColor,Colour,Colour,,Add colour parameter track
-WindowTitle_RaiseEvents,Broadcast messages,Broadcast messages,,Broadcast messages dialog title
+WindowTitle_RaiseEvents,Broadcast messages,방송 메시지,,Broadcast messages dialog title
 WindowTitle_Moments,Moment,Moment,,Add a moment
 WindowTitle_NewKeyValue,Assign Value at Key {0},Assign Value at Key {0},,assign key value dialog title
 WindowTitle_BaseValue,Assign Base Value for Track {0},Assign Base Value for Track {0},,assign base track value dialog title
@@ -6390,41 +6390,41 @@ sourcecontrolgit_nothingtopush,There are no commits to push,발행할 사안이 
 sourcecontrolgit_push_complete,Push Complete,발행 완료,,Push Completed
 keystore_alias_password,Alias Password,대체 암호,,Alias Password Label
 ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,구성 문제: Mac을 실행하는 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No Mac device found. Check your target settings.
-ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 식별자가 정해지지 않았습니다.,,Configuration problem when no mac app id set
-ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 결과물이 정해지지 않았습니다.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
-ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK가 설치되지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
-ConfigurationProblem_MacAppStoreSteam,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,구성 문제: Mac App Store와 Steam에서 동시에 빌드할 수 없습니다.,,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.
-ConfigurationProblem_MacSteamIDMissing,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,구성 문제: Mac 빌드 용 Steam이 선택됐지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.
-ConfigurationProblem_MacSteamIDInvalid,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,구성 문제: Mac 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Mac Build for Steam has invalid Steam App Id.
-ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,구성 문제: iOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : iOS install path not set. Check your Preferences.
-ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,구성 문제: iOS 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No iOS device found. Check your target settings.
-ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,구성 문제: Linux 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No Linux device found. Check your target settings.
-ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
-ConfigurationProblem_LinuxSteamIDMissing,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,구성 문제: Linux 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 식별자가 정해지지 않았어요.,,Configuration problem when no mac app id set
+ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,구성 문제: 게임 옵션 - Mac / 일반 / 앱 결과물이 정해지지 않았어요.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
+ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK가 설치되지 않았어요. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_MacAppStoreSteam,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,구성 문제: Mac App Store와 Steam에서 동시에 빌드할 수 없어요.,,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.
+ConfigurationProblem_MacSteamIDMissing,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,구성 문제: Mac 빌드 용 Steam이 선택됐지만 앱 식별자가 정해지지 않았어요.,,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_MacSteamIDInvalid,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,구성 문제: Mac 빌드 용 Steam의 앱 식별자가 올바르지 않아요.,,Configuration Problem : Mac Build for Steam has invalid Steam App Id.
+ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,구성 문제: iOS의 설치 경로가 정해지지 않았어요. 환경설정을 확인해주세요.,,Configuration Problem : iOS install path not set. Check your Preferences.
+ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,구성 문제: iOS 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No iOS device found. Check your target settings.
+ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,구성 문제: Linux 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No Linux device found. Check your target settings.
+ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_LinuxSteamIDMissing,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,구성 문제: Linux 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았어요.,,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.
 ConfigurationProblem_LinuxSteamIDInvalid,Configuration Problem : Linux Build for Steam has invalid Steam App Id.,구성 문제: Linux 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Linux Build for Steam has invalid Steam App Id.
 ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,구성 문제: 아이콘 파일이 올바른 '*.png' 형식의 그림이 아니에요.,,Configuration Problem : Linux icon file invalid
 ConfigurationProblem_WindowsPackageName,Configuration Problem : Windows Package requires a valid Display Name.,구성 문제: Windows 패키지는 올바른 표기 이름을 가져야 합니다.,,Configuration Problem : Windows Package requires a valid Display Name.
 ConfigurationProblem_WindowsExeName,Configuration Problem : Windows Package requires a valid Executable Name.,구성 문제: Windows 패키지는 올바른 실행 파일 제목을 가져야 합니다.,,Configuration Problem : Windows Package requires a valid Executable Name.
 ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,구성 문제: 아이콘 파일이 올바른 '*.ico' 형식의 그림이 아닙니다.,,Configuration Problem : Icon file is not a valid '.ico' format image.
 ConfigurationProblem_WindowsVSPath,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Windows에서의 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
-ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,구성 문제: Windows 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았습니다.,,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,구성 문제: Steamworks SDK를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
+ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,구성 문제: Windows 빌드 용 Steam이 선택되었지만 앱 식별자가 정해지지 않았어요.,,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.
 ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build for Steam has invalid Steam App Id.,구성 문제: Windows 빌드 용 Steam의 앱 식별자가 올바르지 않습니다.,,Configuration Problem : Windows Build for Steam has invalid Steam App Id.
-ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,구성 문제: PS4 SDK를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
-ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,구성 문제: PS4 도구를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,구성 문제: PS4 SDK를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
+ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,구성 문제: PS4 도구를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
 ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: PS4에서는 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,구성 문제: tvOS 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No tvOS device found. Check your target settings.
-ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,구성 문제: tvOS의 설치 경로가 정해지지 않았습니다. 환경설정을 확인해주세요.,,Configuration Problem : tvOS install path not set. Check your Preferences.
-ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,구성 문제: Windows UWP 기기를 찾을 수 없습니다. 대상 설정을 확인해주세요.,,Configuration Problem : No Windows UWP device found. Check your target settings.
-ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,구성 문제: Windows UWP 환경설정에서 정의된 경로에서는 Windows 10 SDK를 찾을 수 없습니다.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
+ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,구성 문제: tvOS 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No tvOS device found. Check your target settings.
+ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,구성 문제: tvOS의 설치 경로가 정해지지 않았어요. 환경설정을 확인해주세요.,,Configuration Problem : tvOS install path not set. Check your Preferences.
+ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,구성 문제: Windows UWP 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No Windows UWP device found. Check your target settings.
+ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,구성 문제: Windows UWP 환경설정에서 정의된 경로에서는 Windows 10 SDK를 찾을 수가 없어요.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
 ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Windows UWP에서는 Visual Studio로의 경로는 배치 파일(.bat)로 정해져야 해요.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,구성 문제: Windows의 최소 대상 버전이 명시되지 않았습니다.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
-ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,구성 문제: Windows의 대상 버전이 명시되지 않았습니다.,,Configuration Problem : Windows Target Platform Version has not been filled out.
-ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,구성 문제: Xbox One 도구 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,구성 문제: Xbox One SDK 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,구성 문제: Xbox One SDK의 버전 {0}이 맞지 않습니다. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Version does not match
-ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,구성 문제: Microsoft Xbox One 디렉토리를 찾을 수 없습니다. 환경설정을 확인해주세요.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Xbox One에서의+C6392:C6427,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,구성 문제: Windows의 최소 대상 버전이 명시되지 않았어요.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
+ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,구성 문제: Windows의 대상 버전이 명시되지 않았어요.,,Configuration Problem : Windows Target Platform Version has not been filled out.
+ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,구성 문제: Xbox One 도구 디렉토리를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,구성 문제: Xbox One SDK 디렉토리를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,구성 문제: Xbox One SDK의 버전 {0}이 맞지 않아요. 환경설정을 확인해주세요.,,Configuration Problem : Xbox One SDK Version does not match
+ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,구성 문제: Microsoft Xbox One 디렉토리를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: Xbox One에서는 Visual Studio로의 경로는 배치 파일(.bat)로 정해져야 해요.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 Provisioning,Provisioning,공급,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 메모리,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 프로 메모리,,title for options related to memory pool sizes
@@ -6456,23 +6456,23 @@ runtime_clean_title,Runtime Deletion,런타임 삭제됨,,Runtime Deletion title
 tvos_show_file_warning,Automatic response to tvOS persistent storage limitation warning,tvOS 지속 저장소 제한 경고,,Show tvOS file system warning preference setting
 tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS의 지속 저장소의 공간은 NSUserDefaults에서 500k까지 제한돼있어요. 이 빌드에서는 다른 클라우드 저장소를 이용해주세요.,,Warning message for the tvos file system limitations
 ggs_requires_nex,Enable support for NEX libraries,NEX 라이브러리 지원,,Enable support for NEX libraries
-Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,구성된 SLIM 자료가 없습니다. https://slim.mng.nintendo.net/slim/home에서 새로 만들까요?,,No SLIM data message box
-Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,오류: 장치 {0}이(가) 연결되지 않았습니다. 올바른 공급 프로필이 있나요?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
-Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,다음 기기들이 연결되지 않았습니다. 올바른 공급 프로필을 갖고 있는지 확인하세요.,,The following devices have not been paired. Please ensure they have valid provisioning profiles
+Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,구성된 SLIM 자료가 없어요 https://slim.mng.nintendo.net/slim/home에서 새로 만들까요?,,No SLIM data message box
+Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,오류: 장치 '{0}가 연결되지 않음. 올바른 공급 프로필이 있나요?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
+Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,다음 기기들이 연결되지 않았어요. 올바른 공급 프로필을 갖고 있는지 확인해주세요.,,The following devices have not been paired. Please ensure they have valid provisioning profiles
 IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,FFmpegWrapper가 누락됨,,Missing FFmpegWrapper Title
-IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,FFmpegWrapper.dll 혹은 이의 의존성 파일이 없는 것 같습니다. 이는 잘못된 설치 과정 때문이거나 백신에 영향을 받았을 수 있습니다. 활성화된 바이러스 백신을 확인하시고 다시 진행하세요.,,Missing FFmpegWrapper dll message
+IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,FFmpegWrapper.dll 혹은 이의 의존성 파일이 없는 것 같아요. 이는 잘못된 설치 과정 때문이거나 백신에 영향을 받았을 수도 있어요. 활성화된 바이러스 백신을 확인하시고 다시 진행해주세요.,,Missing FFmpegWrapper dll message
 ProjectLoad_VerificationErrorTitle,Project Verification Error,프로젝트 검증 오류,,Project Verification Error Title
-ProjectLoad_MultipleRootsMessage,This project has multiple root views and is unstable. Select Yes to attempt a repair or No to continue in an unstable state.,이 프로젝트는 많은 자원 보기를 포함하고 있어 불안정합니다. 예를 눌러 복구를 시도하거나 아니오를 눌러 계속할 수 있습니다.,,Multiple roots in project message
-switch_tools_invalid_platform,The Switch tools are only available on Windows.,Switch 도구는 Windows에서만 사용 가능합니다.,,Switch tools not available on this platform
+ProjectLoad_MultipleRootsMessage,This project has multiple root views and is unstable. Select Yes to attempt a repair or No to continue in an unstable state.,이 프로젝트는 많은 자원 보기가 있어서 불안정해요. 예를 눌러 복구를 시도하시거나 아니요를 눌러서 계속할 수 있어요.,,Multiple roots in project message
+switch_tools_invalid_platform,The Switch tools are only available on Windows.,Switch 도구는 Windows에서만 사용 가능해요.,,Switch tools not available on this platform
 switch_tool_error,Switch Tools Error,Switch 도구 오류,,Switch Tools Error title
-switch_auth_editor_not_exist,The Switch Authoring Editor cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch Authoring Editor cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch Authoring Editor not found. Please check Nintendo SDK install
-switch_auth_tool_not_exist,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch Patch Tool cannot be found. Please check Nintendo SDK install
-switch_runontarget_tool_not_exist,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch RunOnTarget Tool cannot be found. Please check Nintendo SDK install
+switch_auth_editor_not_exist,The Switch Authoring Editor cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,Switch 저작 편집기가 없어요. 닌텐도 SDK가 제대로 설치됐는지 확인하고 다시 시도해주세요.,,Switch Authoring Editor not found. Please check Nintendo SDK install
+switch_auth_tool_not_exist,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,Switch 저작 도구가 없어요. 닌텐도 SDK가 제대로 설치됐는지 확인하고 다시 시도해주세요.,,Switch Patch Tool cannot be found. Please check Nintendo SDK install
+switch_runontarget_tool_not_exist,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,Switch 대상 실행 도구가 없어요. 닌텐도 SDK가 제대로 설치됐는지 확인하고 다시 시도해주세요.,,Switch RunOnTarget Tool cannot be found. Please check Nintendo SDK install
 Beta Channel,Beta Channel,베타 분기,,Beta Channel preferences tag
 beta_1,Here you can opt in or out of the GameMaker Studio 2 Beta.,여기서 GameMaker Studio 2 베타에 참가하실 수 있습니다.,,beta_1 caption
 beta_2,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,여러분에게 정식 출시되기 전에 나온 GameMaker Studio 2 미리보기 버전을 받아 보실 수 있습니다.,,beta_2 caption
 beta_3,This product is covered by Section 2 of our ,이는 저희의 계약서 두번째 단락에 명시돼 있습니다.,,beta_3 caption
-beta_4,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드라는 것을 명심하시길 바랍니다. 곧 프로그램에 버그가 있거나 프로젝트를 손상시킬 수 있음을 의미합니다.\n저희는 무조건 프로젝트를 백업하고, 실제 사용 시에는 프로젝트 복사본을 이용하며, 또한 소스 제어를\n사용하시는 걸 추천해 드립니다.",,beta_4 caption
+beta_4,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기 미리보기 빌드라는 것을 명심하시길 바랍니다. 그래서 프로그램에 버그가 있거나 프로젝트를 손상시킬 수 있음을 의미합니다.\n저희는 무조건 프로젝트를 백업하고, 실제 작업에는 복사본을 이용하고, 또한 소스 제어를\n사용하시는 걸 추천해 드립니다.",,beta_4 caption
 beta_5,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,만약 베타 빌드를 사용하시던 중에 프로젝트가 손상되었더라도 이를 복구할 방법은 없습니다.,,beta_5 caption
 beta_6,You can revert back to a non-beta build by clicking the button below.,아래의 단추를 눌러 일반 분기로 되돌아갈 수 있습니다.,,beta_6 caption
 beta_7,End User Licence Agreement,최종 사용자 라이선스 계약,,beta_7 caption
@@ -6482,7 +6482,7 @@ beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,GameMaker Studio 2 베타에
 beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,GameMaker Studio 2 베타에서 나가기,,beta_check_opt-out caption
 beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,GameMaker Studio 2를 재시작 할까요?,,beta channel warning
 beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",베타에서 나가시려면 확인을 누르시고 일반 대상 분기의 프로그램을 재설치해야 합니다. 출시 내역의 내려 받기 링크에서 설치하세요.,,beta channel downgrade info
-beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드라는 것을 명심해주세요. 곧 프로그램에 버그가 있거나 프로젝트를 손상시킬 수도 있어요.\n꼭 프로젝트를 백업하시고, 실제 사용 시에는 프로젝트 복사본을 이용하며, 또한 소스 제어\n사용을 추천해드려요.",,beta channel splash 
+beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드임을 명심해주세요. 그래서 프로그램에 버그가 있거나 프로젝트를 손상시킬 수도 있어요. 꼭 프로젝트를 백업하시고, 작업에는 복사본을 이용하세요. 또한 버전 관리 도구의 사용을 추천해드려요.",,beta channel splash 
 Convert_ConfirmMessage,This project is of an older format and will need to be converted. Proceed?,이 프로젝트는 예전의 프로젝트 구조를 띄고 있어서 변환이 필요해요. 계속할까요?,,sequences project conversion confirmation dialogue message
 Convert_Success_Title,Conversion Success,전환 성공,,Project Conversion success title
 Convert_Success_Message,The Project has successfully converted,프로젝트가 성공적으로 전환됐어요.,,Project Conversion success message
