@@ -51,7 +51,7 @@ Build_FailedRun,ERROR: Project failed to run: error code {0},프로젝트 실행
 Button_Add,Add,추가,,Add button
 Button_Cancel,Cancel,취소,,cancel button
 Button_Delete,Delete,삭제,,Delete button
-Button_Done,Done,완료,,Done button
+Button_Done,Done,확인,,Done button
 Button_Import,Import,가져오기,,import button label
 Button_Manage,Manage,관리,,Manage button
 Button_No,No,아니요,,No
@@ -113,8 +113,8 @@ Configuration,Configuration,구성,,Configuration
 Configuration_Select,Select Configuration,구성 선택,,Window title for config select
 Configurations,Configurations,구성,,Configurations
 Configurations_Add,Add New Configuration,구성 추가,,Add configuration window title
-Configurations_Delete,Are you sure you want to delete configuration '{0}'?,정말로 구성 '{0}' 지울까요?,,Confirm for deleting a configuration
-Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,확실한가요? 구성 '{0}'을 삭제하면 구성 '{1}'이 함께 지워져요.,,Warning about deleting a configuration deleting child configs
+Configurations_Delete,Are you sure you want to delete configuration '{0}'?,정말로 구성 '{0}'을 지울까요?,,Confirm for deleting a configuration
+Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,정말로 지울까요? 구성 '{0}'을 삭제하면 구성 '{1}'이 함께 지워져요.,,Warning about deleting a configuration deleting child configs
 Configurations_DeleteError,Cannot delete configuration '{0}',구성 '{0}'을 지울 수 없어요.,,Cannot delete a configuration error message
 Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,존재하는 구성의 이름을 복제할 수 없어요.,,Configuration name cannot be duplicated error message
 Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 구성을 만들 수가 없어요.,,Cannot create configurations with the Trial version of GameMaker Studio 2 error message
@@ -124,7 +124,7 @@ Configurations_NameEmptyError,New configuration name cannot be empty,구성의 �
 Configurations_NewName,New Configuration Name,새 구성 이름,,New configuration label
 Configurations_Parent,Parent Configuration,부모 구성,,Choose parent configuration label
 Configurations_Promote,Promote,승격,,Promotion of a config up the config hierarchy
-Configurations_Rename,Rename Configuration,구성 이름 바꾸기,,Rename configuration
+Configurations_Rename,Rename Configuration,이름 바꾸기,,Rename configuration
 Configurations_RenameError,Cannot rename '{0}' configuration,구성 '{0}'의 이름은 바꿀 수 없어요.,,Configuration name cannot be renamed error message
 Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,확실한가요? 구성 승격은 취소할 수 없어요.,,Confirm the user really wants to promote a config
 ContextMenu_AddMenuEntry,Add Menu Entry,메뉴 항목 추가하기,,Context menu option to add a menu entry at the end of the context menu
@@ -144,7 +144,7 @@ Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its 
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,정말로 이 이벤트를 잘라낼까요?,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,정말로 이벤트 {0}개를 제거할까요?,,Delete multiple event dialog confirmation query
 Dialog_DeleteFrame_Query,Delete the selected frames?,선택된 프레임을 지울까요?,,image editor delete frames confirm query
-Dialog_PasteEvent_NotReady,The event is still being copied. Please try pasting again in a few seconds.,아직 이벤트를 복사 중입니다. 잠시 후에 다시 시도해주세요.,,Not ready to paste yet message
+Dialog_PasteEvent_NotReady,The event is still being copied. Please try pasting again in a few seconds.,아직 이벤트를 복사 중이에요. 잠시 후에 다시 시도해주세요.,,Not ready to paste yet message
 Dialog_DontShowAgain,Don't show this message again,다시 보지 않기,,Message next to checkbox to allow the user to choose not to see this popup in future
 Dialog_Error,Error,오류,,error dialog title
 Dialog_NotReady,Not Ready,준비되지 않음,,not ready dialog title
@@ -449,7 +449,7 @@ InspectorGadget_Null,Element did not return a value,그 요소가 값을 반환�
 InspectorGadget_ExceptionLabel,An exception was thrown by this element,이 요소에서 예외가 발생했어요.,,Inspector exception label
 InspectorGadget_Coalescing_Disallowed_Tooltip,This field does not support bulk editing,그 값은 일괄 편집을 지원하지 않습니다.,,Field cannot be coalesced tooltip
 InspectorGadget_Coalescing_Error_Tooltip,An error occurred in retrieving this value,이 값을 읽어 들일 때 오류가 발생했습니다.,,Error occurred in retrieving value tooltip
-InspectorGadget_Coalescing_Differ_Tooltip,The selected elements have different values for this field,선택된 요소들은 이 필드에 대해 각기 다른 값을 지니고 있습니다.,,Different values tooltip
+InspectorGadget_Coalescing_Differ_Tooltip,The selected elements have different values for this field,선택된 요소들은 이 필드에 대해 각자 다른 값을 지니고 있어요.,,Different values tooltip
 Inspector_ArrayItemNamed,Element {0} - {1},요소 {0} - {1},,Label to represent array elements in inspector
 Inspector_ArrayItem,Element {0},요소 {0},,Label to represent array elements in inspector
 Inspector_ArrayItemTooltip,This is an entry in the array,배열 안에 있는 개체입니다.,,Tooltip to represent array elements in inspector
@@ -509,13 +509,13 @@ fonteditor_options_desc,Advanced options,고급,,Advanced font options descripti
 fonteditor_options_fontconfig,Font Configuration,구성,,Font configuration label
 fonteditor_options_configtooltip,These options allow total customization of how the font is displayed\nFonts generally react differently to these options,이 선택지에서 글꼴이 표시되는 방법을 완전히 제어할 수 있습니다.\n일반적으로 선택지에 따라 글꼴은 다르게 반응할 것입니다.,,Font config tooltip
 fonteditor_options_hintingalg,Hinting,획 보정,,Font editor hinting algorithm option
-fonteditor_options_hintingalg_tooltip,Select a specific hinting algorithm to use by the hinter,보정기가 사용할 알고리즘을 선택하세요.,,Font editor hinting algorithm option tooltip
+fonteditor_options_hintingalg_tooltip,Select a specific hinting algorithm to use by the hinter,보정기가 사용할 알고리즘을 선택합니다.,,Font editor hinting algorithm option tooltip
 fonteditor_options_glyphop,Glyph Options,상형자,,Font editor glyph options option
-fonteditor_options_glyphop_tooltip,Select the operations to perform during glyph loading,상형자를 불러올 때 수행할 작업을 선택하세요.,,Font editor glyph options option tooltip
+fonteditor_options_glyphop_tooltip,Select the operations to perform during glyph loading,상형자를 불러올 때 수행할 작업을 선택합니다.,,Font editor glyph options option tooltip
 fonteditor_options_intepreter,Interpreter,처리기,,Font editor interpreter version option
-fonteditor_options_intepreter_tooltip,Select the TrueType interpreter version,트루타입 처리기의 버전을 선택하세요.,,Font editor interpreter version option tooltip
+fonteditor_options_intepreter_tooltip,Select the TrueType interpreter version,트루타입 처리기의 버전을 선택합니다.,,Font editor interpreter version option tooltip
 fonteditor_options_conversion,Rounding,외곽 보정,,Font point size to integer conversion
-fonteditor_options_conversion_tooltip,Select rounding method when converting from fixed-point decimal size to integer,고정 소수점 크기의 글꼴을 정수 크기로 조정할 때 사용할 보정 방법을 선택하세요.,,Font point size to integer conversion tooltip
+fonteditor_options_conversion_tooltip,Select rounding method when converting from fixed-point decimal size to integer,고정 소수점 크기의 글꼴을 정수 크기로 조정할 때 사용할 보정 방법을 선택합니다.,,Font point size to integer conversion tooltip
 fonteditor_add_range,Add,추가,,Adding a new font range - button
 fonteditor_add_range_desc,Add new range,새 범위를 추가해요.,,Adding a new font range - description
 fonteditor_bold,Bold,굵게,,Font editor Bold caption
@@ -722,12 +722,12 @@ IDETooltip_NewProject,New Project (${show_new_projects_page}),새 프로젝트 �
 IDETooltip_OpenProject,Open Project (${load_project_dialog}),열기 (${load_project_dialog}),,IDE toolbar tooltip
 IDETooltip_Save,Save Project (${menu_save_project_incremental}),저장하기 (${menu_save_project_incremental}),,IDE toolbar tooltip
 IDETooltip_Package,Create Executable (${package_program}),실행 파일 만들기 (${package_program}),,IDE toolbar tooltip
-IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),실행 파일 만들기 (체험판에서는 사용 불가능합니다.),,IDE toolbar tooltip
+IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),실행 파일 만들기 (체험판에서는 사용 불가능),,IDE toolbar tooltip
 IDETooltip_Debug,Debug (F6),디버그 (F6),,IDE toolbar tooltip
 IDETooltip_Run,Run (F5),실행 (F5),,IDE toolbar tooltip
 IDETooltip_Stop,Stop,중지,,IDE toolbar tooltip
 IDETooltip_Clean,Clean (${clean_program}),청소 (${clean_program}),,IDE toolbar tooltip
-IDETooltip_GameSettings,Game Options,게임 옵션,,IDE toolbar tooltip
+IDETooltip_GameSettings,Game Options,전역 게임 설정,,IDE toolbar tooltip
 IDETooltip_Help,Help (F1),설명서 (F1),,IDE toolbar tooltip
 IDETooltip_Targets,Targets,대상,,IDE toolbar tooltip
 IDETooltip_Notifications,Notifications,알림,,IDE toolbar notifications tooltip
@@ -748,12 +748,12 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,좌측,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
 ImageEditor_UnableToLoadFrame,Unable to load,불러올 수 없음,,Unable to load frame dialog title
-ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,{1}개의 그림을 가지는 스프라이트 {0}을(를) 불러오지 못했습니다. 영향 받은 프레임이 모두 제거되었습니다.,,Failed to load image
+ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,{1}개의 그림을 가지는 스프라이트 {0}을(를) 불러오지 못했어요. 영향 받은 프레임들을 지웠어요.,,Failed to load image
 IE_ColourPanel_MenuToolTip,Colour Options,색상 선택지,,image editor colours panel menu button tooltip
 ImageEditor_ColourRightLabel,Right:,우측,,right brush label
 ImageEditor_CommitToolChanges,Commit Tool Changes?,변경 사항을 확정할까요?,,Commit tool changes
@@ -923,8 +923,8 @@ ImageEditor_ShiftLayerUp_TT,Shift Layer Up,레이어 위로 밀기,,image editor
 ImageEditor_ShiftLayerDown_TT,Shift Layer Down,레이어 아래로 밀기,,image editor shift layer down tooltip
 ImageEditor_DeleteLayer_TT,Delete Layer/Group For All Frames,모든 프레임의 레이어 / 묶음 삭제,,image editor delete layer tooltip
 ImageEditor_EraseColour_TT,Left Or Right Click To Set Eraser,왼쪽 또는 오른쪽 클릭으로 지우개 설정,,erase colour button tooltip
-ImageEditor_LastLayerDeleteTitle,Can't Delete Last Layer,마지막 레이어는 지울 수 없습니다.,,can't delete last layer title
-ImageEditor_LayerLayerDeleteMessage,Can't delete layer - image must have at least one layer,레이어를 지울 수 없습니다. 레이어는 하나 이상 있어야합니다.,,last layer delete message
+ImageEditor_LastLayerDeleteTitle,Can't Delete Last Layer,마지막 레이어는 지울 수 없음,,can't delete last layer title
+ImageEditor_LayerLayerDeleteMessage,Can't delete layer - image must have at least one layer,그 레이어를 지울 수 없어요. 레이어는 최소 하나 이상 있어야해요.,,last layer delete message
 ImageEditor_SwapColours_TT,Swap left and right colours,왼쪽과 오른쪽 색 바꾸기,,image editor swap colours tool tip
 ImageEditor_Greyscale,Greyscale,흑백,,ie greyscale label
 ImageEditor_Blur,Blur,흐리게,,ie blur label
@@ -1123,9 +1123,9 @@ Marketplace_ProjectRequiredDialogMessage,An open project is required to import a
 MPackage_PackageUploadTitle,Package Upload,패키지 업로드,,package upload dialog title
 MPackage_PackageCreated,Created package '{0}' version {1},패키지 '{0}' v{1} 생성됨,,package create success message
 MPackage_PackageUploading,Uploading to Marketplace...,장터에 업로드 중...,,package uploading message
-MPackage_PackageIDInvalid,Package ID is invalid,패키지 ID가 잘못되었습니다.,,mplace create package package id error
+MPackage_PackageIDInvalid,Package ID is invalid,올바르지 않은 패키지 ID,,mplace create package package id error
 MPackage_AssetDisplayName,Display name,표기 이름,,marketplace asset display name label
-MPackage_DisplayNameInvalid,Display name is invalid,올바르지 않은 이름임,,marketplace package display name error
+MPackage_DisplayNameInvalid,Display name is invalid,올바르지 않은 이름,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,이름 제한,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,"반드시 5글자 이상, 30글자 미만이여야 해요",,asset create restriction label
 MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
@@ -1247,7 +1247,7 @@ ObjectEditor_PropType,Type,유형,,Variable type
 ObjectEditor_PropDefault,Default,기본값,,Variable default value
 ObjectEditor_PropParams,Options,옵션,,Variable attributes aka parameters
 InstanceEditor_PropBoolean_Label,TRUE,TRUE,,Boolean label
-ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
+ObjectEditor_WindowOptions,Options: {0},설정: {0},,Options window title
 ObjectEditor_RangeEnabled,Use Range,범위 사용,,Use ranged parameter
 ObjectEditor_RangeMin,Min,최소,,Min ranged parameter
 ObjectEditor_RangeMax,Max,최대,,Max ranged parameter
@@ -1260,7 +1260,7 @@ ObjectEditor_Properties,Properties,속성,,Object editor properties heading
 ObjectEditor_SameMask,Same As Sprite,스프라이트와 같음,,"Object editor ""same as sprite"" mask setting"
 ObjectEditor_MaskSameAsSprite,Same As Sprite,스프라이트와 같음,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,볼록한 모양,,"Object editor collision shape ""shape"""
-ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
+ObjectEditor_WindowTitle,Object: {0},객체,,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,이 변수 삭제,,Remove variable row tooltip
 ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,기본값으로 되돌리기,,remove variable override tooltip
 ObjectEditor_Prop_OptionsTooltip,Open options...,옵션 열기...,,Open variable options tooltip
@@ -1280,7 +1280,7 @@ PathEditor_ContextMenu_EditPoint,Edit,편집,,Point label context menu item
 PathEditor_EditPoint,Edit,편집,,Edit button text on path editor
 PathEditor_EditPoint_Cancel,Cancel,취소,,Cancel button text
 PathEditor_EditPoint_Save,Save,저장,,Save button text
-PathEditor_EditPoint_Title,Edit Point {0} In {1},점 {0} - {1} 편집,,Edit point dialog window caption
+PathEditor_EditPoint_Title,Edit Point {0} In {1},{1}의 점 {0} 편집,,Edit point dialog window caption
 PathEditor_HorizontalShift,Horizontal Shift:,수평 이동,,Path shift dialog label
 PathEditor_Insert,Insert,삽입,,Path editor insert button name
 PathEditor_ListBoxItem_Speed,Speed:,속도,,The speed of a point in the path points collection
@@ -1291,7 +1291,7 @@ PathEditor_RoomPlugin_Inherit,Inherit,상속,,Path editor room editor plugin inh
 PathEditor_RoomPlugin_NoPath,<No path>,<경로 없음>,,Label when no path is being edited in path editor room plugin
 PathEditor_RoomPlugin_SelectPath,Select Path...,경로 선택,,Select path property button for path editor room plugin
 PathEditor_Shift,Shift,옮기기,,Path shift button text
-PathEditor_ShiftDialog_Label,Click the arrow in the direction you want to shift the path.,원하는 방향의 화살표를 눌러 경로를 옮기십시오.,,Path editor shift dialog help text
+PathEditor_ShiftDialog_Label,Click the arrow in the direction you want to shift the path.,원하는 방향의 화살표를 눌러서 경로를 옮기세요.,,Path editor shift dialog help text
 PathEditor_ShiftPath_Title,Shift Path: {0},경로 옮기기,,Path shift dialog title
 PathEditor_SmoothCurve,Smooth Curve,부드러운 곡선,,Path editor smooth curve connection kind
 PathEditor_SnapX,Snap X,X 맞춤,,Path editor snap x label
@@ -1314,36 +1314,36 @@ PathEditor_ToolTip_ZoomIn,Zoom In,확대,,Path editor tool tip
 PathEditor_ToolTip_ZoomOut,Zoom Out,축소,,Path editor tool tip
 PathEditor_ToolTip_ZoomReset,Reset Zoom,줌 재설정,,Path editor tool tip
 PathEditor_VerticalShift,Vertical Shift:,수직 이동,,Path shift dialog label
-PathEditor_WindowTitle,Path: {0},Path: {0},,Path editor window title
+PathEditor_WindowTitle,Path: {0},경로,,Path editor window title
 PathLayer_AddNewPath,<new path>,<새로운 경로>,,context menu entry for creating a new path within the path layer properties
 PrefsTree_Title,Preferences,환경 설정,,Preferences tree title
 DebugInfo_Title,Debug Info,디버그 정보,,Debug info window title
 DebugInfo_DumpMemory,Memory Usage,메모리 사용량,,Dump memory button label
 DebugInfo_CrashButton,DIE DIE DIE (Crash),죽어 죽어 죽어 (충돌),,Crash button label
 OutputPanel_Title,Output,출력,,Output panel window title
-PropertyButton_NoResourceArg,No {0},No {0},,no resource (type name) selected caption for resource button
-PropertyButton_NoResource,No Resource,No Resource,,no resource selected caption for resource button
+PropertyButton_NoResourceArg,No {0},{0} 없음,,no resource (type name) selected caption for resource button
+PropertyButton_NoResource,No Resource,자원 없음,,no resource selected caption for resource button
 PropertyButton_NoGMObject,No Object,객체 없음,,no object selected caption for the view object button
 PropertyButton_NoGMSprite,No Sprite,스프라이트 없음,,Button caption for when no sprite is selected
-PropertyButton_NoGMSequence,No Sequence,No Sequence,,Button caption for when no sequence is selected
+PropertyButton_NoGMSequence,No Sequence,시퀀스 없음,,Button caption for when no sequence is selected
 PropertyButton_NoGMTileSet,No Tileset,타일 세트 없음,,no background selected caption for the layer background button
-PropertyButton_NoGMParticleType,No Particle Type,No Particle Type,,no particle type selected button caption
-PropertyButton_NoGMParticleSystem,No Particle System,No Particle System,,no particle system selected button caption
-ResourceNode_AddExisting,Add Existing,기존 항목 추가,,Resource Tree node menu - add an already existing resource
-ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 항목 추가,,Resource Tree node menu - open my library to select resource to import
-ResourceNode_AddGroup,Add Group,폴더 추가,,Add a group
+PropertyButton_NoGMParticleType,No Particle Type,입자 유형 없음,,no particle type selected button caption
+PropertyButton_NoGMParticleSystem,No Particle System,입자 시스템 없음,,no particle system selected button caption
+ResourceNode_AddExisting,Add Existing,기존 항목 추가하기,,Resource Tree node menu - add an already existing resource
+ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브러리에서 항목 추가하기,,Resource Tree node menu - open my library to select resource to import
+ResourceNode_AddGroup,Add Group,폴더 추가하기,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,기본 보기에서 추가,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 제거,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","보기 """"{1}"""" 에서 """"{0}""""을 제거합니다. 계속할까요?",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","보기 """"{1}"""" 에서 """"{0}""""를 제거합니다. 계속할까요?",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,만들기,,Resource Tree node menu - create resource
-ResourceNode_DndToScript,Convert to GML,GML로 변환,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to DnD™,DnD™로 변환,,Resource Tree node menu - Script To Dnd
-ResourceNode_CreateChild,Create Child,자식 생성,,Resource tree context menu label for creating a child resource of the selected node
-ResourceNode_CreateDataFile,Create Included File,포함 파일 생성,,Resource Tree node menu - create included file
-ResourceNode_Delete,Delete,삭제,,Resource Tree node menu - delete resource
-ResourceNode_Duplicate,Duplicate,복제,,Resource Tree node menu - duplicate
+ResourceNode_DndToScript,Convert to GML,GML로 변환하기,,Resource Tree node menu - Dnd To GML
+ResourceNode_ScriptToDnd,Convert to DnD™,DnD™로 변환하기,,Resource Tree node menu - Script To Dnd
+ResourceNode_CreateChild,Create Child,자식 만들기,,Resource tree context menu label for creating a child resource of the selected node
+ResourceNode_CreateDataFile,Create Included File,포함 파일 만들기,,Resource Tree node menu - create included file
+ResourceNode_Delete,Delete,삭제하기,,Resource Tree node menu - delete resource
+ResourceNode_Duplicate,Duplicate,복제하기,,Resource Tree node menu - duplicate
 ResourceNode_ImportExtension,Import Extension,확장 기능 가져오기,,resource node menu - import extension
-ResourceNode_InsertDataFile,Insert Included File,포함 파일 삽입,,Resource Tree node menu - insert included file
+ResourceNode_InsertDataFile,Insert Included File,포함 파일 삽입하기,,Resource Tree node menu - insert included file
 ResourceNode_OpenExternally,Open Externally,외부에서 열기,,Resource Tree node menu - open externally
 ResourceTree_ErrorOpeningExternally,Error Opening Externally,외부에서 열기 오류,,Resource Tree node menu - error open externally
 ResourceNode_OpenInExplorer,${OpenInExplorer},${OpenInExplorer},,Resource Tree node menu - open in explorer
@@ -1359,7 +1359,7 @@ ResourceNode_NewTextureGroup,Create New...,새로 만들기,,Resource Tree node 
 ResourceNode_NewAudioGroup,Create New...,새로 만들기,,Resource Tree node menu - create new audio group with selected resources
 ResourceNode_SetAudioGroup,Assign Audio Group,묶음,,Resource Tree node menu - set the audio group of selected resources
 ResourceNode_Rename,Rename,이름 바꾸기,,Resource Tree node menu - rename resource
-ResourceNode_OpenInImageEditor,Open in Image Editor,Open in Image Editor,,resource node open in image editor
+ResourceNode_OpenInImageEditor,Open in Image Editor,그림 편집기에서 열기,,resource node open in image editor
 Save_RegeneratedFont,Generated font texture for '{0}',Generated font texture for '{0}',,Studio console to notify user of font texture update
 Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,Generated font texture for '{0}' because non existed,,Studio console to notify user of font texture update
 RegeneratedFonts_DidNothing,No fonts were regenerated.,No fonts were regenerated.,,No fonts were regenerated
@@ -2769,7 +2769,7 @@ roomeditor_tilehighlightcolour,Mouseover tile highlight colour,타일 편집기�
 roomeditor_tileinheritcolour,Inherited tile highlight colour,타일 편집기에서 상속된 타일의 강조 색상,,Tile Inherit colour in Room Editor
 roomeditor_showviews,Show room views,기본적으로 룸에서 뷰 보이기,,Show Views in Room Editor
 roomeditor_volume,Volume,음량,,Volume in Room Editor
-roomeditor_mastervolume,Master Volume Setting,전역 음량 값,,room editor master volume
+roomeditor_mastervolume,Master Volume Setting,마스터 음량 값,,room editor master volume
 timeline_noundoactions,Automatic response to permanent action warning,실행 취소를 할 수 없을 때 경고 메시지,,No Undo Actions in Timeline Editor
 timeline_opennewmoments,Open new moments for edit on creation,만들었을 때 새 분기를 즉시 엽니다,,Open newly created moments for editing preference
 CMenu_CloseAllButThis,Close All But This,이 창을 제외하고 모두 닫기,,Close all but this context menu
@@ -5054,7 +5054,7 @@ RoomEditor_GraphicLockToolTip,Lock Graphic,그래픽을 잠급니다.,,tooltip f
 RoomEditor_SequenceLockToolTip,Lock Sequence,시퀀스를 잠급니다.,,tooltip for sequence graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),글꼴 (?)에서 사용중인 부호를 찾을 수 없음,,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,이 글꼴에 하나 이상의 기호가 누락되어 다른 글꼴에서 대체됩니다.,,Tooltip
-FontEditor_MissingFontError,Font is not available on this machine (?),해당 글꼴이 이 장치에 없어요,,This font is not available on this machine
+FontEditor_MissingFontError,Font is not available on this machine (?),해당 글꼴이 이 장치에 없어요.,,This font is not available on this machine
 FontEditor_MissingFontError_Tooltip,Verify that the font is installed on your machine and try again,해당 글꼴이 이 장치에 설치되었는지 확인하세요.,,This font is not available on this machine tooltip
 Font_TooLargeTexPage,"Font """"{0}"""" packs more characters than can fit on the texture page. Some characters will not be visible.","글꼴 """"{0}""""은 텍스처 페이지에 들어갈 수 있는 양보다 많은 문자를 포함하고 있어요. 일부 문자는 표시되지 않아요.",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,제스처,,Gesture event name
@@ -5401,7 +5401,7 @@ Room,Room,룸,,Room preference group subheading
 Notes,Notes,필기,,Notes preference group subheading
 Included Files,Included Files,포함 파일,,Included Files preference group subheading
 Extensions,Extensions,확장 기능,,Extensions preference group subheading
-Resource Label,Resource Label,자원 문장,,Resource Label preference group subheading
+Resource Label,Resource Label,자원 글귀,,Resource Label preference group subheading
 Icon,Icon,아이콘,,Icon preference group subheading
 Normal Text,Normal Text,일반 글자,,Normal Text preference group subheading
 Keyword,Keyword,키워드,,Keyword preference group subheading
@@ -6278,11 +6278,11 @@ AssetBrowser_ColourCellTT,Right-click to edit,우클릭으로 편집하기,,colo
 AssetBrowser_ColourPicker,Colour Picker,색깔 고르기,,colour picker title
 AssetBrowser_ResourceTreeEmpty,No Assets,자산 없음,,empty resource tree label
 AssetBrowser_SearchEmpty,No Search Results,검색 결과 없음,,no search results label
-AssetBrowser_ExpandChildren,Expand Children,하위로 확장하기,,expand child nodes menu entry
+AssetBrowser_ExpandChildren,Expand Children,펼치기,,expand child nodes menu entry
 AssetBrowser_ConfigEditor,Config Editor,구성 편집기,,config editor
 AssetBrowser_ItemCountSingle,{0} item,{0}개의 항목,,item count label singular
 AssetBrowser_ItemCountPlural,{0} items,{0}개의 항목들,,item count label plural
-AssetBrowser_SelectedCount,{0} selected,{0}개가 선택됨,,selected count label
+AssetBrowser_SelectedCount,{0} selected,{0}개 선택,,selected count label
 AssetBrowser_Filters,Filters,필터,,filters
 AssetBrowser_ClearFilters,Clear Filters,필터 정리하기,,clear filters
 AssetBrowser_AssetType,Asset Type,자산 종류,,asset type
@@ -6292,8 +6292,8 @@ AssetBrowser_GridView,Grid View,격자 보기,,grid view
 AssetBrowser_ShowTreeLocation,Show Tree Location,트리 위치 보이기,,show main tree location
 AssetBrowser_GameOptions,Game Options,게임 설정,,game options
 AssetBrowser_IncludedFiles,Included Files,포함 파일,,included files
-AssetBrowser_TTSortFilter,Sort/Filter,Sort/Filter,,sort filter button tooltip
-AssetBrowser_TTMenu,Menu,Menu,,menu button tooltip
+AssetBrowser_TTSortFilter,Sort/Filter,정렬 및 필터,,sort filter button tooltip
+AssetBrowser_TTMenu,Menu,메뉴,,menu button tooltip
 AssetBrowser_DeleteTagConfirmMessage,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,,delete tag confirm message
 AssetBrowser_Arrange,Arrange,Arrange,,arrange submenu
 AssetBrowser_SendToTop,Send To Top,Send To Top,,arrange to top
