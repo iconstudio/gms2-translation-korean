@@ -34,5 +34,5 @@
 
 5. 번역에 문제가 있다고 생각한다면 적극적으로 기여한다.
 
-6. 기여를 하는 자세한 방법은 [[CONTRIBUTING]] 문서를 참조한다.
+6. 기여를 하는 자세한 방법은 [기여: https://github.com/iconstudio/gms2-translation-korean/blob/master/CONTRIBUTING.md] 문서를 참조한다.
 
