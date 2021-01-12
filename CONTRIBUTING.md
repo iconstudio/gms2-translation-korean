@@ -20,13 +20,13 @@
 
 ### 번역어 목록
 
-1. `Asset`: 자산, 문맥에 따라 자원
+- `Asset`: 자산, 문맥에 따라 자원
 
   - `자산 탐색기의 View`: 보기
 
-2. `Resource`: 자원
+- `Resource`: 자원
 
-3. `Market, Marketplace`: 장터
+- `Market, Marketplace`: 장터
 
 - `Local`: 지역, 문맥에 따라 로컬
 
@@ -44,85 +44,85 @@
 
 - `Sprite`: 스프라이트
 
- - `Image`: 그림
+  - `Image`: 그림
 
- - `Texture Page`: 텍스처 페이지
+  - `Texture Page`: 텍스처 페이지
 
- - `Texture Group`: 텍스처 모음
+  - `Texture Group`: 텍스처 모음
 
- - `Animation`: 애니메이션
+  - `Animation`: 애니메이션
 
- - `Play, Playback`: 재생
+  - `Play, Playback`: 재생
 
- - `Pingpong`: 왕복
+  - `Pingpong`: 왕복
 
- - `Origin`: 중심
+  - `Origin`: 중심
 
 - `Object`: 객체
 
- - `Instance`: 개체 혹은 인스턴스
+  - `Instance`: 개체 혹은 인스턴스
 
- - `Visible`: 보이기
+  - `Visible`: 보이기
 
- - `Visibility`: 가시성
+  - `Visibility`: 가시성
 
- - `Solid`: 고체
+  - `Solid`: 고체
 
 - `Struct`: 구조체
 
- - `Member`: 멤버
+  - `Member`: 멤버
 
- - `Method`: 메서드
+  - `Method`: 메서드
 
 - `Script`: 스크립트
 
 - `Room`: 룸
 
- - `Layer`: 레이어
+  - `Layer`: 레이어
  
- - `View`: 뷰
+  - `View`: 뷰
  
- - `View port`: 뷰 포트 
+  - `View port`: 뷰 포트 
 
 - `Shader`: 쉐이더
 
 - `Timeline`: 타임라인
 
- - `Moment`: 분기
+  - `Moment`: 분기
 
 - `Sequence`: 시퀀스
 
- - `Track`: 트랙
+  - `Track`: 트랙
 
- - `Dope Sheet`: 노출 시트
+  - `Dope Sheet`: 노출 시트
 
- - `Parameter`: 매개자
+  - `Parameter`: 매개자
 
- - `Curve`: 곡선
+  - `Curve`: 곡선
 
 - `Animation Curve`: 애니메이션 곡선
 
 - `Particle`: 입자
 
- - `Particle Type`: 입자 유형, 대체로 문맥에 따라 
+  - `Particle Type`: 입자 유형, 대체로 문맥에 따라 
  
- - `Particle System`: 입자 시스템
+  - `Particle System`: 입자 시스템
 
 - `Nine Slice`: 9등분 스프라이트
 
 - `Tile set, Tileset`: 타일 세트
 
- - `Auto tile, Autotile`: 자동 타일
+  - `Auto tile, Autotile`: 자동 타일
 
- - `Tile map, Tilemap`: 타일 지도
+  - `Tile map, Tilemap`: 타일 지도
 
 - `Path`: 경로
 
 - `Audio`: 오디오
 
- - `Sound`: 소리
+  - `Sound`: 소리
 
- - `Audio Group`: 오디오 모음
+  - `Audio Group`: 오디오 모음
 
 - `Note`: 필기
 
@@ -138,9 +138,9 @@
 
 2. `Horizontal, Vertical`
 
- - 일반적인 경우: 수평, 수직
+  - 일반적인 경우: 수평, 수직
  
- - 스프라이트, 타일, 룸에서 쓰이는 경우: 가로, 세로
+  - 스프라이트, 타일, 룸에서 쓰이는 경우: 가로, 세로
 
 ## 문맥과 문장 구현
 
