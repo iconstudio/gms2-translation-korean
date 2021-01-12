@@ -20,13 +20,13 @@
 
 ### 번역어 목록
 
-- `Asset`: 자산, 문맥에 따라 자원
+1. `Asset`: 자산, 문맥에 따라 자원
 
- - `자산 탐색기의 View`: 보기
+  - `자산 탐색기의 View`: 보기
 
-- `Resource`: 자원
+2. `Resource`: 자원
 
-- `Market, Marketplace`: 장터
+3. `Market, Marketplace`: 장터
 
 - `Local`: 지역, 문맥에 따라 로컬
 
