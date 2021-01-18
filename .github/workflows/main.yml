@@ -1,11 +1,5 @@
 name: CI
-on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  release:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+on: [workflow_dispatch, push, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -14,4 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checking this repository
+        uses: actions/checkout@v2
+
+      - name: Exporting the csv file
+        uses: actions/upload-artifact@v2
+        with:
+          name: Korean
+          path: korean.csv
+          if-no-files-found: error
