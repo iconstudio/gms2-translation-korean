@@ -2839,7 +2839,7 @@ sourcecontrolgit_password,Password for Username,암호,,Password for Username to
 sourcecontrolgit_email,Commit email address,전자메일,,Email for user to commit as for source control git
 sourcecontrolgit_mergetoolpath,Tool location,도구 위치,,Path to Tool for source control git
 sourcecontrolgit_mergetooloptions,Options for Tool,도구 설정,,Options for Tool for Source Control Git
-sourcecontrolgit_logging_verbose,Verbose logging,상세 기록,,Verbose Logging for Source Control Git
+sourcecontrolgit_logging_verbose,Verbose logging,자세하게 기록 남기기,,Verbose Logging for Source Control Git
 sourcecontrolgit_externaltoolerror,Source Control (Git) External Tool Error,소스 제어 (Git) 외부 도구 오류,,Source Control (Git) External Tool Error message title
 sourcecontrolgit_nomergetool,Merge Tool path is invalid,병합 도구의 위치가 잘못됐어요.,,Merge Tool path is invalid
 sourcecontrolgit_nodifftool,Diff Tool path is invalid,비교 도구의 위치가 잘못됐어요.,,Diff Tool path is invalid
