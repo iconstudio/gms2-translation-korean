@@ -7,6 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+		env:
+      paths: korean.csv, english.csv
+
     steps:
       - name: Checking this repository
         uses: actions/checkout@v2
@@ -14,7 +17,6 @@ jobs:
       - name: Exporting the csv file
         uses: actions/upload-artifact@v2
         with:
-          path: korean.csv, english.csv
-          name: Processing ${{path}}
+          path: $env:paths
+          name: Processing languages
           if-no-files-found: error
-          
