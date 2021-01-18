@@ -1,11 +1,14 @@
 name: Making a single file archive.
-on: [workflow_dispatch, release]
+on: [workflow_dispatch, release, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     runs-on: ubuntu-latest
+
+		env:
+      paths: korean.csv, english.csv
 
     steps:
       - name: Checking this repository
@@ -14,6 +17,6 @@ jobs:
       - name: Exporting the csv file
         uses: actions/upload-artifact@v2
         with:
-          name: Korean
-          path: korean.csv
+          path: $env:paths
+          name: Processing languages
           if-no-files-found: error
