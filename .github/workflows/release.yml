@@ -1,11 +1,11 @@
 name: Korean
 
-on: [release, push, pull_request, workflow_dispatch]
+on: [push, pull_request, workflow_dispatch]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checking this repository
