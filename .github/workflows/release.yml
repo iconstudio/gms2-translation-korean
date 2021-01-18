@@ -14,5 +14,6 @@ jobs:
       - name: Exporting the csv file
         uses: actions/upload-artifact@v2
         with:
+          name: language-korean
           path: korean.csv
           if-no-files-found: error
