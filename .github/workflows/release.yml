@@ -1,4 +1,4 @@
-name: Making a single file archive.
+name: Korean
 on: [workflow_dispatch, release, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -15,5 +15,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           path: korean.csv
-          name: Processing languages
           if-no-files-found: ignore
