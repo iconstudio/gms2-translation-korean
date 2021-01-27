@@ -748,7 +748,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,좌측,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -1365,16 +1365,16 @@ Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non ex
 RegeneratedFonts_DidNothing,No fonts were regenerated.,글꼴이 생성돼지 않았어요.,,No fonts were regenerated
 RegeneratedFonts_Success,Successfully regenerated {0} fonts.,{0}개의 글꼴들이 생성됐어요.,,Success message regenerate fonts
 RegeneratedFonts_Success_Legacy,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.,{0}개의 글꼴들이 생성됐어요.\n{1}개의 구 글꼴들은 제외돼요.,,Success message regenerate fonts
-RegeneratedFonts_Success_Unavailable,Successfully regenerated {0} fonts.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
-RegeneratedFonts_Success_Legacy_Unavailable,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Success_Unavailable,Successfully regenerated {0} fonts.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Success_Legacy_Unavailable,Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,{0}개의 글꼴들이 생성됐어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
 RegeneratedFonts_Failed,Failed to regenerate one or more fonts.,글꼴 중 하나를 생성하는데 실패했어요.,,Success message regenerate fonts
 RegeneratedFonts_Failed_Legacy,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.,,Success message regenerate fonts
-RegeneratedFonts_Failed_Unavailable,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
-RegeneratedFonts_Failed_Legacy_Unavailable,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 하지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Failed_Unavailable,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
+RegeneratedFonts_Failed_Legacy_Unavailable,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
 ResourceTree_Configs,Configurations,구성,,
-ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","디렉토리 ""{0}""와 안에 포함된 모든 항목들을 삭제합니다. 계속할까요?",,Resource tree directory delete user confirmation
+ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","디렉토리 ""{0}""와 안에 포함된 모든 항목들을 지울까요?",,Resource tree directory delete user confirmation
 ResourceTree_Extensions,Extensions,확장 기능,,"Resource tree ""Extensions"" label"
-ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","파일 ""{0}""을 제거합니다. 계속할까요?",,Resource tree file delete user confirmation
+ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","파일 ""{0}""을 지울까요?",,Resource tree file delete user confirmation
 ResourceTree_Fonts,Fonts,글꼴,,"Resource tree ""Fonts"" label"
 ResourceTree_Folders,Folders,폴더,,resource tree folders resource label
 ResourceTree_IncludedFiles,Included Files,포함 파일,,"Resource tree ""Included Files"" label"
@@ -1403,7 +1403,7 @@ ResourceTree_Options,Options,옵션,,options
 ResourceTree_Paths,Paths,경로,,"Resource tree ""Paths"" label"
 ResourceTree_ResourceDelete_Confirm,Are you sure you want to delete {0}?,정말로 {0}을(를) 삭제할까요?,,Resource tree delete confirmation label
 ResourceTree_ResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,정말로 {0}을(를) 삭제할까요?\n디스크의 포함 파일 및 폴더도 함께 없어져요.,,Resource tree folder delete confirmation label
-ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,정말로 {0} (를) 삭제할까요?\n삭제되는 객체와 그 충돌 이벤트도 함께 지워져요.,,Resource tree delete events confirmation label
+ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,정말로 {0}을(를) 삭제할까요?\n삭제되는 객체와 그 충돌 이벤트도 함께 지워져요.,,Resource tree delete events confirmation label
 ResourceTree_Rooms,Rooms,룸,,"Resource tree ""Rooms"" label"
 ResourceTree_Scripts,Scripts,스크립트,,"Resource tree ""Scripts"" label"
 ResourceTree_Shaders,Shaders,쉐이더,,"Resource tree ""Shaders"" label"
@@ -1542,15 +1542,15 @@ remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote W
 Saving,Saving...,저장 중...,,Saving
 SCM_Add_Path,Add Path,경로 추가,,Add a path to the SCM
 SCM_Clone,Clone Repository,저장소 복제하기,,Clone a Source Control Repository
-SCM_Commit,Commit Changes,변경 사항 확정하기,,Commit local changes to Repository
+SCM_Commit,Commit Changes,확정하기,,Commit local changes to Repository
 SCM_Conflicts,Show Conflicts,충돌 사항 보기,,Show Conflicts within Repository
 SCM_Create,Create Project Repository,프로젝트 저장소 만들기,,Create a local Source Control Repository for this project
 SCM_Delete_Path,Delete Path,경로 삭제,,Delete a path from Source Control
 SCM_History,View History,기록 보기,,View Source Control Repository History
 SCM_Import,Import Project into Repository,프로젝트를 저장소로 가져오기,,Import a Game Maker Project to a Source Control Repository
 SCM_Menu,Source Control,소스 제어,,Source Control Menu title
-SCM_Pull,Pull Changes,변경 사항 가져오기,,Pull Changes from Source Control Repository
-SCM_Push,Push Changes,변경 사항 발행하기,,Push Changes to Source Control Repository
+SCM_Pull,Pull Changes,가져오기,,Pull Changes from Source Control Repository
+SCM_Push,Push Changes,발행하기,,Push Changes to Source Control Repository
 SCM_Revert_All,Revert All,모두 되돌리기,,Revert all changes from Source Control
 SCM_Revert_Path,Revert Path,위치 되돌리기,,Revert an item from Source Control
 SCM_Revert_Revision,Revert To This Revision,이 판본으로 되돌리기,,Revert to the selected revision in SCM
@@ -1628,18 +1628,18 @@ SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a differe
 SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,소스 제어 (Git) 저장소 없음,,There is no Git Repository (Title)
 SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",이 프로젝트에 구성된 Git 저장소가 없어요.\n로컬 저장소가 필요하시면 만들거나 기존의 저장소를 가져와보세요.,,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
 SourceControlGit_NoIdentity,Source Control (Git) No Identity,소스 제어 (Git) 식별자 없음,,There is no Git Identity set (Title)
-SourceControlGit_NoIdentityMessage,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,환경 설정에 Git 식별자가 설정돼 있지 않았어요.\n올바른 확정안을 위해서는 지정해주세요.,,"There is no Git Identity set (Message) No identity credentials found in preferences, please set them."
+SourceControlGit_NoIdentityMessage,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,환경 설정에 Git 식별자가 설정돼 있지 않아요.\n올바른 확정안을 위해서는 설정해주세요.,,"There is no Git Identity set (Message) No identity credentials found in preferences, please set them."
 SourceControlGit_Select_All,Select/Deselect All,모두 선택 / 해제,,Select/Deselect all items to commit
 SourceControlGit_Merging,Merge in Progress,병합이 진행 중이에요.,,Merge in Progress Status Message for Commit window
-SourceControlGit_History_Files,Files Modified in Commit - {0},확정안에서 수정된 파일: {0},,Files Modified in Selected Commit
-SourceControlGit_History_Message,Message for Commit - {0},확정 메시지: {0},,Message for Selected Commit
-SourceControlGit_History_Commits,Commit History,확정 내역,,Commit History
+SourceControlGit_History_Files,Files Modified in Commit - {0},수정된 파일: {0},,Files Modified in Selected Commit
+SourceControlGit_History_Message,Message for Commit - {0},메시지: {0},,Message for Selected Commit
+SourceControlGit_History_Commits,Commit History,내역,,Commit History
 SourceControlGit_PageLeft,Previous Page,이전 장,,Previous Page of Results
 SourceControlGit_PageRight,Next Page,다음 장,,Next Page of Results
 SourceControlGit_SelectCommit,Select a Commit,확정안 선택,,Select a Commit message
 SourceControlGit_AutoPopup,Automatically open source control output window,소스 제어 결과 창 자동으로 띄우기,,Preference title for automatically popping up the source control output window
-SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?",확정 메세지를 지정하지 않았습니다. 정말로 계속할까요?,,No commit message specified warning
-SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",이 프로젝트에 충돌이 있습니다. 프로젝트를 닫거나 다시 불러오면 수동으로 밖에 해결할 수 없는 문제가 생깁니다. 정말로 계속할까요?,,Conflicts Detected message
+SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?",메세지를 정하지 않았는데 정말로 계속할까요?,,No commit message specified warning
+SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",이 프로젝트에 충돌이 있어요. 프로젝트를 닫거나 다시 불러오면 수동으로 밖에 해결할 수 없는 문제가 생기는데 정말로 계속할까요?,,Conflicts Detected message
 sourcecontrolgit_auth_type,Authorisation Type,권한 부여 유형,,Type of Authorisation to use
 sourcecontrolgit_auth_repository,Repository URL,저장소 URL,,URL of Repository
 sourcecontrolgit_auth_username,Username,사용자 이름,,Username for authentication
@@ -1654,16 +1654,16 @@ sourcecontrolgit_difftool_options,Diff Tool Options,비교 도구 옵션,,Option
 sourcecontrolgit_auth_add_userpass,Add User/Pass Authentication,새로운 사용자 / 암호 인증 추가,,Add new User/Pass Authentication
 sourcecontrolgit_auth_add_ssh,Add SSH Keypair Authentication,새 SSH 키 쌍 인증 추가,,Add new SSH Keypair Authentication
 sourcecontrolgit_auth_failed,Source Control (Git) Authentication Failed,소스 제어 (Git) 인증 실패,,Authentication failed in Source Control (Git) error title
-sourcecontrolgit_auth_userpass_failed,No Valid User/Pass Authentication details found for {0},{0} 에 대해 유효한 사용자 / 암호 인증 세부 정보가 없습니다.,,No Valid User/Pass found for repository error message
-sourcecontrolgit_auth_ssh_failed,No Valid SSH KeyPair Authentication details found for {0},유효한 SSH 키 쌍이 없습니다. {0} 에 대한 인증 세부 정보가 있습니다.,,No Valid SSH KeyPair found for repository error message
+sourcecontrolgit_auth_userpass_failed,No Valid User/Pass Authentication details found for {0},{0} 에 대해 유효한 사용자 / 암호 인증 세부 정보가 없어요.,,No Valid User/Pass found for repository error message
+sourcecontrolgit_auth_ssh_failed,No Valid SSH KeyPair Authentication details found for {0},유효한 SSH 키 쌍이 없어요. {0}에 대한 인증 세부 정보가 있어요.,,No Valid SSH KeyPair found for repository error message
 sourcecontrolgit_auth_create_keypair,Create KeyPair,키 쌍 생성,,Create SSH KeyPair button
 sourcecontrolgit_auth_missingfield_title,Source Control (Git) Invalid Authentication,소스 제어 (Git) 잘못된 인증,,Source Control (Git) Invalid Authentication title
-sourcecontrolgit_auth_missing_repo,Repository field cannot be empty,저장소 입력란은 비워 둘 수 없습니다.,,Warning that the repository field cannot be empty
-sourcecontrolgit_auth_missing_username,Username field cannot be empty,사용자 이름 입력란은 비워 둘 수 없습니다.,,Warning that the username field cannot be empty
+sourcecontrolgit_auth_missing_repo,Repository field cannot be empty,저장소 입력란은 비워 둘 수 없어요.,,Warning that the repository field cannot be empty
+sourcecontrolgit_auth_missing_username,Username field cannot be empty,사용자 이름 입력란은 비워 둘 수 없어요.,,Warning that the username field cannot be empty
 sourcecontrolgit_auth_missing_password,Password field cannot be empty,암호 입력란은 비워 둘 수 없습니다.,,Warning that the password field cannot be empty
-sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure path is valid,공개 키를 찾을 수 없습니다 - 경로가 유효한지 확인하세요.,,Warning that the public key field is invalid
-sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,개인 키를 찾을 수 없습니다 - 경로가 유효한지 확인하십시오,,Warning that the private key field is invalid
-sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,저장소에 대한 인증 세부 정보가 이미 있습니다.,,Authentication details for repository already exist
+sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure path is valid,공개 키를 찾을 수 없어요 - 경로가 유효한지 확인하세요.,,Warning that the public key field is invalid
+sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,개인 키를 찾을 수 없어요 - 경로가 유효한지 확인하세요.,,Warning that the private key field is invalid
+sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,저장소에 대한 인증 세부 정보가 이미 있어요.,,Authentication details for repository already exist
 SourceControlGit_UnlocalisedError,{0},{0},,For when Git dies for some reason that we dont know why - display the exception directly
 sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,소스 제어 (Git) 저장소 없음,,Clone Repository in source control git plugin
 sourcecontrolgit_clone_urltoclone,URL of repository to clone:,복제할 저장소의 URL,,URL of the repository to clone
@@ -1688,8 +1688,8 @@ Splash_LoadingUserLanguages,Loading Custom Languages...,사용자 정의 언어 
 Splash_LoadingPlugins,Loading Plugins...,플러그인 불러오는 중...,,Loading the plugins
 Splash_LoadingPrefs,Loading Preferences...,환경 설정 불러오는 중...,,Loading the preferences
 Splash_LoadingDevices,Loading Devices...,장치 불러오는 중...,,Loading the devices
-Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
-Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
+Splash_LoadingPluginGUI,Loading Plugin Resources...,플러그인 자원 불러오는 중…,,Loading the plugin resources
+Splash_LoadingPluginLanguages,Loading Plugin Languages...,플러그인 언어 불러오는 중…,,Loading the plugin languages
 Splash_UserLogin,User Login,사용자 로그인,,User Login has been started
 Splash_InitDnD,Drag and Drop...,드래그 앤 드롭...,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,RSS 확인 중...,,Checking RSS...
@@ -1745,10 +1745,10 @@ Sprite_Resize_Height,Height:,높이,,Height label
 Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,종횡 비 유지하기,,Maintain ratio label
 Sprite_Resize_Origin,Apply to Origin,중심 점에도 적용하기,,Also resize/scale sprite origin
 Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,스프라이트의 중심 점에도 같은 변형을 적용합니다.\n이 선택지는 중심이 사용자 정의돼 있고 잠겨 있지 않으면 적용됩니다.,,Sprite origin resize/scale tooltip
-SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,중심 점에 크기 조정과 비율 조절 적용,,Sprite editor resize/scale origin preference
+SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,중심 점에 크기 조정과 비율 조절 적용하기,,Sprite editor resize/scale origin preference
 Sprite_Resize_Pixels,pixels,화소,,Pixels label
 SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,이 스프라이트는 타일 세트예요.,,Tile set warning
-SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,스프라이트가 타일 세트이기에 크기를 변경하면 타일의 내용도 변경됩니다. 계속 할까요?,,Sprite resize tile set warning
+SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,스프라이트가 타일 세트이기에 크기를 변경하면 타일의 내용도 변경되는데 계속 할까요?,,Sprite resize tile set warning
 Sprite_Resize_Percentage,%,%,,Percentage label
 Sprite_Resize_ScaleIn,Scale In:,비율 조절,,Scale in label
 Sprite_Resize_ResizeIn,Resize In:,크기 조정,,Resize in label
@@ -1985,7 +1985,7 @@ TileSetEditor_SeparationY,Tile Separation Y,수직 분리 간격,,tile set edito
 TileSetEditor_TileHeight,Tile Height,타일 높이,,tile set editor height numeric textbox caption
 TileSetEditor_TileSize,Tile Size,타일 크기,,tile set editor size numeric textbox caption
 TileSetEditor_TileWidth,Tile Width,타일 너비,,tile set editor width numeric textbox caption
-TileSetEditor_Title,Tile Set: {0},Tile Set: {0},,tile set editor window title
+TileSetEditor_Title,Tile Set: {0},타일 세트,,tile set editor window title
 TileSetEditor_UseAsTileSet,Use As Tileset,타일 세트로 사용,,tile set editor use as tileset checkbox caption
 TileSetGenerator_Complete,Tile Set: Image generated for '{0}',{0}로 생성한 그림,,console output message for when a tile set image has been generated
 TimeLine_BtnAdd,Add,추가,,Add button caption for timeline editor
@@ -2098,18 +2098,18 @@ RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged ass
 RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,그 항목은 개체 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
 RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,그 항목은 자산 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
 Dock_FloatingDock_Title,Floating Dock,부동 고정판,,floating dock window title
-RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없습니다. 레이어 하나를 선택하세요.,, Information warning for dropping resource gadgets on the room but layer selection is invalid
-RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",자원을 룸으로 드래그 할 수 없습니다. 선택된 레이어 {0}이(가) 잠금 해제 되어있고 보이게 해주세요.,,Information warning for dropping resource gadgets on a locked or invisible selected layer
-RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,선택된 타일 세트가 스프라이트와 연결 돼있지 않습니다. 유효한 타일 세트를 선택해주십시오.,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
-RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,타일 세트를 선택하면 여기에 미리보기가 나타납니다.,,message to be shown when the user has not selected a tile set
-RoomEditor_NoLayer,No Tile Layer Selected,타일 레이어가 선택되지 않았습니다,, message to be shown when the user has not selected a tile layer
-InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","유효하지 않은 이름, 이미 사용 중: {0}. 이름은 유일해야 합니다.",,Name not unique message
+RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없어요. 레이어 하나를 선택하세요.,, Information warning for dropping resource gadgets on the room but layer selection is invalid
+RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",자원을 룸으로 드래그 할 수 없어요. 선택된 레이어 '{0}'가 잠금 해제 되어있고 보이게 해주세요.,,Information warning for dropping resource gadgets on a locked or invisible selected layer
+RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,선택된 타일 세트가 스프라이트와 연결 돼있지 않아요. 올바른 타일 세트를 선택해주세요.,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
+RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,타일 세트를 선택하면 여기에 미리보기가 보여요.,,message to be shown when the user has not selected a tile set
+RoomEditor_NoLayer,No Tile Layer Selected,타일 레이어가 선택되지 않았어요.,, message to be shown when the user has not selected a tile layer
+InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","유효하지 않은 이름, 이미 사용 중: {0}. 이름은 유일해야 해요.",,Name not unique message
 InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","유효하지 않은 이름, 예약어: {0}",,Name is a reserved keyword message
-InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","유효하지 않은 이름, 유효하지 않은 부호 포함: {0}. 0-9, a-z, A-Z 혹은 _만 포함해야 하며 0-9로 시작할 수 없습니다.",,Name contains invalid characters message
+InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","유효하지 않은 이름, 유효하지 않은 부호 포함: {0}. 0-9, a-z, A-Z 혹은 _만 포함해야 하고 숫자로는 시작할 수 없어요.",,Name contains invalid characters message
 InvalidName_InvalidModel,Invalid model.,잘못된 모델,,Invalid model message
 InvalidName_DuplicateGroupName,Group name '{0}' is already in use,폴더 이름 '{0}'은 이미 있어요.,,duplicate group folder name
-InvalidName_InvalidGroupName,Group name '{0}' cannot contain / or \,폴더 이름 '{0}'은 / 와 \ 를 포함하지 못해요.,,invalid group folder name
-InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this location,상위 폴더 '{0}'은(는) 이미 하위 폴더로 '{1}'을(를) 갖고 있습니다.,,Parent folders or project cannot have multiple child folder with the same name message
+InvalidName_InvalidGroupName,Group name '{0}' cannot contain / or \,폴더 이름 '{0}'은 / 와 \ 를 포함하면 안돼요.,,invalid group folder name
+InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this location,상위 폴더 '{0}'는 이미 하위 폴더로 '{1}'를 갖고 있어요.,,Parent folders or project cannot have multiple child folder with the same name message
 ResourceTree_View,View,보기,View,View
 ResourceTree_Views,Views,보기,,Views selector button label
 ResourceTree_View_Add,Add New View,새로운 보기 추가,,Add New View Prompt
@@ -4969,7 +4969,7 @@ serverportunavailable_title,Webserver Port Unavailable,웹 서버 포트를 사�
 serverportunavailable_message,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,포트 {0}은(는) 도움말 생성에 사용할 수 없습니다!\n환경설정에서 변경하세요.,,Webserver port is unavailable message content
 Marketplace_MyLibrary_Empty,Your library is empty.,라이브러리가 비었어요.,,Empty library
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,여길 클릭해서 장터를 둘러보세요.,,Click to browse marketplace
-StartPage_Offline,This link cannot be opened as you are currently offline.,이 링크는 현재 오프라인 상태이므로 열 수 없습니다.,,User is offline and trying to open an external url
+StartPage_Offline,This link cannot be opened as you are currently offline.,이 링크는 현재 오프라인 상태이므로 열 수가 없어요.,,User is offline and trying to open an external url
 debuggerporttouse,Debugger port,디버거가 사용할 포트,,Port for Debugger to use label in Settings
 debuggershoweventicons,Show event icons in Debugger Resource View,디버거 자원 보기에서 이벤트 아이콘 표시하기,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,실시간 디버깅 활성화하기,,Enable real-time debugging label in Settings
@@ -4983,7 +4983,7 @@ macroeditor_title,IDE Environment Variables,IDE 환경 변수,,MacroEditor title
 DnDModule_LivePreview_Text,Preview (Read-Only),미리보기 (읽기 전용),,DnD module live preview top comment text
 No_Resources_To_Add,No resources to add,추가할 자원이 없어요.,,Add from Default View status message
 FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Studio 2 Trial,프로젝트 '{0}'는 체험판에선 불러올 수 없어요.,,Error message when the user tries to load a project that exceeds free limits
-FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Studio 2 Trial for '{0}'.,{0}'이 체험판의 자원 제한에 걸렸습니다.,,Error message when the user tries to create more resources than the Trial version allows
+FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Studio 2 Trial for '{0}'.,체험판의 자원 제한에 도달했어요.,,Error message when the user tries to create more resources than the Trial version allows
 FreeVersion_SpineNotSupported,Spine files are not supported in GameMaker Studio 2 Trial,GameMaker Studio 2의 체험판에서는 Spine을 사용하실 수가 없어요.,,Spine files are not supported in the Trial version of GameMaker Studio 2 error message
 FreeVersion_SWFNotSupported,SWF files are not supported in GameMaker Studio 2 Trial,GameMaker Studio 2의 체험판에서는 SWF를 사용하실 수가 없어요.,,SWF files are not supported in the Trial version of GameMaker Studio 2 error message
 FreeVersion_ImportNotSupported,Importing projects is not supported in GameMaker Studio 2 Trial,GameMaker Studio 2의 체험판에서는 프로젝트 가져오기를 사용하실 수가 없어요.,,Importing projects is not supported in the Trial version of GameMaker Studio 2 error message
@@ -6284,8 +6284,8 @@ AssetBrowser_ItemCountSingle,{0} item,{0}개의 항목,,item count label singula
 AssetBrowser_ItemCountPlural,{0} items,{0}개의 항목들,,item count label plural
 AssetBrowser_SelectedCount,{0} selected,{0}개 선택,,selected count label
 AssetBrowser_Filters,Filters,필터,,filters
-AssetBrowser_ClearFilters,Clear Filters,필터 정리하기,,clear filters
-AssetBrowser_AssetType,Asset Type,자산 종류,,asset type
+AssetBrowser_ClearFilters,Clear Filters,초기화,,clear filters
+AssetBrowser_AssetType,Asset Type,종류,,asset type
 AssetBrowser_SaveSearch,Save Search,검색 결과 저장하기,,save search
 AssetBrowser_ListView,List View,목록 보기,,list view
 AssetBrowser_GridView,Grid View,격자 보기,,grid view
