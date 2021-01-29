@@ -5502,7 +5502,7 @@ SyntaxError_UnexpectedUnaryOp,unexpected unary operator {0},예기치 않은 단
 SyntaxError_UnexpectedTernaryOp,unexpected ternary operator {0},예기치 않은 삼항 연산자 {0},,syntax error
 SyntaxError_UnmatchedTry,try needs to have catch or finally clause,try는 catch 또는 finally가 필요함,,syntax error
 SyntaxError_MacroExists,macro {0} already exists,매크로 {0}은(는) 이미 존재함,,syntax error
-SyntaxError_MalformedVarRef,malformed variable reference got {0},변수 참조가 올 곳에 {0}이 있음,,syntax error
+SyntaxError_MalformedVarRef,malformed variable reference got {0},변수 참조가 올 곳에 {0}이(가) 있음,,syntax error
 SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,다중 관계 동등 연산자에 대입 - GML은 표현식에서 다중 할당을 지원하지 않음,,syntax error
 SyntaxError_Info,"{0} at line {1}, {2} : {3}","{0}, 줄 {1}, 칸 {2} : {3}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
 SyntaxError_MacroReferenceOnce,macro {0} is unused,매크로 {0}이(가) 사용되지 않음,,syntax error
