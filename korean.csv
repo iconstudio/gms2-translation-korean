@@ -791,12 +791,12 @@ ImageEditor_PasteImageResizeTitle,Resize Canvas,용지 크기 조정하기,,canv
 ImageEditor_ImportResizeLabel,Imported image is a different size from the canvas,가져온 그림의 크기가 용지와 달라요.,,Image editor import dialog resize required description
 ImageEditor_PasteResizeLabel,Pasted image is larger than the canvas,붙여 넣은 그림이 용지보다 커요.,,Image editor import dialog paste resize label
 ImageEditor_Import_ResizeImported,Resize imported image to canvas size,가져온 그림의 크기를 용지에 맞추기,,Image editor import resize imported image
-ImageEditor_Import_ResizeCanvas,Resize canvas to imported image size ({0} x {1}),가져온 그림의 크기를 ({0} x {1})로 조정하기,,Image editor import resize canvas
-ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,붙여 넣은 그림의 크기를 ({0} x {1})로 조정할까요?,,Image editor import resize canvas pasted image
-ImageEditor_ImportCrop_Canvas,Crop/pad canvas,정돈하기 / 여백 두기,,image editor import - crop canvas
-ImageEditor_ImportScale_Canvas,Scale canvas,용지 비율,,image editor import - scale canvas
-ImageEditor_ImportCrop_Import,Crop/pad imported image,가져오는 그림 정돈하기 / 여백 두기,,image editor import- crop imported image
-ImageEditor_ImportScale_Import,Scale imported image,가져오는 그림 비율 조절하기,,image editor import- scale imported image
+ImageEditor_Import_ResizeCanvas,Resize canvas to imported image size ({0} x {1}),용지의 크기를 가져온 그림에 맞추기 ({0} x {1}),,Image editor import resize canvas
+ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,용지의 크기를 붙여넣은 그림에 맞출까요? ({0} x {1}),,Image editor import resize canvas pasted image
+ImageEditor_ImportCrop_Canvas,Crop/pad canvas,용지 정돈하기 / 여백 두기,,image editor import - crop canvas
+ImageEditor_ImportScale_Canvas,Scale canvas,용지 비율 조절하기,,image editor import - scale canvas
+ImageEditor_ImportCrop_Import,Crop/pad imported image,가져온 그림 정돈하기 / 여백 두기,,image editor import- crop imported image
+ImageEditor_ImportScale_Import,Scale imported image,가져온 그림 비율 조절하기,,image editor import- scale imported image
 ImageEditor_InsertFrame,Insert Frame,프레임 삽입하기,,Image editor menu option -Insert frame
 ImageEditor_IntensityLabel,Intensity:,강도,,effect intensity
 ImageEditor_InterpLabel,Interpolation:,보간,,Image editor interpolation label
@@ -2319,8 +2319,8 @@ ggs_launchscreen_fill,Launchscreen fill,시작 화면 채우기,,Launchscreen fi
 ggs_graphics_scale_fullscale,Full scale,최대 비율,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,버전,,Game Settings Version title
 ImagePath_ImageError,Error Selecting Image,그림 선택 오류,,Error when using image_path gadget to select an image
-ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}으로 예상됐지만 {2}x{3}을 받았어요.,,Image wrong size with 0x1 being expected size and 2x3 being the image size
-ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),이 그림은 투명도 채널을 갖고 있을 거라 예상됐어요 (32비트).,,The image needs to have an alpha channel but the selected one does not
+ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}이어야 하지만 {2}x{3}을 입력받았어요.,,Image wrong size with 0x1 being expected size and 2x3 being the image size
+ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),그림에 투명도 채널이 있어야 해요 (32비트).,,The image needs to have an alpha channel but the selected one does not
 ImagePath_FileError,Cannot access file: {0},접근할 수 없는 파일: {0},,Error when trying to access file where 0 is the filename
 ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,선택한 그림은 올바른 '{0}' 형식이 아니에요.,,invalid image format message
 ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<게임 이름>,,Save Path to Local App Data
@@ -5471,65 +5471,65 @@ BreakpointManager_RoomInstance,Room Instance: {0}: {1},룸 개체: {0}: {1},,bre
 BreakpointManager_UnknownEvent,Unknown event,알 수 없는 이벤트,,breakpoint manager caption for an unknown object event
 BreakpointManager_UnknownMoment,Unknown moment,알 수 없는 분기,,breakpoint manager caption for an unknown timeline moment
 BreakpointManager_Info,"{0}, line {1}","{0}, 줄 {1}",,breakpoint manager caption for a breakpoint at a given line number
-SyntaxError_UnterminatedRegEx,unterminated regular expression literal,종결되지 않은 정규식의 리터럴,,syntax error
+SyntaxError_UnterminatedRegEx,unterminated regular expression literal,정규 표현식 리터럴이 끝나지 않음,,syntax error
 SyntaxError_MalformedRef,malformed reference {0},잘못된 참조 {0},,syntax error
-SyntaxError_MalformedHex,malformed hexadecimal character escape sequence,형식이 잘못된 16진수 문자 이스케이프 시퀀스,,syntax error
+SyntaxError_MalformedHex,malformed hexadecimal character escape sequence,16진 탈출 문자 형식이 잘못됨,,syntax error
 SyntaxError_UnexpectedNode,unexpected node {0},예기치 않은 노드 {0},,syntax error
-SyntaxError_ExceptionParsing,Exception while parsing {0},구문 분석도중 예외 발생 : {0},,syntax error
-SyntaxError_UnnecessaryExp,unnecessary expression {0} used as a statement,불필요한 표현식 {0}이 사용됨,,syntax error
+SyntaxError_ExceptionParsing,Exception while parsing {0},{0} 구문 분석 중 예외 발생,,syntax error
+SyntaxError_UnnecessaryExp,unnecessary expression {0} used as a statement,불필요한 표현식 {0}이 문장으로 사용됨,,syntax error
 SyntaxError_MalformedID,malformed id reference {0},잘못된 형식 참조 {0},,syntax error
 SyntaxError_MalformedArray,malformed array reference {0},잘못된 배열 참조 {0},,syntax error
-SyntaxError_UnexpectedBinaryOp,unexpected binary operator {0},예기치 않은 이진 연산자 {0},,syntax error
-SyntaxError_UnterminatedString,unterminated string literal,끝나지 않은 문자열 리터럴,,syntax error
-SyntaxError_SingleQuotes,single quotes no longer allowed for string,작은 따옴표는 더 이상 문자열로 간주되지 않음,,syntax error
+SyntaxError_UnexpectedBinaryOp,unexpected binary operator {0},예기치 않은 이항 연산자 {0},,syntax error
+SyntaxError_UnterminatedString,unterminated string literal,문자열 리터럴이 끝나지 않음,,syntax error
+SyntaxError_SingleQuotes,single quotes no longer allowed for string,작은따옴표는 더 이상 문자열로 사용할 수 없음,,syntax error
 SyntaxError_Unexpected,unexpected syntax error,예기치 않은 구문 오류,,syntax error
-SyntaxError_InvalidArgs,Got '{0}' ({1}) expected '{2}',{2}' 를 예상했으나 '{0}'을 받음 ({1}),,syntax error
-SyntaxError_InvalidArgsOption,Got '{0}' ({1}) expected '{2}' or '{3}',{2}' 또는 '{3}'을 예상했으나 '{0}'을 받음. ({1}),,syntax error
-SyntaxError_ExpectedExp,expected expression,예상된 표현식,,syntax error
-SyntaxError_EmptyStatement,empty {0} statement,빈 문장 {0},,syntax error
+SyntaxError_InvalidArgs,Got '{0}' ({1}) expected '{2}','{2}'이(가) 올 곳에 '{0}' ({1})이 있음,,syntax error
+SyntaxError_InvalidArgsOption,Got '{0}' ({1}) expected '{2}' or '{3}','{2}' 또는 '{3}'이(가) 올 곳에 '{0} ({1})이 있음,,syntax error
+SyntaxError_ExpectedExp,expected expression,표현식이 필요함,,syntax error
+SyntaxError_EmptyStatement,empty {0} statement,빈 {0}문,,syntax error
 SyntaxError_NestedCalls,nested function calls are not allowed,중첩된 함수 호출은 허용되지 않음,,syntax error
-SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 {0}의 사용이 불가능함,,syntax error
-SyntaxError_ArgCount,number of arguments for function {2} expected {0} got {1},인자 {0}개를 예상했으나 {1}개를 받음,,syntax error
-SyntaxError_ArgCountRange,number of arguments for function {3} expected {0} - {1} got {2},인자 {0}개를 예상했으나 {1}에서 {2}개를 받음,,syntax error
+SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Studio 2 Trial,GameMaker Studio 2 체험판에서는 {0}을 사용할 수 없음,,syntax error
+SyntaxError_ArgCount,number of arguments for function {2} expected {0} got {1},인자 {0}개를 받는 함수 {2}에 {1}개를 입력함,,syntax error
+SyntaxError_ArgCountRange,number of arguments for function {3} expected {0} - {1} got {2},인자 {0} - {1}개를 받는 함수 {3}에 {2}개를 입력함,,syntax error
 SyntaxError_DuplicateEnumEntry,duplicate enum entry found,중복된 열거 항목을 찾음,,syntax error
 SyntaxError_DuplicateEnum,duplicate enum found,열거형이 중복됨,,syntax error
-SyntaxError_MissingGlobalVarName,missing variable name in globalvar,해당 이름의 globalvar 변수가 없음,,syntax error
-SyntaxError_MissingVarName,missing variable name in var,해당 이름의 var 변수가 없음,,syntax error
+SyntaxError_MissingGlobalVarName,missing variable name in globalvar,globalvar에 변수명이 누락됨,,syntax error
+SyntaxError_MissingVarName,missing variable name in var,var에 변수명이 누락됨,,syntax error
 SyntaxError_MissingRegion,no matching #region found for #endregion,#endregion에 대응되는 #region이 없음,,syntax error
-SyntaxError_MissingEndRegion,unclosed #region found at End of Script,끝나지 않은 #region이 스크립트 마지막에서 발견됨,,syntax error
-SyntaxError_UnexpectedTerminalOp,unexpected terminal operator {0},예기치 않은 종단 연산자 {0},,syntax error
-SyntaxError_UnexpectedUnaryOp,unexpected unary operator {0},예기치 않은 단 항 연산자 {0},,syntax error
-SyntaxError_UnexpectedTernaryOp,unexpected ternary operator {0},예기치 않은 삼 항 연산자 {0},,syntax error
+SyntaxError_MissingEndRegion,unclosed #region found at End of Script,#region이 스크립트 끝까지 닫히지 않음,,syntax error
+SyntaxError_UnexpectedTerminalOp,unexpected terminal operator {0},예기치 않은 단독 연산자 {0},,syntax error
+SyntaxError_UnexpectedUnaryOp,unexpected unary operator {0},예기치 않은 단항 연산자 {0},,syntax error
+SyntaxError_UnexpectedTernaryOp,unexpected ternary operator {0},예기치 않은 삼항 연산자 {0},,syntax error
 SyntaxError_UnmatchedTry,try needs to have catch or finally clause,try는 catch 또는 finally가 필요함,,syntax error
 SyntaxError_MacroExists,macro {0} already exists,매크로 {0}은(는) 이미 존재함,,syntax error
-SyntaxError_MalformedVarRef,malformed variable reference got {0},잘못된 형식의 변수 참조 {0}이(가) 있음,,syntax error
-SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,다중 관계형 동등 표현식 할당됨 - GML은 표현식에서 다중 할당을 지원하지 않음,,syntax error
-SyntaxError_Info,"{0} at line {1}, {2} : {3}","줄 {1}, {2} : {3} 에서 {0}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
+SyntaxError_MalformedVarRef,malformed variable reference got {0},변수 참조가 올 곳에 {0}이 있음,,syntax error
+SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,다중 관계 동등 연산자에 대입 - GML은 표현식에서 다중 할당을 지원하지 않음,,syntax error
+SyntaxError_Info,"{0} at line {1}, {2} : {3}","{0}, 줄 {1}, 칸 {2} : {3}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
 SyntaxError_MacroReferenceOnce,macro {0} is unused,매크로 {0}이(가) 사용되지 않음,,syntax error
-SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}은(는) 한번만 참조됨,,syntax error
-SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당하지않은 변수 {0}이(가) 사용됨,,syntax error
-SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,생성자로 선언된 경우에만 상속을 사용 가능,,syntax error
-SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 {0} 함수 특성,,syntax error
-SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 \""{0}\""는 함수 인자가 아님",,syntax error
-SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,함수 선언에 인자는 16개까지만 지원됨,,syntax error
-CompileError_Info,{0} at line {1} : {2},줄 {1} : {2} 에서 {0},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
-CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{0} {1}가 {2}의 변수에 '{3}' 예상치 못하게 할당됨 ({4}를 예상함),,Object variable wrong type error
-CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),{0} {1}가 룸 {2}의 인스턴스 {3}'의 변수 '{4}'에 예상치 못하게 할당됨 ({5}를 예상함),,Object variable wrong type error in room instances
-CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',정의되지 않은 변수 '{0}'가 {1}의 변수 '{2}'에서 참조됨,,Object variable undefined reference error
-CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',정의되지 않은 변수 '{0}'가 룸 {3}에 있는 개체 {1}의 변수 '{2}'에서 참조됨,,Instance variable undefined reference error
+SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}이(가) 한 번만 참조됨,,syntax error
+SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당하지 않은 변수 {0}이(가) 참조됨,,syntax error
+SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,생성자로 선언된 함수만 상속을 사용 가능,,syntax error
+SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 함수 특성 {0},,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 ""{0}""이(가) 함수 인자가 아님",,syntax error
+SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,함수 선언에 이름 있는 인자는 16개까지만 지원됨,,syntax error
+CompileError_Info,{0} at line {1} : {2},"{0}, 줄 {1}: {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
+CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{4} 유형이어야 하는 {2}의 변수 '{3}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error
+CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),{5} 유형이어야 하는 룸 {2}에 있는 {3}의 변수 '{4}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error in room instances
+CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',{1}의 변수 '{2}'에서 정의되지 않은 변수 '{0}'을(를) 참조함,,Object variable undefined reference error
+CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',룸 {3}에 있는 {1}의 변수 '{2}'에서 정의되지 않은 변수 '{0}'을(를) 참조함,,Instance variable undefined reference error
 CompileError_Script,Script: {0},스크립트: {0},,script error
 CompileError_Object,Object: {0},객체: {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},룸의 생성 코드: {0},,room creation code error
-CompileError_RoomInstance,Instance Code in Room: {0},룸 안에 개체의 코드: {0},,instance creation code error
+CompileError_RoomInstance,Instance Code in Room: {0},룸 안의 개체의 코드: {0},,instance creation code error
 CompileError_Vertex,Vertex Shader: {0},정점 쉐이더: {0},,vertex shader error
 CompileError_Fragment,Fragment Shader: {0},조각 쉐이더: {0},,fragment shader error
 CompileError_Timeline,Timeline: {0},타임라인: {0},,timeline error
-CompileError_Collision,{0} Collision Event With {1},{0}의 {1}와의 충돌,,event error
+CompileError_Collision,{0} Collision Event With {1},{0} {1}와(과) 충돌 이벤트,,event error
 CompileError_KeyEvent,{0} Key Event: {1},{0} 키: {1},,event error
 CompileError_KeyPressed,{0} Key Pressed: {1},{0} 키 눌렀음: {1},,event error
 CompileError_KeyReleased,{0} Key Released: {1},{0} 키 뗌: {1},,event error
-CompileError_Event,{0} Event: {1},{1}의 이벤트 {0}:,,event error
-CompileError_RoomInstanceName,{0} instance {1}: ,{1}의 개체 {0}:,,room instance error
+CompileError_Event,{0} Event: {1},{0} 이벤트: {1},,event error
+CompileError_RoomInstanceName,{0} instance {1}: ,{0}의 개체 {1}:,,room instance error
 SyntaxError_RoomCode,{0} Creation Code,{0}의 생성 코드,,room creation code syntax error
 Notification_UpdatedRuntime,An updated runtime is available in {0}!,업데이트된 런타임을 {0}에서 사용할 수 있어요.,,notification when a new runtime is available
 Notification_Runtimes,Runtimes,런타임,,notification title
