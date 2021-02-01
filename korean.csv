@@ -5476,7 +5476,7 @@ SyntaxError_MalformedRef,malformed reference {0},잘못된 참조 {0},,syntax er
 SyntaxError_MalformedHex,malformed hexadecimal character escape sequence,16진 탈출 문자 형식이 잘못됨,,syntax error
 SyntaxError_UnexpectedNode,unexpected node {0},예기치 않은 노드 {0},,syntax error
 SyntaxError_ExceptionParsing,Exception while parsing {0},{0} 구문 분석 중 예외 발생,,syntax error
-SyntaxError_UnnecessaryExp,unnecessary expression {0} used as a statement,불필요한 표현식 {0}이 문장으로 사용됨,,syntax error
+SyntaxError_UnnecessaryExp,unnecessary expression {0} used as a statement,불필요한 표현식 {0}이 사용됨,,syntax error
 SyntaxError_MalformedID,malformed id reference {0},잘못된 형식 참조 {0},,syntax error
 SyntaxError_MalformedArray,malformed array reference {0},잘못된 배열 참조 {0},,syntax error
 SyntaxError_UnexpectedBinaryOp,unexpected binary operator {0},예기치 않은 이항 연산자 {0},,syntax error
@@ -5515,7 +5515,7 @@ SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function decl
 CompileError_Info,{0} at line {1} : {2},"{0}, 줄 {1}: {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{4} 유형이어야 하는 {2}의 변수 '{3}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),{5} 유형이어야 하는 룸 {2}에 있는 {3}의 변수 '{4}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error in room instances
-CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',{1}의 변수 '{2}'에서 정의되지 않은 변수 '{0}'을(를) 참조함,,Object variable undefined reference error
+CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',{1}의 변수 '{2}'에서 정의되지 않은 변수 '{0}'를 참조함,,Object variable undefined reference error
 CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',룸 {3}에 있는 {1}의 변수 '{2}'에서 정의되지 않은 변수 '{0}'을(를) 참조함,,Instance variable undefined reference error
 CompileError_Script,Script: {0},스크립트: {0},,script error
 CompileError_Object,Object: {0},객체: {0},,object event error
