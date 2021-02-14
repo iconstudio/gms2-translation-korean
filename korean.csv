@@ -6183,8 +6183,8 @@ SequenceMessage_TagAlreadyExistsMsg,Tag '{0}' already exists on this track.,태�
 SequenceMessage_AddedParameterMsg,Added parameter '{0}' to the track.,{0}'가 매개자로 트랙에 추가됐어요.,,Parameter added message
 SequenceMessage_DeleteTagMsg,Do you want to delete tag(s) {0} from the track?,트랙에서 태그 {0}개를 지울까요?,,Do you want to delete tags question message
 SequenceTooltip_TagAlreadyExists,This tag is already on the track,그 태그는 이미 트랙에 있어요.,,Tag already on track tooltip
-SequencePref_ParameterConfirmDialog,Whether a confirmation dialog should be shown when a new track parameter is added,새로운 트랙 매개자가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
-SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when a new track tag is added,새로운 트랙 태그가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
+SequencePref_ParameterConfirmDialog,Whether a confirmation dialog should be shown when a new track parameter is added,트랙 매개자가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
+SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when a new track tag is added,트랙 태그가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
 SequencePref_DeleteTagDialog,Whether a confirmation dialog should be shown when trying to delete a tag,트랙 태그가 삭제될 때마다 확인 대화상자 띄우기,,Delete tag confirm dialog preference
 SequencePref_ChainThickness,Canvas chain thickness,연결 사슬 굵기,,Canvas chain thickness preference
 SequencePref_ChainColor,Canvas chain colour,연결 사슬 색상,,Canvas chain colour preference
@@ -6225,7 +6225,7 @@ Sequence_Length_Label,Length,길이,,Sequence length label
 Sequence_Head_Label,Head,머릿단,,Sequence head label
 Sequence_Volume,Volume,음량,,Volume label
 Sequence_Tooltip_Volume,Master volume for IDE playback,IDE 재생단의 마스터 음량,,Master volume tooltip
-Sequence_Tooltip_Play,Play sequence from head marker,머릿단부터 시퀀스 재생하기,,Play sequence tooltip
+Sequence_Tooltip_Play,Play sequence from head marker,처음부터 시퀀스 재생하기,,Play sequence tooltip
 Sequence_Tooltip_Stop,Pause sequence,시퀀스 일시 정지하기,,Pause sequence tooltip
 Sequence_Tooltip_PlaybackMode,Change playback mode,재생 방식 바꾸기,,Change playback mode tooltip
 Sequence_Tooltip_Button_Menu,Show Menu,메뉴 보이기,,Show Menu tooltip
