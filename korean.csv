@@ -6123,7 +6123,7 @@ SequenceGizmo_Ghosting,Delta Ghosting,델타 고스팅,,Ghosting gizmo text
 SequenceGizmo_Origin,Origin,중심,,Origin gizmo text
 SequenceGizmo_ZeroZero,Zero zero,제로 제로,,Zero zero gizmo text
 SequenceGizmo_AxisTransform,Transform,변형,,Transform gizmo text
-SequenceGizmo_ShowAxes,Show Axes,Axes 보이기,,Show axes gizmo text
+SequenceGizmo_ShowAxes,Show Axes,축 보이기,,Show axes gizmo text
 SequenceGizmo_TranslationPath,Translation Path,경로 변환하기,,Translation path gizmo text
 Sequence_AddTagTooltip,Add tag,태그 추가하기,,Add tag tooltip
 Sequence_RemoveTagsTooltip,Remove selected tags,선택된 태그 지우기,,Remove selected tags tooltip
