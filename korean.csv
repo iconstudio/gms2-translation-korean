@@ -356,8 +356,8 @@ Event_Mouse_RightPressed,Right Pressed,오른쪽 눌렀음,,Mouse event subtype
 Event_Mouse_RightReleased,Right Released,오른쪽 뗌,,Mouse event subtype
 Event_Other,Other,기타,,Other event name
 Event_Other_AnimationEnd,Animation End,애니메이션 종료,,Other event subtype
-Event_Other_AnimationEvent,Animation Event,애니메이션 이벤트,,Other event subtype
-Event_Other_AnimationUpdate,Animation Update,애니메이션 갱신,,Other event subtype
+Event_Other_AnimationEvent,Animation Event,Spine 애니메이션,,Other event subtype
+Event_Other_AnimationUpdate,Animation Update,Spine 애니메이션 갱신,,Other event subtype
 Event_Other_BroadcastMessage,Broadcast Message,메시지 송신,,Other event subtype
 Event_Other_EndOfPath,Path Ended,경로 끝남,,Other event subtype
 Event_Other_GameEnd,Game End,게임 종료,,Other event subtype
@@ -379,7 +379,7 @@ Event_StepEnd,End Step,스텝 끝,,End Step event name
 Event_Unknown,Unknown Event,알 수 없는 이벤트,,Object editor unknown event name
 SeqEvents_Tooltip,Sequence Events,시퀀스 이벤트,,Events button tooltip
 SeqEvents_TypeFunctionNameHere,Type Function Name Here,여기에 함수의 이름을 입력하세요.,,Type Function Name Here
-SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},함수 '{0}'를 덮어씌웁니다.,,Used in the confirmation dialog
+SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},함수 '{0}'를 덮어씌우는 작업이에요.,,Used in the confirmation dialog
 SeqEvents_NewFunctionQuestion,Would you like to create new functions?,새로운 함수를 만들까요?,,Seq func question
 SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,새 함수,,Used as the confirmation dialog's title
 SeqMessages_TypeMessageHere,Type Broadcast Message Here,여기에 송출할 메시지의 내용을 입력하세요.,,Type Broadcast Message Here
@@ -3714,17 +3714,17 @@ GMStdSeqPause_Name,Pause Sequence,시퀀스 일시 정지하기,,Drag and Drop�
 GMStdSeqPause_Desc,Pauses the sequence.,시퀀스를 잠시 멈춥니다.,,Drag and Drop™ library action description
 GMStdIfSeqExists_Name,If Sequence Exists,만약 시퀀스가 존재하는지,,Drag and Drop™ library action name
 GMStdIfSeqExists_Desc,Check if a sequence exists.,시퀀스가 존재하는지 확인합니다.,,Drag and Drop™ library action description
-GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,dnd library action name
-GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,dnd library action description
-GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,dnd library action name
-GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,dnd library action name
-GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
-GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
-GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
+GMStdSeqGetLength_Name,Get Sequence Length,Get Sequence Length,,dnd library action name
+GMStdSeqGetLength_Desc,Gets the length of a sequence element.,Gets the length of a sequence element.,,dnd library action description
+GMStdSeqGetHead_Name,Get Sequence Head,Get Sequence Head,,dnd library action name
+GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,Gets the head position (in frames) of a sequence element.,,dnd library action description
+GMStdSeqSetHead_Name,Set Sequence Head,Set Sequence Head,,dnd library action name
+GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,Sets the head position (in frames) of a sequence element.,,dnd library action description
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Get length of sequence instance ${sequenceelmid} into ${var},,dnd story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Get length of sequence instance ${sequenceelmid} into temp ${var},,dnd story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},,dnd story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},,dnd story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},,dnd story text
 GMStdDestroyAtPos_Name,Destroy At Position,위치에 있는 개체 파괴하기,,Drag and Drop™ library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,어떤 위치의 모든 개체를 제거합니다.,,Drag and Drop™ library action description
 GMStdSetSprite_Name,Set Sprite,스프라이트 정하기,,Drag and Drop™ library action name
@@ -4240,7 +4240,7 @@ GMStdRotation,Rotation,회전,,Drag and Drop™ library argument label
 GMStdName,Name,이름,,Drag and Drop™ library argument label
 GMStdVertically,Vertical,세로,,Drag and Drop™ library argument label
 GMStdHorizontally,Horizontal,가로,,Drag and Drop™ library argument label
-GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
+GMStdSeqHead,Head (frames),Head (frames),,dnd library argument label
 GMStdEqual,Equal,같다면,,DnD™
 GMStdLess,Less,미만이면,,DnD™
 GMStdGreater,Greater,초과면,,DnD™
@@ -4714,7 +4714,7 @@ SequencePref_ChainSoftness,Canvas chain rendering segment count,용지 내의 �
 SequencePref_TranslationPathInsertion,Translation path point insertion margin,경로의 점들이 놓일 여유 간격,,Insertion Precision in Sequence Editor
 SequencePref_AddActionMessage,Automatic button choice on Add Action,동작을 추가할 때 자동으로 버튼 선택,,Automatic button choice on Add Action dialog
 SequencePref_CreateDefaultParameterTracks,Automatically create default parameter tracks,기본 매개변수 트랙을 만들기,,Automatically create default parameter tracks prefs
-SequencePref_AutoStretchResources,Automatically stretch newly added assets,새로 추가한 자산을 늘이기,,Automatically stretch newly added assets prefs
+SequencePref_AutoStretchResources,Automatically stretch newly added assets,새로 추가한 자산을 시퀀스 길이에 맞추기,,Automatically stretch newly added assets prefs
 SequencePref_ConfirmEmbed,Automatic choice to embed edited curve,편집했던 곡선을 포함,,sequence embed confirm pref
 SequencePref_ConvertToKeys,Automatic choice to convert curve to keys,곡선을 키로 변환,,sequence convert to keys pref
 SequencePref_ExternalCurveEditWarning,Automatic choice to show warning on external curve edit,외부의 곡선을 편집할 때 경고,,sequence pref external curve edit
@@ -5877,7 +5877,7 @@ ResourceTree_OpenInShapeViewer,Open in Shape Viewer,도형 뷰어에서 열기,,
 SequenceEditor_Title,Sequence: {0},{0},,Sequence editor window title
 SequenceEditor_Pref_AutoRecord,Automatically record changes,자동으로 변경 사항 기록하기,,Sequence auto record preference
 SequenceEditor_Pref_PauseCanvas,Pause when clicking on canvas,용지를 클릭할 때 잠시 멈추기,,Sequence pause canvas preference
-SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,밀리 초 단위로 선택 영역에 지연 주기,,Sequence canvas preference
+SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,선택 지연 시간 (밀리초),,Sequence canvas preference
 SequenceEditor_Pref_ShowBackdrop,Show canvas frame on newly created sequences,새 시퀀스에서 프레임 용지 보기,,Show canvas frame newly created sequence preference
 SequenceEditor_Pref_BackdropWidth,Canvas frame width on newly created sequences,새 시퀀스에서의 프레임 너비,,canvas frame width newly created sequence preference
 SequenceEditor_Pref_BackdropHeight,Canvas frame height on newly created sequences,새 시퀀스에서의 프레임 높이,,canvas frame height newly created sequence preference
@@ -5997,7 +5997,7 @@ Track_Param_Channel_Colour_B,blue,파랑,,sequence parameter channel colour blue
 Track_Param_Channel_Gain,volume,음량,,sequence parameter channel gain
 Track_Param_Channel_Pitch,pitch,피치,,sequence parameter channel pitch
 Track_Param_Channel_Falloff,falloff,감량,,sequence parameter channel falloff
-Track_Param_Channel_Index,index,인덱스,,sequence parameter channel index
+Track_Param_Channel_Index,index,번호,,sequence parameter channel index
 Track_Param_Channel_Speed,speed,속도,,sequence parameter channel speed
 Track_Param_Channel_Generic,channel {0},채널 {0},,sequence parameter channel generic title
 AnimCurve_DoubleClickToEdit,Double-click to edit,더블 클릭해서 편집하기,,Double-click to edit anim curve tooltip
@@ -6400,7 +6400,7 @@ ACL_elastic,Elastic,Elastic,,anim curve library curve name
 ACL_bounce,Bounce,Bounce,,anim curve library curve name
 ACL_fastOutSlowIn,Fast To Slow,Fast To Slow,,anim curve library curve name
 ACL_slowMiddle,Mid Slow,Mid Slow,,anim curve library curve name
-ACL_ResetTip,Select "Reset" to revert curve to initial state.,Select "Reset" to revert curve to initial state.,,anim curve library reset tip
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.","Select ""Reset"" to revert curve to initial state.",,anim curve library reset tip
 assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들을 만들기,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최대로 보여줄 최근에 편집된 항목들의 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상 팔레트의 크기,,colour palette entry count
@@ -6411,13 +6411,13 @@ assetbrowser_defaultsortorder,Default sort order for new Asset Browsers,새 자�
 ListBoxEnum_eSortType_AtoZ,A-Z,A-Z,,sort order enum a-z
 ListBoxEnum_eSortType_ZtoA,Z-A,Z-A,,sort order enum z-a
 ListBoxEnum_eSortType_Custom,Custom,사용자 정의,,sort order enum custom sort
-assetbrowser_defaultfoldersfirst,Default sort folders first,기본적으로 폴더를 앞에 위치시키기,,default sort folders first
+assetbrowser_defaultfoldersfirst,Default sort folders first,기본적으로 폴더를 앞에 놓기,,default sort folders first
 assetbrowser_duplicatefoldermove,Automatic response to duplicate group name error,폴더 복제 오류,,Automatically dismiss duplicate folder error
 AssetBrowser_ExpandOnFilterChange,Expand tree on filter change,필터가 바뀔 때 자원 트리 펼치기,,Automatically expand the tree when the filter is changed
 assetbrowser_show_quickaccess,Show Quick Access,빠른 실행 보이기,,asset browser quick access enabled pref
 assetbrowser_deletetag,Automatic response to delete tag confirmation,태그 삭제 확인,,delete tag confirmation pref
 assetbrowser_automaticRoGroupDeletion,Automatic response to Room Order group deletion,룸 순서 폴더 삭제,,Automatic room order group deletion on asset browser
-assetbrowser_UngroupDeletesGroup,Room Order Ungroup removes the empty group,룸을 옮길 때 빈 폴더를 없애기,,delete group on ungroup pref
+assetbrowser_UngroupDeletesGroup,Room Order Ungroup removes the empty group,룸을 옮길 때 빈 룸 순서 폴더를 없애기,,delete group on ungroup pref
 preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,선택된 API 수준에 미리 SDK 값 할당하기,,Pre-populate SDK values to chosen API Level
 preferences_android_genadaptive_icon,Generate Foregrounds From File:,파일로부터 배경 생성,,generate adaptive icons widget foreground file label
 preferences_android_genadaptive_bg,Generate Backgrounds From File:,파일로부터 전경 생성,,generate adaptive icons widget background file label
