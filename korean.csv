@@ -6082,7 +6082,7 @@ SequenceCanvas_Toolbox_MultiselectTooltip,Multiple targets,다중 대상,,Multip
 SequenceCanvas_EditWindow_Title,Edit,편집,,Edit window title
 SequenceCanvas_DeleteWindow_Title,Delete,삭제,,Delete window title
 SequenceCanvas_DeleteWindow_Message,Are you sure you want to delete {0}?,정말로 {0}을(를) 지울까요?,,Delete confirmation label
-SequenceCanvas_DeleteWindow_Multiselect_Message,Are you sure you want to delete the selected items?,정말로 선택된 항목들일 지울까요?,,Delete confirmation label
+SequenceCanvas_DeleteWindow_Multiselect_Message,Are you sure you want to delete the selected items?,정말로 선택된 항목들을 지울까요?,,Delete confirmation label
 SequenceCanvas_EventsWindow_Title,Events,이벤트,,Events window title
 SequenceCanvas_Toolbox_Delete,Delete,삭제,,Toolbox delete tooltip
 SequenceCanvas_Toolbox_SelectThisItem,Select {0},{0} 선택,,Select item tooltip
