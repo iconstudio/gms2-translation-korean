@@ -6380,27 +6380,27 @@ AnimCurve_DefaultChannelName,curve{0},곡선 {0},,default channel name
 AnimCurve_EmbeddedCurveName,Embedded Curve,포함된 곡선,,anim curve embedded curve
 AnimCurve_ChannelValue_H,h,h,,h channel value
 AnimCurve_ChannelValue_V,v,v,,v channel value
-AnimCurveLib_Title,Animation Curve Library,Animation Curve Library,,anim curve library window title
-AnimCurveLib_Type,Type,Type,,type label
-AnimCurveLib_Presets,Presets,Presets,,presets label
-AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,Overwrite: Apply curve once across all selected sections,,overwrite mode tooltip
-AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,Between: Apply curve repeatedly for each selected section,,between mode tooltip
-AnimCurveLib_TTEaseOut,Ease Out,Ease Out,,ease out tooltip
-AnimCurveLib_TTEaseIn,Ease In,Ease In,,ease in tooltip
-AnimCurveLib_TTEaseInOut,Ease In-Out,Ease In-Out,,ease in-out tooltip
-AnimCurveLib_Reset,Reset,Reset,,reset curve label
-ACL_linear,Linear,Linear,,anim curve library curve name
-ACL_ease,Ease,Ease,,anim curve library curve name
-ACL_easeCubic,Cubic,Cubic,,anim curve library curve name
-ACL_easeQuart,Quart,Quart,,anim curve library curve name
-ACL_easeExpo,Expo,Expo,,anim curve library curve name
-ACL_easeCirc,Circ,Circ,,anim curve library curve name
-ACL_easeBack,Back,Back,,anim curve library curve name
-ACL_elastic,Elastic,Elastic,,anim curve library curve name
-ACL_bounce,Bounce,Bounce,,anim curve library curve name
-ACL_fastOutSlowIn,Fast To Slow,Fast To Slow,,anim curve library curve name
-ACL_slowMiddle,Mid Slow,Mid Slow,,anim curve library curve name
-ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.","Select ""Reset"" to revert curve to initial state.",,anim curve library reset tip
+AnimCurveLib_Title,Animation Curve Library,애니메이션 곡선 라이브러리,,anim curve library window title
+AnimCurveLib_Type,Type,종류,,type label
+AnimCurveLib_Presets,Presets,사전 설정,,presets label
+AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,교체: 선택된 곡선에 한번 적용해요.,,overwrite mode tooltip
+AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,혼합: 선택된 곡선에 연속으로 적용해요.,,between mode tooltip
+AnimCurveLib_TTEaseOut,Ease Out,크게,,ease out tooltip
+AnimCurveLib_TTEaseIn,Ease In,작아지게,,ease in tooltip
+AnimCurveLib_TTEaseInOut,Ease In-Out,작아졌다 크게,,ease in-out tooltip
+AnimCurveLib_Reset,Reset,초기화,,reset curve label
+ACL_linear,Linear,선형,,anim curve library curve name
+ACL_ease,Ease,보간,,anim curve library curve name
+ACL_easeCubic,Cubic,이중,,anim curve library curve name
+ACL_easeQuart,Quart,사중,,anim curve library curve name
+ACL_easeExpo,Expo,제곱,,anim curve library curve name
+ACL_easeCirc,Circ,원호,,anim curve library curve name
+ACL_easeBack,Back,회귀,,anim curve library curve name
+ACL_elastic,Elastic,탄력,,anim curve library curve name
+ACL_bounce,Bounce,반동,,anim curve library curve name
+ACL_fastOutSlowIn,Fast To Slow,빠름에서 느리게,,anim curve library curve name
+ACL_slowMiddle,Mid Slow,중간 느리기,,anim curve library curve name
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.",초기화로 처음 상태로 되돌릴 수 있어요.,,anim curve library reset tip
 assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들을 만들기,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최대로 보여줄 최근에 편집된 항목들의 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상 팔레트의 크기,,colour palette entry count
