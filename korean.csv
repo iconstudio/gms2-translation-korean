@@ -4342,7 +4342,7 @@ GMStdFile,File,파일 이름,,DnD™
 GMStdBuffer,Buffer,버퍼,,DnD™
 GMStdSeek,Seek,쓰기 위치 쫓기,,DnD™
 GMStdRelative,Relative,상대적,,DnD argument label
-GMStdAbsolute,Absolute,Absolute,,DnD argument label
+GMStdAbsolute,Absolute,절대적,,DnD argument label
 GMStdOffset,Offset,오프셋,,DnD™
 GMStdVar_mirror,Mirror,좌우 반전 (X),,Mirror DnD™
 GMStdVar_flip,Flip,상하 반전 (Y),,Flip DnD™
@@ -4501,10 +4501,10 @@ SPINE_ATLAS_NOT_FOUND,Spine: unable to find .atlas file for {0},Spine: {0} 용 .
 SPINE_TEXTURE_NOT_FOUND,Spine: unable to find texture file: {0},Spine: {0} 텍스처를 찾을 수 없어요.,,spine texture not found message
 SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: {0} json 파일을 찾을 수 없어요.,,spine json not found message
 Spine_License_Title,Spine Agreement,Spine 계약 약관,,spine licence dialog title
-Spine_License_Label1,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,Esoteric Software 에서 Spine을 구매하시고 GameMaker에서도 Spine 애니메이션을 창조하고 배포하세요.,,spine licence label
+Spine_License_Label1,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,Esoteric Software에서 Spine을 구매하시고 GameMaker에서도 Spine 애니메이션을 창조하고 배포하세요.,,spine licence label
 Spine_License_Label2,"To purchase Spine, please visit",Spine을 구매하려면 방문해주세요.,,spine licence label
 Spine_License_Link,http://esotericsoftware.com,http://esotericsoftware.com,,spine link
-Spine_License_Label3,"To use Spine animations with GameMaker, please agree to the licence above.",GameMaker 에서 Spine을 사용하시려면 위의 라이선스에 동의해주세요.,,spine licence label
+Spine_License_Label3,"To use Spine animations with GameMaker, please agree to the licence above.",GameMaker에서 Spine을 사용하시려면 위의 라이선스에 동의해주세요.,,spine licence label
 Spine_License_Agree,I agree to the terms listed,동의,,spine licence agreement
 Spine_License_AcceptLabel,Accept Spine licence,Spine 라이선스 동의,,spine licence option
 Spine_License_Show,Show Licence,라이선스 보기,,spine licence button
@@ -4640,7 +4640,7 @@ Marketplace_MyLibrary_ViewAuthor,Visit this author's page.,저자의 페이지 �
 Marketplace_MyLibrary_ViewReviews,View this asset's reviews.,이 자산의 리뷰 보기,,Review link text
 Marketplace_MyLibrary_Offline,Offline,오프라인,,Offline label
 Marketplace_MyLibrary_DeleteContentTitle,Delete Local Content?,로컬 컨텐츠를 지울까요?,,marketplace delete asset warning title
-Marketplace_MyLibrary_OfflineDelete,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,{0}'의 로컬 컨텐츠를 지울까요?\n다시 내려 벋으시어야 해요.,,marketplace asset delete offline warning
+Marketplace_MyLibrary_OfflineDelete,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,{0}'의 로컬 컨텐츠를 지울까요?\n다시 내려 받으셔야 해요.,,marketplace asset delete offline warning
 Marketplace_OfflineDeleteConfirmChoice,Automatic response to offline content delete,오프라인 컨텐츠 삭제,,preference choice for marketplace offline local content delete
 TileSetEditor_OpenClosedEdge_ToolTip,Open Or Closed Edges,열리거나 닫힌 가장자리,,tooltip for the auto tile set option to have open or closed edges
 Marketplace_MyLibrary_SearchCaption,Search Results ({0}),검색 결과 ({0}),,Search caption
@@ -4739,7 +4739,7 @@ DnDModule_DeleteNode,Delete,삭제,,DnD™ module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),랩톱 모드 ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,켜기,,On text
 IDETooltip_LaptopMode_Off,Off,끄기,,Off text
-IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","랩톱 모드에서는 마우스로 이동(Pan)과 스크롤 그리고 확대가 가능합니다.\n${LaptopLZoomKey}을(를) 누르고 있으면 확대가 되고, 왼쪽 Alt를 누르면 이동과 스크롤이 되며\n${LaptopRHSKeys}은(는) 랩톱 모드가 활성화 돼있는 동안 마우스 사용이 중지됩니다.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","랩톱 모드에서는 마우스로 옮기기, 스크롤 그리고 확대가 가능합니다.\n${LaptopLZoomKey}을(를) 누르고 있으면 확대가 되고, 왼쪽 Alt를 누르면 이동과 스크롤이 되며\n${LaptopRHSKeys}은(는) 랩톱 모드가 활성화 돼있는 동안 마우스 사용이 중지됩니다.",,IDE toolbar laptop mode description
 MyAccount_Offline,Cannot access account management: User is offline,계정 관리에 접근할 수가 없어요. 사용자가 오프라인이에요.,,User is offline and trying to access My Account
 UserOffline_NeedsInternet,Please make sure you have a working internet connection and try again.,인터넷에 연결되어 있는지 확인하시고 다시 시도해보세요.,,User is offline
 MyAccount_WorkspaceTitle,My Account,내 계정,,My account workspace title
@@ -4853,7 +4853,7 @@ Debugger_Profiler_Running,Profiling...,프로파일 중...,,debugger profiling
 Debugger_Profiler_Averages,Average Values,평균 값,,Debugger show average values
 Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,모든 값을 평균으로 표시하려면 이것을 선택하세요\n누적 값을 표시하려면 선택하세요,,Debugger averages tooltip
 Debugger_DataGrid_CallCount,Call Count,호출 횟수,,Debugger call count
-Debugger_DataGrid_Time,Time (Ms),시간 (ms),,Debugger time count
+Debugger_DataGrid_Time,Time (Ms),밀리초 시간,,Debugger time count
 Debugger_DataGrid_Step,Step %,스텝 %,,Debugger step % column
 Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,이 그래프는 시간에 따른 메모리 사용 실태와 초당 프레임 수를 보여줘요. \nCtrl을 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
 Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,이 그래프는 초당 프레임 수와 시간 경과에 따른 메모리 사용량을 보여줘요.\n⌘키를 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
@@ -5019,8 +5019,8 @@ StartPage_Offline,This link cannot be opened as you are currently offline.,이 �
 debuggerporttouse,Debugger port,디버거가 사용할 포트,,Port for Debugger to use label in Settings
 debuggershoweventicons,Show event icons in Debugger Resource View,디버거 자원 보기에서 이벤트 아이콘 표시하기,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,실시간 디버깅 활성화하기,,Enable real-time debugging label in Settings
-syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (ms),,Syntax Checking delay (ms) setting label
-codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (ms),,Code Completion delay (ms) setting label
+syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (밀리초),,Syntax Checking delay (ms) setting label
+codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (밀리초),,Code Completion delay (ms) setting label
 ggs_draw_colour,Default draw colour,기본 그리기 색상,,the option for the default draw colour
 ggs_window_colour,Default colour outside the room region,룸 외부의 기본 색상,,the option for the default colour outside the room region
 defaultprojectdrawcolour_description,Initial default draw colour for new projects,새 프로젝트의 기본 그리기 색상,,the preference for setting the default draw colour option on project creation
@@ -5136,11 +5136,11 @@ MarketplaceFilter_GMS2Only,GMS 2.x,GMS 2.x,,Studio 2 assets filter name for mark
 MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for marketplace library
 MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE 언어,,Label beside the IDE language selection
-pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,GameMaker Studio 2의 최대 프레임,,Maximum framerate preference
-pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차,,File watcher preference to handle save tolerance in ms
+pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,프로그램의 최대 프레임,,Maximum framerate preference
+pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차 (밀리초),,File watcher preference to handle save tolerance in ms
 File Watcher,File Watcher,파일 감시자,,File Watcher preference label
 notification_popups,Enable notifications,알림 활성화하기,,Enable Notification messages
-notification_timeout,Notification timeout (ms),알림 제한 시간 (ms),,Notification timeout in ms
+notification_timeout,Notification timeout (ms),알림 제한 시간 (밀리초),,Notification timeout in ms
 android_linktoamazonsubmit,Link to Amazon Submission Guide,Amazon 제출 안내문 링크,,Link to Amazon Submission Guide
 RemoteWorker_AddWorker,Add Worker,작업자 추가,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,Are you sure you wish to delete this remote?,정말로 이 원격 작업자를 지울까요?,,the message when a user tries to delete a remote
@@ -5307,7 +5307,7 @@ General Settings,General Settings,일반 설정,,General Settings preference gro
 Drag and Drop,Drag and Drop,드래그 앤 드롭,,Drag and Drop preference group heading
 Image Editor,Image Editor,그림 편집기,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,스프라이트 편집기,,Sprite Editor preference group heading
-Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
+Nineslice,Nine Slice,9등분 스프라이트,,Sprite editor nineslice pref group subheading
 Object Editor,Object Editor,객체 편집기,,Object Editor preference group heading
 Script Editor,Script Editor,룸 편집기,,Script Editor preference group heading
 Room Editor,Room Editor,스프라이트 편집기,,Room Editor preference group heading
@@ -5556,7 +5556,7 @@ SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}�
 SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당하지 않은 변수 {0}이(가) 참조됨,,syntax error
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,생성자로 선언된 함수만 상속을 사용 가능,,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 함수 특성 {0},,syntax error
-SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 ""{0}""이(가) 함수 인자가 아님",,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 ""{0}""는 함수 인자가 아님",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,함수 선언에 이름 있는 인자는 16개까지만 지원됨,,syntax error
 CompileError_Info,{0} at line {1} : {2},"{0}, 줄 {1}: {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{4} 유형이어야 하는 {2}의 변수 '{3}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error
@@ -6623,8 +6623,8 @@ Error_ImportProjectTitle,Error Saving Import Project,가져온 프로젝트 저�
 Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Saving Import Project message
 Track Panel,Track Panel,트랙 창,,Track Panel label in Sequence Editor
 at:,at:,:,,Label for Moment Editor to show which frame this moment triggers at
-Warning_ImportProject_Title,Warning,Warning,,Warning
+Warning_ImportProject_Title,Warning,경고,,Warning
 Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
-Warning_AppIconAlpha_Title,Warning,Warning,,Warning
+Warning_AppIconAlpha_Title,Warning,경고,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
 Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
