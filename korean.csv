@@ -6125,7 +6125,7 @@ SequenceGizmo_ZeroZero,Zero zero,제로 제로,,Zero zero gizmo text
 SequenceGizmo_AxisTransform,Transform,변형,,Transform gizmo text
 SequenceGizmo_ShowAxes,Show Axes,축 보이기,,Show axes gizmo text
 SequenceGizmo_TranslationPath,Translation Path,경로 변환하기,,Translation path gizmo text
-Sequence_AddTagTooltip,Add tag,태그 추가하기,,Add tag tooltip
+Sequence_AddTagTooltip,Add tag,태그 더하기,,Add tag tooltip
 Sequence_RemoveTagsTooltip,Remove selected tags,선택된 태그 지우기,,Remove selected tags tooltip
 DopeSheet_Tooltip_NewKey,Record a new key (F9),새로운 태그 기록하기 (F9),,New key tooltip
 DopeSheet_Tooltip_AutoRecord,Automatically record changes (F10),변경 사항 자동으로 기록하기 (F9),,Auto record tooltip
