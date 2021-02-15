@@ -6624,7 +6624,7 @@ Error_ImportProjectMessage,Could not save imported project at specified path. Yo
 Track Panel,Track Panel,트랙 창,,Track Panel label in Sequence Editor
 at:,at:,:,,Label for Moment Editor to show which frame this moment triggers at
 Warning_ImportProject_Title,Warning,경고,,Warning
-Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 정말로 이 폴더에 다른 하부 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning Importing Project message
 Warning_AppIconAlpha_Title,Warning,경고,,Warning
-Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
-Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
+Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,선택하신 그림은 투명도가 있어요. 다른 그림을 골라주세요.,,App icon image transparency warning message
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,실행 파일이 아직 실행중이여서 만들어질 수가 없어요.,,Application running error message.
