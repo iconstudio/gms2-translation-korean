@@ -1,4 +1,4 @@
-"﻿﻿Name",English,Translation,Restrictions,Comment
+﻿﻿﻿Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},오류: {0},,General error prefix
@@ -92,7 +92,7 @@ CertProperties_CreateInfoLabel,"If you don't have a certificate, you can create 
 CertProperties_CreateNewCertificate,Create new certificate,인증서 만들기,,certificate properties create new certificate button label
 CertProperties_CreateCertificate,Create Certificate,인증서 만들기,,certificate properties create certificate button label
 CertProperties_EnterCertDetails,Enter new certificate details:,인증서 상세 입력:,,certificate properties enter certificate details
-CertProperties_PublisherName,Publisher Name:,"게시자 이름: ",,cert properties author name
+CertProperties_PublisherName,Publisher Name:,게시자 이름: ,,cert properties author name
 CertProperties_CreatePublisherAccount,Create Publisher Account,게시자 계정 생성,,create publisher account button label
 CodeWindow_2Column,2 columns,2단,,Document window layout menu option - 2columns
 CodeWindow_3Column,3 columns,3단,,Document window layout menu option - 3 columns
@@ -178,7 +178,7 @@ DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1
 DialogEditor_Error,Error,오류,,dialog editor error box title
 DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',대화상자 편집기: json 파일을 여는데 실패했어요: '{0}',,The .json file selected failed to load
 DialogEditor_FileBrowse,Browse...,찾아보기...,,browse for filepath
-DialogEditor_FileName,File name:,"파일 이름: ",,layout file name
+DialogEditor_FileName,File name:,파일 이름: ,,layout file name
 DialogEditor_FlattenSubLayout,Flatten SubLayout,하위 레이아웃 평탄화,,Context menu/menu bar entry for flattening a sub layout within a layout hierarchy
 DialogEditor_Gadgets,Gadgets,가젯,,Layout Hierarchy heading for a gadgets group
 DialogEditor_GUIBase,GUI Base,GUI 기반,,gadget properties heading for properties coming from the GUIBase class
@@ -189,7 +189,7 @@ DialogEditor_HSVTextEntry,HSV Input,HSV 입력,,layout hierarchy label for the H
 DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,스타일 '{0}'은 올바른 json 구조가 아니에요. 스타일을 수정하거나 되돌리세요. 수정 사항은 저장돼지 않아요.,,Error message when the user attempts to save a broken json style
 DialogEditor_LabelAndIconCollection,Name And Icon,이름과 아이콘,,Gadget properties heading for the LabelAndIcon class properties
 DialogEditor_Layout,Layout,레이아웃,,Gadget properties heading for the basic layout properties group
-DialogEditor_LayoutName,Layout name:,"레이아웃 이름 ",,layout name
+DialogEditor_LayoutName,Layout name:,레이아웃 이름 ,,layout name
 DialogEditor_ListBoxItems,List Items,목록 항목,,The layout hierarchy label for the list items
 DialogEditor_LoadLayoutXML,Load Layout File,레이아웃 파일 불러오기,,Button prompt for loading a layout xml file
 DialogEditor_MenuBarEntry,Menu Bar Entry,메뉴 표시줄 개체,,layout hierarchy label for menubarentry gadget
@@ -241,7 +241,7 @@ Error_CursorManagerDuplicateName,Attempting to add a cursor using image {1} with
 Error_CursorManagerFailedLoad,Attempted to load cursor {1} but received error '{0}',커서 {1} 불러오기를 시도했지만 오류 '{0}'를 받았어요.,,File load failed for cursor image
 Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't find loading info,커서 {0}을(를) 불러오기를 시도했지만 정보를 찾을 수가 없어요.,,The loading callback for a cursor can't find the loading hotspot info
 Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',가젯 도구 상자 정보 불러오기를 시도했지만 오류 '{0}' - '{1}'가 발생했어요.,,Failed to load the gadget toolbox list
-Error_GadgetToolboxInvalidGadget,"Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ",도구 상자에 가젯 '{0}'을 추가를 시도했지만 그 가젯이 레이아웃 관리자에 등록되지 않았어요.,,Invalid gadget specified in gadget toolbox list
+Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ,도구 상자에 가젯 '{0}'을 추가를 시도했지만 그 가젯이 레이아웃 관리자에 등록되지 않았어요.,,Invalid gadget specified in gadget toolbox list
 Error_Cursors,Cursor Error,커서 오류,,Cursor error warning title
 Error_GUILayout_AnchorRequiresParentPos,"A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead",부모와 연관되어야 할 기준점이 부모 가젯과 연결 돼있지 않습니다. 차원을 설정해주세요.,,Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon
 Error_GUILayout_DimensionAndBothAnchors,"A dimension input has been set along with both the associated anchors, the dimension input will be ignored",서로 연관 돼있는 기준점 양쪽에 입력되는 차원 치수는 무시되요.,,"Both the dimension and the associated anchors have been set (for instance width, top and bottom) the dimension will be calculated from the anchors not the dimension input"
@@ -314,11 +314,11 @@ Event_Key_Space,Space,스페이스,,Key event subtype
 Event_Key_Up,Up,위쪽 방향키,,Key event subtype
 Event_Keyboard,Key Down,키 누르는 중,,Keyboard event name
 Event_KeyPress,Key Pressed,키 눌렀음,,Key Press event name
-Event_KeyPress_Short,"Key Press - ","키 눌렀음: ",,KeyPress event short name
-Event_KeyDown_Short,"Key Down - ",키 누르는 중:,,KeyDown event short name
+Event_KeyPress_Short,Key Press - ,키 눌렀음: ,,KeyPress event short name
+Event_KeyDown_Short,Key Down - ,키 누르는 중:,,KeyDown event short name
 Event_KeyPressN,Press {0},{0} 눌렀음,,Key Press event - short name
 Event_KeyRelease,Key Up,키 뗌,,Key Release event name
-Event_KeyRelease_Short,"Key Up - ","키 뗌: ",,Key Release event - short name
+Event_KeyRelease_Short,Key Up - ,키 뗌: ,,Key Release event - short name
 Event_KeyDown,Key Down,키 눌림,,Key Down event name
 Event_KeyUp,Key Up,키 뗌,,Key Up event name
 Event_Mouse,Mouse,마우스,,Mouse event name
@@ -389,7 +389,7 @@ Exit_SaveProject,Do you want to save changes before exiting?,종료하기 전에
 CloseProject_Save,Do you want to save changes to the current project?,현재 프로젝트를 저장할까요?,,Prompt user to save changes to current project
 Extension_Export,Enable in game,게임에 사용하기,,Enable this extension in the game
 Extension_Import,Import extension,확장 기능 가져오기,,Extension import title
-Extension_Import_Button_Add,Add -->,"추가 → ",,extension add resource button
+Extension_Import_Button_Add,Add -->,추가 → ,,extension add resource button
 Extension_Import_Button_ImportAll,Import All,모두 가져오기,,extension import all button
 Extension_Import_Button_Remove,Remove,제거,,extension remove resource button
 Extension_Import_Complete,Import Complete!,가져오기 성공!,,extension import complete message
@@ -422,8 +422,8 @@ File_Menu_NewProject,New Project,새 프로젝트 만들기,,The New Project men
 File_Menu_OpenProject,Open Project,프로젝트 열기,,The Open Project menu item
 File_Menu_Preferences,Preferences,환경설정,,The Preferences menu item
 File_Menu_RecentProjects,Recent Projects,최근 프로젝트,,The Recent Projects menu item
-File_Menu_Save,Save Project,"저장하기 ",,The Save menu item
-File_Menu_SaveAs,Save Project As,"다른 이름으로 저장하기 ",,The Save As menu item
+File_Menu_Save,Save Project,저장하기 ,,The Save menu item
+File_Menu_SaveAs,Save Project As,다른 이름으로 저장하기 ,,The Save As menu item
 FileError_Cancelled,File Load Cancelled,파일 불러오기 취소됨,,File Load Cancelled
 FileError_DirectoryNotFound,File Directory Not Found,파일 디렉토리 찾을 수 없음,,File Directory Not Found
 FileError_Inaccessible,File Inaccessible,접근할 수 없는 파일,,File Inaccessible
@@ -490,7 +490,7 @@ fonteditor_gms1mode,This legacy font was not upgraded automatically.\n\nUpgradin
 fonteditor_gms1upgradebutton,Back Up and Upgrade,백업과 업그레이드,,Upgrade font button
 fonteditor_upgradefont_title,Upgrade Font,글꼴 업그레이드,,Upgrade font dialog title
 fonteditor_upgradefont_message,You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.,구 글꼴을 GameMaker Studio 2에서의 글꼴로 업그레이드하면 차이가 있을 수 있어요.\n원래 글꼴 파일은 안전하게 백업돼요.,,Upgrade font dialog message
-fonteditor_toomanyglyphs,and more (too many glyphs)," 등등 (너무 많은 문자)",,Too many glyphs for the font editor to cope with label
+fonteditor_toomanyglyphs,and more (too many glyphs), 등등 (너무 많은 문자),,Too many glyphs for the font editor to cope with label
 fonteditor_aa_off,Off,끄기,,Font Editor aa off
 fonteditor_aa_tooltip,"To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'","좀 더 나은 흑백 서체를 얻으려면, 옵션에서 획을 흑백으로 설정하세요.",,Monochrome font aa tooltip help
 fonteditor_font,Select Font,글꼴,,TTF font name
@@ -748,7 +748,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,좌측,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -950,7 +950,7 @@ IncludedFile_FileSize,File Size:,파일 크기,,caption for file size
 IncludedFile_FileSizeKB,{0} KB,{0} KB,,display for file size in kilobytes
 IncludedFile_FileSizeMB,{0} MB,{0} MB,,display for file size in megabytes
 IncludedFile_NoPlatforms,None,없음,,caption for no platforms button
-IncludedFile_Platforms,"Platforms: ",플랫폼,,caption for platforms buttons/list
+IncludedFile_Platforms,Platforms: ,플랫폼,,caption for platforms buttons/list
 IncludedFile_Title,Included File: {0},포함 파일: {0},,Included file editor window title
 IncludedFilesPlatform_Android,Android,Android,,included files platform list entry
 IncludedFilesPlatform_Android_YYC,Android (YYC),Android (YYC),,included files platform list entry
@@ -1009,15 +1009,15 @@ ListBoxEnum_eLayerBlendType_Add,Add,더하기,,Listbox auto-enum blend mode for 
 ListBoxEnum_eLayerBlendType_Multiply,Multiply,곱하기,,Listbox auto-enum blend mode for multiply
 ListBoxEnum_eLayerBlendType_Normal,Normal,일반,,Listbox auto-enum blend mode for normal
 ListBoxEnum_eLayerBlendType_Subtract,Subtract,빼기,,Listbox auto-enum blend mode for subtract
-ListBoxEnum_eRoomEditorParentDeletePreference_DeleteAll,Delete All,모두 삭제
-ListBoxEnum_eRoomEditorParentDeletePreference_KeepAll,Keep All,모두 유지
-ListBoxEnum_eRoomEditorParentDeletePreference_KeepChanged,Keep Changed,변경 유지
-ListBoxEnum_eRoomEditorParentDeletePreference_ShowDialog,Show Message,메시지 보기
-ListBoxEnum_eStandardConfirmPreference_No,No,아니요
-ListBoxEnum_eStandardConfirmPreference_ShowDialog,Show Message,메시지 보기
-ListBoxEnum_eStandardConfirmPreference_Yes,Yes,예
-ListBoxEnum_eStandardAcceptancePreference_OK,OK,확인
-ListBoxEnum_eStandardAcceptancePreference_ShowDialog,Show Message,메시지 보기
+ListBoxEnum_eRoomEditorParentDeletePreference_DeleteAll,Delete All,모두 삭제,,
+ListBoxEnum_eRoomEditorParentDeletePreference_KeepAll,Keep All,모두 유지,,
+ListBoxEnum_eRoomEditorParentDeletePreference_KeepChanged,Keep Changed,변경 유지,,
+ListBoxEnum_eRoomEditorParentDeletePreference_ShowDialog,Show Message,메시지 보기,,
+ListBoxEnum_eStandardConfirmPreference_No,No,아니요,,
+ListBoxEnum_eStandardConfirmPreference_ShowDialog,Show Message,메시지 보기,,
+ListBoxEnum_eStandardConfirmPreference_Yes,Yes,예,,
+ListBoxEnum_eStandardAcceptancePreference_OK,OK,확인,,
+ListBoxEnum_eStandardAcceptancePreference_ShowDialog,Show Message,메시지 보기,,
 ListBoxEnum_TileDataSize_Bit_16,16 Bit,16비트,,drop down list label for 16bit tile data size
 ListBoxEnum_TileDataSize_Bit_32,32 Bit,32비트,,drop down list label for 32bit tile data size
 ListBoxEnum_TileDataSize_Bit_64,64 Bit,64비트,,drop down list label for 64bit tile data size
@@ -1371,7 +1371,7 @@ RegeneratedFonts_Failed,Failed to regenerate one or more fonts.,글꼴 중 하�
 RegeneratedFonts_Failed_Legacy,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.,,Success message regenerate fonts
 RegeneratedFonts_Failed_Unavailable,Failed to regenerate one or more fonts.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
 RegeneratedFonts_Failed_Legacy_Unavailable,Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.,글꼴 중 하나를 생성하는데 실패했어요.\n{1}개의 구 글꼴들은 제외돼요.\n{2}개의 글꼴들은 만들지 못했어요.,,Success message regenerate fonts
-ResourceTree_Configs,Configurations,구성
+ResourceTree_Configs,Configurations,구성,,
 ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","디렉토리 ""{0}""와 안에 포함된 모든 항목들을 지울까요?",,Resource tree directory delete user confirmation
 ResourceTree_Extensions,Extensions,확장 기능,,"Resource tree ""Extensions"" label"
 ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","파일 ""{0}""을 지울까요?",,Resource tree file delete user confirmation
@@ -1433,10 +1433,10 @@ RoomEditor_DeleteAllChildLayers,Delete All,모두 지우기,,layer delete confir
 RoomEditor_DeleteLayer,Delete Layer,지우기,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,이름 바꾸기,,context menu option for renaming a layer
 RoomEditor_DeleteSelectedLayer,Delete Selected Layers,선택된 레이어 지우기,,tooltip for the delete selected layers button
-RoomEditor_GraphicProperties,Graphic: {0},그래픽,,"graphic properties window "
-RoomEditor_ParticleSystemProperties,Particle System: {0},입자 시스템,,"graphic properties window "
-RoomEditor_SequenceProperties,Sequence: {0},시퀀스,,"graphic properties window "
-RoomEditor_SpriteProperties,Sprite: {0},스프라이트,,"graphic properties window "
+RoomEditor_GraphicProperties,Graphic: {0},그래픽,,graphic properties window 
+RoomEditor_ParticleSystemProperties,Particle System: {0},입자 시스템,,graphic properties window 
+RoomEditor_SequenceProperties,Sequence: {0},시퀀스,,graphic properties window 
+RoomEditor_SpriteProperties,Sprite: {0},스프라이트,,graphic properties window 
 RoomEditor_GridColour,Colour:,색상,,room editor toolbar grid colour select button caption
 RoomEditor_GridSnapX,Snap X:,가로 격자,,room editor toolbar grid horizontal snap numeric textbox caption
 RoomEditor_GridSnapY,Snap Y:,세로 격자,,room editor toolbar grid vertical snap numeric textbox caption
@@ -1501,7 +1501,7 @@ RoomProperties_ClearDisplayBuffer,Clear Display Buffer,디스플레이의 버퍼
 RoomProperties_ClearView,Clear Viewport Background,뷰 포트의 배경 청소,,checkbox caption for clear view background option
 RoomProperties_Colour,Colour,색상,,colour select box caption
 RoomProperties_CreationCode,Creation Code,생성 코드,,button caption for opening creation code
-RoomProperties_CreationOrder,Instance Creation Order,개체 생성 순서,," button caption for opening the instance creation order window"
+RoomProperties_CreationOrder,Instance Creation Order,개체 생성 순서,, button caption for opening the instance creation order window
 RoomProperties_EnablePhysics,Enable Physics,물리 활성화,,Checkbox caption for enabling physics
 RoomProperties_EnableViews,Enable Viewports,뷰 포트 활성화,,checkbox caption for enable views option
 RoomProperties_GravityX,Gravity X,수평 중력,,Numeric textbox caption for horizontal gravity
@@ -1764,7 +1764,7 @@ SpriteEditor_Origin_TopMiddle,Top Center,중앙 상단,,Sprite editor origin com
 SpriteEditor_Origin_TopRight,Top Right,우측 상단,,Sprite editor origin combo menu item
 SpriteEditor_Play,Play Animation,재생,,Sprite editor play animation button
 SpriteEditor_PlaybackOptions,Playback Options,재생 설정,,Sprite editor playback options label
-SpriteEditor_PreviewFrameRanges,"Previewing Frames: ",프레임 미리보기,,Sprite editor label for displaying previewed frame ranges
+SpriteEditor_PreviewFrameRanges,Previewing Frames: ,프레임 미리보기,,Sprite editor label for displaying previewed frame ranges
 SpriteEditor_ShowingColMask,Showing Collision Mask,충돌 마스크 보이기,,Sprite editor label when showing collision mask over sprite
 SpriteEditor_TextureGroup,Group,모음,,Sprite editor texture group label
 SpriteEditor_TextureSettings,Texture Settings:,텍스처 설정,,Sprite editor texture settings label
@@ -2087,7 +2087,7 @@ UserLogin_AccessTokenGetFail,Failed to acquire access token,접근 토큰을 얻
 Validate_MaxLength,{0} - Length should be less than {1},{0} - 길이는 {1} 미만이어야 해요.,,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - 길이가 {1} 보다 커야 해요.,,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 객체 유형이 {2}{1} 이어야 해요.,,Failed validation by passing an object of the wrong type
-Validate_MVCType_OrInherits,"or inherit from ",또는 다음으로부터 상속 →,,Injected to requested error message if the validation is checking parent type
+Validate_MVCType_OrInherits,or inherit from ,또는 다음으로부터 상속 →,,Injected to requested error message if the validation is checking parent type
 Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} - 유형이 {2}{1} 인 객체만 리스트 안에 있어야해요.,,Failed validation by passing a list containing objects of the wrong type
 Validate_Range,{0} - Value must be within range {1} - {2},{0} - 값은 범위 {1}~{2} 이내여야만 해요.,,Failed validation for value range
 Validate_Required,{0} - Value cannot be null,{0} - 값이 null일 수는 없어요.,,Failed validation by passing a null value to a required property
@@ -2119,15 +2119,15 @@ TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be und
 TimeLine_DeleteWarningTitle,Delete Moments,분기 삭제,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},작업공간 {0},,The default tab name for workspace tabs
 Dock_TabTitle,Dock Tab{0},고정 탭 {0},,the default tab name for dock tabs
-RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","선택하신 레이어에는 자산을 놓으실 수 없어요. 적절한 레이어를 선택해주세요. 객체 -> 객체 레이어, 스프라이트 -> 자산 혹은 배경 레이어, 경로 -> 경로 레이어",," Information warning for dropping resource gadgets on a layer which won't accept them"
-RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,그 항목은 개체 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,," Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created"
-RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,그 항목은 자산 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,," Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created"
+RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","선택하신 레이어에는 자산을 놓으실 수 없어요. 적절한 레이어를 선택해주세요. 객체 -> 객체 레이어, 스프라이트 -> 자산 혹은 배경 레이어, 경로 -> 경로 레이어",, Information warning for dropping resource gadgets on a layer which won't accept them
+RoomEditor_InvalidDragGadgetCreateNewLayer_Instance,This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?,그 항목은 개체 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an instance layer will be created
+RoomEditor_InvalidDragGadgetCreateNewLayer_Asset,This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?,그 항목은 자산 레이어에만 놓을 수 있어요.\n\n새 레이어를 만들까요?,, Information warning for dropping resource gadgets on a layer which won't accept them and indicating that an asset layer will be created
 Dock_FloatingDock_Title,Floating Dock,부동 고정판,,floating dock window title
-RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없어요. 레이어 하나를 선택하세요.,," Information warning for dropping resource gadgets on the room but layer selection is invalid"
+RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",자원을 룸으로 드래그 할 수 없어요. 레이어 하나를 선택하세요.,, Information warning for dropping resource gadgets on the room but layer selection is invalid
 RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",자원을 룸으로 드래그 할 수 없어요. 선택된 레이어 '{0}'가 잠금 해제 되어있고 보이게 해주세요.,,Information warning for dropping resource gadgets on a locked or invisible selected layer
 RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,선택된 타일 세트가 스프라이트와 연결 돼있지 않아요. 올바른 타일 세트를 선택해주세요.,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
 RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,타일 세트를 선택하면 여기에 미리보기가 보여요.,,message to be shown when the user has not selected a tile set
-RoomEditor_NoLayer,No Tile Layer Selected,타일 레이어가 선택되지 않았어요.,," message to be shown when the user has not selected a tile layer"
+RoomEditor_NoLayer,No Tile Layer Selected,타일 레이어가 선택되지 않았어요.,, message to be shown when the user has not selected a tile layer
 InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","유효하지 않은 이름, 이미 사용 중: {0}. 이름은 유일해야 해요.",,Name not unique message
 InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","유효하지 않은 이름, 예약어: {0}",,Name is a reserved keyword message
 InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","유효하지 않은 이름, 유효하지 않은 부호 포함: {0}. 0-9, a-z, A-Z 혹은 _만 포함해야 하고 숫자로는 시작할 수 없어요.",,Name contains invalid characters message
@@ -2142,11 +2142,11 @@ ResourceTree_View_Default,Default,기본,,default tag
 ResourceTree_View_Cannot_Delete_Default,You cannot delete the default view.,기본 보기는 지울 수 없어요.,,You cannot delete the default view
 ResourceTree_View_Title,Resource Tree,자원 트리,,Title for above message
 ResourceTree_View_DuplicateName,A view with this name already exists. Views must be unique.,이 이름의 보기가 이미 있어요. 이름은 유일해야 해요.,,Duplicate name warning
-ResourceTree_Filter," Filter Tree",필터,," 'Filter Tree' checkbox label"
-ResourceTree_WholeWord," Whole Word",완전히 단어 일치,," 'Whole Word' checkbox label"
-ResourceTree_FindNext," Find Next",다음,," 'Find Next' button label"
-ResourceTree_FindPrevious," Find Previous",이전,," 'Find Previous' button label"
-ResourceTree_SearchResources,Search...,검색,," default contents of the resource tree search resources box"
+ResourceTree_Filter, Filter Tree,필터,, 'Filter Tree' checkbox label
+ResourceTree_WholeWord, Whole Word,완전히 단어 일치,, 'Whole Word' checkbox label
+ResourceTree_FindNext, Find Next,다음,, 'Find Next' button label
+ResourceTree_FindPrevious, Find Previous,이전,, 'Find Previous' button label
+ResourceTree_SearchResources,Search...,검색,, default contents of the resource tree search resources box
 ResourceTree_SearchOptions,Search Options,설정,,Additional Search Options
 SearchInScript_Search,Find...,찾기,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,바꾸기,,Search in Script Replace default box text
@@ -2731,7 +2731,7 @@ externalbrowserforhelp,Use an external browser for help,설명서를 외부 브�
 use_online_help_pref,Use online manual,온라인 설명서 사용하기,,use online manual help pref
 imageeditor_buttonchoiceonframedelete,Automatic response to deleting frames,프레임 삭제,,Automatic button choice on frame deletion setting
 imageeditor_choicefortoolchanges,Automatic response to committing changes on tool change,도구 변경 시 수정 사항 확인,,Choice for tool changes setting
-imageeditor_layerlockeddisplay,Automatic response to locked layer warning,"레이어 잠금 경고 ",,Layer locked display setting
+imageeditor_layerlockeddisplay,Automatic response to locked layer warning,레이어 잠금 경고 ,,Layer locked display setting
 imageeditor_groupselecteddialog,Automatic response to group selected warning,모음 선택 경고,,Group selected dialog setting
 imageeditor_createFromStripConfirm,Automatic response to replacing images during strip import,연속된 그림을 가져올 때 그림 교체,,create from strip confirm dialog setting
 imageeditor_drawthinselection,Draw thin selection outline,얇은 선택 외곽선 그리기,,Draw Thin selection setting
@@ -2933,25 +2933,25 @@ TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform tit
 TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
 TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
-TargetSelection_Runtime_VM,VM,VM,," the VM (Virtual Machine) title in the runtime selection list"
-TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE," the yyc title in the runtime selection list"
-TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE," the javascript title in the runtime selection list"
-TargetSelection_Device_Local,Local,로컬,," the local device title in the device selection list"
-TargetSelection_Device_Default,Default,기본,," the default device title in the device selection list"
-TargetSelection_Device_Device,Device,장치,," the 'device' device title in the device selection list"
-TargetSelection_Device_Simulator,Simulator,시뮬레이터,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPad2,Simulator - iPad 2,시뮬레이터 - iPad 2,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPadAir,Simulator - iPad Air,시뮬레이터 - iPad Air,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPadAir2,Simulator - iPad Air 2,시뮬레이터 - iPad Air 2,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPadPro,Simulator - iPad Pro,시뮬레이터 - iPad Pro,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPadRetina,Simulator - iPad Retina,시뮬레이터 - iPad Retina,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone4S,Simulator - iPhone 4S,시뮬레이터 - iPhone 4S,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone5,Simulator - iPhone 5,시뮬레이터 - iPhone 5,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone5S,Simulator - iPhone 5S,시뮬레이터 - iPhone 5S,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone6,Simulator - iPhone 6,시뮬레이터 - iPhone 6,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone6Plus,Simulator - iPhone 6 Plus,시뮬레이터 - iPhone 6 Plus,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone6S,Simulator - iPhone 6,시뮬레이터 - iPhone 6,," the simulator device title in the device selection list"
-TargetSelection_Device_Simulator_iPhone6SPlus,Simulator - iPhone 6 Plus,시뮬레이터 - iPhone 6 Plus,," the simulator device title in the device selection list"
+TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
+TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
+TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
+TargetSelection_Device_Local,Local,로컬,, the local device title in the device selection list
+TargetSelection_Device_Default,Default,기본,, the default device title in the device selection list
+TargetSelection_Device_Device,Device,장치,, the 'device' device title in the device selection list
+TargetSelection_Device_Simulator,Simulator,시뮬레이터,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPad2,Simulator - iPad 2,시뮬레이터 - iPad 2,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPadAir,Simulator - iPad Air,시뮬레이터 - iPad Air,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPadAir2,Simulator - iPad Air 2,시뮬레이터 - iPad Air 2,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPadPro,Simulator - iPad Pro,시뮬레이터 - iPad Pro,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPadRetina,Simulator - iPad Retina,시뮬레이터 - iPad Retina,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone4S,Simulator - iPhone 4S,시뮬레이터 - iPhone 4S,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone5,Simulator - iPhone 5,시뮬레이터 - iPhone 5,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone5S,Simulator - iPhone 5S,시뮬레이터 - iPhone 5S,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone6,Simulator - iPhone 6,시뮬레이터 - iPhone 6,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone6Plus,Simulator - iPhone 6 Plus,시뮬레이터 - iPhone 6 Plus,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone6S,Simulator - iPhone 6,시뮬레이터 - iPhone 6,, the simulator device title in the device selection list
+TargetSelection_Device_Simulator_iPhone6SPlus,Simulator - iPhone 6 Plus,시뮬레이터 - iPhone 6 Plus,, the simulator device title in the device selection list
 TargetSelection_Device_Editor,Device Editor,장치 편집기,,the device editor window title
 TargetSelection_Device_Editor_Tooltop,Open Device Editor,장치 편집기 열기,,the device editor button tooltip
 TargetSelection_Device_Editor_Cancel,This will lose any unapplied changes you have made - do you want to continue?,적용되지 않은 수정 사항이 손실돼요. 계속할까요?,,Cancelling the device manager does this
@@ -3097,7 +3097,7 @@ EventLabelFormat_ParentObject,Parent Object,부모 객체,,event label format pa
 DnD_ReservedTagName,The tag name {0} is reserved and cannot be used.,태그 이름 '{0}'은 이미 예약돼서 사용할 수 없어요.,,DnDGadget reserved tag name warning
 DnD_ReservedTagName_Title,Reserved Tag Name,예약된 태그 이름,,DnDGadget reserved tag name warning message title
 Room_InvalidDepthsImportedLog,Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.,룸 {0}에 가져온 레이어의 깊이의 간격이 적절하지 않습니다. 원치 않으신 결과가 나올 수 있어요.,,conversion log message where layer depths are invalid and have not been adjusted
-Room_InvalidDepthsImportedMessage,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,"룸 {0}에 가져온 레이어의 깊이의 간격이 적절하지 않습니다. 여기서 깊이를 재분배할까요? 깊이 값을 사용한 스크립트를 고쳐야 할 수도 있어요.\n'아니요'를 선택하면 사용자 정의된 깊이가 유지되지만, 원치 않으신 결과가 나올 수 있어요.",," message when importing a project which has invalid layer depths"
+Room_InvalidDepthsImportedMessage,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,"룸 {0}에 가져온 레이어의 깊이의 간격이 적절하지 않습니다. 여기서 깊이를 재분배할까요? 깊이 값을 사용한 스크립트를 고쳐야 할 수도 있어요.\n'아니요'를 선택하면 사용자 정의된 깊이가 유지되지만, 원치 않으신 결과가 나올 수 있어요.",, message when importing a project which has invalid layer depths
 Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced. Do you want to redistribute depths? \nChoosing 'no' will maintain the user defined depths, but will have undefined results in game.","사용자 정의 레이어 깊이에 적절한 간격을 두지 않았어요. 여기서 깊이를 재분배할까요?\n'아니요'를 선택하시면 사용자 정의 깊이가 유지되지만, 원치 않으신 결과가 나올 수 있어요.",,the message when a user tries to put too many layers between their user defined layers such that we can't create unique depths.
 Room_AutoDepthUpdateTitle,Layer Depth Error,레이어 깊이 오류,,message title when the user has given invalid layer depths
 roomdefaultstep,Default layer depth spacing,레이어의 깊이 간격,,the preference label for auto depth layer spacing
@@ -3273,8 +3273,8 @@ GadgetToolbox_ProgressBar,Progress Bar,진행도 표시줄,,The progress bar nam
 DnDMaker_Menu_RegenerateLayouts,Regenerate Layouts,레이아웃 재구성,,Regenerate all layouts in the loaded library
 DnDMaker_Menu_RegenerateLayout,Regenerate Current,현재 레이아웃 재구성,,Regenerate current layout in the loaded library
 runtimes_available,Runtimes Available:,사용가능한 런타임:,,Runtimes Available
-runtime_version,Version No.,"버전 ",,Runtime Version
-runtime_is_installed,Is Installed," 설치돼 있음",,Runtime Is Installed
+runtime_version,Version No.,버전 ,,Runtime Version
+runtime_is_installed,Is Installed, 설치돼 있음,,Runtime Is Installed
 runtime_install_failed,Install Failed,설치 실패함,,Runtime failed to install
 runtime_published,Date,날짜,,Runtime Published
 runtime_location,Location,위치,,Runtime Location
@@ -3284,7 +3284,7 @@ runtime_new_version,New Version:,새로운 버전:,,New Runtime Version
 runtime_current_date,Date:,날짜:,,Current Runtime Date
 runtime_current_location,Location:,위치:,,Current Runtime Location
 runtime_status,Status,상태,,Runtime Status Label
-runtime_switchto,Switch To,"전환: ",,Switch To Label
+runtime_switchto,Switch To,전환: ,,Switch To Label
 runtime_running,Running,실행 중,,Current Running Runtime Label
 runtime_install,Install,설치,,Install Runtime
 runtime_delete,Delete,삭제,,Delete Runtime
@@ -3714,17 +3714,17 @@ GMStdSeqPause_Name,Pause Sequence,시퀀스 일시 정지하기,,Drag and Drop�
 GMStdSeqPause_Desc,Pauses the sequence.,시퀀스를 잠시 멈춥니다.,,Drag and Drop™ library action description
 GMStdIfSeqExists_Name,If Sequence Exists,만약 시퀀스가 존재하는지,,Drag and Drop™ library action name
 GMStdIfSeqExists_Desc,Check if a sequence exists.,시퀀스가 존재하는지 확인합니다.,,Drag and Drop™ library action description
-GMStdSeqGetLength_Name,Get Sequence Length,Get Sequence Length,,dnd library action name
-GMStdSeqGetLength_Desc,Gets the length of a sequence element.,Gets the length of a sequence element.,,dnd library action description
-GMStdSeqGetHead_Name,Get Sequence Head,Get Sequence Head,,dnd library action name
-GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,Gets the head position (in frames) of a sequence element.,,dnd library action description
-GMStdSeqSetHead_Name,Set Sequence Head,Set Sequence Head,,dnd library action name
-GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,Sets the head position (in frames) of a sequence element.,,dnd library action description
-GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},Get length of sequence instance ${sequenceelmid} into ${var},,dnd story text
-GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},Get length of sequence instance ${sequenceelmid} into temp ${var},,dnd story text
-GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},,dnd story text
-GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},,dnd story text
-GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},,dnd story text
+GMStdSeqGetLength_Name,Get Sequence Length,시퀀스 길이 얻기,,dnd library action name
+GMStdSeqGetLength_Desc,Gets the length of a sequence element.,시퀀스 요소의 길이를 반환합니다.,,dnd library action description
+GMStdSeqGetHead_Name,Get Sequence Head,시퀀스 시작 지점 얻기,,dnd library action name
+GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,시퀀스 요소의 프레임 시작 지점을 반환합니다.,,dnd library action description
+GMStdSeqSetHead_Name,Set Sequence Head,시퀀스 시작 지점 정하기,,dnd library action name
+GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,시퀀스 요소의 프레임 시작 지점을 설정합니다.,,dnd library action description
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},시퀀스 개체 ${sequenceelmid}의 길이를 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},시퀀스 개체 ${sequenceelmid}의 길이를 임시 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 변수 ${var}로 설정합니다.,,dnd story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 임시 변수 ${var}에 넣습니다.,,dnd story text
 GMStdDestroyAtPos_Name,Destroy At Position,위치에 있는 개체 파괴하기,,Drag and Drop™ library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,어떤 위치의 모든 개체를 제거합니다.,,Drag and Drop™ library action description
 GMStdSetSprite_Name,Set Sprite,스프라이트 정하기,,Drag and Drop™ library action name
@@ -3793,7 +3793,7 @@ GMStdVKeyShow_Name,Show Virtual Keyboard,가상 키보드 띄우기,,Drag and Dr
 GMStdVKeyShow_Desc,"Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.","가상 키보드를 표시합니다. 키보드가 띄워지면 시스템 이벤트 ""keyboard status""가 실행됩니다.",,Drag and Drop™ library action description
 GMStdVKeyHide_Name,Hide Virtual Keyboard,가상 키보드 숨기기,,Drag and Drop™ library action name
 GMStdVKeyHide_Desc,"Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.","가상 키보드를 숨깁니다. 키보드가 사라지면 시스템 이벤트 ""keyboard status""가 실행됩니다.",,Drag and Drop™ library action description
-GMStdVKeyStatus_Name,If Virtual Keyboard Showing,"만약 가상 키보드가 띄워졌다면 ",,Drag and Drop™ library action name
+GMStdVKeyStatus_Name,If Virtual Keyboard Showing,만약 가상 키보드가 띄워졌다면 ,,Drag and Drop™ library action name
 GMStdVKeyStatus_Desc,"Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.","가상 키보드가 띄워져 있는지를 확인합니다. 상태를 확인하면 시스템 이벤트 ""keyboard status""가 실행됩니다.",,Drag and Drop™ library action description
 GMStdVKeyHeight_Name,Get Virtual Keyboard Height,가상 키보드의 크기 얻기,,Drag and Drop™ library action name
 GMStdVKeyHeight_Desc,Get the current pixel height of the virtual keyboard if it is visible.,가상 키보드가 띄워져 있으면 키보드의 화소 높이를 가져옵니다.,,Drag and Drop™ library action description
@@ -3809,13 +3809,13 @@ GMStdSnapPos_Name,Snap Position,위치 격자에 맞추기,,Drag and Drop™ lib
 GMStdSnapPos_Desc,Snap an instance's position to a grid.,지정한 크기의 격자에 맞춰 가장 적절한 위치로 이동합니다.,,Drag and Drop™ library action description
 GMStdWrapRoom_Name,Wrap Around Room,룸 외부 반대쪽으로 통과하기,,Drag and Drop™ library action name
 GMStdWrapRoom_Desc,Wrap around room.,룸 밖으로 나갔다면 반대쪽으로 이동합니다.,,Drag and Drop™ library action description
-GMStdIfAnyObjAt_Name,If Any Object At Place,"만약 아무 개체가 어떤 장소에 있다면 ",,Drag and Drop™ library action name
+GMStdIfAnyObjAt_Name,If Any Object At Place,만약 아무 개체가 어떤 장소에 있다면 ,,Drag and Drop™ library action name
 GMStdIfAnyObjAt_Desc,Check if an instance overlaps any object instances at a position.,지정한 위치에 어느 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
-GMStdIfObjAt_Name,If Object At Place,"만약 어떤 개체가 어떤 장소에 있다면 ",,Drag and Drop™ library action name
+GMStdIfObjAt_Name,If Object At Place,만약 어떤 개체가 어떤 장소에 있다면 ,,Drag and Drop™ library action name
 GMStdIfObjAt_Desc,Check if an instance overlaps one or more instances of a specific object at a position.,지정한 위치에 지정한 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
-GMStdIfColShape_Name,If Collision Shape,"만약 어떤 모양의 구획에 충돌하면 ",,Drag and Drop™ library action name
+GMStdIfColShape_Name,If Collision Shape,만약 어떤 모양의 구획에 충돌하면 ,,Drag and Drop™ library action name
 GMStdIfColShape_Desc,Check if one or more instances intersect a shape.,지정한 위치에 있는 지정한 모양의 구획에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
-GMStdIfColPoint_Name,If Collision Point,"만약 어떤 점 구획에 충돌하면 ",,Drag and Drop™ library action name
+GMStdIfColPoint_Name,If Collision Point,만약 어떤 점 구획에 충돌하면 ,,Drag and Drop™ library action name
 GMStdIfColPoint_Desc,Check if one or more instances intersect a point.,지정한 위치에 있는 점 모양의 구획에 객체가 있는지 확인합니다.,,Drag and Drop™ library action description
 GMStdDrawSelf_Name,Draw Self,자신 그리기,,Drag and Drop™ library action name
 GMStdDrawSelf_Desc,Draw this instance's sprite.,이 개체의 스프라이트를 그립니다.,,Drag and Drop™ library action description
@@ -3934,7 +3934,7 @@ GMStdCreateGrid_Name,Create Grid,그리드 만들기,,Drag and Drop™ library a
 GMStdCreateGrid_Desc,Create a new grid data structure.,격자 형태의 자료 구조를 생성합니다.,,Drag and Drop™ library action description
 GMStdCreateStack_Name,Create Stack,스택 만들기,,Drag and Drop™ library action name
 GMStdCreateStack_Desc,Create a stack data structure.,쌓여진 접시 형태의 자료 구조를 생성합니다.,,Drag and Drop™ library action description
-GMStdIfDSExists_Name,If Data Structure Exists,"만약 자료 구조가 존재한다면 ",,Drag and Drop™ library action name
+GMStdIfDSExists_Name,If Data Structure Exists,만약 자료 구조가 존재한다면 ,,Drag and Drop™ library action name
 GMStdIfDSExists_Desc,Check if a data structure exists.,자료 구조가 존재하는지 확인합니다.,,Drag and Drop™ library action description
 GMStdIfDSEmpty_Name,If Data Structure Empty,만약 자료 구조가 비어 있다면,,Drag and Drop™ library action name
 GMStdIfDSEmpty_Desc,Check if a data structure is empty.,자료 구조가 비어 있는지 확인합니다.,,Drag and Drop™ library action description
@@ -3984,9 +3984,9 @@ GMStdResumeAudio_Name,Resume Audio,오디오 다시 재생하기,,Drag and Drop�
 GMStdResumeAudio_Desc,Resume playing a sound effect or a music track.,지정한 소리를 다시 재생합니다.,,Drag and Drop™ library action description
 GMStdResumeAllAudio_Name,Resume All Audio,모든 오디오 다시 재생하기,,Drag and Drop™ library action name
 GMStdResumeAllAudio_Desc,Resume playing all paused audio.,모든 일시 정지된 소리를 다시 재생합니다.,,Drag and Drop™ library action description
-GMStdIfAudioPlaying_Name,If Audio Is Playing,"만약 오디오가 재생 중이면 ",,Drag and Drop™ library action name
-GMStdIfAudioPlaying_Desc,Check if a sound effect or a music track is playing.,"지정한 소리가 재생 중인지 확인합니다. ",,Drag and Drop™ library action description
-GMStdIfAudioPaused_Name,If Audio Is Paused,"만약 오디오가 일시 정지 중이라면 ",,Drag and Drop™ library action name
+GMStdIfAudioPlaying_Name,If Audio Is Playing,만약 오디오가 재생 중이면 ,,Drag and Drop™ library action name
+GMStdIfAudioPlaying_Desc,Check if a sound effect or a music track is playing.,지정한 소리가 재생 중인지 확인합니다. ,,Drag and Drop™ library action description
+GMStdIfAudioPaused_Name,If Audio Is Paused,만약 오디오가 일시 정지 중이라면 ,,Drag and Drop™ library action name
 GMStdIfAudioPaused_Desc,Check if a sound effect or a music track is paused.,지정한 소리가 일시 정지 중인지 확인합니다.,,Drag and Drop™ library action description
 GMStdAudioSetPosition_Name,Set Audio Position,오디오 재생 위치 정하기,,Drag and Drop™ library action name
 GMStdAudioSetPosition_Desc,Set the playback position of a sound effect or a music track.,지정한 소리의 재생 위치를 설정합니다.,,Drag and Drop™ library action description
@@ -4106,7 +4106,7 @@ GMStdTargetY,Target Y,목표 Y,,Drag and Drop™ library argument label
 GMStdLayer,Layer,레이어,,Drag and Drop™ library argument label
 GMStdAlarm,Alarm,알람,,Drag and Drop™ library argument label
 GMStdCountdown,Countdown,초 시계,,Drag and Drop™ library argument label
-GMStdNot,Not," 아님 ",,Drag and Drop™ library argument label
+GMStdNot,Not, 아님 ,,Drag and Drop™ library argument label
 GMStdExcludeSelf,Exclude Self,자신은 제외,,DnD argument label
 GMStdGamepad,Gamepad,게임 패드,,Drag and Drop™ library argument label
 GMStdThreshold,Threshold,스틱 조작의 초계 지점,,Drag and Drop™ library argument label
@@ -4152,7 +4152,7 @@ GMStdMax,Maximum,최대,,Drag and Drop™ library argument label
 GMStdTimes,Times,횟수,,Drag and Drop™ library argument label
 GMStdVariable,Variable,변수,,Drag and Drop™ library argument label
 GMStdTransformation,Transform,변형,,DnD™ argument label
-GMStdIs,Is,"가 ",,Drag and Drop™ library argument label
+GMStdIs,Is,가 ,,Drag and Drop™ library argument label
 GMStdValue,Value,값,,Drag and Drop™ library argument label
 GMStdValue100,Value (0-100),값 (0-100),,DnD™
 GMStdConstant,Constant,상수,,Drag and Drop™ library argument label
@@ -4195,7 +4195,7 @@ GMStdSecondaryType,Secondary,이중,,DnD™ lib argument label
 GMStdEmitter,Emitter,방출기,,Drag and Drop™ library argument label
 GMStdBurst,Burst,단일 방출,,Drag and Drop™ library argument label
 GMStdStream,Stream,연속 방출,,Drag and Drop™ library argument label
-GMStdWhere,Where,"어디에 ",,Drag and Drop™ library argument label
+GMStdWhere,Where,어디에 ,,Drag and Drop™ library argument label
 GMStdMinDir,Min Dir,방향 최솟값,,Drag and Drop™ library argument label
 GMStdMaxDir,Max Dir,방향 최댓값,,Drag and Drop™ library argument label
 GMStdFriction,Friction,마찰력,,Drag and Drop™ library argument label
@@ -4240,7 +4240,7 @@ GMStdRotation,Rotation,회전,,Drag and Drop™ library argument label
 GMStdName,Name,이름,,Drag and Drop™ library argument label
 GMStdVertically,Vertical,세로,,Drag and Drop™ library argument label
 GMStdHorizontally,Horizontal,가로,,Drag and Drop™ library argument label
-GMStdSeqHead,Head (frames),Head (frames),,dnd library argument label
+GMStdSeqHead,Head (frames),시작,,dnd library argument label
 GMStdEqual,Equal,같다면,,DnD™
 GMStdLess,Less,미만이면,,DnD™
 GMStdGreater,Greater,초과면,,DnD™
@@ -4336,7 +4336,7 @@ GMStdFileMode_Write,Write,쓰기,,DnD™
 GMStdFileType,Type,종류,,DnD™
 GMStdFileType_Bin,Binary,바이너리 파일,,DnD™
 GMStdFileType_Text,Text,텍스트 파일,,DnD™
-GMStdCopyTo,Copy To,"복사 대상 ",,DnD™
+GMStdCopyTo,Copy To,복사 대상 ,,DnD™
 GMStdNewFilename,New Name,이름,,DnD™
 GMStdFile,File,파일 이름,,DnD™
 GMStdBuffer,Buffer,버퍼,,DnD™
@@ -4399,7 +4399,7 @@ GMStdVar_hport,Viewport Height,뷰 포트 높이,,DnD label
 GMStdVar_surfaceid,Viewport Surface ID,뷰 포트의 서피스 ID,,DnD label
 GMStdCatBuffers,Buffers,버퍼,,DnD™
 GMStdEvent,Event,이벤트,,DnD™
-GMStdPerStep,Per Step,"스텝 마다 ",,DnD™
+GMStdPerStep,Per Step,스텝 마다 ,,DnD™
 GMStdOnDeath,On Death,파괴 시에,,DnD™
 GMStdCallUserEvent_Name,Call User Event,사용자 이벤트 호출하기,,DnD™ action name
 GMStdCallUserEvent_Desc,Call a user event on an instance.,한 개체의 사용자 이벤트를 호출합니다.,,DnD™ action description
@@ -4447,7 +4447,7 @@ GMStdPartTypeDirection_Name,Set Particle Direction,입자 방향 설정,,DnD™ 
 GMStdPartTypeDirection_Desc,Set the direction of a particle type.,입자 유형의 각도를 정합니다.,,DnD™ action description
 GMStdPartEmitRegion_Name,Set Emitter Region,입자 영역 설정,,DnD™ action name
 GMStdPartEmitRegion_Desc,Set the region of an emitter.,방출기의 생성 영역을 정합니다.,,DnD™ action description
-GMStdBufferEOS_Name,If End Of Buffer,"만약 버퍼의 쓰기 위치가 끝에 도달한다면 ",,DnD™ action name
+GMStdBufferEOS_Name,If End Of Buffer,만약 버퍼의 쓰기 위치가 끝에 도달한다면 ,,DnD™ action name
 GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,버퍼의 현재 쓰기 위치가 파일의 끝에 도달했는지 확인합니다.,,DnD™ action description
 GMStdBufferExists_Name,If Buffer Exists,만약 버퍼가 존재한다면,,DnD™ action name
 GMStdBufferExists_Desc,Checks if a buffer exists.,버퍼가 존재하는지 확인합니다.,,DnD™ action description
@@ -4519,9 +4519,9 @@ WelcomePage_InstallingTitle,While we finish up your installation...,설치를 �
 WelcomePage_WelcomeTitle,Welcome,환영합니다,,title to be used if not installing.
 Welcome_ShowOnStartup,Show on startup,시작 시 보여주기,,do not show again label
 WelcomePage_Close,Close,닫기,,close label
-WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,완전히 새로운 {0} 시작하는 방법에 대한 영상 {1}을 확인해보세요.,," {0} and {1} are used to include bold text - must be maintained in translation"
-WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",편히 앉으세요. 저희 {0}의 멋진 신기술 {1}을 소개해드립니다.,," {0} and {1} are used to include bold text - must be maintained in translation"
-WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0} 모든 것을 해결하세요. {1}. 이 곳에서 튜토리얼, 장터, 고객 지원 등 필요한 모든 것을 찾을 수 있습니다!",," {0} and {1} are used to include bold text - must be maintained in translation"
+WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,완전히 새로운 {0} 시작하는 방법에 대한 영상 {1}을 확인해보세요.,, {0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",편히 앉으세요. 저희 {0}의 멋진 신기술 {1}을 소개해드립니다.,, {0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0} 모든 것을 해결하세요. {1}. 이 곳에서 튜토리얼, 장터, 고객 지원 등 필요한 모든 것을 찾을 수 있습니다!",, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,시작 시 환영 화면 보기,,preference text
 WelcomePage_Learn,Learn,학습,,welcome page external link text
 WelcomePage_Marketplace,Marketplace,장터,,welcome page external link text
@@ -4667,7 +4667,7 @@ ObjectEditor_DropChildHere,Drop here to add child,여기에 끌어서 자식 추
 ObjectEditor_AddChildTooltip,Add child,자식 추가하기,,Object editor child list add child tooltip
 ObjectEditor_RemoveChildTooltip,Remove child,자식 제거하기,,Object editor child list remove child tooltip
 INVALID_FILEPATH_TITLE,Invalid Path,유효하지 않은 경로,,Invalid File path title
-INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},파일 경로가 너무 길어요: {0},,File at x has a path which is too long to handle
+INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},너무 긴 파일 이름: {0},,File at x has a path which is too long to handle
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,유효하지 않은 포함 파일의 이름,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","한 개 이상의 포함 파일들의 이름이 올바르지 않아요. 영문 대소문자, 숫자, 또는 _만을 포함해야 해요. \n출력 창에서 그 목록을 확인해주세요.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',유효하지 않은 파일 이름을 가진 포함 파일: '{0}',,Invalid Included file name output message
@@ -4796,8 +4796,8 @@ Debugger_Surfaces_Size,Size,크기,,Debugger surfaces size column
 Debugger_SurfaceView_NoneSelected,Double-click a resource in the Resource View to view its source code here,보기에서 자원을 두 번 클릭하여 소스 코드를 볼 수 있어요.,,Debugger no source code selected
 Debugger_CallStack_Empty,The call stack is empty.,호출 스택이 비어 있어요.,,The call stack is empty label
 Debugger_StackFrame_Tooltip,Double-click to go to this stack frame,이 스택 프레임으로 이동하려면 더블 클릭하세요.,,Debugger stack frame tooltip
-Debugger_MemoryUsage,"Memory: ",메모리,,Debugger memory usage label
-Debugger_Fps,"FPS: ","FPS: ",,Debugger fps label
+Debugger_MemoryUsage,Memory: ,메모리,,Debugger memory usage label
+Debugger_Fps,FPS: ,FPS: ,,Debugger fps label
 Debugger_DataGrid_Name,Name,이름,,Debugger data grid name column
 Debugger_DataGrid_Value,Value,값,,Debugger data grid value column
 Debugger_Dock_Variables,Variables,변수,,Debugger variables dock
@@ -5418,7 +5418,7 @@ Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio 위치,,Visual Studio P
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","오버레이 공유 (128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,미리보기,,Preview button caption
 Main,Main,전역 설정,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',"d'일 'h'시간 'm'분 's'초 ","Do not change d,h,m or s as these are formatting tags",time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d'일 'h'시간 'm'분 's'초 ,"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,플랫폼,,Platform selector title for device manager
 Server,Server,서버,,Server preference group subheading
 Console,Console,콘솔,,Console preference group subheading
@@ -5575,7 +5575,7 @@ CompileError_KeyEvent,{0} Key Event: {1},{0} 키: {1},,event error
 CompileError_KeyPressed,{0} Key Pressed: {1},{0} 키 눌렀음: {1},,event error
 CompileError_KeyReleased,{0} Key Released: {1},{0} 키 뗌: {1},,event error
 CompileError_Event,{0} Event: {1},{0} 이벤트: {1},,event error
-CompileError_RoomInstanceName,"{0} instance {1}: ",{0}의 개체 {1}:,,room instance error
+CompileError_RoomInstanceName,{0} instance {1}: ,{0}의 개체 {1}:,,room instance error
 SyntaxError_RoomCode,{0} Creation Code,{0}의 생성 코드,,room creation code syntax error
 Notification_UpdatedRuntime,An updated runtime is available in {0}!,업데이트된 런타임을 {0}에서 사용할 수 있어요.,,notification when a new runtime is available
 Notification_Runtimes,Runtimes,런타임,,notification title
@@ -5602,8 +5602,8 @@ ConversionLog_ConvertingScript,Converting GML script: {0},GML 스크립트 변�
 ConversionLog_ConvertingEvent,Converting object event to GML script: {0},객체 이벤트를 GML 스크립트로 변환 중: {0},,conversion log
 ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,GameMaker Studio 2에선 기본적으로 Windows NSIS 설치 스크립트를 사용해요.,,conversion log
 ConversionLog_ConversionException,Exception while converting {0} : {1},{0}을(를) 변환하는 중에 예외 발생함: {1},,conversion log
-ConversionLog_ConvertingOriginal,Original was,"원본은 ",,conversion log
-ConversionLog_ConvertingResult,Current result was,"현재 결과는 ",,conversion log
+ConversionLog_ConvertingOriginal,Original was,원본은 ,,conversion log
+ConversionLog_ConvertingResult,Current result was,현재 결과는 ,,conversion log
 ConversionLog_MissingAudioGroup,Missing audiogroup for sound: '{0}' - setting to default audio group,소리의 오디오 모음 누락됨: '{0}' - 기본 오디오 모음으로 설정,,conversion log
 ConversionLog_CompatibilityScript,Added compatibility script '{0}',호환성 스크립트 '{0}'가 추가됨,,conversion log
 ConversionLog_UpdatedCompatibilityScript,Updated compatibility script '{0}',호환성 스크립트 '{0}'가 갱신됨,,conversion log
@@ -5617,7 +5617,7 @@ ConversionLog_RemoveInstRef,Removing instance reference from builtin - line {0} 
 ConversionLog_ConvertedBuiltin,Converted builtin - line {0}: {1} -> {2},예약어가 변환됨 - 줄 {0}: {1}→{2},,conversion log
 ConversionLog_FilenamePrefix,compatibility_report_,호환성 보고서_,must be usable as a standard windows/mac filename,used to prefix the output filename
 ConversionLog_AppliesToUndefined,Skipped action {0} as it applies to <undefined>,동작 {0}에 <undefined>가 적용되어서 생략됐어요.,do not localise <undefined>,conversion log when the applies to is undefined
-ConversionLog_AppliesToUndefinedIF,Skipped action(s) {0} because parent 'if' action was skipped,"동작 {0}이(가) 상위 'if'와 함께 생략됐어요. ",do not localise 'if',conversion log for skipping actions because if was skipped
+ConversionLog_AppliesToUndefinedIF,Skipped action(s) {0} because parent 'if' action was skipped,동작 {0}이(가) 상위 'if'와 함께 생략됐어요. ,do not localise 'if',conversion log for skipping actions because if was skipped
 UserLogin_None,None State,상태 없음,,error message for being in login 'none' state
 UserLogin_NoneMessage,Managed to enter none state,관리되지 않는 상태로 전환됨,,detailed error message for being in login 'none' state
 UserLogin_LicenceMissing,Licence file missing,라이선스 파일이 누락됨,,licence missing error
@@ -6296,7 +6296,7 @@ AssetBrowser_Create,Create,만들기,,create asset
 AssetBrowser_CreateResourceType,Create {0},{0} 만들기,,create (resource type name)
 AssetBrowser_AddFavourite,Favourite,즐겨찾기에 추가하기,,add to favourites
 AssetBrowser_RemoveFavourite,Unfavourite,즐겨찾기에서 삭제하기,,remove from favourites or unfavourite
-AssetBrowser_DefaultGroupName,group,group,,default name for new group/folder
+AssetBrowser_DefaultGroupName,group,Group,,default name for new group/folder
 AssetBrowser_NewAssetBrowser,Open in new Asset Browser,새 자산 탐색기에서 열기,,open in new asset browser
 AssetBrowser_ClearFavourites,Clear Favourites,즐겨찾기 정리하기,,asset browser clear favourites menu entry
 AssetBrowser_ClearRecent,Clear Recent Items,최근 항목 정리하기,,asset browser clear recently edited menu entry
@@ -6347,8 +6347,8 @@ AssetBrowser_SendToTop,Send To Top,위로 올리기,,arrange to top
 AssetBrowser_SendToBottom,Send To Bottom,아래로 내리기,,arrange to bottom
 AssetBrowser_UpOne,Up One,한 칸 올리기,,arrange up one
 AssetBrowser_DownOne,Down One,한 칸 내리기,,arrange down one
-ListBoxEnum_eAssetListStyle_Grid,Grid,격자
-ListBoxEnum_eAssetListStyle_List,List,목록
+ListBoxEnum_eAssetListStyle_Grid,Grid,격자,,
+ListBoxEnum_eAssetListStyle_List,List,목록,,
 ConfigEditor_CreateConfig,Create,만들기,,create config
 ConfigEditor_DeleteConfig,Delete,지우기,,delete config
 ConfigEditor_AddConfig,Add Config,구성 추가하기,,add config
@@ -6404,7 +6404,7 @@ ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.",초기화로 �
 assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들을 만들기,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최대로 보여줄 최근에 편집된 항목들의 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상 팔레트의 크기,,colour palette entry count
-assetbrowser_apply_qacolours,Apply Asset colours in Quick Access,빠른 실행에서 자산들에 색깔 적용하기,,"apply colours in quick access "
+assetbrowser_apply_qacolours,Apply Asset colours in Quick Access,빠른 실행에서 자산들에 색깔 적용하기,,apply colours in quick access 
 assetbrowser_group_colour_override,Group colours override child colours,폴더의 색상을 하위 항목들에 적용하기,,group colour override
 assetbrowser_asset_list_style,Create Asset dialogue style,자산 대화상자 스타일 만들기,,create resource dialog style
 assetbrowser_defaultsortorder,Default sort order for new Asset Browsers,새 자산 탐색기의 기본 정렬 방법,,default sort order for new Asset Browsers
@@ -6496,7 +6496,7 @@ ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studi
 Provisioning,Provisioning,공급,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 메모리,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 프로 메모리,,title for options related to memory pool sizes
-ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU '양파' 공용 메모리 풀의 크기 (MB),DO NOT TRANSLATE onion," memory pool size for 'onion' memory"
+ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU '양파' 공용 메모리 풀의 크기 (MB),DO NOT TRANSLATE onion, memory pool size for 'onion' memory
 ggs_garlic,GPU 'garlic' memory pool size (MB),GPU '마늘' 메모리 풀의 크기 (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
 ggs_ps4_garlic_memory_tooltip,The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools,공유 GPU 메모리의 메가바이트 크기입니다. \n최대 할당량은 두 풀 간에 공유되어야 합니다.,,tooltip for garlic memory pool
 ggs_ps4_onion_memory_tooltip,The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools,공유 CPU/GPU 메모리의 메가바이트 크기입니다. \n최대 할당량은 두 풀 간에 공유되어야 합니다.,,tooltip for garlic memory pool
@@ -6539,7 +6539,7 @@ switch_runontarget_tool_not_exist,The Switch RunOnTarget Tool cannot be found. P
 Beta Channel,Beta Channel,베타 분기,,Beta Channel preferences tag
 beta_1,Here you can opt in or out of the GameMaker Studio 2 Beta.,여기서 GameMaker Studio 2 베타에 참가하실 수 있습니다.,,beta_1 caption
 beta_2,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,여러분에게 정식 출시되기 전에 나온 GameMaker Studio 2 미리보기 버전을 받아 보실 수 있습니다.,,beta_2 caption
-beta_3,"This product is covered by Section 2 of our ",이는 저희의 계약서 두번째 단락에 명시돼 있습니다.,,beta_3 caption
+beta_3,This product is covered by Section 2 of our ,이는 저희의 계약서 두번째 단락에 명시돼 있습니다.,,beta_3 caption
 beta_4,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기 미리보기 빌드라는 것을 명심하시길 바랍니다. 그래서 프로그램에 버그가 있거나 프로젝트를 손상시킬 수 있음을 의미합니다.\n저희는 무조건 프로젝트를 백업하고, 실제 작업에는 복사본을 이용하고, 또한 소스 제어를\n사용하시는 걸 추천해 드립니다.",,beta_4 caption
 beta_5,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,만약 베타 빌드를 사용하시던 중에 프로젝트가 손상되었더라도 이를 복구할 방법은 없습니다.,,beta_5 caption
 beta_6,You can revert back to a non-beta build by clicking the button below.,아래의 단추를 눌러 일반 분기로 되돌아갈 수 있습니다.,,beta_6 caption
@@ -6550,7 +6550,7 @@ beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,GameMaker Studio 2 베타에
 beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,GameMaker Studio 2 베타에서 나가기,,beta_check_opt-out caption
 beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,GameMaker Studio 2를 재시작 할까요?,,beta channel warning
 beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",베타에서 나가시려면 확인을 누르시고 일반 대상 분기의 프로그램을 재설치해야 합니다. 출시 내역의 내려 받기 링크에서 설치하세요.,,beta channel downgrade info
-beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드임을 명심해주세요. 그래서 프로그램에 버그가 있거나 프로젝트를 손상시킬 수도 있어요. 꼭 프로젝트를 백업하시고, 작업에는 복사본을 이용하세요. 또한 버전 관리 도구의 사용을 추천해드려요.",,"beta channel splash "
+beta_channel_splash,Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.,"초기의 미리보기 빌드임을 명심해주세요. 그래서 프로그램에 버그가 있거나 프로젝트를 손상시킬 수도 있어요. 꼭 프로젝트를 백업하시고, 작업에는 복사본을 이용하세요. 또한 버전 관리 도구의 사용을 추천해드려요.",,beta channel splash 
 Convert_ConfirmMessage,This project is of an older format and will need to be converted. Proceed?,이 프로젝트는 예전의 프로젝트 구조를 띄고 있어서 변환이 필요해요. 계속할까요?,,sequences project conversion confirmation dialogue message
 Convert_Success_Title,Conversion Success,전환 성공,,Project Conversion success title
 Convert_Success_Message,The Project has successfully converted,프로젝트가 성공적으로 전환됐어요.,,Project Conversion success message
@@ -6604,7 +6604,7 @@ GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https:/
 GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
 GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,{0}개의 자산을 만들까요?,,label to warn user they are about to create a lot of resources
-AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다량의 자산 생성하기,,title for warning dialog box
+AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다수의 자산 만들기,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,그림 형식이 인식되지 않았어요.,,This image format was not recognised
 YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,{0}'을 불러올 수 없어요.,,Message to show when an image cannot be loaded
 IDE_Warning,Warning,경고,,Warning for IDE
