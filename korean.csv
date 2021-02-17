@@ -1,4 +1,4 @@
-﻿﻿Name,English,Translation,Restrictions,Comment
+﻿﻿﻿Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},오류: {0},,General error prefix
@@ -239,7 +239,7 @@ Edit_Menu_Undo,Undo,실행 취소,,Undo menu entry
 Error_AnimBlendClone,{0} does not implement ICloneable,{0}은(는) ICloneable을 구현하지 않았어요.,,Any class that is used in the animation system must implement ICloneable
 Error_CursorManagerDuplicateName,Attempting to add a cursor using image {1} with duplicated id {0} please assign a different name,중복 ID가 {0}인 그림 {1}을(를) 사용하여 커서를 추가하려면 다른 이름을 지정하세요.,,Multiple cursors have been added with the same reference name
 Error_CursorManagerFailedLoad,Attempted to load cursor {1} but received error '{0}',커서 {1} 불러오기를 시도했지만 오류 '{0}'를 받았어요.,,File load failed for cursor image
-Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't find loading info,커서 {0}을(를) 불러오기를 시도했지만 정보를 찾을 수 없어요.,,The loading callback for a cursor can't find the loading hotspot info
+Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't find loading info,커서 {0}을(를) 불러오기를 시도했지만 정보를 찾을 수가 없어요.,,The loading callback for a cursor can't find the loading hotspot info
 Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',가젯 도구 상자 정보 불러오기를 시도했지만 오류 '{0}' - '{1}'가 발생했어요.,,Failed to load the gadget toolbox list
 Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ,도구 상자에 가젯 '{0}'을 추가를 시도했지만 그 가젯이 레이아웃 관리자에 등록되지 않았어요.,,Invalid gadget specified in gadget toolbox list
 Error_Cursors,Cursor Error,커서 오류,,Cursor error warning title
@@ -356,8 +356,8 @@ Event_Mouse_RightPressed,Right Pressed,오른쪽 눌렀음,,Mouse event subtype
 Event_Mouse_RightReleased,Right Released,오른쪽 뗌,,Mouse event subtype
 Event_Other,Other,기타,,Other event name
 Event_Other_AnimationEnd,Animation End,애니메이션 종료,,Other event subtype
-Event_Other_AnimationEvent,Animation Event,애니메이션 이벤트,,Other event subtype
-Event_Other_AnimationUpdate,Animation Update,애니메이션 갱신,,Other event subtype
+Event_Other_AnimationEvent,Animation Event,Spine 애니메이션 정보,,Other event subtype
+Event_Other_AnimationUpdate,Animation Update,Spine 애니메이션 갱신,,Other event subtype
 Event_Other_BroadcastMessage,Broadcast Message,메시지 송신,,Other event subtype
 Event_Other_EndOfPath,Path Ended,경로 끝남,,Other event subtype
 Event_Other_GameEnd,Game End,게임 종료,,Other event subtype
@@ -379,7 +379,7 @@ Event_StepEnd,End Step,스텝 끝,,End Step event name
 Event_Unknown,Unknown Event,알 수 없는 이벤트,,Object editor unknown event name
 SeqEvents_Tooltip,Sequence Events,시퀀스 이벤트,,Events button tooltip
 SeqEvents_TypeFunctionNameHere,Type Function Name Here,여기에 함수의 이름을 입력하세요.,,Type Function Name Here
-SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},함수 '{0}'를 덮어씌웁니다.,,Used in the confirmation dialog
+SeqEvents_FuncOverrideMessage,This will override the following functions:\n{0},함수 '{0}'를 덮어씌우는 작업이에요.,,Used in the confirmation dialog
 SeqEvents_NewFunctionQuestion,Would you like to create new functions?,새로운 함수를 만들까요?,,Seq func question
 SeqEvents_FuncOverrideTitle,Sequence Events - Create New Functions,새 함수,,Used as the confirmation dialog's title
 SeqMessages_TypeMessageHere,Type Broadcast Message Here,여기에 송출할 메시지의 내용을 입력하세요.,,Type Broadcast Message Here
@@ -748,7 +748,7 @@ ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,선택 취소하기,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,새 용지 크기,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,화면에 맞추기,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,01:01,01:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,좌측,,left brush label
 ImageEditor_ColourOnly,Colour only,색깔만,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,색상,,colours panel title
@@ -1427,12 +1427,12 @@ RoomEditor_AddRootLayer,Add Layer,레이어 추가하기,,context sub menu headi
 RoomEditor_AllLayers,All,모두,,Layers label next to the set all layers locked/visible checkboxes
 RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},정말로 다음 항목을 지울까요? (참고: 개체 생성 코드는 영구적으로 손실됩니다): {0},,Confirm delete instances
 RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},정말로 다음 레이어를 지울까요 (참고: 개체 생성 코드는 영구적으로 손실됩니다): {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},부모 룸에서 항목을 삭제하려고 합니다. (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 삭제: 자식 룸에서 일치하는 항목 삭제\n모두 유지: 모든 자식 룸에서 항목 유지\n변경 유지: 부모를 무시하고 자식 룸의 항목을 유지\n직속 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},부모 룸에서 레이어를 삭제하려고 합니다. (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 삭제: 자식 룸에서 일치하는 레이어 삭제\n모두 유지: 모든 자식 룸에서 레이어 유지\n변경 유지: 부모를 무시하고 자식 룸의 레이어를 유지\n직속 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_DeleteAllChildLayers,Delete All,전부 삭제하기,,layer delete confirm dialog message for the delete all button
-RoomEditor_DeleteLayer,Delete Layer,삭제하기,,context menu option for deleting a layer
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},부모 룸에서 항목을 삭제하려고 해요 (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 지우기: 자식 룸에서 일치하는 항목 삭제\n모두 유지: 모든 자식 룸에서 항목 유지\n변경 유지: 부모를 무시하고 자식 룸의 항목을 유지\n직계 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},부모 룸에서 레이어를 삭제하려고 합니다. (참고: 개체 생성 코드가 손실될 수 있습니다.).\n모두 지우기: 자식 룸에서 일치하는 레이어 삭제\n모두 유지: 모든 자식 룸에서 레이어 유지\n변경 유지: 부모를 무시하고 자식 룸의 레이어를 유지\n직계 자식: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_DeleteAllChildLayers,Delete All,모두 지우기,,layer delete confirm dialog message for the delete all button
+RoomEditor_DeleteLayer,Delete Layer,지우기,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,이름 바꾸기,,context menu option for renaming a layer
-RoomEditor_DeleteSelectedLayer,Delete Selected Layers,선택된 레이어 삭제하기,,tooltip for the delete selected layers button
+RoomEditor_DeleteSelectedLayer,Delete Selected Layers,선택된 레이어 지우기,,tooltip for the delete selected layers button
 RoomEditor_GraphicProperties,Graphic: {0},그래픽,,graphic properties window 
 RoomEditor_ParticleSystemProperties,Particle System: {0},입자 시스템,,graphic properties window 
 RoomEditor_SequenceProperties,Sequence: {0},시퀀스,,graphic properties window 
@@ -1774,33 +1774,33 @@ SpriteEditor_TileVer,Tile Vertically,타일을 수직으로 나열하기,,Sprite
 SpriteEditor_Tolerance,Tolerance,오차,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,텍스처 페이지 분리하기,,Sprite editor use for 3D label
 SpriteEditor_WindowTitle,Sprite: {0},스프라이트,,Sprite editor window title
-SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
-SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
-SpriteEditor_SWFLabel,SWF Sprite,SWF Sprite,,SWF type sprite
-SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
-NineSlice_Activate,Activate Nine Slice,Activate Nine Slice,,activate nineslice label
-NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
-NineSlice_TileMode,Tile Mode:,Tile Mode:,,nineslice tilemode label
-NineSlice_Highlight,Highlight:,Highlight:,,nineslice highlight label
-NineslicePref_LeftGuideColour,Left Guide Colour,Left Guide Colour,,nineslice pref setting label
-NineslicePref_RightGuideColour,Right Guide Colour,Right Guide Colour,,nineslice pref setting label
-NineslicePref_TopGuideColour,Top Guide Colour,Top Guide Colour,,nineslice pref setting label
-NineslicePref_BottomGuideColour,Bottom Guide Colour,Bottom Guide Colour,,nineslice pref setting label
-NineslicePref_HighlightColour,Selected Slice Highlight Colour,Selected Slice Highlight Colour,,nineslice default highlight colour
-NineslicePref_HighlightStyle,Selected Slice Highlight Style,Selected Slice Highlight Style,,nineslice default highlight style
-ListBoxEnum_eSlice_None,None,None,,enum name
-ListBoxEnum_eSlice_Left,Left,Left,,enum name
-ListBoxEnum_eSlice_Top,Top,Top,,enum name
-ListBoxEnum_eSlice_Right,Right,Right,,enum name
-ListBoxEnum_eSlice_Bottom,Bottom,Bottom,,enum name
-ListBoxEnum_eSlice_Centre,Centre,Centre,,enum name
-ListBoxEnum_eTileMode_Stretch,Stretch,Stretch,,enum name
-ListBoxEnum_eTileMode_Repeat,Repeat,Repeat,,enum name
-ListBoxEnum_eTileMode_Mirror,Mirror,Mirror,,enum name
-ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,Blank Repeat,,enum name
-ListBoxEnum_eTileMode_Hide,Hide,Hide,,enum name
-ListBoxEnum_eHighlightStyle_Inverted,Inverted,Inverted,,nineslice highlight style enum
-ListBoxEnum_eHighlightStyle_Overlay,Overlay,Overlay,,nineslice highlight style enum
+SpriteEditor_SpineLabel,Spine Sprite,Spine 스프라이트,,spine type sprite
+SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine 스프라이트에는 몇몇 설정을 이용하실 수 없습니다.,,spine sprite label tooltip
+SpriteEditor_SWFLabel,SWF Sprite,SWF 스프라이트,,SWF type sprite
+SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF 스프라이트에는 몇몇 설정을 이용하실 수 없습니다.,,SWF sprite label tooltip
+NineSlice_Activate,Activate Nine Slice,9등분 스프라이트 활성화하기,,activate nineslice label
+NineSlice_SelectedSlice,Selected Slice:,선택된 분할면:,,selected nineslice label
+NineSlice_TileMode,Tile Mode:,놓기 방식:,,nineslice tilemode label
+NineSlice_Highlight,Highlight:,강조:,,nineslice highlight label
+NineslicePref_LeftGuideColour,Left Guide Colour,왼쪽 안내 색상,,nineslice pref setting label
+NineslicePref_RightGuideColour,Right Guide Colour,오른쪽 안내 색상,,nineslice pref setting label
+NineslicePref_TopGuideColour,Top Guide Colour,위쪽 안내 색상,,nineslice pref setting label
+NineslicePref_BottomGuideColour,Bottom Guide Colour,아래쪽 안내 색상,,nineslice pref setting label
+NineslicePref_HighlightColour,Selected Slice Highlight Colour,선택된 분할면 강조 색상,,nineslice default highlight colour
+NineslicePref_HighlightStyle,Selected Slice Highlight Style,선택된 분할면 강조 스타일,,nineslice default highlight style
+ListBoxEnum_eSlice_None,None,없음,,enum name
+ListBoxEnum_eSlice_Left,Left,왼쪽,,enum name
+ListBoxEnum_eSlice_Top,Top,위쪽,,enum name
+ListBoxEnum_eSlice_Right,Right,오른쪽,,enum name
+ListBoxEnum_eSlice_Bottom,Bottom,아래쪽,,enum name
+ListBoxEnum_eSlice_Centre,Centre,중앙,,enum name
+ListBoxEnum_eTileMode_Stretch,Stretch,늘이기,,enum name
+ListBoxEnum_eTileMode_Repeat,Repeat,반복하기,,enum name
+ListBoxEnum_eTileMode_Mirror,Mirror,뒤집기,,enum name
+ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,공백 반복하기,,enum name
+ListBoxEnum_eTileMode_Hide,Hide,숨기기,,enum name
+ListBoxEnum_eHighlightStyle_Inverted,Inverted,반전,,nineslice highlight style enum
+ListBoxEnum_eHighlightStyle_Overlay,Overlay,덮기,,nineslice highlight style enum
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,입자 유형,,Particle type editor window title
@@ -2502,7 +2502,7 @@ ggs_output_debug_to_console,Output debug to console,콘솔에 디버그 출력�
 ggs_generate_spotify_app,Generate Spotify App,Spotify 앱 생성,,Generate Spotify App
 ggs_display_outside_server_alert,"Display ""Running outside server"" alert",외부 서버 경고 실행 중,,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,.js로 출력,,Prepend output .js with
-gs_installer_background,Installer Background,Installer Background,,Installer Background
+gs_installer_background,Installer Background,설치기 배경,,Installer Background
 ggs_icon,Icon,아이콘,,Icon
 ggs_icon_57,57x57 Icon,57x57 아이콘,,57x57 Icon
 ggs_icon_72,72x72 Icon,72x72 아이콘,,72x72 Icon
@@ -3017,7 +3017,7 @@ Project_Changes_Title,Project Directory Modified,프로젝트 경로가 변경�
 Project_Deletions_Title,Resources have been deleted,자원이 삭제됨,,Resources have been deleted
 Project_Deletions_Message,"Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",디스크 '{0}'의 자원이 삭제됐어요. 다시 저장하거나 프로젝트에서 자원을 지울 수 있어요.\n\n경고: 저장할 땐 지금 메모리에 있는 자원 파일들만 갱신되므로 삭제되거나 편집된 파일은 복구되지 않을 수 있어요.,,Message to show that resources have been deleted and the user can either restore or save them
 Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","기본 프로젝트 디렉토리 '{0}'에 변경 사항이 있어요. 자원을 다시 불러올까요, 아니면 저장할까요? \n\n주의: 저장할 땐 지금 메모리에 있는 자원 파일들만 갱신되므로 삭제되거나 편집된 파일은 복구되지 않을 수 있어요.",,message box contents when the project directory has detected changes
-Project_InheritedChanges_Title,Project Directory Modified,기본 프로젝트 경로가 변경되었습니다.,,message box title when the project directory has detected changes
+Project_InheritedChanges_Title,Project Directory Modified,기본 프로젝트 경로가 변경됨,,message box title when the project directory has detected changes
 Project_ProjFileChanged_Message,"The main project file '{0}' has changed. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","주 프로젝트 파일 '{0}'이 변경되었습니다. 자원을 다시 불러올까요, 아니면 저장할까요?\n\n경고: 저장할 땐 지금 메모리에 있는 자원 파일들만 갱신되므로 삭제되거나 편집된 파일은 복구되지 않을 수 있어요.",,message box contents when the main project file has changed
 Project_ProjFileChanged_Title,Project Modified,프로젝트 수정됨,,message box title when the main project file has changed
 Project_Deleted_Title,Project Deleted,프로젝트 삭제됨,,message box title when a project has been deleted
@@ -3197,9 +3197,9 @@ ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_Show,Show Dialog,�
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X86,Create X86 Package,x86 패키지 만들기,,Create X86 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X64,Create X64 Package,x64 패키지 만들기,,Create X64 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_ARM,Create Arm Package,ARM 패키지 만들기,,Create Arm Package
-ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Create DMG Installer,,Create DMG Installer
-ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
-ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,Show Dialog,,Show Dialog
+ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,DMG 설치기 만들기,,Create DMG Installer
+ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,압축 ZIP 파일 만들기,,Create Zip Archive
+ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,대화상자 표시하기,,Show Dialog
 AddWorker_Name,Name,이름,,Worker name
 AddWorker_NameTooltip,The name assigned to this worker,이 작업자에게 할당 된 이름,,Worker name
 AddWorker_Host,Name/IP,이름 및 IP,,Worker host name
@@ -3530,9 +3530,9 @@ SoundMixer_ToolTip_PlayGroup,Play all sounds in group,모음 안에서 재생중
 SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,모음의 모든 소리 반복 재생하기,,Sound mixer tool tip
 SoundMixer_ToolTip_RewindGroup,Rewind all sounds in group to start,시작할 모음의 모든 소리 되감기,,Sound mixer tool tip
 SoundMixer_ToolTip_CloseSound,Close sound,닫기,,Tool tip for closing the sound in the mixer
-SoundMixer_ToolTip_PlaySound,Play sound,재생하기,,Tool tip for playing an individual sound in the sound mixer
+SoundMixer_ToolTip_PlaySound,Play sound,재생,,Tool tip for playing an individual sound in the sound mixer
 SoundMixer_ToolTip_MuteSound,Mute sound,음소거,,Tool tip for muting an individual sound in the sound mixer
-SoundMixer_ToolTip_RepeatSound,Loop playback,반복하기,,Tool tip for looping an individual sound in the sound mixer
+SoundMixer_ToolTip_RepeatSound,Loop playback,반복,,Tool tip for looping an individual sound in the sound mixer
 SoundMixer_ToolTip_RewindSound,Rewind to start,되감기,,Tool tip for rewinding an individual sound in the sound mixer
 SoundMixer_ToolTip_PlaybackPosition,Playback position,재생 위치,,Tool tip for setting the playback position an individual sound in the sound mixer
 SoundMixer_ToolTip_LinkGroups,Link groups,두 모음을 연결,,Tool tip for link groups button
@@ -3714,17 +3714,17 @@ GMStdSeqPause_Name,Pause Sequence,시퀀스 일시 정지하기,,Drag and Drop�
 GMStdSeqPause_Desc,Pauses the sequence.,시퀀스를 잠시 멈춥니다.,,Drag and Drop™ library action description
 GMStdIfSeqExists_Name,If Sequence Exists,만약 시퀀스가 존재하는지,,Drag and Drop™ library action name
 GMStdIfSeqExists_Desc,Check if a sequence exists.,시퀀스가 존재하는지 확인합니다.,,Drag and Drop™ library action description
-GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,dnd library action name
-GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,dnd library action description
-GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,dnd library action name
-GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,dnd library action name
-GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
-GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
-GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
+GMStdSeqGetLength_Name,Get Sequence Length,시퀀스 길이 얻기,,dnd library action name
+GMStdSeqGetLength_Desc,Gets the length of a sequence element.,시퀀스 요소의 길이를 반환합니다.,,dnd library action description
+GMStdSeqGetHead_Name,Get Sequence Head,시퀀스 시작 지점 얻기,,dnd library action name
+GMStdSeqGetHead_Desc,Gets the head position (in frames) of a sequence element.,시퀀스 요소의 프레임 시작 지점을 반환합니다.,,dnd library action description
+GMStdSeqSetHead_Name,Set Sequence Head,시퀀스 시작 지점 정하기,,dnd library action name
+GMStdSeqSetHead_Desc,Sets the head position (in frames) of a sequence element.,시퀀스 요소의 프레임 시작 지점을 설정합니다.,,dnd library action description
+GMStdSeqGetLength_Story_1,Get length of sequence instance ${sequenceelmid} into ${var},시퀀스 개체 ${sequenceelmid}의 길이를 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqGetLength_Story_2,Get length of sequence instance ${sequenceelmid} into temp ${var},시퀀스 개체 ${sequenceelmid}의 길이를 임시 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqSetHead_Story_1,Set head position (in frames) of sequence instance ${sequenceelmid} to ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 변수 ${var}로 설정합니다.,,dnd story text
+GMStdSeqGetHead_Story_1,Get head position (in frames) of sequence instance ${sequenceelmid} into ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 변수 ${var}에 넣습니다.,,dnd story text
+GMStdSeqGetHead_Story_2,Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var},시퀀스 개체 ${sequenceelmid}의 프레임 시작 지점을 임시 변수 ${var}에 넣습니다.,,dnd story text
 GMStdDestroyAtPos_Name,Destroy At Position,위치에 있는 개체 파괴하기,,Drag and Drop™ library action name
 GMStdDestroyAtPos_Desc,Destroy all instances at a position.,어떤 위치의 모든 개체를 제거합니다.,,Drag and Drop™ library action description
 GMStdSetSprite_Name,Set Sprite,스프라이트 정하기,,Drag and Drop™ library action name
@@ -4240,7 +4240,7 @@ GMStdRotation,Rotation,회전,,Drag and Drop™ library argument label
 GMStdName,Name,이름,,Drag and Drop™ library argument label
 GMStdVertically,Vertical,세로,,Drag and Drop™ library argument label
 GMStdHorizontally,Horizontal,가로,,Drag and Drop™ library argument label
-GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
+GMStdSeqHead,Head (frames),시작,,dnd library argument label
 GMStdEqual,Equal,같다면,,DnD™
 GMStdLess,Less,미만이면,,DnD™
 GMStdGreater,Greater,초과면,,DnD™
@@ -4342,7 +4342,7 @@ GMStdFile,File,파일 이름,,DnD™
 GMStdBuffer,Buffer,버퍼,,DnD™
 GMStdSeek,Seek,쓰기 위치 쫓기,,DnD™
 GMStdRelative,Relative,상대적,,DnD argument label
-GMStdAbsolute,Absolute,Absolute,,DnD argument label
+GMStdAbsolute,Absolute,절대적,,DnD argument label
 GMStdOffset,Offset,오프셋,,DnD™
 GMStdVar_mirror,Mirror,좌우 반전 (X),,Mirror DnD™
 GMStdVar_flip,Flip,상하 반전 (Y),,Flip DnD™
@@ -4501,10 +4501,10 @@ SPINE_ATLAS_NOT_FOUND,Spine: unable to find .atlas file for {0},Spine: {0} 용 .
 SPINE_TEXTURE_NOT_FOUND,Spine: unable to find texture file: {0},Spine: {0} 텍스처를 찾을 수 없어요.,,spine texture not found message
 SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: {0} json 파일을 찾을 수 없어요.,,spine json not found message
 Spine_License_Title,Spine Agreement,Spine 계약 약관,,spine licence dialog title
-Spine_License_Label1,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,Esoteric Software 에서 Spine을 구매하시고 GameMaker에서도 Spine 애니메이션을 창조하고 배포하세요.,,spine licence label
+Spine_License_Label1,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,Esoteric Software에서 Spine을 구매하시고 GameMaker에서도 Spine 애니메이션을 창조하고 배포하세요.,,spine licence label
 Spine_License_Label2,"To purchase Spine, please visit",Spine을 구매하려면 방문해주세요.,,spine licence label
 Spine_License_Link,http://esotericsoftware.com,http://esotericsoftware.com,,spine link
-Spine_License_Label3,"To use Spine animations with GameMaker, please agree to the licence above.",GameMaker 에서 Spine을 사용하시려면 위의 라이선스에 동의해주세요.,,spine licence label
+Spine_License_Label3,"To use Spine animations with GameMaker, please agree to the licence above.",GameMaker에서 Spine을 사용하시려면 위의 라이선스에 동의해주세요.,,spine licence label
 Spine_License_Agree,I agree to the terms listed,동의,,spine licence agreement
 Spine_License_AcceptLabel,Accept Spine licence,Spine 라이선스 동의,,spine licence option
 Spine_License_Show,Show Licence,라이선스 보기,,spine licence button
@@ -4640,7 +4640,7 @@ Marketplace_MyLibrary_ViewAuthor,Visit this author's page.,저자의 페이지 �
 Marketplace_MyLibrary_ViewReviews,View this asset's reviews.,이 자산의 리뷰 보기,,Review link text
 Marketplace_MyLibrary_Offline,Offline,오프라인,,Offline label
 Marketplace_MyLibrary_DeleteContentTitle,Delete Local Content?,로컬 컨텐츠를 지울까요?,,marketplace delete asset warning title
-Marketplace_MyLibrary_OfflineDelete,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,{0}'의 로컬 컨텐츠를 지울까요?\n다시 내려 벋으시어야 해요.,,marketplace asset delete offline warning
+Marketplace_MyLibrary_OfflineDelete,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,{0}'의 로컬 컨텐츠를 지울까요?\n다시 내려 받으셔야 해요.,,marketplace asset delete offline warning
 Marketplace_OfflineDeleteConfirmChoice,Automatic response to offline content delete,오프라인 컨텐츠 삭제,,preference choice for marketplace offline local content delete
 TileSetEditor_OpenClosedEdge_ToolTip,Open Or Closed Edges,열리거나 닫힌 가장자리,,tooltip for the auto tile set option to have open or closed edges
 Marketplace_MyLibrary_SearchCaption,Search Results ({0}),검색 결과 ({0}),,Search caption
@@ -4667,7 +4667,7 @@ ObjectEditor_DropChildHere,Drop here to add child,여기에 끌어서 자식 추
 ObjectEditor_AddChildTooltip,Add child,자식 추가하기,,Object editor child list add child tooltip
 ObjectEditor_RemoveChildTooltip,Remove child,자식 제거하기,,Object editor child list remove child tooltip
 INVALID_FILEPATH_TITLE,Invalid Path,유효하지 않은 경로,,Invalid File path title
-INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},파일 경로가 너무 길어요: {0},,File at x has a path which is too long to handle
+INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},너무 긴 파일 이름: {0},,File at x has a path which is too long to handle
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,유효하지 않은 포함 파일의 이름,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","한 개 이상의 포함 파일들의 이름이 올바르지 않아요. 영문 대소문자, 숫자, 또는 _만을 포함해야 해요. \n출력 창에서 그 목록을 확인해주세요.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',유효하지 않은 파일 이름을 가진 포함 파일: '{0}',,Invalid Included file name output message
@@ -4714,7 +4714,7 @@ SequencePref_ChainSoftness,Canvas chain rendering segment count,용지 내의 �
 SequencePref_TranslationPathInsertion,Translation path point insertion margin,경로의 점들이 놓일 여유 간격,,Insertion Precision in Sequence Editor
 SequencePref_AddActionMessage,Automatic button choice on Add Action,동작을 추가할 때 자동으로 버튼 선택,,Automatic button choice on Add Action dialog
 SequencePref_CreateDefaultParameterTracks,Automatically create default parameter tracks,기본 매개변수 트랙을 만들기,,Automatically create default parameter tracks prefs
-SequencePref_AutoStretchResources,Automatically stretch newly added assets,새로 추가한 자산을 늘이기,,Automatically stretch newly added assets prefs
+SequencePref_AutoStretchResources,Automatically stretch newly added assets,새로 추가한 자산을 시퀀스 길이에 맞추기,,Automatically stretch newly added assets prefs
 SequencePref_ConfirmEmbed,Automatic choice to embed edited curve,편집했던 곡선을 포함,,sequence embed confirm pref
 SequencePref_ConvertToKeys,Automatic choice to convert curve to keys,곡선을 키로 변환,,sequence convert to keys pref
 SequencePref_ExternalCurveEditWarning,Automatic choice to show warning on external curve edit,외부의 곡선을 편집할 때 경고,,sequence pref external curve edit
@@ -4739,7 +4739,7 @@ DnDModule_DeleteNode,Delete,삭제,,DnD™ module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),랩톱 모드 ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,켜기,,On text
 IDETooltip_LaptopMode_Off,Off,끄기,,Off text
-IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","랩톱 모드에서는 마우스로 이동(Pan)과 스크롤 그리고 확대가 가능합니다.\n${LaptopLZoomKey}을(를) 누르고 있으면 확대가 되고, 왼쪽 Alt를 누르면 이동과 스크롤이 되며\n${LaptopRHSKeys}은(는) 랩톱 모드가 활성화 돼있는 동안 마우스 사용이 중지됩니다.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","랩톱 모드에서는 마우스로 옮기기, 스크롤 그리고 확대가 가능합니다.\n${LaptopLZoomKey}을(를) 누르고 있으면 확대가 되고, 왼쪽 Alt를 누르면 이동과 스크롤이 되며\n${LaptopRHSKeys}은(는) 랩톱 모드가 활성화 돼있는 동안 마우스 사용이 중지됩니다.",,IDE toolbar laptop mode description
 MyAccount_Offline,Cannot access account management: User is offline,계정 관리에 접근할 수가 없어요. 사용자가 오프라인이에요.,,User is offline and trying to access My Account
 UserOffline_NeedsInternet,Please make sure you have a working internet connection and try again.,인터넷에 연결되어 있는지 확인하시고 다시 시도해보세요.,,User is offline
 MyAccount_WorkspaceTitle,My Account,내 계정,,My account workspace title
@@ -4853,7 +4853,7 @@ Debugger_Profiler_Running,Profiling...,프로파일 중...,,debugger profiling
 Debugger_Profiler_Averages,Average Values,평균 값,,Debugger show average values
 Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,모든 값을 평균으로 표시하려면 이것을 선택하세요\n누적 값을 표시하려면 선택하세요,,Debugger averages tooltip
 Debugger_DataGrid_CallCount,Call Count,호출 횟수,,Debugger call count
-Debugger_DataGrid_Time,Time (Ms),시간 (ms),,Debugger time count
+Debugger_DataGrid_Time,Time (Ms),밀리초 시간,,Debugger time count
 Debugger_DataGrid_Step,Step %,스텝 %,,Debugger step % column
 Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,이 그래프는 시간에 따른 메모리 사용 실태와 초당 프레임 수를 보여줘요. \nCtrl을 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
 Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,이 그래프는 초당 프레임 수와 시간 경과에 따른 메모리 사용량을 보여줘요.\n⌘키를 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
@@ -5019,8 +5019,8 @@ StartPage_Offline,This link cannot be opened as you are currently offline.,이 �
 debuggerporttouse,Debugger port,디버거가 사용할 포트,,Port for Debugger to use label in Settings
 debuggershoweventicons,Show event icons in Debugger Resource View,디버거 자원 보기에서 이벤트 아이콘 표시하기,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,실시간 디버깅 활성화하기,,Enable real-time debugging label in Settings
-syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (ms),,Syntax Checking delay (ms) setting label
-codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (ms),,Code Completion delay (ms) setting label
+syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (밀리초),,Syntax Checking delay (ms) setting label
+codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (밀리초),,Code Completion delay (ms) setting label
 ggs_draw_colour,Default draw colour,기본 그리기 색상,,the option for the default draw colour
 ggs_window_colour,Default colour outside the room region,룸 외부의 기본 색상,,the option for the default colour outside the room region
 defaultprojectdrawcolour_description,Initial default draw colour for new projects,새 프로젝트의 기본 그리기 색상,,the preference for setting the default draw colour option on project creation
@@ -5136,11 +5136,11 @@ MarketplaceFilter_GMS2Only,GMS 2.x,GMS 2.x,,Studio 2 assets filter name for mark
 MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for marketplace library
 MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE 언어,,Label beside the IDE language selection
-pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,GameMaker Studio 2의 최대 프레임,,Maximum framerate preference
-pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차,,File watcher preference to handle save tolerance in ms
+pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,프로그램의 최대 프레임,,Maximum framerate preference
+pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차 (밀리초),,File watcher preference to handle save tolerance in ms
 File Watcher,File Watcher,파일 감시자,,File Watcher preference label
 notification_popups,Enable notifications,알림 활성화하기,,Enable Notification messages
-notification_timeout,Notification timeout (ms),알림 제한 시간 (ms),,Notification timeout in ms
+notification_timeout,Notification timeout (ms),알림 제한 시간 (밀리초),,Notification timeout in ms
 android_linktoamazonsubmit,Link to Amazon Submission Guide,Amazon 제출 안내문 링크,,Link to Amazon Submission Guide
 RemoteWorker_AddWorker,Add Worker,작업자 추가,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,Are you sure you wish to delete this remote?,정말로 이 원격 작업자를 지울까요?,,the message when a user tries to delete a remote
@@ -5307,7 +5307,7 @@ General Settings,General Settings,일반 설정,,General Settings preference gro
 Drag and Drop,Drag and Drop,드래그 앤 드롭,,Drag and Drop preference group heading
 Image Editor,Image Editor,그림 편집기,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,스프라이트 편집기,,Sprite Editor preference group heading
-Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
+Nineslice,Nine Slice,9등분 스프라이트,,Sprite editor nineslice pref group subheading
 Object Editor,Object Editor,객체 편집기,,Object Editor preference group heading
 Script Editor,Script Editor,룸 편집기,,Script Editor preference group heading
 Room Editor,Room Editor,스프라이트 편집기,,Room Editor preference group heading
@@ -5556,7 +5556,7 @@ SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}�
 SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당하지 않은 변수 {0}이(가) 참조됨,,syntax error
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,생성자로 선언된 함수만 상속을 사용 가능,,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 함수 특성 {0},,syntax error
-SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 ""{0}""이(가) 함수 인자가 아님",,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인자 ""{0}""는 함수 인자가 아님",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,함수 선언에 이름 있는 인자는 16개까지만 지원됨,,syntax error
 CompileError_Info,{0} at line {1} : {2},"{0}, 줄 {1}: {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{4} 유형이어야 하는 {2}의 변수 '{3}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error
@@ -5877,7 +5877,7 @@ ResourceTree_OpenInShapeViewer,Open in Shape Viewer,도형 뷰어에서 열기,,
 SequenceEditor_Title,Sequence: {0},{0},,Sequence editor window title
 SequenceEditor_Pref_AutoRecord,Automatically record changes,자동으로 변경 사항 기록하기,,Sequence auto record preference
 SequenceEditor_Pref_PauseCanvas,Pause when clicking on canvas,용지를 클릭할 때 잠시 멈추기,,Sequence pause canvas preference
-SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,밀리 초 단위로 선택 영역에 지연 주기,,Sequence canvas preference
+SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,선택 지연 시간 (밀리초),,Sequence canvas preference
 SequenceEditor_Pref_ShowBackdrop,Show canvas frame on newly created sequences,새 시퀀스에서 프레임 용지 보기,,Show canvas frame newly created sequence preference
 SequenceEditor_Pref_BackdropWidth,Canvas frame width on newly created sequences,새 시퀀스에서의 프레임 너비,,canvas frame width newly created sequence preference
 SequenceEditor_Pref_BackdropHeight,Canvas frame height on newly created sequences,새 시퀀스에서의 프레임 높이,,canvas frame height newly created sequence preference
@@ -5997,7 +5997,7 @@ Track_Param_Channel_Colour_B,blue,파랑,,sequence parameter channel colour blue
 Track_Param_Channel_Gain,volume,음량,,sequence parameter channel gain
 Track_Param_Channel_Pitch,pitch,피치,,sequence parameter channel pitch
 Track_Param_Channel_Falloff,falloff,감량,,sequence parameter channel falloff
-Track_Param_Channel_Index,index,인덱스,,sequence parameter channel index
+Track_Param_Channel_Index,index,번호,,sequence parameter channel index
 Track_Param_Channel_Speed,speed,속도,,sequence parameter channel speed
 Track_Param_Channel_Generic,channel {0},채널 {0},,sequence parameter channel generic title
 AnimCurve_DoubleClickToEdit,Double-click to edit,더블 클릭해서 편집하기,,Double-click to edit anim curve tooltip
@@ -6082,7 +6082,7 @@ SequenceCanvas_Toolbox_MultiselectTooltip,Multiple targets,다중 대상,,Multip
 SequenceCanvas_EditWindow_Title,Edit,편집,,Edit window title
 SequenceCanvas_DeleteWindow_Title,Delete,삭제,,Delete window title
 SequenceCanvas_DeleteWindow_Message,Are you sure you want to delete {0}?,정말로 {0}을(를) 지울까요?,,Delete confirmation label
-SequenceCanvas_DeleteWindow_Multiselect_Message,Are you sure you want to delete the selected items?,정말로 선택된 항목들일 지울까요?,,Delete confirmation label
+SequenceCanvas_DeleteWindow_Multiselect_Message,Are you sure you want to delete the selected items?,정말로 선택된 항목들을 지울까요?,,Delete confirmation label
 SequenceCanvas_EventsWindow_Title,Events,이벤트,,Events window title
 SequenceCanvas_Toolbox_Delete,Delete,삭제,,Toolbox delete tooltip
 SequenceCanvas_Toolbox_SelectThisItem,Select {0},{0} 선택,,Select item tooltip
@@ -6123,9 +6123,9 @@ SequenceGizmo_Ghosting,Delta Ghosting,델타 고스팅,,Ghosting gizmo text
 SequenceGizmo_Origin,Origin,중심,,Origin gizmo text
 SequenceGizmo_ZeroZero,Zero zero,제로 제로,,Zero zero gizmo text
 SequenceGizmo_AxisTransform,Transform,변형,,Transform gizmo text
-SequenceGizmo_ShowAxes,Show Axes,Axes 보이기,,Show axes gizmo text
+SequenceGizmo_ShowAxes,Show Axes,축 보이기,,Show axes gizmo text
 SequenceGizmo_TranslationPath,Translation Path,경로 변환하기,,Translation path gizmo text
-Sequence_AddTagTooltip,Add tag,태그 추가하기,,Add tag tooltip
+Sequence_AddTagTooltip,Add tag,태그 더하기,,Add tag tooltip
 Sequence_RemoveTagsTooltip,Remove selected tags,선택된 태그 지우기,,Remove selected tags tooltip
 DopeSheet_Tooltip_NewKey,Record a new key (F9),새로운 태그 기록하기 (F9),,New key tooltip
 DopeSheet_Tooltip_AutoRecord,Automatically record changes (F10),변경 사항 자동으로 기록하기 (F9),,Auto record tooltip
@@ -6183,8 +6183,8 @@ SequenceMessage_TagAlreadyExistsMsg,Tag '{0}' already exists on this track.,태�
 SequenceMessage_AddedParameterMsg,Added parameter '{0}' to the track.,{0}'가 매개자로 트랙에 추가됐어요.,,Parameter added message
 SequenceMessage_DeleteTagMsg,Do you want to delete tag(s) {0} from the track?,트랙에서 태그 {0}개를 지울까요?,,Do you want to delete tags question message
 SequenceTooltip_TagAlreadyExists,This tag is already on the track,그 태그는 이미 트랙에 있어요.,,Tag already on track tooltip
-SequencePref_ParameterConfirmDialog,Whether a confirmation dialog should be shown when a new track parameter is added,새로운 트랙 매개자가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
-SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when a new track tag is added,새로운 트랙 태그가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
+SequencePref_ParameterConfirmDialog,Whether a confirmation dialog should be shown when a new track parameter is added,트랙 매개자가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
+SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when a new track tag is added,트랙 태그가 추가될 때마다 확인 대화상자 띄우기,,Confirm dialog preference
 SequencePref_DeleteTagDialog,Whether a confirmation dialog should be shown when trying to delete a tag,트랙 태그가 삭제될 때마다 확인 대화상자 띄우기,,Delete tag confirm dialog preference
 SequencePref_ChainThickness,Canvas chain thickness,연결 사슬 굵기,,Canvas chain thickness preference
 SequencePref_ChainColor,Canvas chain colour,연결 사슬 색상,,Canvas chain colour preference
@@ -6225,7 +6225,7 @@ Sequence_Length_Label,Length,길이,,Sequence length label
 Sequence_Head_Label,Head,머릿단,,Sequence head label
 Sequence_Volume,Volume,음량,,Volume label
 Sequence_Tooltip_Volume,Master volume for IDE playback,IDE 재생단의 마스터 음량,,Master volume tooltip
-Sequence_Tooltip_Play,Play sequence from head marker,머릿단부터 시퀀스 재생하기,,Play sequence tooltip
+Sequence_Tooltip_Play,Play sequence from head marker,처음부터 시퀀스 재생하기,,Play sequence tooltip
 Sequence_Tooltip_Stop,Pause sequence,시퀀스 일시 정지하기,,Pause sequence tooltip
 Sequence_Tooltip_PlaybackMode,Change playback mode,재생 방식 바꾸기,,Change playback mode tooltip
 Sequence_Tooltip_Button_Menu,Show Menu,메뉴 보이기,,Show Menu tooltip
@@ -6296,7 +6296,7 @@ AssetBrowser_Create,Create,만들기,,create asset
 AssetBrowser_CreateResourceType,Create {0},{0} 만들기,,create (resource type name)
 AssetBrowser_AddFavourite,Favourite,즐겨찾기에 추가하기,,add to favourites
 AssetBrowser_RemoveFavourite,Unfavourite,즐겨찾기에서 삭제하기,,remove from favourites or unfavourite
-AssetBrowser_DefaultGroupName,group,group,,default name for new group/folder
+AssetBrowser_DefaultGroupName,group,Group,,default name for new group/folder
 AssetBrowser_NewAssetBrowser,Open in new Asset Browser,새 자산 탐색기에서 열기,,open in new asset browser
 AssetBrowser_ClearFavourites,Clear Favourites,즐겨찾기 정리하기,,asset browser clear favourites menu entry
 AssetBrowser_ClearRecent,Clear Recent Items,최근 항목 정리하기,,asset browser clear recently edited menu entry
@@ -6380,27 +6380,27 @@ AnimCurve_DefaultChannelName,curve{0},곡선 {0},,default channel name
 AnimCurve_EmbeddedCurveName,Embedded Curve,포함된 곡선,,anim curve embedded curve
 AnimCurve_ChannelValue_H,h,h,,h channel value
 AnimCurve_ChannelValue_V,v,v,,v channel value
-AnimCurveLib_Title,Animation Curve Library,Animation Curve Library,,anim curve library window title
-AnimCurveLib_Type,Type,Type,,type label
-AnimCurveLib_Presets,Presets,Presets,,presets label
-AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,Overwrite: Apply curve once across all selected sections,,overwrite mode tooltip
-AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,Between: Apply curve repeatedly for each selected section,,between mode tooltip
-AnimCurveLib_TTEaseOut,Ease Out,Ease Out,,ease out tooltip
-AnimCurveLib_TTEaseIn,Ease In,Ease In,,ease in tooltip
-AnimCurveLib_TTEaseInOut,Ease In-Out,Ease In-Out,,ease in-out tooltip
-AnimCurveLib_Reset,Reset,Reset,,reset curve label
-ACL_linear,Linear,Linear,,anim curve library curve name
-ACL_ease,Ease,Ease,,anim curve library curve name
-ACL_easeCubic,Cubic,Cubic,,anim curve library curve name
-ACL_easeQuart,Quart,Quart,,anim curve library curve name
-ACL_easeExpo,Expo,Expo,,anim curve library curve name
-ACL_easeCirc,Circ,Circ,,anim curve library curve name
-ACL_easeBack,Back,Back,,anim curve library curve name
-ACL_elastic,Elastic,Elastic,,anim curve library curve name
-ACL_bounce,Bounce,Bounce,,anim curve library curve name
-ACL_fastOutSlowIn,Fast To Slow,Fast To Slow,,anim curve library curve name
-ACL_slowMiddle,Mid Slow,Mid Slow,,anim curve library curve name
-ACL_ResetTip,Select "Reset" to revert curve to initial state.,Select "Reset" to revert curve to initial state.,,anim curve library reset tip
+AnimCurveLib_Title,Animation Curve Library,애니메이션 곡선 라이브러리,,anim curve library window title
+AnimCurveLib_Type,Type,종류,,type label
+AnimCurveLib_Presets,Presets,사전 설정,,presets label
+AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,교체: 선택된 곡선에 한번 적용해요.,,overwrite mode tooltip
+AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,혼합: 선택된 곡선에 연속으로 적용해요.,,between mode tooltip
+AnimCurveLib_TTEaseOut,Ease Out,크게,,ease out tooltip
+AnimCurveLib_TTEaseIn,Ease In,작아지게,,ease in tooltip
+AnimCurveLib_TTEaseInOut,Ease In-Out,작아졌다 크게,,ease in-out tooltip
+AnimCurveLib_Reset,Reset,초기화,,reset curve label
+ACL_linear,Linear,선형,,anim curve library curve name
+ACL_ease,Ease,보간,,anim curve library curve name
+ACL_easeCubic,Cubic,이중,,anim curve library curve name
+ACL_easeQuart,Quart,사중,,anim curve library curve name
+ACL_easeExpo,Expo,제곱,,anim curve library curve name
+ACL_easeCirc,Circ,원호,,anim curve library curve name
+ACL_easeBack,Back,회귀,,anim curve library curve name
+ACL_elastic,Elastic,탄력,,anim curve library curve name
+ACL_bounce,Bounce,반동,,anim curve library curve name
+ACL_fastOutSlowIn,Fast To Slow,빠름에서 느리게,,anim curve library curve name
+ACL_slowMiddle,Mid Slow,중간 느리기,,anim curve library curve name
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.",초기화로 처음 상태로 되돌릴 수 있어요.,,anim curve library reset tip
 assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에 기본 폴더들을 만들기,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최대로 보여줄 최근에 편집된 항목들의 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상 팔레트의 크기,,colour palette entry count
@@ -6411,13 +6411,13 @@ assetbrowser_defaultsortorder,Default sort order for new Asset Browsers,새 자�
 ListBoxEnum_eSortType_AtoZ,A-Z,A-Z,,sort order enum a-z
 ListBoxEnum_eSortType_ZtoA,Z-A,Z-A,,sort order enum z-a
 ListBoxEnum_eSortType_Custom,Custom,사용자 정의,,sort order enum custom sort
-assetbrowser_defaultfoldersfirst,Default sort folders first,기본적으로 폴더를 앞에 위치시키기,,default sort folders first
+assetbrowser_defaultfoldersfirst,Default sort folders first,기본적으로 폴더를 앞에 놓기,,default sort folders first
 assetbrowser_duplicatefoldermove,Automatic response to duplicate group name error,폴더 복제 오류,,Automatically dismiss duplicate folder error
 AssetBrowser_ExpandOnFilterChange,Expand tree on filter change,필터가 바뀔 때 자원 트리 펼치기,,Automatically expand the tree when the filter is changed
 assetbrowser_show_quickaccess,Show Quick Access,빠른 실행 보이기,,asset browser quick access enabled pref
 assetbrowser_deletetag,Automatic response to delete tag confirmation,태그 삭제 확인,,delete tag confirmation pref
 assetbrowser_automaticRoGroupDeletion,Automatic response to Room Order group deletion,룸 순서 폴더 삭제,,Automatic room order group deletion on asset browser
-assetbrowser_UngroupDeletesGroup,Room Order Ungroup removes the empty group,룸을 옮길 때 빈 폴더를 없애기,,delete group on ungroup pref
+assetbrowser_UngroupDeletesGroup,Room Order Ungroup removes the empty group,룸을 옮길 때 빈 룸 순서 폴더를 없애기,,delete group on ungroup pref
 preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,선택된 API 수준에 미리 SDK 값 할당하기,,Pre-populate SDK values to chosen API Level
 preferences_android_genadaptive_icon,Generate Foregrounds From File:,파일로부터 배경 생성,,generate adaptive icons widget foreground file label
 preferences_android_genadaptive_bg,Generate Backgrounds From File:,파일로부터 전경 생성,,generate adaptive icons widget background file label
@@ -6604,7 +6604,7 @@ GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https:/
 GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
 GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,{0}개의 자산을 만들까요?,,label to warn user they are about to create a lot of resources
-AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다량의 자산 생성하기,,title for warning dialog box
+AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다수의 자산 만들기,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,그림 형식이 인식되지 않았어요.,,This image format was not recognised
 YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,{0}'을 불러올 수 없어요.,,Message to show when an image cannot be loaded
 IDE_Warning,Warning,경고,,Warning for IDE
@@ -6623,8 +6623,8 @@ Error_ImportProjectTitle,Error Saving Import Project,가져온 프로젝트 저�
 Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Saving Import Project message
 Track Panel,Track Panel,트랙 창,,Track Panel label in Sequence Editor
 at:,at:,:,,Label for Moment Editor to show which frame this moment triggers at
-Warning_ImportProject_Title,Warning,Warning,,Warning
-Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
-Warning_AppIconAlpha_Title,Warning,Warning,,Warning
-Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
-Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
+Warning_ImportProject_Title,Warning,경고,,Warning
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 정말로 이 폴더에 다른 하부 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning Importing Project message
+Warning_AppIconAlpha_Title,Warning,경고,,Warning
+Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,선택하신 그림은 투명도가 있어요. 다른 그림을 골라주세요.,,App icon image transparency warning message
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,실행 파일이 아직 실행중이여서 만들어질 수가 없어요.,,Application running error message.
