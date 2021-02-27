@@ -3290,6 +3290,7 @@ runtime_install,Install,설치,,Install Runtime
 runtime_delete,Delete,삭제,,Delete Runtime
 runtime_selection,Runtime Selection,런타임 선택,,Runtime Selection Window title
 runtime_selection_change,Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.,현재 런타임을 버전 {0}로 바꿀까요?\nIDE를 다시 시작해야해요,,Change current runtime to the selected version {0}
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
 runtime_selection_install,Are you sure you want to install version {0}?,정말로 {0} 버전을 설치할까요?,,Install runtime version {0}
 runtime_installing,Installing...,설치 중...,,Runtime is installing
 Runtime_Download_Title,Runtime Downloading...,런타임 받는 중...,,Runtime downloading title
