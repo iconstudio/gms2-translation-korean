@@ -71,8 +71,8 @@ LicenseNotification_TrialExpiring,Your trial is due to expire in {0} days,체험
 LicenseNotification_Expiring,Your licence is due to expire in {0} days,라이선스가 {0}일 이내에 만료됩니다.,,Licence expiry notification
 LicenseNotification_BuyNow,Buy Now,라이선스 구매,,Buy Now label
 LicenseNotification_ButtonBuyNow,BUY NOW,구매하기,,BUY NOW label
-IDE_License_Label,Your licence is due to expire in {0} days,{0} 라이선스가 {1}일 이내에 만료됩니다.,,IDE licence label
-IDE_TrialLicense_Label,Your trial is due to expire in {0} days,{0} 체험판이 {1}일 이내에 만료됩니다.,,IDE trial licence label
+IDE_License_Label,Your licence is due to expire in {0} days,라이선스가 {0}일 이내에 만료됩니다.,,IDE licence label
+IDE_TrialLicense_Label,Your trial is due to expire in {0} days,체험판이 {0}일 이내에 만료됩니다.,,IDE trial licence label
 marketplace_certificate_settings,Marketplace Certificate Settings,인증서 설정,,marketplace certificate settings pref
 Certificate_GenerateSucceeded,Successfully created certificate file: {0},인증서 생성 성공: {0},,certificate create success
 Certificate_GenerateFailed,Failed to create certificate file: {0},인증서 생성 실패: {0},,certificate create failed
