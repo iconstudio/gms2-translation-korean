@@ -8,6 +8,7 @@ _LanguageCode,en,kr,,standard windows os language code this pack represents (can
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
 _MANUAL_ONLINE_URL,https://manual-en.yoyogames.com,https://manual-en.yoyogames.com,,online manual url
+_TUTORIALS_ONLINE_URL,"https://www.yoyogames.com/en/tutorials","https://www.yoyogames.com/en/tutorials",,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,탐색기에서 열기,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,탐색기에서 프로젝트 열기,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,탐색기에서 기록 열기,,Windows version of Show Log In Explorer
@@ -3290,6 +3291,7 @@ runtime_install,Install,설치,,Install Runtime
 runtime_delete,Delete,삭제,,Delete Runtime
 runtime_selection,Runtime Selection,런타임 선택,,Runtime Selection Window title
 runtime_selection_change,Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.,현재 런타임을 버전 {0}로 바꿀까요?\nIDE를 다시 시작해야해요,,Change current runtime to the selected version {0}
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,현재 런타임을 IDE 버전 {0}에 맞게 바꿀까요?,,Change current runtime to the version matching the IDE
 runtime_selection_install,Are you sure you want to install version {0}?,정말로 {0} 버전을 설치할까요?,,Install runtime version {0}
 runtime_installing,Installing...,설치 중...,,Runtime is installing
 Runtime_Download_Title,Runtime Downloading...,런타임 받는 중...,,Runtime downloading title
@@ -6138,7 +6140,7 @@ DopeSheet_Tooltip_GlobalLocalSpace,Toggle between local and global space,지역�
 DopeSheet_Tooltip_TrackOptions,Options,설정,,Track options tooltip
 DopeSheet_Tooltip_Tags,Tags,태그,,Tags options tooltip
 DopeSheet_Tooltip_TrackLink,Link to another track,다른 트랙에 연결하기,,Track link to other tooltip
-DopeSheet_RootNode,Root,루트,,Root node
+DopeSheet_RootNode,Root,뿌리 노드,,Root node
 ContextMenu_AddCodeKey,Add code,코드 추가하기,,Add a code key
 ContextMenu_AddCurveKey,Add curve,곡선 추가하기,,Add an animation curve
 ContextMenu_TrackInterpolation,Interpolation,보간,,Real number interpolation
@@ -6166,7 +6168,7 @@ ContextMenu_PasteKeysInPlace,Paste key(s) in place,한곳에 키 붙여넣기,,P
 ContextMenu_AddKey,Add key in place,한곳에 키 추가하기,,Add key menu entry
 ContextMenu_SplitKey,Split key in place,한곳에 키 분할하기,,Split key menu entry
 ContextMenu_DuplicateTrack,Duplicate Track,트랙 복제하기,,Duplicate track menu entry
-ContextMenu_DeleteKeys,Delete key(s),키 삭제하기,,Delete multiple keys menu entry
+ContextMenu_DeleteKeys,Delete key(s),키 지우기,,Delete multiple keys menu entry
 ContextMenu_PasteKeysWarning,Some copied keys were not pasted successfully due to target track types not matching up,붙여넣기 했던 트랙의 종류가 알맞지 않아서 복사했던 키 몇 개가 붙여지지 않았어요.,,Warning when attempting to paste keys into invalid target tracks
 ContextMenu_ConvertToAnimCurve,Convert to Curve,곡선으로 변환하기,,Convert to embedded anim curve menu entry
 ContextMenu_SetToAnimCurve,Assign Shared Curve (Import),공유 곡선 할당하기 (가져오기),,Set to external anim curve menu entry
@@ -6370,7 +6372,7 @@ AnimCurve_CurveType,Curve Type,곡선 종류,,curve type
 AnimCurve_Ease,Ease,보간,,ease
 AnimCurve_Linear,Linear,선형,,linear
 AnimCurve_EaseIn,Ease-In,작아지게,,ease-in
-AnimCurve_EaseOut,Ease-Out,크게,,ease-out
+AnimCurve_EaseOut,Ease-Out,커지게,,ease-out
 AnimCurve_EaseInOut,Ease-In-Out,작아졌다 크게,,ease in-out
 AnimCurve_Smooth,Smooth,부드럽게,,smooth
 AnimCurve_2DBezier,Bezier,베지어,,bezier2D
@@ -6577,7 +6579,8 @@ ImportFromYY_NothingToImport,There no resources found that we can import,가져�
 CoreResources_MissingResourceTitle,Project has missing Resources,자원 누락됨,,Project has missing Resources title
 CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). Please check the Output log for more information.,프로젝트에 {0}개의 누락된 자원이 있어요. 출력 기록을 확인해주세요.,,Project has missing x-amount of resources so check the log
 CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0}이(가) 누락됐는데 {1}번 참조되었어요.,,Message to display in Output log due to missing resource
-CoreResources_LostResource,{0} was lost and moved to root of project.,{0}가 소실돼서 프로젝트 루트로 옮겨졌어요.,,Message to display when a resource has lost its parent
+CoreResources_LostResource,{0} was lost and moved to root of project.,{0}이(가) 소실돼서 프로젝트 루트로 옮겨졌어요.,,Message to display when a resource has lost its parent
+CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0}이(가) 누락된 식별 참조자를 {1}에 가지고 있었어요.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
 Sequences_Events,Sequence Events,시퀀스 이벤트,,Events Window Caption
 Event_Async_Event,Async Event,비동기 이벤트,,Async Event
 Event_Broadcast_Message,Broadcast Message,송출 메시지,,Broadcast Message
