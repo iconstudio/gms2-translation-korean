@@ -6033,8 +6033,8 @@ AnimCurve_DeleteAllConfirm,Are you sure you want to delete all curves?,정말로
 AnimCurveEditor,Anim Curve Editor,애니메이션 곡선 편집기,,anim curved editor pref type name
 animcurve_automaticdeletion,Automatic response to curve deletion,곡선 삭제,,Automatic deletion in animation curve editor
 animcurve_compactlayout,Use compact layout,조밀한 레이아웃 사용하기,,animcurve editor compact layout pref
-KeyMenu_StretchParam,Stretch Parameter Key,매개변수 키 늘리기,,Stretch key until sequence ends for parameters
-KeyMenu_StretchAsset,Stretch Asset Key,자산 키 늘리기,,Stretch key until sequence ends for assets
+KeyMenu_StretchParam,Stretch Parameter Key,매개변수 키 늘이기,,Stretch key until sequence ends for parameters
+KeyMenu_StretchAsset,Stretch Asset Key,자산 키 늘이기,,Stretch key until sequence ends for assets
 KeyMenu_DeleteParam,Delete Parameter Key,매개변수 키 삭제하기,,Delete key for parameters
 KeyMenu_DeleteAsset,Delete Asset Key,자산 키 삭제하기,,Delete key for assets
 KeyMenu_CopyToEnd,Copy to End,끝에 복사하기,,Copy to end menu entry
@@ -6062,16 +6062,16 @@ SequenceCanvas_Menu_Remove,Remove Key,키 제거하기,,Sequence canvas context 
 SequenceCanvas_Menu_RemoveTracks,Remove Track,트랙 제거하기,,Sequence canvas context menu entry to remove selected tracks
 SequenceCanvas_ToggleGizmos,Toggle Gizmos,기즈모 켜고 끄기,,Toggle gizmos on/off tooltip
 SequenceCanvas_ToggleGizmosSpecific,Toggle specific gizmos,특정 기즈모 켜고 끄기,,Toggle specific gizmos on/off tooltip
-SequenceCanvas_ToggleTransformGizmo,Toggle Transform Gizmo Mode,키자 모 변환 방식 전환하기,,Tooltip for transform gizmo settings button
+SequenceCanvas_ToggleTransformGizmo,Toggle Transform Gizmo Mode,기즈모 변환 방식 전환하기,,Tooltip for transform gizmo settings button
 SequenceCanvas_ToggleTransformGizmoSpecific,Select Transform Gizmo Mode,기즈모 변환 방식 선택하기,,Tooltip for transform gizmo settings menu
-SequenceCanvas_ToggleGizmoTranslate,Translate,번역,,Toggle to translate canvas gizmo
+SequenceCanvas_ToggleGizmoTranslate,Translate,전이,,Toggle to translate canvas gizmo
 SequenceCanvas_ToggleGizmoScale,Scale,비율,,Toggle to scale canvas gizmo
 SequenceCanvas_ToggleGizmoRotate,Rotate,회전,,Toggle to rotate canvas gizmo
 SequenceCanvas_ToggleGizmoOrigin,Origin,중심,,Toggle to origin canvas gizmo
-SequenceCanvas_ToggleBackdrop,Toggle canvas frame,용지 프레임 전환하기,,Toggle canvas frame on/off tooltip
+SequenceCanvas_ToggleBackdrop,Toggle canvas frame,용지 전환하기,,Toggle canvas frame on/off tooltip
 SequenceCanvas_ToggleBackdropSpecific,Canvas frame settings,프레임 설정,,canvas frame settings tooltip
-SequenceCanvas_BackdropEnabled,Canvas frame enabled,용지 프레임 활성화됨,,canvas frame enabled label
-SequenceCanvas_BackdropImageRefEnabled,Image reference enabled,그림 참조 활성화됨,,image reference enabled label
+SequenceCanvas_BackdropEnabled,Canvas frame enabled,용지 프레임 활성화하기,,canvas frame enabled label
+SequenceCanvas_BackdropImageRefEnabled,Image reference enabled,참조용 그림 활성화하기,,image reference enabled label
 SequenceCanvas_BackdropWidth,Width,너비,,canvas frame width label
 SequenceCanvas_BackdropHeight,Height,높이,,canvas frame height label
 SequenceCanvas_xorigin,Origin X,중심 X,,canvas origin x
