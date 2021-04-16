@@ -1668,12 +1668,12 @@ sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,소스 �
 sourcecontrolgit_clone_urltoclone,URL of repository to clone:,복제할 저장소의 URL,,URL of the repository to clone
 sourcecontrolgit_clone_path,Path to clone to:,복제할 경로,,Path to clone repository into
 sourcecontrolgit_commit,Source Control (Git) Commit,소스 제어 (Git) 확정,,Commit to repository title
-sourcecontrolgit_commit_stagedchanges,Stage Changes,변경 사항 올리기,,Staged Changes label
+sourcecontrolgit_commit_stagedchanges,Stage Changes,올라간 사항,,Staged Changes label
 sourcecontrolgit_commit_unstageall,Unstage All,모두 내리기,,Unstage All changes label
-sourcecontrolgit_commit_unstageselected,Unstage Selected,선택사항 내리기,,Unstage Selected changes label
-sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,변경점 내리기,,Unstaged Changes label
+sourcecontrolgit_commit_unstageselected,Unstage Selected,내리기,,Unstage Selected changes label
+sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,올라가지 않은 사항,,Unstaged Changes label
 sourcecontrolgit_commit_stageall,Stage All,모두 올리기,,Stage All changes label
-sourcecontrolgit_commit_stageselected,Stage Selected,선택사항 올리기,,Stage Selected changes label
+sourcecontrolgit_commit_stageselected,Stage Selected,올리기,,Stage Selected changes label
 sourcecontrolgit_commit_message,Commit Message,확정 메시지,,Commit Message label
 sourcecontrolgit_commit_button,Commit,확정,,Commit button label
 sourcecontrolgit_import_project,Source Control (Git) Import Project,소스 제어 (Git) 프로젝트 가져오기,,Import Project title
@@ -5906,30 +5906,30 @@ SequenceDopeSheet_Timeline_Frames_Units_Tooltip,Frames,프레임,,timeline frame
 SequenceDopeSheet_Timeline_Time_Units,h:m:s,h:m:s,,timeline time mode abbreviation
 SequenceDopeSheet_Timeline_Time_Units_Tooltip,Timestamp,시,,timeline time mode tooltip
 SequenceDopeSheet_Timeline_Tooltip_HeadPos,Playhead position ({0}),머릿단 위치 ({0}),,timeline playhead position textbox tooltip
-SequenceDopeSheet_Timeline_Tooltip_Duration,Sequence length ({0}),총 길이 ({0}),,timeline sequence length textbox tooltip
+SequenceDopeSheet_Timeline_Tooltip_Duration,Sequence length ({0}),재생 시간 ({0}),,timeline sequence length textbox tooltip
 SequenceDopeSheet_Timeline_ChangeTimeUnitsTooltip,Change time units,시간 단위,,timeline sequence time unit change tooltip
 SeqDopeSheet_EmptyAnimCurve_ChannelDesc,Select any parameter track to view curve.,곡선을 보일 매개변수 트랙을 선택해주세요.,,empty dopesheet anim curve channels label
 SeqDopeSheet_EmptyAnimCurve_TrackDesc1,No curve visible.,보이는 곡선이 없어요.,,no anim curve track label
 SeqDopeSheet_EmptyAnimCurve_TrackDesc2,A parameter track must be selected to view curves.,곡선을 보려면 매개변수 트랙이 선택됐어야 해요.,,no anim curve track label
-SeqDopeSheet_SharedCurveC,Shared Curve:,공유 곡선:,,shared curve:
-SeqDopeSheet_ExternalCurveEditWarning1,Changes to this curve inside sequences will also be applied to the external shared curve asset.,이 곡선을 수정하면 외부의 원래 공유 곡선도 같이 수정돼요.,,external curve warning label
+SeqDopeSheet_SharedCurveC,Shared Curve:,공유된 곡선 자산:,,shared curve:
+SeqDopeSheet_ExternalCurveEditWarning1,Changes to this curve inside sequences will also be applied to the external shared curve asset.,이 곡선을 수정하면 외부의 원래 곡선 자산도 같이 수정돼요.,,external curve warning label
 SeqDopeSheet_ExternalCurveEditWarning2,Embed the curve to make edits freely or Continue to edit.,곡선을 트랙에 포함시켜서 원본과 분리할 수 있어요.,,external curve warning label
 SeqDopeSheet_ExternalCurveDetailEmbed,The sequence will have its own copy of the curve,시퀀스는 복사본을 가지게돼요.,,shared curve detail embed
-SeqDopeSheet_ExternalCurveDetailContinue,Continue to edit the shared curve,공유 곡선 수정,,shared curve detail continue
+SeqDopeSheet_ExternalCurveDetailContinue,Continue to edit the shared curve,곡선 수정,,shared curve detail continue
 SeqDopeSheet_ConvertToKeysWarning,Converting a curve to keys will revert the curve back to 'linear' and it will appear as keyframes in the dopesheet.,곡선을 키로 바꾸면 종류가 선형으로 바뀌고 노출 시트에 키 프레임으로 보여요.,,convert to keys warning
 SeqDopeSheet_AnimCurveKeyFrame1,This is a keyframed parameter track.,키프레임 매개변수 트랙이에요.,,sequence anim curve mode keyframe track msg1
 SeqDopeSheet_AnimCurveKeyFrame2,'Convert to Curve' to make edits in this view,곡선으로 변환해서 여기서 편집할 수 있어요.,,sequence anim curve mode keyframe track msg2
 SeqDopeSheet_AnimCurveLocked1,Locked:,잠김:,,anim curve locked track label
 SeqDopeSheet_AnimCurveLocked2,Unlock asset track in track panel\n to continue editing,잠금을 해제해서 트랙 제어판에서 편집해보세요.,,anim curve locked track label
-SeqDopeSheet_InvalidSharedCurve,Invalid Shared Curve,올바르지 않은 공유 곡선,,invalid shaded curve
-SeqDopeSheet_InvalidSharedCurveC,Invalid Shared Curve:,올바르지 않은 공유 곡선:,,invalid shaded curve:
-SeqDopeSheet_InvalidCurveMsg1,Sequences can no longer read the shared curve due to edits that have been made externally.,외부에서 공유 곡선이 수정돼서 다시 그 곡선을 불러올 수가 없어요.,,invalid curve text
+SeqDopeSheet_InvalidSharedCurve,Invalid Shared Curve,올바르지 않은 곡선산,,invalid shaded curve
+SeqDopeSheet_InvalidSharedCurveC,Invalid Shared Curve:,올바르지 않은 곡선:,,invalid shaded curve:
+SeqDopeSheet_InvalidCurveMsg1,Sequences can no longer read the shared curve due to edits that have been made externally.,외부에서 곡선이 수정돼서 다시 그 곡선을 불러올 수가 없어요.,,invalid curve text
 SeqDopeSheet_InvalidCurveMsg2,Add channels to the curve to resolve the issue.,곡선에 채널을 추가해서 문제를 해결할 수 있어요.,,invalid curve text
 SeqDopeSheet_AddChannels,Add Channel(s),채널 추가,,add channel/channels
 SeqDopeSheet_InvalidCurveDetailOK,This will add the appropriate number of channels to the curve to make it compatible with the sequence.,시퀀스와 호환되게끔 적절한 수의 채널이 추가돼요.,,invalid curve detail msg
 SeqDopeSheet_InvalidCurveDetailCancel,The curve will not be modified,이 곡선을 수정할 수가 없어요.,,invalid curve detail cancel msg
 SeqDopeSheet_IncompatCurveDetailCancel,The curve will not be assigned to the track,이 곡선을 트랙에 할당할 수가 없어요.,,incompat curve detail cancel msg
-SeqDopeSheet_InvalidCurveEdit,Edit the shared curve to fix the issues.,공유 곡선을 수정해서 문제를 해결할 수 있어요.,,invalid shared curve edit label
+SeqDopeSheet_InvalidCurveEdit,Edit the shared curve to fix the issues.,곡선을 수정해서 문제를 해결할 수 있어요.,,invalid shared curve edit label
 SeqDopeSheet_IncompCurveTitle,Important,중요,,incompat curve dialog title
 SeqDopeSheet_IncompCurve,Incompatible Curve:,호환되지않는 곡선,,incompatible curve
 SeqDopeSheet_IncompCurveMsg1,'{0}' does not have enough channels to work with this parameter track.,{0}'은 매개변수 트랙과 같이 작동할만큼의 채널을 갖고있지 않아요.,,incompat curve text
@@ -6042,7 +6042,7 @@ KeyMenu_CopyToStart,Copy to Start,시작에 복사하기,,Copy to start menu ent
 KeyMenu_CopyKey,Copy Key,키 복사하기,,Copy key menu entry
 KeyMenu_CutKey,Cut Key,키 잘라내기,,Cut key menu entry
 KeyMenu_PasteKey,Paste Key,키 붙여넣기,,Paste key menu entry
-KeyMenu_PasteInPlaceKey,Paste Key In Place,한곳에 키 붙여넣기,,Paste key in place menu entry
+KeyMenu_PasteInPlaceKey,Paste Key In Place,여기에 키 붙여넣기,,Paste key in place menu entry
 Seq_KeyMenu_Disabled,Disabled,비활성화됨,,Disabled key context menu entry
 SequenceEditor_SetKeyAsset,Set Key Asset,키 자산 설정,,set key asset dialog title
 SelectTrackDialog_Title,Select Track,트랙 설정,,Select track dialog title
@@ -6164,15 +6164,15 @@ ContextMenu_SwapAsset,Swap Asset,자산 교환하기,,Set value of asset key at 
 ContextMenu_CopyKeys,Copy key(s),키 복사하기,,Copy multiple keys menu entry
 ContextMenu_CutKeys,Cut key(s),키 잘라내기,,Cut multiple keys menu entry
 ContextMenu_PasteKeys,Paste key(s),키 붙여넣기,,Paste multiple keys menu entry
-ContextMenu_PasteKeysInPlace,Paste key(s) in place,한곳에 키 붙여넣기,,Paste multiple keys in place menu entry
-ContextMenu_AddKey,Add key in place,한곳에 키 추가하기,,Add key menu entry
-ContextMenu_SplitKey,Split key in place,한곳에 키 분할하기,,Split key menu entry
+ContextMenu_PasteKeysInPlace,Paste key(s) in place,여기에 키 붙여넣기,,Paste multiple keys in place menu entry
+ContextMenu_AddKey,Add key in place,여기에 키 추가하기,,Add key menu entry
+ContextMenu_SplitKey,Split key in place,여기에 키 분할하기,,Split key menu entry
 ContextMenu_DuplicateTrack,Duplicate Track,트랙 복제하기,,Duplicate track menu entry
 ContextMenu_DeleteKeys,Delete key(s),키 지우기,,Delete multiple keys menu entry
 ContextMenu_PasteKeysWarning,Some copied keys were not pasted successfully due to target track types not matching up,붙여넣기 했던 트랙의 종류가 알맞지 않아서 복사했던 키 몇 개가 붙여지지 않았어요.,,Warning when attempting to paste keys into invalid target tracks
 ContextMenu_ConvertToAnimCurve,Convert to Curve,곡선으로 변환하기,,Convert to embedded anim curve menu entry
-ContextMenu_SetToAnimCurve,Assign Shared Curve (Import),공유 곡선 할당하기 (가져오기),,Set to external anim curve menu entry
-ContextMenu_ExportEmbeddedAnimCurve,Export To Shared Curve,공유 곡선으로 내보내기,,Export embedded anim curve menu entry
+ContextMenu_SetToAnimCurve,Assign Shared Curve (Import),곡선 자산 할당하기,,Set to external anim curve menu entry
+ContextMenu_ExportEmbeddedAnimCurve,Export To Shared Curve,곡선 공유하기,,Export embedded anim curve menu entry
 ContextMenu_ConvertToKeys,Convert to keys,키로 변환하기,,Convert to keys menu entry
 SequenceEditor_AnimCurve_EmbedCurve,Embed Curve,곡선 포함,,Embed Curve button
 SequenceEditor_AnimCurve_ConvertToKeys,Convert To Keys,키로 변환,,Convert To Keys button
@@ -6613,11 +6613,11 @@ YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,{0}'을 불
 IDE_Warning,Warning,경고,,Warning for IDE
 IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2는 중요한 시스템 폴더에 접근할 수 없어요.\n환경설정을 보고 접근 권한을 부여해 주시거나 시스템 관리자에 연락하세요.\n\n{0},,File permissions failure on startup
 code_completion_builtin_struct,BuiltIn {0} Member,내장 {0} 멤버,,Code Completion when built-in structure member used.
-SnappableControls_Orientation_Top,Snap to top,상단에 맞추기,,Snappable widget controls snap to top button tooltip
-SnappableControls_Orientation_Bottom,Snap to bottom,하단에 맞추기,,Snappable widget controls snap to bottom button tooltip
-SnappableControls_Orientation_Left,Snap to left,좌측에 맞추기,,Snappable widget controls snap to left button tooltip
-SnappableControls_Orientation_Right,Snap to right,우측에 맞추기,,Snappable widget controls snap to right button tooltip
-SnappableControls_Orientation_Floating,Floating window,부동 창,,Snappable widget controls floating window button tooltip
+SnappableControls_Orientation_Top,Snap to top,상단에 붙이기,,Snappable widget controls snap to top button tooltip
+SnappableControls_Orientation_Bottom,Snap to bottom,하단에 붙이기,,Snappable widget controls snap to bottom button tooltip
+SnappableControls_Orientation_Left,Snap to left,좌측에 붙이기,,Snappable widget controls snap to left button tooltip
+SnappableControls_Orientation_Right,Snap to right,우측에 붙이기,,Snappable widget controls snap to right button tooltip
+SnappableControls_Orientation_Floating,Floating window,창 띄우기,,Snappable widget controls floating window button tooltip
 SnappableControls_Reset,Reset to default,기본으로 되돌리기,,Snappable widget controls reset button tooltip
 SnappableControls_Title,Change orientation,방향 바꾸기,,Snappable widget controls title label
 Error_CreateNewProjectTitle,Error Creating Project,프로젝트 생성 오류,,Error Creating Project title
@@ -6627,7 +6627,7 @@ Error_ImportProjectMessage,Could not save imported project at specified path. Yo
 Track Panel,Track Panel,트랙 창,,Track Panel label in Sequence Editor
 at:,at:,:,,Label for Moment Editor to show which frame this moment triggers at
 Warning_ImportProject_Title,Warning,경고,,Warning
-Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 정말로 이 폴더에 다른 하부 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning Importing Project message
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 정말로 이 폴더에 다른 하위 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning Importing Project message
 Warning_AppIconAlpha_Title,Warning,경고,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,선택하신 그림은 투명도가 있어요. 다른 그림을 골라주세요.,,App icon image transparency warning message
-Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,실행 파일이 아직 실행중이여서 만들어질 수가 없어요.,,Application running error message.
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,파일이 아직 실행중이여서 만들어질 수가 없어요.,,Application running error message.
