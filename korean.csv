@@ -1043,7 +1043,7 @@ Marketplace_MyLibrary_ViewMoreFrom,View more from developer.,개발자에 대해
 Marketplace_MyLibrary_Description,Description:,설명,,Description label
 Marketplace_MyLibrary_AgeRating,Age Rating:,연령 등급,,Age Rating Label
 Marketplace_MyLibrary_Version,Version:,버전,,Version Label
-Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,"버전 {0}, 게시 {1}",,Version label
+Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,"버전 {0}, 게시일 {1}",,Version label
 Marketplace_MyLibrary_PackageContains,Package Contains:,패키지 구성물,,Package Contains Label
 Marketplace_MyLibrary_EULA,End User Licence Agreement: (EULA),최종 사용자 사용권 계약: (EULA),,EULA Label
 Marketplace_MyLibrary_Categories,Categories,범주,,Marketplace Categories title
@@ -4634,7 +4634,7 @@ Package_DragDrop_Message_IDE,Import asset package?,자산 패키지를 가져올
 Package_DragDrop_Title,Asset Package Detected,자산 패키지 발견됨,,dialog title
 Dialog_CopyToClipboard,Copy to clipboard,클립보드에 복사,,Copy the dialog message to the clipboard
 Marketplace_MyLibrary_Reviews,{0} reviews,{0} 리뷰,,Review count label
-Marketplace_MyLibrary_MadeWith,Created with {0},{0}로 만들기,,Created with asset label
+Marketplace_MyLibrary_MadeWith,Created with {0},{0}로 만들어졌어요.,,Created with asset label
 Marketplace_MyLibrary_SearchText,Search...,검색...,,Search default text
 Marketplace_MyLibrary_AllCategory,All Assets,모든 자산,,Category all assets
 Marketplace_MyLibrary_UpdateCategory,New Version ({0}),새로운 버전 ({0}),,Category new version available
