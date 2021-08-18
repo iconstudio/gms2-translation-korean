@@ -17,10 +17,16 @@ $mac_explorer,finder,Finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Finder에서 보기,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Finder에서 프로젝트 보기,,Mac version of Open Project In Explorer
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,Finder에서 기록 살펴보기,,Mac version of Show Log In Explorer
+$linux_explorer,file manager,file manager,,Linux version of explorer
+$linux_OpenInExplorer,Show In File Manager,Show In File Manager,,Linux version of Open In Explorer
+$linux_OpenProjectInExplorer,Show Project In File Manager,Show Project In File Manager,,Linux version of Open Project In Explorer
+$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Reveal Log In File Manager,,Linux version of Show Log In Explorer
 $win_ctrl,Ctrl,Ctrl,,Windows version of ctrl key
 $mac_ctrl,Command,Command,,Mac version of ctrl key
+$linux_ctrl,Ctrl,Ctrl,,Linux version of ctrl key
 $win_FileMenuExit,Exit,나가기,,Windows version of the Exit main menu entry
 $mac_FileMenuExit,Quit,끝내기,,Mac version of the Exit main menu entry
+$linux_FileMenuExit,Exit,Exit,,Linux version of the Exit main menu entry
 $win_IDEMenuHelpAbout,About,알아보기,,Windows version of the About main menu entry
 $mac_IDEMenuHelpAbout,About GameMaker Studio 2,GameMaker Studio 2 알아보기,,Windows version of the About main menu entry
 $win_IDEMenuViews,Windows,창,,Windows version of the views menu entry
