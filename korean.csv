@@ -151,7 +151,7 @@ ContextMenu_MoveEntryUp,Move Menu Item Up,메뉴 항목 위로 이동시키기,,
 Dialog_AreYouSure,Are you sure?,확실한가요?,,"Generic ""Are you sure?"" dialog message"
 Dialog_Confirm,Confirm,확정,,"Dialog ""confirm"" heading"
 Dialog_Ignore,Ignore,무시,,dialog ignore label
-Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,정말로 이 이벤트를 제거할까요?,,Delete event dialog confirmation query
+Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,정말로 이 이벤트를 지울까요?,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,정말로 이 이벤트를 잘라낼까요?,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,정말로 이벤트 {0}개를 없앨까요?,,Delete multiple event dialog confirmation query
 Dialog_DeleteFrame_Query,Delete the selected frames?,선택된 프레임을 지울까요?,,image editor delete frames confirm query
@@ -225,16 +225,16 @@ DialogEditor_RGBATextEntry,RGBA Input,RGBA 입력,,layout hierarchy label for th
 DialogEditor_RowSplitter,Grid Row Splitter,격자 행 구분자,,Layout Heirarchy heading for a grid row splitter
 DialogEditor_SaveAllStyles,Save All Styles,모든 스타일 저장,,Menu option to save all open styles to file
 DialogEditor_SaveAsLayout,Save Layout As...,레이아웃을 다른 이름으로 저장,,Dialog editor save as layout menu entry
-DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},오류 {0} - {1} 로 인해 저장이 실패하였습니다,,lop propmt for user to indicate the save failed
+DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},오류 {0} - {1} 로 인해 저장이 실패했어요.,,lop propmt for user to indicate the save failed
 DialogEditor_SaveLayout,Save Layout,레이아웃 저장,,Dialog editor save layout menu entry
 DialogEditor_SaveStyle,Save Style,스타일 저장,,Menu option to save a style to file
 DialogEditor_SaveStyleAs,Save Style As...,스타일을 다른 이름으로 저장,,Menu option to save a style to a different file or with a different name
 DialogEditor_ScrollPanel,Scroll Panel,스크롤 창,,layout hierarchy display name for scroll panel
 DialogEditor_SelectContextMenu,Edit Context Menu,문맥 메뉴 편집,,Context menu option to select the context menu for the selected gadget so it can be edited
-DialogEditor_SelectSaveFile,Select the file to save the style to. If the file doesn't already contain the style definition it will search all files within its folder.\nUse 'Save Style As...' to explicitly override save file,스타일을 저장할 파일을 선택하세요. 파일에 스타일 정의가 담고 있지않으면 해당 폴더 내의 다른 파일을 검색합니다. \n '다른 이름으로 스타일 저장...'을 사용하여 명시적으로 저장할 수 있습니다.,,Information about selecting a save file. Informs the user that if the file they have chosen doesn't already include the stylename it will search for the file that does inside the parent folder
+DialogEditor_SelectSaveFile,Select the file to save the style to. If the file doesn't already contain the style definition it will search all files within its folder.\nUse 'Save Style As...' to explicitly override save file,스타일을 저장할 파일을 선택하세요. 파일에 스타일 정의가 없으면 해당 폴더 내의 다른 파일을 검색합니다. \n '다른 이름으로 스타일 저장...'을 사용하여 명시적으로 저장할 수 있어요.,,Information about selecting a save file. Informs the user that if the file they have chosen doesn't already include the stylename it will search for the file that does inside the parent folder
 DialogEditor_StyleEditor,Style Editor,스타일 편집기,,the title for the style editor window
 DialogEditor_StyleName,Style name:,스타일 이름,,style name
-DialogEditor_StyleNotFound,The style wasn't found in this folder. It will append to the selected file unless an alternative is selected.,이 폴더에서 스타일을 찾을 수 없어요. 다른 파일을 선택하지 않으면 선택한 파일에 추가됩니다.,,Warning message that the style wasnt' found so it will be appended to the end of the given style instead
+DialogEditor_StyleNotFound,The style wasn't found in this folder. It will append to the selected file unless an alternative is selected.,이 폴더에서 스타일을 찾을 수 없어요. 다른 파일을 선택하지 않으면 선택한 파일에 추가돼요.,,Warning message that the style wasnt' found so it will be appended to the end of the given style instead
 DialogEditor_SubMenuEntry,Sub Menu Entry,하위 메뉴 개체,,Layout hierarchy label for a sub menu entry
 DialogEditor_TabControl,Tab Control Panel,탭 제어판,,Gadget toolbox display name for tab control
 DialogEditor_TabItem,Tab,탭,,Layout Heirarchy heading for a tab
@@ -423,8 +423,8 @@ Extension_Import_Resources_Description,Select resources from your extension and 
 Extension_Import_Extract_Error,Failed to extract the extension archive: '{0}',확장의 압축 파일을 풀지 못했습니다: {0},,extension import - archive unzip failed error message
 Extension_Import_Resources_Title,Import resources: {0},자원 가져오기: {0},,extension import resource title
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},예전 자원 가져오기: {0},,legacy extension(1.x) import resource title
-Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,사용자 '{0}'를 로그아웃 할까요?\n변경 사항을 저장하고 IDE를 다시 시작해야해요.,,Query if the user really wants to logout
-Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,정말로 기본 설정을 되돌릴까요?\n적용하려면 프로그램을 다시 시작해야해요.,,Restore default settings restart prompt
+Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,사용자 '{0}'에서 로그아웃 할까요?\n저장 후에 IDE를 다시 시작해야해요.,,Query if the user really wants to logout
+Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,정말로 기본 설정으로 되돌릴까요?\n적용하려면 프로그램을 다시 시작해야해요.,,Restore default settings restart prompt
 File_Menu_NewIDE,New IDE,새 IDE 열기,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,로그아웃,,The Logout program menu item
 File_Menu_MyAccount,My Account,내 계정,,Launches my account web page menu item
@@ -445,7 +445,7 @@ FileError_Locked,File Locked,파일 잠김,,File Locked
 FileError_NotFound,File Not Found,파일 찾을 수 없음,,File Not Found
 FileError_PathTooLong,File Path Too Long,파일 경로가 너무 김,,File Path Too Long
 FileError_Timeout,File Load Timeout,파일 불러오기 시간초과,,File Load Timeout
-Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),기기에 서체가 없어서 글꼴 {0}의 텍스처 생성을 건너뛰었어요.,,Font generation failed
+Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),글꼴이 없어서 글꼴 {0}의 텍스처 생성을 건너뛰었어요.,,Font generation failed
 Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","""-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~""""",,FontTTF standard English alphabet<
 Inspector,Inspector,계측기,,Inspector preference heading
 Inspector_WindowTitle,Inspector,계측기,,Inspector window title
@@ -529,42 +529,42 @@ Inspector_Category_TextureSettings,Texture Settings,텍스처 설정,,Inspector 
 Inspector_Category_CollisionMask,Collision Mask,충돌 마스크,,Inspector category
 Inspector_Category_Tiles,Tiles,타일,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,고급,,Inspector category
-Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
-Inspector_Category_Parent,Parent,Parent,,Inspector category
+Inspector_Category_CanvasFrame,Canvas Frame,용지 프레임,,Inspector category
+Inspector_Category_Parent,Parent,부모,,Inspector category
 Inspector_OpenEditor,Open Editor,편집기 열기,,open editor
-Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,,,no object events inspector label
-Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
-Inspector_Category_Properties,Properties,Properties,,inspector category
-Inspector_Category_Editors,Editors,Editors,,inspector category
+Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,이 객체엔 이벤트가 없어요.\n여기 혹은 편집기에서 더하세요.,,no object events inspector label
+Inspector_OpenEditors,Open Editors,편집기 열기,,open multiple editors
+Inspector_Category_Properties,Properties,속성,,inspector category
+Inspector_Category_Editors,Editors,편집기,,inspector category
 Inspector_Field_Width,W,W,,inspector field label
 Inspector_Field_Height,H,H,,inspector field label
 Inspector_Field_X,X,X,,inspector field label
 Inspector_Field_Y,Y,Y,,inspector field label
-Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
-Inspector_Separation,Separation,Separation,,inspector property label
-Inspector_OutputBorder,Output Border,Output Border,,inspector property label
-Inspector_Dimension,Dimension,Dimension,,inspector property label
-Inspector_Origin,Origin,Origin,,inspector property label
-Inspector_TimeUnits,Time Units,Time Units,,inspector property label
-Inspector_SpeedFPS,Speed (FPS),Speed (FPS),,inspector property label
-Inspector_LengthFrames,Length (Frames),Length (Frames),,inspector property label
-Inspector_Offset,Offset,Offset,,inspector property label
-Inspector_Opacity,Opacity,Opacity,,inspector property label
-Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
-Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
-GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
-GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
-Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
-Inspector_Notes,Notes (Read-only),Notes (Read-only),,inspector property name
+Inspector_TileOffset,Tile Offset,타일 기준점,,inspector property label
+Inspector_Separation,Separation,간격,,inspector property label
+Inspector_OutputBorder,Output Border,테두리 반경,,inspector property label
+Inspector_Dimension,Dimension,차원,,inspector property label
+Inspector_Origin,Origin,중심점,,inspector property label
+Inspector_TimeUnits,Time Units,시간 단위,,inspector property label
+Inspector_SpeedFPS,Speed (FPS),속도 (FPS),,inspector property label
+Inspector_LengthFrames,Length (Frames),프레임 길이,,inspector property label
+Inspector_Offset,Offset,기준점,,inspector property label
+Inspector_Opacity,Opacity,불투명도,,inspector property label
+Inspector_BackdropImage,Backdrop Image,배경,,inspector property label
+Inspector_BackdropSize,Backdrop Size,배경 크기,,inspector property label
+GMShader_VertexShaderPath,.VSH (Read-only),.VSH (읽기 전용),,inspector property name
+GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (읽기 전용),,inspector property name
+Inspector_Script,Script (Read-only),스크립트 (읽기 전용),,inspector property name
+Inspector_Notes,Notes (Read-only),필기 (읽기 전용),,inspector property name
 RulerLine_Value,Ruler Value,가늠자,,smart guide ruler coord value
 fonteditor_texture_size,{0} x {1},{0} x {1},,Font editor texture size label
-fonteditor_gms1mode,This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.,구형 글꼴이 자동으로 업그레이드되지 않았어요.\n\n글꼴을 업그레이드했을 시에 차이가 있을 수 있기에 원본은 같은 폴더에 백업돼요.,,Font editor GMS1 mode label
+fonteditor_gms1mode,This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.,구형 글꼴이 자동으로 업그레이드되지 않았어요.\n\n글꼴을 업그레이드했을 때 차이가 생길 수 있기에 원본은 같은 폴더에 백업돼요.,,Font editor GMS1 mode label
 fonteditor_gms1upgradebutton,Back Up and Upgrade,백업과 업그레이드,,Upgrade font button
 fonteditor_upgradefont_title,Upgrade Font,글꼴 업그레이드,,Upgrade font dialog title
-fonteditor_upgradefont_message,You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.,예전 글꼴을 GameMaker Studio 2에서의 글꼴로 업그레이드하면 차이가 있을 수 있어요.\n원래 글꼴 파일은 안전하게 백업돼요.,,Upgrade font dialog message
+fonteditor_upgradefont_message,You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.,예전 글꼴을 GameMaker Studio 2에서의 글꼴로 업그레이드하면 차이가 생길 수 있어요.\n원래 글꼴 파일은 안전하게 백업돼요.,,Upgrade font dialog message
 fonteditor_toomanyglyphs,and more (too many glyphs), 등등 (너무 많은 문자),,Too many glyphs for the font editor to cope with label
 fonteditor_aa_off,Off,끄기,,Font Editor aa off
-fonteditor_aa_tooltip,"To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'","To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'",,Monochrome font aa tooltip help
+fonteditor_aa_tooltip,"To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'",더 괜찮은 흑백 서체를 얻으려면 설정에서 '흑백'을 선택해야 합니다.,,Monochrome font aa tooltip help
 fonteditor_font,Select Font,글꼴,,TTF font name
 fonteditor_texlastregen,Last generated on {0},{0}에 생성됨,,Last font texture generate time stamp
 fonteditor_pref_successregendialog,Automatic choice for successful font regeneration dialog,글꼴 생성 성공,,Automatic choice for font dialog after regeneration
@@ -611,7 +611,7 @@ fonteditor_toggle,Toggle,전환,,Font editor AA radio group header
 fonteditor_window,Font: {0},글꼴,,Font editor title
 fonteditor_options_window,Font Options,글꼴 설정,,Font options window title
 fonteditor_includettf,Copy to project,프로젝트로 복사,,Font editor include TTF checkbox
-fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,원본 글꼴 파일을 가져올 수 있어요.\n이 자원이 포함된 장터 내의 자산에도 원본 글꼴이 삽입돼요.,,tooltip for the 'includettf' copy to project checkbox
+fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,원본 글꼴 파일을 가져올 수 있어요.\n이 자원이 들어간 패키지에도 원본 글꼴이 삽입돼요.,,tooltip for the 'includettf' copy to project checkbox
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
 fonteditor_selectttf,Select Font to Include,포함할 글꼴 선택,,Font editor include Font dialog title
 fontrange_add_range,Add Range,범위 추가,,Confirm adding the range
@@ -716,7 +716,7 @@ GadgetToolbox_ResourceObjectIcon,Object Icon,객체 아이콘,,Gadget toolbox di
 GadgetToolbox_ResourceTileSetIcon,Tile Set Icon,타일 세트 아이콘,,Gadget toolbox display for the tileset icon
 GadgetToolbox_SpriteSelector,Sprite Selector,스프라이트 선택기,,Gadget toolbox display for the sprite selector
 GadgetToolbox_Resources,Resources,자원,,Gadget toolbox heading for the resources group
-GadgetToolbox_DnD,Drag and Drop,Drag and Drop,,Gadget toolbox heading for the Drag and Drop group
+GadgetToolbox_DnD,Drag and Drop,드래그 앤 드롭,,Gadget toolbox heading for the Drag and Drop group
 Game_Options,Game Options - {0},게임 설정: {0},,Takes platform argument to show type of Game Options being displayed
 AddOns,Add-ons,부가 기능,,Add-ons node label
 GameOptions_AddOns_Label,Add one or more add-ons to this project,이 프로젝트에 하나 이상의 부가 기능을 추가하세요.,,Add addon to this project label
@@ -812,8 +812,8 @@ ImageEditor_AddFromFile,Import Image(s),그림 가져오기,,Add images from fil
 ImageEditor_CreateFromStrip,Convert to Frames,프레임으로 변환하기,,create from strip menu option
 ImageEditor_ImportFromStrip,Import Strip Image,연속되는 그림 가져오기,,import strip image menu option
 ImageEditor_ExportToPNG,Export to PNG,PNG로 내보내기,,export to png image menu option
-ImageEditor_AddGroup,Add group,폴더 추가하기,,Image editor layer context menu - add group
-ImageEditor_AddLayer,Add layer,레이어 추가하기,,Image editor layer context menu - add layer
+ImageEditor_AddGroup,Add group,폴더 만들기,,Image editor layer context menu - add group
+ImageEditor_AddLayer,Add layer,레이어 만들기,,Image editor layer context menu - add layer
 ImageEditor_AllLayers,All Layers,모든 레이어,,effect all layers option
 ImageEditor_Arc_Iterations,Iterations:,반복,,Iterations slider label for Arc Tool
 ImageEditor_BrushPanelTitle,Brushes,붓,,brushes panel title
@@ -842,8 +842,8 @@ ImageEditor_CopySelection,Copy Selection,선택 영역 복사,,Image editor copy
 ImageEditor_PasteClipboard,Paste Clipboard,클립보드,,Image editor paste clipboard menu option
 ImageEditor_SelectAll,Select All,모두 선택하기,,Image editor select all menu option
 ImageEditor_DeleteFrames,Delete Selected Frames,선택된 프레임 지우기,,Image editor menu option -Delete selected frames
-ImageEditor_DeleteGroup,Delete group,폴더 삭제하기,,Image editor layer context menu - delete group/folder
-ImageEditor_DeleteLayer,Delete layer(s),레이어 삭제하기,,Image editor layer context menu - delete layer or layers
+ImageEditor_DeleteGroup,Delete group,폴더 지우기,,Image editor layer context menu - delete group/folder
+ImageEditor_DeleteLayer,Delete layer(s),레이어 지우기,,Image editor layer context menu - delete layer or layers
 ImageEditor_DuplicateLayer,Duplicate layer(s),레이어 복제하기,,Image editor layer panel - duplicate layer menu option
 ImageEditor_EditLayerProperties,Edit layer properties,레이어 속성 편집하기,,Image editor layer context menu- edit layer properties
 ImageEditor_EffectApply,Apply,적용하기,,effect apply button
@@ -864,7 +864,7 @@ ImageEditor_ImportResizeLabel,Imported image is a different size from the canvas
 ImageEditor_PasteResizeLabel,Pasted image is larger than the canvas,붙여 넣은 그림이 용지보다 커요.,,Image editor import dialog paste resize label
 ImageEditor_Import_ResizeImported,Resize imported image to canvas size,가져온 그림의 크기를 용지에 맞추기,,Image editor import resize imported image
 ImageEditor_Import_ResizeCanvas,Resize canvas to imported image size ({0} x {1}),용지의 크기를 가져온 그림에 맞추기 ({0} x {1}),,Image editor import resize canvas
-ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,용지의 크기를 붙여넣은 그림에 맞출까요? ({0} x {1}),,Image editor import resize canvas pasted image
+ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,용지의 크기를 붙여 넣은 그림에 맞출까요? ({0} x {1}),,Image editor import resize canvas pasted image
 ImageEditor_ImportCrop_Canvas,Crop/pad canvas,용지 정돈하기 / 여백 두기,,image editor import - crop canvas
 ImageEditor_ImportScale_Canvas,Scale canvas,용지 비율 조절하기,,image editor import - scale canvas
 ImageEditor_ImportCrop_Import,Crop/pad imported image,가져온 그림 정돈하기 / 여백 두기,,image editor import- crop imported image
@@ -990,7 +990,7 @@ ImageEditor_OnionBurger_Tooltip,Onion skin,투영 보기,,burger button tooltip
 ImageEditor_LoopBurger_Tooltip,Loop mode,반복 방식,,burger button tooltip
 ImageEditor_PlayBurger_Tooltip,Play,재생,,burger button tooltip
 ImageEditor_AddLayer_TT,Add Layer To All Frames,모든 프레임에 레이어를 추가하기,,image editor add layer tooltip
-ImageEditor_AddLayerGroup_TT,Add Layer Group,레이어 폴더 추가하기,,image editor layer tooltip
+ImageEditor_AddLayerGroup_TT,Add Layer Group,레이어 폴더 만들기,,image editor layer tooltip
 ImageEditor_ShiftLayerUp_TT,Shift Layer Up,레이어 위로 밀기,,image editor shift layer up tooltip
 ImageEditor_ShiftLayerDown_TT,Shift Layer Down,레이어 아래로 밀기,,image editor shift layer down tooltip
 ImageEditor_DeleteLayer_TT,Delete Layer/Group For All Frames,모든 프레임의 레이어 / 모음 삭제,,image editor delete layer tooltip
@@ -1138,7 +1138,7 @@ Marketplace_MyLibrary_ViewMarketplace,View in Marketplace,장터에서 보기,,V
 Marketplace_MyLibrary_Install,Install,설치,,marketplace library install label
 Marketplace_MyLibrary_Installing,Installing...,설치 중...,,marketplace library installing label
 Marketplace_MyLibrary_Installed,Installed,설치됨,,marketplace library installed label
-Marketplace_MyLibrary_NoAssetsDisplayed,You do not currently have any assets in your Library. Click to visit the Marketplace and browse assets.,라이브러리에 자산이 없어요. 클릭해서 장터를 방문해보세요.,,marketplace library no assets displayed button
+Marketplace_MyLibrary_NoAssetsDisplayed,You do not currently have any assets in your Library. Click to visit the Marketplace and browse assets.,라이브러리에 아무것도 없어요. 장터를 방문해보세요.,,marketplace library no assets displayed button
 Marketplace_MyLibrary_DownloadCancelled,Download cancelled,내려 받기 취소됨,,marketplace asset download cancelled status
 Marketplace_MyLibrary_Downloading,Downloading...,내려 받는 중...,,marketplace asset download progress label
 Marketplace_MyLibrary_DownloadFailed,Download failed,내려 받기 실패,,marketplace asset download failed label
@@ -1267,7 +1267,7 @@ Object_Solid_Tooltip,Solid instances will automatically be placed back in their 
 Object_UsesPhysics,Uses Physics,물리 사용,,"Object Model ""uses physics"" property"
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,룸에서 물리를 사용하도록 해야 객체들도 물리를 사용합니다.,,object editor uses physics tooltip
 Object_Visible,Visible,보이기,,"Object Model ""visible"" property"
-Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn", instances of this object will still be processed,,object editor visible property tooltip
+Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn",해제하면 개체가 보이지는 않지만 여전히 동작합니다.,,object editor visible property tooltip
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,확대,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,축소,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,줌 재설정,,Object editor physics window label
@@ -1537,7 +1537,7 @@ RoomEditor_NewInstanceLayer,Create New Instance Layer,새로운 개체 레이어
 RoomEditor_NewPathLayer,Create New Path Layer,새로운 경로 레이어 만들기,,Create new path layer tool tip for room editor
 RoomEditor_NewTileLayer,Create New Tile Layer,새로운 타일 레이어 만들기,,Tool tip for the new tile layer button
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
-RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) parent - {3}",,instance/graphic tooltip when there is no parent item
+RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) 부모 - {3}",,instance/graphic tooltip when there is no parent item
 RoomEditor_RoomProperties,Properties - {0},룸,,Window title for room properties
 RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},개체 생성 순서,,Window title for instance creation order
 RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,개체 생성 순서,,menu entry for instance creation order window
@@ -1699,7 +1699,7 @@ SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully 
 SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,소스 제어 작업 '{0}'이 요청 대기열에 올바르지 않은 작업이 있어요.,,exception message for when we have hit an invalid action request
 SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,소스 제어 (Git) 잘못된 인증서,,Require Credentials Dialog Title
 SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,환경 설정에서 정한 기존 저장소 '{0}'의 식별자와는 다른 사용자 이름 / 암호가 필요해요.,,The Git repository is expecting a different username and password message.
-SourceControlGit_NeedCredentials,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,,There are no Credentials setup for Git and the user needs to do this
+SourceControlGit_NeedCredentials,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,인증서가 설치되지 않았어요. Git 설치를 확인해보세요.,,There are no Credentials setup for Git and the user needs to do this
 SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,소스 제어 (Git) 저장소 없음,,There is no Git Repository (Title)
 SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",이 프로젝트에 구성된 Git 저장소가 없어요.\n로컬 저장소가 필요하시면 만들거나 기존의 저장소를 가져와보세요.,,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
 SourceControlGit_NoIdentity,Source Control (Git) No Identity,소스 제어 (Git) 식별자 없음,,There is no Git Identity set (Title)
@@ -1713,8 +1713,8 @@ SourceControlGit_PageLeft,Previous Page,이전 장,,Previous Page of Results
 SourceControlGit_PageRight,Next Page,다음 장,,Next Page of Results
 SourceControlGit_SelectCommit,Select a Commit,확정안 선택,,Select a Commit message
 SourceControlGit_AutoPopup,Automatically open source control output window,소스 제어 결과 창 자동으로 띄우기,,Preference title for automatically popping up the source control output window
-SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?","You have not specified a commit message, are you sure you want to continue?",,No commit message specified warning
-SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?","There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",,Conflicts Detected message
+SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?",확정 메시지가 정해지지 않았는데 정말로 계속할까요?,,No commit message specified warning
+SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",프로젝트에 충돌이 있어요. 닫거나 새로 고치면 프로젝트가 망가질 수 있어요. 정말로 계속할까요?,,Conflicts Detected message
 sourcecontrolgit_auth_type,Authorisation Type,권한 부여 유형,,Type of Authorisation to use
 sourcecontrolgit_auth_repository,Repository URL,저장소 URL,,URL of Repository
 sourcecontrolgit_auth_username,Username,사용자 이름,,Username for authentication
@@ -1907,9 +1907,9 @@ ParticleTypeEditor_GravityDir,Direction,방향,,Particle type gravity direction 
 ParticleTypeEditor_Direction,Direction,방향,,Particle type direction label
 ParticleTypeEditor_DirectionHelp,Sets the direction of this particle type,입자가 운동하는 방향이에요.,,Particle type editor direction help
 ParticleTypeEditor_Orientation,Orientation,회전 방향,,Particle type editor orientation label
-ParticleTypeEditor_OrientationHelp,Sets the rotation of this particle type,입자의 모양이 회전한 각도에요.,,Particle type editor orientation help
+ParticleTypeEditor_OrientationHelp,Sets the rotation of this particle type,입자의 모양이 회전한 각도예요.,,Particle type editor orientation help
 ParticleTypeEditor_Relative,Relative,상대적,,Particle type editor relative label
-ParticleTypeEditor_RelativeOrientationHelp,Sets whether this particle type's rotation is relative to its direction,입자의 회전 각도가 운동 방향에 상대적인지의 여부에요.,,Particle type editor relative orientation help
+ParticleTypeEditor_RelativeOrientationHelp,Sets whether this particle type's rotation is relative to its direction,입자의 회전 각도가 운동 방향에 상대적인지의 여부예요.,,Particle type editor relative orientation help
 ParticleTypeEditor_Speed,Speed,이동 속도,,Particle type editor speed label
 ParticleTypeEditor_SpeedHelp,Sets the speed of this particle type,입자의 운동 속도를 정할 수 있어요.,,Particle type editor speed help
 ParticleTypeEditor_Life,Life,지속 시간,,Particle type editor life label
@@ -2121,7 +2121,7 @@ TreeView_AddNodeAfter,Add Node After,뒤에 노드 추가,,context menu option t
 TreeView_AddNodeBefore,Add Node Before,앞에 노드 추가,,context menu option to add a node before
 TreeView_MoveNodeDown,Move Node Down,노드 아래로 이동,,context menu option to move the node down
 TreeView_MoveNodeUp,Move Node Up,노드 위로 이동,,context menu option to move the node up
-UndoAction_AmbigousPropertyMatch,"Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?","Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?",,Log error message for undo failing to store a property
+UndoAction_AmbigousPropertyMatch,"Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?",작업 취소 정보 '{0}'를 저장하지 못했어요: \n가능한 여러 방안이 있어요. 취소할 내용에 'new'가 사용됐었나요?,,Log error message for undo failing to store a property
 UpdateDialogDownloadNow,Download now,지금 받기,,Update new version dialog - download now button
 UpdateDialogRemindMe,Remind me later,나중에 알리기,,Update new version dialog - remind me later button
 UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},새 버전을 사용할 수 있어요!\n현재 버전: {0}\n새로운 버전: {1},,Update new version dialog - tell user which version they are on and which version update will take them to
@@ -2138,7 +2138,7 @@ User_Authentication,Two Step Authentication,2단계 인증,,User Login - two ste
 User_OK,OK,확인,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,인증 코드,,User Login - two step authentication label for the authentication code
 UserLogin_Retry,Retry,재시도,,User Login - Error Retry
-UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,최대 세션 도달. accounts.yoyogames.com에서 장치 및 세션 관리가 가능해요.,,User Login Error response 29
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,허용하는 최대 세션에 도달했어요. accounts.yoyogames.com에서 장치 및 세션 관리가 가능해요.,,User Login Error response 29
 UserLogin_Error34,Invalid session (User),유효하지 않은 세션 (사용자),,User Login Error response 34
 UserLogin_Error36,Two-step login required,2단계 인증 필요,,User Login Error response 36
 UserLogin_Error37,Required fields missing,필수 입력란 누락,,User Login Error response 37
@@ -2161,20 +2161,20 @@ UserLogin_InstallRuntimeTitle,Install Runtime {0},런타임 {0} 설치,,install 
 UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,설치할 드라이브 {0}가 {1}GB 만큼의 용량 밖에 없어요.\n최소 2 GB의 용량이 필요해요. 진행 전에 충분한 용량을 확보해주세요.,,runtime free space warning message
 UserLogin_Continue,Continue,계속,,continue label
 UserLogin_AccessTokenGetFail,Failed to acquire access token,접근 토큰을 얻는데 실패,,failed to acquire access token error message
-Validate_MaxLength,{0} - Length should be less than {1},{0} - 길이는 {1} 미만이어야 해요.,,Failed validation by passing an object whose length is too long
-Validate_MinLength,{0} - Length should be greater than {1},{0} - 길이가 {1} 보다 커야 해요.,,Failed validation by passing an object whose length is too short
-Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 객체 유형이 {2}{1} 이어야 해요.,,Failed validation by passing an object of the wrong type
+Validate_MaxLength,{0} - Length should be less than {1},{0} - 길이는 {1} 미만이어야만 함,,Failed validation by passing an object whose length is too long
+Validate_MinLength,{0} - Length should be greater than {1},{0} - 길이가 {1} 보다 커야 함,,Failed validation by passing an object whose length is too short
+Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 객체 유형이 {2}{1} 이어야 함,,Failed validation by passing an object of the wrong type
 Validate_MVCType_OrInherits,or inherit from ,또는 다음으로부터 상속 →,,Injected to requested error message if the validation is checking parent type
-Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} - 유형이 {2}{1} 인 객체만 리스트 안에 있어야해요.,,Failed validation by passing a list containing objects of the wrong type
-Validate_Range,{0} - Value must be within range {1} - {2},{0} - 값은 범위 {1}~{2} 이내여야만 해요.,,Failed validation for value range
-Validate_Required,{0} - Value cannot be null,{0} - 값이 null일 수는 없어요.,,Failed validation by passing a null value to a required property
-Validate_StringLength,{0} - String length is invalid must be between {1} and {2} characters,{0} - 문자열 길이는 {1}자에서 {2}자 사이여야만 해요.,,Failed validation for string length
-Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,레이어의 이름으로 '{0}'을 지정할 수가 없어요. 유일한 이름이 아니에요.,,validation error message for non-unique layer name
-Validate_UniqueName,Failed to set property on model '{0}' name is not unique,모델 '{0}'의 속성을 설정하지 못했습니다. 이름이 유일하지 않습니다.,,validation error message for non-unique resource name
-Validate_ImageLayerName,Layer name cannot be blank,레이어 이름은 공란으로 둘 수 없어요.,,validation error message for image layer name
+Validate_MVCTypeList,{0} - List should only contain objects of type {2}{1},{0} - 유형이 {2}{1} 인 객체만 리스트 안에 있어야함,,Failed validation by passing a list containing objects of the wrong type
+Validate_Range,{0} - Value must be within range {1} - {2},{0} - 값은 범위 {1}~{2} 이내여야만 함,,Failed validation for value range
+Validate_Required,{0} - Value cannot be null,{0} - 값이 null일 수는 없음,,Failed validation by passing a null value to a required property
+Validate_StringLength,{0} - String length is invalid must be between {1} and {2} characters,{0} - 문자열 길이는 {1}자에서 {2}자 사이여야 함,,Failed validation for string length
+Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,유일한 이름이 아니라 레이어의 이름으로 '{0}'을 지정할 수 없음,,validation error message for non-unique layer name
+Validate_UniqueName,Failed to set property on model '{0}' name is not unique,유일한 이름이 아니라 모델 '{0}'의 속성을 정할 수 없음,,validation error message for non-unique resource name
+Validate_ImageLayerName,Layer name cannot be blank,레이어 이름은 공란으로 둘 수 없음,,validation error message for image layer name
 View_Menu_Bookmarks,Bookmarks,책갈피,,Bookmarks menu item
 View_Menu_Breakpoints,Breakpoints,중단점,,View breakpoints menu item
-View_Menu_GlobalGameSettings,Global Game Settings,글로벌 게임 설정,,View the Global Game Settings menu item
+View_Menu_GlobalGameSettings,Global Game Settings,전역 게임 설정,,View the Global Game Settings menu item
 View_Menu_OutputWindow,Output Window,출력 창,,View output window menu item
 Views_Menu_History,History,기록,,Views menu entry for undo history
 Views_Menu_Output,Output,출력,,Views menu entry for the output panel
@@ -2313,7 +2313,7 @@ DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,잘못�
 DnDMaker_NoActionLayout,This action has no layout.,이 동작엔 레이아웃이 없어요.,,DnD™ Maker invalid action layout warning message
 DnDMaker_CantShowPreview,Error -- Cannot show preview.,지금 미리 볼 수는 없어요.,,DnD™ Maker cannot show preview warning message
 DnDMaker_NotEditingAction,You are not editing an action.,동작을 편집 중이 아니에요.,,DnD™ Maker not editing action warning message
-DnDMaker_NotPreviewingAction,You are not previewing an action.,동작을 보고있지 않으세요.,,DnD™ Maker not previewing action warning message
+DnDMaker_NotPreviewingAction,You are not previewing an action.,동작을 보고 있지 않으세요.,,DnD™ Maker not previewing action warning message
 DnDMaker_EvaluationResult,Evaluation Result,평가 결과,,DnD™ Maker evaluation result window caption
 DnDMaker_ActionProperties,Action Properties,속성,,DnD™ Maker action properties caption
 DnDMaker_DefaultCode,// Your code here,// 코드 작성,,DnD™ Maker default code input for group
@@ -2402,7 +2402,7 @@ yyzimporter_failed,Failed to import YYZ,YYZ 가져오기를 실패했어요.,,Fa
 yyzexport_message,YYZ Exporter,YYZ 내보내기,,YYZ Exporter Message Title
 yyzexport_success,YYZ Exported Successfully,YYZ를 성공적으로 내보냈어요.,,YYZ Exported Successfully
 yyzexport_failed,YYZ Export Failed,YYZ 내보내기를 실패했어요.,,YYZ Export Failed
-ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
+ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",{0} 파일을 찾을 수가 없어요.\n압축 파일이면 먼저 풀어주세요.,,project load or import file not found error
 InheritFromDialog_Title,Inherit From Project,프로젝트로부터 상속,,title for inherit from project dialog
 DnDEditor_Menu_Workspace,Workspace,작업공간,,DnD™ Editor Workspace caption
 DnDEditor_Menu_Save,Save,저장하기,,DnD™ Editor Workspace Save caption
@@ -2423,7 +2423,7 @@ ggs_launchscreen_fill,Launchscreen fill,시작 화면 채우기,,Launchscreen fi
 ggs_graphics_scale_fullscale,Full scale,최대 비율,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,버전,,Game Settings Version title
 ImagePath_ImageError,Error Selecting Image,그림 선택 오류,,Error when using image_path gadget to select an image
-ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}이어야 하지만 {2}x{3}을 입력받았어요.,,Image wrong size with 0x1 being expected size and 2x3 being the image size
+ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},그림 크기가 {0}x{1}이어야 하지만 {2}x{3}을 받았어요.,,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),그림에 투명도 채널이 있어야 해요 (32비트).,,The image needs to have an alpha channel but the selected one does not
 ImagePath_FileError,Cannot access file: {0},접근할 수 없는 파일: {0},,Error when trying to access file where 0 is the filename
 ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,선택한 그림은 올바른 '{0}' 형식이 아니에요.,,invalid image format message
@@ -2431,8 +2431,8 @@ ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<게임 
 ggs_windows_save_appdata,%appdata%\<Game Name>,%appdata%\<게임 이름>,,Save Path to Local App Data
 ggs_vertex_buffer_method,Vertex Buffer Method,정점 버퍼 처리기,,Vertex Buffer Method
 ggs_graphics_vbuffer_fast,Fast,고속,,Fast vertex buffer method
-ggs_graphics_vbuffer_compatible,Compatible,호환성,,Compatible vertex buffer method
-ggs_graphics_vbuffer_most_compatible,Most Compatible,최고 호환성,,Most Compatible vertex buffer method
+ggs_graphics_vbuffer_compatible,Compatible,호환,,Compatible vertex buffer method
+ggs_graphics_vbuffer_most_compatible,Most Compatible,최대 호환,,Most Compatible vertex buffer method
 ggs_texturepage_256,256x256,256x256,,256x256 Texture Page Size
 ggs_texturepage_512,512x512,512x512,,512x512 Texture Page Size
 ggs_texturepage_1024,1024x1024,1024x1024,,1024x1024 Texture Page Size
@@ -2448,8 +2448,8 @@ ggs_ps_passcode,Package Passcode,패키지 통과번호,,Package Passcode
 ggs_mac_provision_refresh,Refresh from Mac,Mac에서 새로 고침,,Refresh provisioning list from Mac
 ggs_ps4_param_sfo,PARAM.SFO,PARAM.SFO,,Run Sony PARAM.SFO Editor
 ggs_ps5_param_json,Param.json,Param.json,,Run Sony Param.json Editor
-ggs_ps5_shared_binary_tooltip,Comma separated list of configs to include as sub-SKUs,Comma separated list of configs to include as sub-SKUs,,Comma separated list of configs to include as sub-SKUs
-ggs_ps5_shared_binary,SharedBinary SubConfigs,SharedBinary SubConfigs,,SharedBinary SubConfigs
+ggs_ps5_shared_binary_tooltip,Comma separated list of configs to include as sub-SKUs,하위 재고 단위로 들어갈 쉼표로 구분된 구성 목록,,Comma separated list of configs to include as sub-SKUs
+ggs_ps5_shared_binary,SharedBinary SubConfigs,공유 바이너리 하위 구성,,SharedBinary SubConfigs
 ggs_ps4_np_title_dat,NPTITLE.DAT,NPTITLE.DAT,,Import nptitle.dat
 ggs_ps4_trophy_edit,Trophy Editor,트로피 편집기,,Run Sony Trophy Editor
 ggs_ps4_share_param,Share Editor,공유 편집기,,Run Sony Share File Editor
@@ -2704,8 +2704,8 @@ ggs_software_vertex_processing,Force Software Vertex Processing,소프트웨어 
 ggs_borderless,Borderless window,경계 없는 창으로 시작하기,,Borderless Window
 ggs_textures_on_demand,Create Textures on Demand,필요할 때만 텍스처 생성하기,,Create Textures on Demand
 ggs_sleep_margin,Sleep margin (ms),GPU 대기 시간 (ms),,Sleep Margin in ms
-ggs_sleep_margin_windows,Sleep margin (ms) - default 10ms,"""""GPU 대기 시간 (ms""",,Sleep Margin in ms with default of 10ms
-ggs_sleep_margin_android,Sleep margin (ms) - default 4ms,"""""GPU 대기 시간 (ms""",,Sleep Margin in ms with default of 10ms
+ggs_sleep_margin_windows,Sleep margin (ms) - default 10ms,GPU 대기 시간 (기본 10ms),,Sleep Margin in ms with default of 10ms
+ggs_sleep_margin_android,Sleep margin (ms) - default 4ms,GPU 대기 시간 (기본 4ms),,Sleep Margin in ms with default of 10ms
 ggs_alt_sync,Alternate synchronization method,대체 동기화 사용하기,,Alternate synchronization method
 ggs_installer_finished_image,Installer Finished Image,설치기 완료 그림,,Installer Finished Image
 ggs_installer_header_image,Installer Header Image,설치기 상단 그림,,Installer Header Image
@@ -2998,7 +2998,7 @@ ggs_game_guid,Game GUID,게임 GUID,,Game GUID
 ggs_isdnd,Use DnD™ as default script type,기본 스크립트로 DnD™ 사용하기,,Project code type
 ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,개별 텍스처 페이지에 대해 밉맵 생성하기,,Generate mipmaps for separate texture pages
 TargetSelection_RequiresWorker,Requires Worker,작업자 필요함,,label for when a selected platform requires a worker
-TargetSelection_RequiresWindowsPC,Requires Windows PC,Windows에서만 실행할 수 있어요,,remote worker not available on mac
+TargetSelection_RequiresWindowsPC,Requires Windows PC,Windows에서만 가능,,remote worker not available on mac
 TargetSelection_Worker,Worker:,작업자,,the list title for target selecting worker
 TargetSelection_Platform,Platform:,플랫폼,,the list title for target selecting platform
 TargetSelection_Config,Config:,구성,,the list title for target selecting config
@@ -3056,10 +3056,10 @@ SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nA
 SaveProjectAs_DeleteExisting,Are you sure you want to delete all files in '{0}'?,정말로 '{0}'에 있는 모든 파일을 지울까요?,,Confirmation for deleting an existing project and related files
 SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker Studio 2.  If the problem persists please reinstall GameMaker Studio 2.,필요한 플러그인을 불러오는데 실패했어요. GameMaker Studio 2를 재시작 해주세요. 문제가 지속된다면 GameMaker Studio 2를 재설치하세요.,,Error message when you fail to load a required plugin dll
 SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,필요한 플러그인을 불러오는데 실패했어요.,,Title for error message when you fail to load a required plugin dll
-SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,프로젝트 {0}은(는) 존재하지 않습니다,,Message dialog when the program was launched with a file command argument but the file was not found
-SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,{0}은(는) 올바른 GameMaker Studio 2 프로젝트가 아니에요.,,Message dialog when the program was launched with a file command argument of a non .yyp file
+SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,프로젝트 '{0}'는 존재하지 않아요.,,Message dialog when the program was launched with a file command argument but the file was not found
+SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,{0}'는 올바른 GameMaker Studio 2 프로젝트가 아니에요.,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,프로젝트의 시작이 실패했어요.,,Message dialog title when the program was launched with a file command argument but it has failed
-SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,체험판 라이선스로는 프로젝트 {0}을(를) 가져올 수 없어요.,,launch yyz project import blocked by free licence msg
+SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,체험판 라이선스에선 프로젝트로 '{0}'를 가져올 수가 없어요.,,launch yyz project import blocked by free licence msg
 LicensedModulesError,Your licence does not have this module enabled,현재 라이선스로는 이 모듈을 사용할 수 없습니다.,,Message Dialog for when a user tries to build/run a target their licence doesn't have
 DnD_Pref_ToolboxLocation,DnD™ toolbox default location,DnD™ 도구 상자 위치,,DnD™ pref
 DnD_Pref_StoryMode,DnD™ node overview visibility mode,DnD™ 개요 표시 방식,,DnD™ pref
@@ -3071,12 +3071,12 @@ DnD_Pref_MinThumbSize,Minimum size for DnD™ toolbox action thumbnails,도구 �
 DnD_Pref_ThumbSize,Default size for DnD™ toolbox action thumbnails,도구 상자 동작 미리보기의 기본 크기,,DnD™ pref
 DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,최대로 보여줄 최근 동작의 수,,DnD™ pref
 DnD_Pref_ChainSmoothness,The smoothness of the chain.,연결 사슬의 부드러운 정도,,DnD™ pref
-DnD_Pref_DragTime,Mouse down time to start dragging node (ms),노드를 끌어오는데 걸리는 마우스로 누르는 시간 (밀리 초) .,,DnD™ pref
+DnD_Pref_DragTime,Mouse down time to start dragging node (ms),노드를 끌어오는데 걸리는 마우스로 누르는 시간 (ms) .,,DnD™ pref
 DnD_Pref_CommentStyle,Comment text style,주석 스타일,,DnD™ pref
 DnD_Message_Error_Prefix,ERROR:,오류:,,DnD™ message prefix
-DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.",노드 {0}에서 올바르지 않은 프로그램 흐름이 발생했어요. 올바른 위치로 이동시켜주세요.,,DnD™ message syntax error
+DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.",{0}' 노드에서 올바르지 않은 프로그램 흐름이 발생했어요. 올바른 위치로 이동시켜주세요.,,DnD™ message syntax error
 DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,잘못된 삽입,,DnD™ pop up title for below message
-DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,이 위치에 {0}를 삽입하면 문제가 생길 수 있어요.,,DnD™ pop up message for invalid syntax insertion
+DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,이 위치에 '{0}'를 삽입하면 문제가 생길 수 있어요.,,DnD™ pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,웹 서버 포트,,Webserver Port
 ggs_webserver_ips,Allowed Web Server IPs,허용된 웹 서버 IP,,Allowed IPs to connect to the debug webserver
 ggs_browser_path,Path to Browser,브라우저 위치,,Path to Browser to use for testing HTML5
@@ -3252,9 +3252,9 @@ windows_package_nsis,Package as Installer,설치 프로그램,,Package as Instal
 windows_package_zip,Package as Zip,압축 파일,,Package as Zip
 windows_package_type,Package Type,패키지 종류,,Package Type
 windows_package_default_type,Default packaging type,기본 패키지 종류,,Default Packaging Type
-mac_package_nsis,Package as DMG,Package as DMG,,Package as DMG
-mac_package_zip,Package as Zip,Package as Zip,,Package as Zip
-mac_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
+mac_package_nsis,Package as DMG,DMG 패키지,,Package as DMG
+mac_package_zip,Package as Zip,압축 파일,,Package as Zip
+mac_package_remember,Remember Packaging Option?,패키지 선택지를 기억할까요?,,Remember Packaging Option?
 html5_package_loose,Package as Loose Files,압축되지 않은 파일,,Package as Loose Files
 html5_package_zip,Package as Zip,압축 파일,,Package as Zip
 html5_package_remember,Remember Packaging Option?,패키지 선택지를 기억할까요?,,Remember Packaging Option?
@@ -3265,7 +3265,7 @@ html5_default_allowed_ips,Default Web Server Allowed IPs,기본 웹 서버 허�
 ListBoxEnum_HTML5PackageChoice_HTML5Package_LooseFiles,Package as Loose Files,압축되지 않은 파일,,Package as Loose Files
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Zip,Package as Zip,압축 파일,,Package as Zip
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Show,Show Dialog,대화상자 표시하기,,Show Dialog
-windows_uwp_package_upload,Package for Store Upload,스토어 용 패키지,,Package for Store Upload
+windows_uwp_package_upload,Package for Store Upload,스토어 패키지,,Package for Store Upload
 windows_uwp_package_for,Package for:,패키지,,Followed by a list of architectures to package for
 windows_uwp_arm,ARM,ARM,DO NOT TRANSLATE,ARM
 windows_uwp_x86,x86,x86,DO NOT TRANSLATE,x86
@@ -3349,7 +3349,7 @@ platformdevice_connection_success_title,Connection Successful,연결 성공,,Con
 platformdevice_connection_failed_title,Connection Failed,연결 실패,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,장치 없음,,no devices are found
 AssetExplorer_SelectResource,Select Asset,자원 선택,,Fallback title for asset explorer
-AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
+AssetExplorer_SelectResourceType,Select {0},{0} 선택됨,,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,{0}/{1}개의 항목,,Title for filtered items in asset explorer
 ParserError_DnD,{0} in DnD™ action {1},DnD™ {1}의 {0},,DnD™ parser error message
 GadgetToolbox_ListView,List View,목록 보기,,List View dialog editor name
@@ -3562,7 +3562,7 @@ GoToType_EnableStylingPref,Enable styling on search results (turn off for better
 GoTo_Pref_Resources,Search in Assets,자원 중에서 검색하기,,Search resources on/off
 GoTo_Pref_Preferences,Search in Preferences,환경설정 중에서 검색하기,,Search preferences on/off
 GoTo_Pref_GameOptions,Search in Game Options,게임 설정 중에서 검색하기,,Search game options on/off
-GoTo_Pref_Functions,Search in user-defined Functions,Search in user-defined Functions,,Search user functions pref
+GoTo_Pref_Functions,Search in user-defined Functions,사용자 정의 함수에서 검색하기,,Search user functions pref
 GoTo_Driver_Resources,Project Resources,프로젝트의 자원,,resources driver name
 GoTo_Driver_ResourcesDesc,This driver exposes the project resources to Go To,이 드라이버는 자원들이 바로가기 탭에 보여요.,,resources driver description
 GoTo_Driver_Preferences,Preferences,환경설정,,preferences driver name
@@ -4611,13 +4611,13 @@ Welcome_ShowOnStartup,Show on startup,시작 시 보여주기,,do not show again
 WelcomePage_Close,Close,닫기,,close label
 WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,완전히 새로운 {0} 시작하는 방법에 대한 영상 {1}을 확인해보세요.,, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",편히 앉으세요. 저희 {0}의 멋진 신기술 {1}을 소개해드립니다.,, {0} and {1} are used to include bold text - must be maintained in translation
-WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0} 모든 것을 해결하세요. {1}. 이 곳에서 튜토리얼""",, {0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0} 모든 것을 해결하세요. {1}. 이 곳에서 튜토리얼, 장터, 지원을 한번에 확인할 수 있어요.",, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,시작 시 환영 화면 보기,,preference text
 WelcomePage_Learn,Learn,학습,,welcome page external link text
 WelcomePage_Marketplace,Marketplace,장터,,welcome page external link text
 WelcomePage_Support,Support,지원,,welcome page external link text
-WelcomePage_Community,Community, relax,,welcome page external link text
-Runtime_Installing_Version,Installing runtime {0}, marketplace,,user facing splash screen message for installing runtime
+WelcomePage_Community,Community,커뮤니티,,welcome page external link text
+Runtime_Installing_Version,Installing runtime {0},런타임 {0} 설치 중,,user facing splash screen message for installing runtime
 StartPage_Web_MyAccount,My Account,내 계정,,Start page localised web content
 StartPage_Web_NewProject,New,새 프로젝트,,Start page localised web content
 StartPage_Web_OpenProject,Open,열기,,Start page localised web content
@@ -4631,7 +4631,7 @@ StartPage_Web_NewDnD,Drag and Drop,드래그 앤 드롭,,Start page localised we
 StartPage_Web_NewGml,GameMaker Language,게임메이커 언어,,Start page localised web content
 StartPage_Web_NewJS,JavaScript,JavaScript,,Start page localised web content
 StartPage_Web_InheritFromProject,Inherit Project,프로젝트 상속,,Start page localised web content
-StartPage_Web_ViewReleaseNotes,To view release notes for this and previous versions,현재 버전과 이전 버전의 출시 소식을 보시려면,,Start page localised web content
+StartPage_Web_ViewReleaseNotes,To view release notes for this and previous versions,현재 버전과 이전 버전의 출시 소식을 보세요,,Start page localised web content
 StartPage_Web_RecentProjects,Recent Projects,최근 프로젝트,,Start page localised web content
 StartPage_Web_RecentTutorials,Recent Tutorials,최근 튜토리얼,,Start page localised web content
 StartPage_Web_Licenses,Licences,라이선스,,Start page localised web content
@@ -4660,7 +4660,7 @@ remote_worker_fronkensteen_runtime_path,Path to Remote Runtime,원격 런타임�
 remote_worker_output_path,Output Path,결과물의 위치,,Remote worker output path
 remote_worker_project_cache_path,Project Cache Path,프로젝트 캐시의 위치,,Remote worker project cache path
 default_audio_setting,Default Audio Device,기본 오디오 장치,,Default Audio Device setting
-Validate_NameLength,Resource name must be between {2} and {1} characters long,자원 이름은 {2}자와 {1}자 사이여야 합니다.,,validation error message for resource name
+Validate_NameLength,Resource name must be between {2} and {1} characters long,자원 이름은 {2}자와 {1}자 사이여야 해요.,,validation error message for resource name
 Validate_InvalidFolderName,Folder name contains invalid characters: {0},폴더 이름에 올바르지 않은 문자가 있습니다: {0},,validation error message for folder names
 DnD_ResourceSelection_DropLabel,Drop here to assign asset,자원을 할당하려면 여기로 끌어오세요.,,DnD™ Resource Input label
 TextureGroups_OpenResource,Open,열기,,Open Resource
@@ -4761,7 +4761,7 @@ INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},너무 긴 파일 이름
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,유효하지 않은 포함 파일의 이름,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.",한 개 이상의 포함 파일들의 이름이 올바르지 않아요. 영문 / 대소문자 / 숫자 또는 _만을 포함해야 해요. \n출력 창에서 그 목록을 확인해주세요.,,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',유효하지 않은 파일 이름을 가진 포함 파일: '{0}',,Invalid Included file name output message
-Validate_InvalidFilename,'{0}' contains invalid filename characters,'{0}'은 올바르지 않은 문자를 포함하고 있어요. 영문 대소문자와 숫자만 가능해요.,,Rename message
+Validate_InvalidFilename,'{0}' contains invalid filename characters,{0}'은 올바르지 않은 문자를 포함하고 있어요. 영문 대소문자와 숫자만 가능해요.,,Rename message
 InvalidIncludedFileName_Digit,'{0}' starts with a number. Various platforms do not support this,'{0}'은 숫자로 시작하는 이름이에요. 많은 플랫폼에서 이를 지원하지 않아요.,,Invalid Included File starting with a digit
 roomeditor_selectioncolour,Selection frame colour,룸 편집기에서 잠기지 않은 항목의 선택 프레임 색상,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,룸 편집기에서 잠긴 항목의 선택 테두리 색상,,preference name for the selection frame colour for locked items in the room editor
@@ -4943,7 +4943,7 @@ Debugger_Profiler_Running,Profiling...,프로파일 중...,,debugger profiling
 Debugger_Profiler_Averages,Average Values,평균 값,,Debugger show average values
 Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,모든 값을 평균으로 표시하려면 이것을 선택하세요\n누적 값을 표시하려면 선택하세요,,Debugger averages tooltip
 Debugger_DataGrid_CallCount,Call Count,호출 횟수,,Debugger call count
-Debugger_DataGrid_Time,Time (Ms),밀리초 시간,,Debugger time count
+Debugger_DataGrid_Time,Time (Ms),밀리 초,,Debugger time count
 Debugger_DataGrid_Step,Step %,스텝 %,,Debugger step % column
 Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,이 그래프는 시간에 따른 메모리 사용 실태와 초당 프레임 수를 보여줘요. \nCtrl을 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
 Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,이 그래프는 초당 프레임 수와 시간 경과에 따른 메모리 사용량을 보여줘요.\n⌘키를 누르고 스크롤하면 그래프와 상호작용할 수 있어요.,,Debugger graph help icon
@@ -5048,7 +5048,7 @@ ExtEditor_Tooltip_Remove3rdFramework,Remove selected framework,선택된 프레�
 ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,Mac에서 프레임워크를 가져올 전체 경로입니다.,,tooltip
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Mac에서 가져옵니다.,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,지역 소스 폴더를 추가합니다.,,tooltip
-DnD_StoryPanel_Empty,An overview will appear here when you add an action,동작을 추가하면 여기서 그 개요가 보여요.,,Empty panel text
+DnD_StoryPanel_Empty,An overview will appear here when you add an action,동작을 추가하면 여기서 개요가 보여요.,,Empty panel text
 allowoverlappingchains_description,Workspace chains can overlap,작업영역의 연결 사슬이 겹치도록 허용하기,,preference description for whether we allow overlapping chains
 IcoFailedLoad,An image in the {0} file failed to load.,파일 {0}의 그림을 불러오지 못했어요.,,Ico image failed to load
 desktop_windowlockzoomlevel,Minimum zoom level for interacting with window contents (%),마우스가 창 내용과 상호 작용할 수 있는 최소 배율 (%),,preference description for when a window is locked and only responds to mouse interaction for dragging
@@ -5109,8 +5109,8 @@ StartPage_Offline,This link cannot be opened as you are currently offline.,이 �
 debuggerporttouse,Debugger port,디버거가 사용할 포트,,Port for Debugger to use label in Settings
 debuggershoweventicons,Show event icons in Debugger Resource View,디버거 자원 보기에서 이벤트 아이콘 표시하기,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,실시간 디버깅 활성화하기,,Enable real-time debugging label in Settings
-syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (밀리초),,Syntax Checking delay (ms) setting label
-codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (밀리초),,Code Completion delay (ms) setting label
+syntaxcheckingdelay,Syntax Checking delay (ms),문법 검사 지연 (ms),,Syntax Checking delay (ms) setting label
+codecompletiondelay,Code Completion delay (ms),자동 완성 지연 (ms),,Code Completion delay (ms) setting label
 ggs_draw_colour,Default draw colour,기본 그리기 색상,,the option for the default draw colour
 ggs_window_colour,Default colour outside the room region,룸 외부의 기본 색상,,the option for the default colour outside the room region
 defaultprojectdrawcolour_description,Initial default draw colour for new projects,새 프로젝트의 기본 그리기 색상,,the preference for setting the default draw colour option on project creation
@@ -5227,11 +5227,11 @@ MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for mark
 MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE 언어,,Label beside the IDE language selection
 pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,프로그램의 최대 프레임,,Maximum framerate preference
-pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차 (밀리초),,File watcher preference to handle save tolerance in ms
+pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,저장 후의 파일 감시기의 오차 (ms),,File watcher preference to handle save tolerance in ms
 pref_filewatcher_delay,Set File Watcher action delay in ms after filesystem changes,Set File Watcher action delay in ms after filesystem changes,,File Watcher preference to handle delay in action after changes
 File Watcher,File Watcher,파일 감시자,,File Watcher preference label
 notification_popups,Enable notifications,알림 활성화하기,,Enable Notification messages
-notification_timeout,Notification timeout (ms),알림 제한 시간 (밀리초),,Notification timeout in ms
+notification_timeout,Notification timeout (ms),알림 제한 시간 (ms),,Notification timeout in ms
 android_linktoamazonsubmit,Link to Amazon Submission Guide,Amazon 제출 안내문 링크,,Link to Amazon Submission Guide
 RemoteWorker_AddWorker,Add Worker,작업자 추가,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,Are you sure you wish to delete this remote?,정말로 이 원격 작업자를 지울까요?,,the message when a user tries to delete a remote
@@ -5257,20 +5257,20 @@ Preferences_windows_vs_path,Visual Studio location,Visual Studio 위치,,Prefere
 Preferences_winuwp_vs_path,Visual Studio location,Visual Studio 위치,,Preferences/Platform Settings/WinUWP
 Preferences_winuwp_tools_folder,Win UWP Tools location,UWP 도구 위치,,Preferences/Platform Settings/WinUWP
 Preferences_macos_default_team_id,Default team identifier,기본 팀 식별자,,Preferences/Platform Settings/macOS
-Preference_macos_package_default_type,Automatic packaging choice,Automatic packaging choice,,Preferences/Platform Settings/macOS
+Preference_macos_package_default_type,Automatic packaging choice,패키지를 선택할 때,,Preferences/Platform Settings/macOS
 Preferences_ps4_sdk_dir,PS4 SDK location,PS4 SDK 위치,,Preferences/Platform Settings/PS4
 Preferences_ps4_tools_dir,PS4 Tools location,PS4 Tools 위치,,Preferences/Platform Settings/PS4
 Preferences_ps4_vs_path,Visual Studio location,Visual Studio 위치,,Preferences/Platform Settings/PS4
-Preferences_ps5_sdk_dir,PS5 SDK location,PS5 SDK location,,Preferences/Platform Settings/PS5
-Preferences_ps5_tools_dir,PS5 Tools location,PS5 Tools location,,Preferences/Platform Settings/PS5
-Preferences_ps5_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/PS5
+Preferences_ps5_sdk_dir,PS5 SDK location,PS5 SDK 위치,,Preferences/Platform Settings/PS5
+Preferences_ps5_tools_dir,PS5 Tools location,PS5 Tools 위치,,Preferences/Platform Settings/PS5
+Preferences_ps5_vs_path,Visual Studio location,Visual Studio 위치,,Preferences/Platform Settings/PS5
 Preferences_xbone_xdk_dir,XDK location,XDK 위치,,Preferences/Platform Settings/Xbone
 Preferences_xbone_tools_dir,Xbox One Tools location,Xbox One Tools 위치,,Preferences/Platform Settings/Xbone
 Preferences_xbone_xbone_dir,Xbox One SDK location,Xbox One SDK 위치,,Preferences/Platform Settings/Xbone
 Preferences_xbone_vs_path,Visual Studio location,Visual Studio 위치,,Preferences/Platform Settings/Xbone
-Preferences_xboxseriesxs_dir,GDK location,GDK location,,Preferences/Platform Settings/XboxSeriesXS
-Preferences_xboxseriesxs_tools_dir,GDK base location,GDK base location,,Preferences/Platform Settings/XboxSeriesXS
-Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_dir,GDK location,GDK 위치,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_tools_dir,GDK base location,GDK 기본 위치,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio 위치,,Preferences/Platform Settings/XboxSeriesXS
 ProjectLoad_BadPathTitle,Unsafe Path,안전하지 않은 경로,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,이 프로젝트는 안전하지 않은 위치에 있어요: {0}\n작업물이 손실되지 않도록 다른 위치에 저장해주세요.,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,필터,,Filter label on Resource Tree search
@@ -5283,7 +5283,7 @@ ResourceTree_HorizontalSeparators,Show horizontal separators,가로 구분 표�
 ResourceTree_HorizontalSeparatorColour,Horizontal separator colour,가로 구분 색상,,Choose colour for Horizontal Separators in Resource Tree
 ResourceTree_TreeLineColour,Tree line colour,트리 선 색상,,Choose colour for the Tree Lines
 ResourceTree_DefaultBackgroundColour,Default background colour,기본 배경색,,Default Background Colour
-ResourceTree_BackgroundColourHelp,Ensure alpha level is increased to display node highlight,노드 강조를 위해 투명도를 올려야 해요.,,Help label for the Resource Tree background colours
+ResourceTree_BackgroundColourHelp,Ensure alpha level is increased to display node highlight,노드 강조를 위해 투명도를 높여야 해요.,,Help label for the Resource Tree background colours
 ResourceTree_SpriteBackgroundColour,Sprites background colour,스프라이트 배경색,,Background Colour for Sprites
 ResourceTree_TileSetsBackgroundColour,Tile Sets background colour,타일 세트 배경색,,Background Colour for Tile Sets
 ResourceTree_SoundsBackgroundColour,Sounds background colour,소리 배경색,,Background Colour for sounds
@@ -5605,11 +5605,11 @@ Options_PS4ToolsSetupTrophyMessage,Unable to find PlayStation 4 trophy editor.\n
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,PlayStation 4 설정으로 이동,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,Unable to find PlayStation 4 param.sfo editor.\nPlease update your tools directory.\n{0},PlayStation 4 param.sfo 편집기를 찾을 수가 없어요. 도구의 경로를 수정해주세요.\n{0},,error message when failed to find the param.sfo editor
 Options_PS4ToolsSetupShareParamMessage,Unable to find PlayStation 4 share file editor.\nPlease update your tools directory.\n{0},PlayStation 4 공유 파일 편집기를 찾을 수가 없어요. 도구의 경로를 수정해주세요.\n{0},,error message when failed to find the param.sfo editor
-Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 5 Tools Missing,,error dialog title when unable to find a ps5 tool
-Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},,error message when failed to find the trophy editor
-Options_PS5ToolsPreference,Go to PlayStation 5 settings,Go to PlayStation 5 settings,,button message to take user to PS5 preferences
-Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},,error message when failed to find the param.sfo editor
-Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 6 도구 누락됨,,error dialog title when unable to find a ps5 tool
+Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},PlayStation 5 트로피 편집기를 찾을 수 없어요. 도구의 위치를 수정하세요.\n{0},,error message when failed to find the trophy editor
+Options_PS5ToolsPreference,Go to PlayStation 5 settings,PlayStation 5 설정으로 이동,,button message to take user to PS5 preferences
+Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},PlayStation 5 param.sfo 편집기를 찾을 수가 없어요. 도구의 경로를 수정해주세요.\n{0},,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},PlayStation 5 공유 파일 편집기를 찾을 수가 없어요. 도구의 경로를 수정해주세요.\n{0},,error message when failed to find the param.sfo editor
 Options_XBoxToolsSetupServiceConfigMessage,Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0},Xbox One의 xcetool.exe 실행 파일을 찾을 수가 없어요.\n도구의 위치를 수정해주세요.\n{0},,error message when failed to find the xce.exe
 Options_XBoxToolsSetupError,Xbox One Tools Missing,Xbox One 도구 누락됨,,error dialog title when unable to find a xbox tool
 Options_XBoxToolsPreference,Go to Xbox One settings,Xbox One 설정으로 이동,,button message to take user to xbox preferences
@@ -5663,7 +5663,7 @@ SyntaxError_ConstructorsOnly,only functions that are declared as constructors ca
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 함수 특성 {0},,syntax error
 SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments",상속된 인자 '{0}'는 함수 인자가 아님,,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,함수 선언에 이름 있는 인자는 16개까지만 지원됨,,syntax error
-SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,Assignment to builtin variable/function/constant,,syntax error
+SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,"내장 변수, 함수 혹은 상수에 대입함",,syntax error
 CompileError_Info,{0} at line {1} : {2},줄 {1}에서 {0}: {2},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),{4} 유형이어야 하는 {2}의 변수 '{3}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),{5} 유형이어야 하는 룸 {2}에 있는 {3}의 변수 '{4}'에 {0} 유형의 {1}이 있음,,Object variable wrong type error in room instances
@@ -5983,7 +5983,7 @@ ResourceTree_OpenInShapeViewer,Open in Shape Viewer,도형 뷰어에서 열기,,
 SequenceEditor_Title,Sequence: {0},{0},,Sequence editor window title
 SequenceEditor_Pref_AutoRecord,Automatically record changes,자동으로 변경 사항 기록하기,,Sequence auto record preference
 SequenceEditor_Pref_PauseCanvas,Pause when clicking on canvas,용지를 클릭할 때 잠시 멈추기,,Sequence pause canvas preference
-SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,선택 지연 시간 (밀리초),,Sequence canvas preference
+SequenceEditor_Pref_OverlapDelay,Overlap selection delay in milliseconds,선택 지연 시간 (ms),,Sequence canvas preference
 SequenceEditor_Pref_ShowBackdrop,Show canvas frame on newly created sequences,새 시퀀스에서 프레임 용지 보기,,Show canvas frame newly created sequence preference
 SequenceEditor_Pref_BackdropWidth,Canvas frame width on newly created sequences,새 시퀀스에서의 프레임 너비,,canvas frame width newly created sequence preference
 SequenceEditor_Pref_BackdropHeight,Canvas frame height on newly created sequences,새 시퀀스에서의 프레임 높이,,canvas frame height newly created sequence preference
@@ -6208,7 +6208,7 @@ SequenceAddAction_Action,Action,동작,,Action label
 SequenceAddAction_Properties,Properties,속성,,Properties label
 SequenceAddAction_AddActionDialog,Are you sure you want to add this action?,정말로 이 동작들을 추가할까요?,,Are you sure
 SequenceAddAction_ActionAdded,Action added!,추가됐어요.,,Action added to event confirmation message
-SequenceAddAction_EventActionLabel,On {0}: {1},{0} 위의{1},,What action was added to what event label
+SequenceAddAction_EventActionLabel,On {0}: {1},{0} 위의 {1},,What action was added to what event label
 SequenceAddAction_AddAnotherAction,Continue,계속,,Continue button label
 SequenceEditWindow_Position,Position,위치,,Position label
 SequenceEditWindow_CannotBulkEdit,The selected items cannot be edited in bulk.,선택하신 항목은 일괄적으로 편집할 수 없어요.,,Cannot edit in bulk label
@@ -6587,9 +6587,9 @@ ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build
 ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,구성 문제: PS4 SDK를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
 ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,구성 문제: PS4 도구를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
 ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: PS4에서는 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,Configuration Problem : PS5 SDK not found. Check your Preferences.,,Configuration Problem : PS5 SDK not found. Check your Preferences.
-ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
-ConfigurationProblem_PS5VSPath,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,구성 문제: PS5 SDK를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS5 SDK not found. Check your Preferences.
+ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,구성 문제: PS5 도구를 찾을 수 없어요. 환경설정을 확인해주세요.,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS5VSPath,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,구성 문제: PS5에서는 Visual Studio로의 경로는 배치 파일로(.bat) 정해져야 합니다.,,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,구성 문제: tvOS 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No tvOS device found. Check your target settings.
 ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,구성 문제: tvOS의 설치 경로가 정해지지 않았어요. 환경설정을 확인해주세요.,,Configuration Problem : tvOS install path not set. Check your Preferences.
 ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,구성 문제: Windows UWP 기기를 찾을 수 없어요. 대상 설정을 확인해주세요.,,Configuration Problem : No Windows UWP device found. Check your target settings.
@@ -6675,75 +6675,75 @@ exception_dont_send_caption,Don't Send,보내지 않기,,exception dont send but
 exception_legal_blurb,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: ","<a href=""https://www.yoyogames.com/legal/privacy"">개인 정보 보호 정책</a>과 <a href=""https://www.yoyogames.com/legal/cookies"">쿠키 정책</a>은 여러분의 정보를 수집하고 처리하는 방식에 관여합니다. 꼭 시간을 내어 읽어보세요.\n\n청약 철회 조건: 여러분은 언제든지 동의를 철회 할 권리가 있어요. 동의를 철회하려면 Preference 센터 또는 도움 센터를 통해 문의하세요.\n\n저희의 정보 이용에 우려가 있으시다면<a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>의 정보 관리자에 문의 메일을 보내주세요.\n\n양식 버전: ",,exception legal blurb
 exception_privacy_policy_caption,Privacy Policy,개인정보 정책,,exception privacy policy
 exception_form_version,crash-0.2,crash-0.2,,exception form version
-exception_upload_caption,Upload Status,업로드가 성공했어요.,,exception form confirmation box caption
-exception_upload_confirmation,Upload Successful.,오래된 프로젝트 형식,,exception form confirmation box message
-Project_OldFormat_Title,Old Project Format,예전 버전의 IDE에서 만들어진 프로젝트예요. 프로젝트 구조가 바뀌었을 수도 있어요.,,Old Project Format
-Project_OldFormat_Message,Project was created in an older IDE which may have format changes,자원 가져오기,,Project was created in an older IDE which may have format changes
-ImportFromYY_Title,Importing Resources,파일 {0}에서 프로젝트를 찾을 수가 없어요.,,Importing Resources Title
-ImportFromYY_NoProjectFound,Could not find a project for the resource file at {0},{0}의 프로젝트에서 자원을 가져오시려면 먼저 업그레이드를 해야 해요. 지금 개시할까요?,,Project not found message for the given resource
-ImportFromYY_OldFormat,The project at {0} requires upgrading before you can import the requested resource(s). Do you want to do this now?,가져올 수 있는 자원이 없어요.,,The project requires an update do a newer format before we can import from it
-ImportFromYY_NothingToImport,There no resources found that we can import,자원 누락됨,,We cannot import any resources within the given set
-CoreResources_MissingResourceTitle,Project has missing Resources,프로젝트에 {0}개의 누락된 자원이 있어요. 출력 기록을 확인해주세요.,,Project has missing Resources title
-CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). Please check the Output log for more information.,{0}이(가) 누락됐는데 {1}번 참조되었어요.,,Project has missing x-amount of resources so check the log
-CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0}이(가) 소실돼서 프로젝트 루트로 옮겨졌어요.,,Message to display in Output log due to missing resource
-CoreResources_LostResource,{0} was lost and moved to root of project.,{0}이(가) 누락된 식별 참조자를 {1}에 가지고 있었어요.,,Message to display when a resource has lost its parent
-CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0} has a completely empty IdReference.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
-CoreResources_LostIdReferenceCompletely,{0} has a completely empty IdReference.,시퀀스 이벤트,,Message to display when a resource has a completely empty IdReference
-Sequences_Events,Sequence Events,비동기 이벤트,,Events Window Caption
-Event_Async_Event,Async Event,송출 메시지,,Async Event
-Event_Broadcast_Message,Broadcast Message,이벤트 정의 만들기,,Broadcast Message
-Create_Event_Definition,Create Event Definitions,트랙 이름,,Create Event Definitions
-CanvasItem_TrackName,Track Name,X,,track name
-CanvasItem_X,X,Y,,x
-CanvasItem_Y,Y,위치,,x
-CanvasItem_Position,Position,비율,,position
-CanvasItem_Scale,Scale,중심,,scale
-CanvasItem_Origin,Origin,가로 비율,,origin
-CanvasItem_ScaleX,Scale X,세로 비율,,x scale
-CanvasItem_ScaleY,Scale Y,가로 중심점,,x scale
-CanvasItem OriginX,Origin X,세로 중심점,,origin X
-CanvasItem OriginY,Origin Y,스프라이트,,origin Y
-CanvasItem_Sprite,Sprite,객체,,sprite resource
-CanvasItem_Object,Object,소리,,object resource
-CanvasItem_Sound,Sound,스프라이트 정보,,sound resource
-Category_SpriteInfo,Sprite Information,기본 정보,,inspector category label
-Category_BasicInfo,Basic Information,소리 정보,,inspector category label
-Category_SoundInfo,Sound Information,개체 정보,,inspector category label
-Category_InstanceInfo,Instance Information,시퀀스 정보,,inspector category label
-Category_SequenceInfo,Sequence Information,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}() {\n\n},,inspector category label
-GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,"""/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : """"funcName"""" """"${funcName}""""\nfunction ${funcName}(){\n\n}""",,default script comment
-GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","""/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : """"funcName"""" """"${funcName}""""\nfunction ${funcName}(){\n\n}""",,GML Boiler plate for a new script
-GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",{0}개의 자산을 만들까요?,,GML function declaration template
-AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,다수의 자산 만들기,,label to warn user they are about to create a lot of resources
-AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,그림 형식이 인식되지 않았어요.,,title for warning dialog box
-YoYoImage_UnknownFileFormat,Image format not recognised,{0}'을 불러올 수 없어요.,,This image format was not recognised
-YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,경고,,Message to show when an image cannot be loaded
-IDE_Warning,Warning,GameMaker Studio 2는 중요한 시스템 폴더에 접근할 수 없어요.\n환경설정을 보고 접근 권한을 부여해 주시거나 시스템 관리자에 연락하세요.\n\n{0},,Warning for IDE
-IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},내장 {0} 멤버,,File permissions failure on startup
-code_completion_builtin_struct,BuiltIn {0} Member,상단에 붙이기,,Code Completion when built-in structure member used.
-SnappableControls_Orientation_Top,Snap to top,하단에 붙이기,,Snappable widget controls snap to top button tooltip
-SnappableControls_Orientation_Bottom,Snap to bottom,좌측에 붙이기,,Snappable widget controls snap to bottom button tooltip
-SnappableControls_Orientation_Left,Snap to left,우측에 붙이기,,Snappable widget controls snap to left button tooltip
-SnappableControls_Orientation_Right,Snap to right,창 띄우기,,Snappable widget controls snap to right button tooltip
-SnappableControls_Orientation_Floating,Floating window,기본으로 되돌리기,,Snappable widget controls floating window button tooltip
-SnappableControls_Reset,Reset to default,방향 바꾸기,,Snappable widget controls reset button tooltip
-SnappableControls_Title,Change orientation,프로젝트 생성 오류,,Snappable widget controls title label
-Error_CreateNewProjectTitle,Error Creating Project,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Creating Project title
-Error_CreateNewProjectMessage,Could not create project at specified path. You may not have permission to save here.,가져온 프로젝트 저장 오류,,Error Creating Project message
-Error_ImportProjectTitle,Error Saving Import Project,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Saving Import Project title
-Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,트랙 창,,Error Saving Import Project message
-Track Panel,Track Panel,:,,Track Panel label in Sequence Editor
-at:,at:,경고,,Label for Moment Editor to show which frame this moment triggers at
-Warning_ImportProject_Title,Warning,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 정말로 이 폴더에 다른 하위 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning
-Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,경고,,Warning Importing Project message
-Warning_AppIconAlpha_Title,Warning,선택하신 그림은 투명도가 있어요. 다른 그림을 골라주세요.,,Warning
-Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,파일이 아직 실행중이여서 만들어질 수가 없어요.,,App icon image transparency warning message
-Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
-CannotImportStripImageError_Title,Error,Error,,Error
-CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,,Strip image dimensions error
-SourceControl_GitExecutablePath,Git executable path,Git executable path,,The path to the git executable
-SourceControl_GitMergeToolPath,Merge tool,Merge tool,,The merge tool path
-SourceControl_GitDiffToolPath,Diff tool,Diff tool,,The diff tool path
+exception_upload_caption,Upload Status,업로드 상태,,exception form confirmation box caption
+exception_upload_confirmation,Upload Successful.,업로드가 성공했어요.,,exception form confirmation box message
+Project_OldFormat_Title,Old Project Format,오래된 프로젝트 형식,,Old Project Format
+Project_OldFormat_Message,Project was created in an older IDE which may have format changes,예전 버전의 IDE에서 만들어진 프로젝트예요. 프로젝트 구조가 바뀌었을 수도 있어요.,,Project was created in an older IDE which may have format changes
+ImportFromYY_Title,Importing Resources,자원 가져오기,,Importing Resources Title
+ImportFromYY_NoProjectFound,Could not find a project for the resource file at {0},파일 {0}에서 프로젝트를 찾을 수가 없어요.,,Project not found message for the given resource
+ImportFromYY_OldFormat,The project at {0} requires upgrading before you can import the requested resource(s). Do you want to do this now?,{0}의 프로젝트에서 자원을 가져오시려면 먼저 업그레이드를 해야 해요. 지금 개시할까요?,,The project requires an update do a newer format before we can import from it
+ImportFromYY_NothingToImport,There no resources found that we can import,가져올 수 있는 자원이 없어요.,,We cannot import any resources within the given set
+CoreResources_MissingResourceTitle,Project has missing Resources,자원 누락됨,,Project has missing Resources title
+CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). Please check the Output log for more information.,프로젝트에 {0}개의 누락된 자원이 있어요. 출력 기록을 확인해주세요.,,Project has missing x-amount of resources so check the log
+CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0}이(가) 누락됐는데 {1}번 참조되었어요.,,Message to display in Output log due to missing resource
+CoreResources_LostResource,{0} was lost and moved to root of project.,{0}이(가) 소실돼서 프로젝트 루트로 옮겨졌어요.,,Message to display when a resource has lost its parent
+CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0}이(가) 누락된 식별 참조자를 {1}에 가지고 있어요.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
+CoreResources_LostIdReferenceCompletely,{0} has a completely empty IdReference.,{0}이(가) 텅 빈 식별 참조자를 {1}에 가지고 있어요.,,Message to display when a resource has a completely empty IdReference
+Sequences_Events,Sequence Events,시퀀스 이벤트,,Events Window Caption
+Event_Async_Event,Async Event,비동기 이벤트,,Async Event
+Event_Broadcast_Message,Broadcast Message,송출 메시지,,Broadcast Message
+Create_Event_Definition,Create Event Definitions,이벤트 정의 만들기,,Create Event Definitions
+CanvasItem_TrackName,Track Name,트랙 이름,,track name
+CanvasItem_X,X,X,,x
+CanvasItem_Y,Y,Y,,x
+CanvasItem_Position,Position,위치,,position
+CanvasItem_Scale,Scale,비율,,scale
+CanvasItem_Origin,Origin,중심,,origin
+CanvasItem_ScaleX,Scale X,가로 비율,,x scale
+CanvasItem_ScaleY,Scale Y,세로 비율,,x scale
+CanvasItem OriginX,Origin X,가로 중심점,,origin X
+CanvasItem OriginY,Origin Y,세로 중심점,,origin Y
+CanvasItem_Sprite,Sprite,스프라이트,,sprite resource
+CanvasItem_Object,Object,객체,,object resource
+CanvasItem_Sound,Sound,소리,,sound resource
+Category_SpriteInfo,Sprite Information,스프라이트 정보,,inspector category label
+Category_BasicInfo,Basic Information,기본 정보,,inspector category label
+Category_SoundInfo,Sound Information,소리 정보,,inspector category label
+Category_InstanceInfo,Instance Information,개체 정보,,inspector category label
+Category_SequenceInfo,Sequence Information,시퀀스 정보,,inspector category label
+GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,,default script comment
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
+AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,{0}개의 자산을 만들까요?,,label to warn user they are about to create a lot of resources
+AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,다수의 자산 만들기,,title for warning dialog box
+YoYoImage_UnknownFileFormat,Image format not recognised,그림 형식이 인식되지 않았어요.,,This image format was not recognised
+YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,{0}'을 불러올 수 없어요.,,Message to show when an image cannot be loaded
+IDE_Warning,Warning,경고,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2는 중요한 시스템 폴더에 접근할 수 없어요.\n환경설정을 보고 접근 권한을 부여해 주시거나 시스템 관리자에 연락하세요.\n\n{0},,File permissions failure on startup
+code_completion_builtin_struct,BuiltIn {0} Member,내장 {0} 멤버,,Code Completion when built-in structure member used.
+SnappableControls_Orientation_Top,Snap to top,상단에 붙이기,,Snappable widget controls snap to top button tooltip
+SnappableControls_Orientation_Bottom,Snap to bottom,하단에 붙이기,,Snappable widget controls snap to bottom button tooltip
+SnappableControls_Orientation_Left,Snap to left,좌측에 붙이기,,Snappable widget controls snap to left button tooltip
+SnappableControls_Orientation_Right,Snap to right,우측에 붙이기,,Snappable widget controls snap to right button tooltip
+SnappableControls_Orientation_Floating,Floating window,창 띄우기,,Snappable widget controls floating window button tooltip
+SnappableControls_Reset,Reset to default,기본으로 되돌리기,,Snappable widget controls reset button tooltip
+SnappableControls_Title,Change orientation,방향 바꾸기,,Snappable widget controls title label
+Error_CreateNewProjectTitle,Error Creating Project,프로젝트 생성 오류,,Error Creating Project title
+Error_CreateNewProjectMessage,Could not create project at specified path. You may not have permission to save here.,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Creating Project message
+Error_ImportProjectTitle,Error Saving Import Project,가져온 프로젝트 저장 오류,,Error Saving Import Project title
+Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,지정된 경로에 프로젝트를 만들 수가 없어요. 여기에 접근할 수 있는 권한이 없어요.,,Error Saving Import Project message
+Track Panel,Track Panel,트랙 창,,Track Panel label in Sequence Editor
+at:,at:,:,,Label for Moment Editor to show which frame this moment triggers at
+Warning_ImportProject_Title,Warning,경고,,Warning
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,이미 다른 프로젝트가 들어있는 폴더를 선택하셨어요. 여기에 가져오는 것은 두 프로젝트를 합치지 않아요. 이 폴더에 다른 하위 폴더를 만들고 거기에 프로젝트를 가져올까요?,,Warning Importing Project message
+Warning_AppIconAlpha_Title,Warning,경고,,Warning
+Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,선택하신 그림은 투명도가 있어요. 다른 그림을 골라주세요.,,App icon image transparency warning message
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,파일이 아직 실행중이여서 만들 수가 없어요.,,Application running error message.
+CannotImportStripImageError_Title,Error,오류,,Error
+CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,크기 {0} x {1}의 그림은 {2}장의 프레임으로 나눌 수 없어요. 크기를 조절하고 다시 시도해주세요.,,Strip image dimensions error
+SourceControl_GitExecutablePath,Git executable path,Git 실행 파일 경로,,The path to the git executable
+SourceControl_GitMergeToolPath,Merge tool,병합 도구,,The merge tool path
+SourceControl_GitDiffToolPath,Diff tool,차이점 도구,,The diff tool path
 SourceControl_Push_Warning,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,,Warning message for git push failure.
 SourceControl_Pull_Warning,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,,Warning message for git pull failure.
 SourceControl_Status_Warning,The status of the git repository couldn't be queried. Please check Source Control Output for more information,The status of the git repository couldn't be queried. Please check Source Control Output for more information,,Warning for git status failure.
@@ -6755,5 +6755,5 @@ SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Co
 SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,Couldn't retrieve log. Please check Source Control Output for more information,,Warning for git log failure.
 SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,Couldn't create repository. Please check Source Control Output for more information,,Warning for git create failure.
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
-KeyRebinding_Conflicts_Warning,Shortcut Conflicts Found,Shortcut Conflicts Found,,Shortcut Conflicts Found
-KeyRebinding_Conflicts_Description,There were conflicts with the button maps!,There were conflicts with the button maps!,,Description of conflicts shown to the user
+KeyRebinding_Conflicts_Warning,Shortcut Conflicts Found,단축키 충돌함,,Shortcut Conflicts Found
+KeyRebinding_Conflicts_Description,There were conflicts with the button maps!,단축키 중에 중복되는 키가 있습니다.,,Description of conflicts shown to the user
