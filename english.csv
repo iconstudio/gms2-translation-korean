@@ -74,6 +74,7 @@ Button_Yes,Yes,Yes,,Yes
 Button_Next,Next,Next,,next button label
 Button_Create,Create,Create,,create button label
 Button_Apply,Apply,Apply,,apply button label
+Button_Search,Search,Search,,search button label
 Button_Remove_All,Remove All,Remove All,,button label - remove all
 Dialog_ResetLayout_Title,Reset Layout,Reset Layout,,Reset layout dialog title
 Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,,Dialog message reset layout
@@ -527,6 +528,7 @@ Inspector_Category_Viewport,Viewport,Viewport,,Inspector category
 Inspector_Category_View,View,View,,Inspector category
 Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector category
 Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
+Inspector_Category_Nineslice,Nine Slices,Nine Slices,,Inspector category
 Inspector_Category_Tiles,Tiles,Tiles,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
@@ -538,8 +540,14 @@ Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
 Inspector_Field_Width,W,W,,inspector field label
 Inspector_Field_Height,H,H,,inspector field label
+Inspector_Field_WidthC,W:,W:,,inspector field label
+Inspector_Field_HeightC,H:,H:,,inspector field label
 Inspector_Field_X,X,X,,inspector field label
 Inspector_Field_Y,Y,Y,,inspector field label
+Inspector_Field_Left,L,L,,left abbreviated
+Inspector_Field_Right,R,R,,right abbreviated
+Inspector_Field_Top,T,T,,top abbreviated
+Inspector_Field_Bottom,B,B,,bottom abbreviated
 Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
 Inspector_Separation,Separation,Separation,,inspector property label
 Inspector_OutputBorder,Output Border,Output Border,,inspector property label
@@ -552,6 +560,7 @@ Inspector_Offset,Offset,Offset,,inspector property label
 Inspector_Opacity,Opacity,Opacity,,inspector property label
 Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
 Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
+Inspector_Size,Size,Size,,inspector property label
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
@@ -1052,6 +1061,11 @@ IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,inclu
 IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
+IncludedFilesPlatform_WASM,WASM,WASM,DO NOT TRANSLATE,WASM platform list entry
+IncludedFilesPlatform_OPERAGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX platform list entry
+wasm,WASM,WASM,DO NOT TRANSLATE,WASM Platform settings entry
+operagx,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
+OperaGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
 InstanceProperties_CreationCode,Creation Code,Creation Code,,instance properties button caption for opening the creation code
 InstanceProperties_EditObject,Edit Object,Edit Object,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X,Flip X,,instance properties checkbox label for flip x
@@ -1878,6 +1892,12 @@ ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,Blank Repeat,,enum name
 ListBoxEnum_eTileMode_Hide,Hide,Hide,,enum name
 ListBoxEnum_eHighlightStyle_Inverted,Inverted,Inverted,,nineslice highlight style enum
 ListBoxEnum_eHighlightStyle_Overlay,Overlay,Overlay,,nineslice highlight style enum
+ListBoxEnum_eSpriteColKind_Precise,Precise (Slow),Precise (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Rectangle,,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Ellipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Diamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
+ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
@@ -2422,6 +2442,7 @@ ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Set
 ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,Version,,Game Settings Version title
+ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
 ImagePath_ImageError,Error Selecting Image,Error Selecting Image,,Error when using image_path gadget to select an image
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},The image is expected to be of {0}x{1} but received {2}x{3},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),The image is expected to have an alpha channel (i.e. be 32-bit),,The image needs to have an alpha channel but the selected one does not
@@ -2739,6 +2760,7 @@ ggs_languages_xml,Languages XML,Languages XML,,Languages XML
 ggs_title_id,Title ID,Title ID,,Title Id
 ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
 ggs_xbox_program_id,Program ID,Program ID,,Program Id
+ggs_xboxseriesxs_package_name,Package Name,Package Name,,Package Name
 ggs_playfab_party_id,PlayFab Party ID,PlayFab Party ID,,PlayFab Party ID
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
@@ -2748,6 +2770,7 @@ ggs_service_config_manifest,Service Manifest,Service Manifest,,Service Config Ma
 ggs_network_config_manifest,Network Manifest,Network Manifest,,Network Config Manifest
 ggs_small_logo,Small Logo,Small Logo,,Small Logo
 ggs_store_logo,Store Logo,Store Logo,,Store Logo
+ggs_medium_logo,Medium Logo,Medium Logo,,Medium Logo
 ggs_large_logo,Large Logo,Large Logo,,Large Logo
 ggs_wide_logo,Wide Logo,Wide Logo,,Wide Logo
 ggs_small_cycle_image,Small Cycle Image,Small Cycle Image,,Small Cycle Image
@@ -3019,6 +3042,8 @@ TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title
 TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
 TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
 TargetSelection_Platform_xboxseriesxs,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,the Xbox Series X/S platform title in the platform selection list
+TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
+TargetSelection_Platform_operagx,Opera GX,Opera GX,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
@@ -3149,6 +3174,7 @@ android_keystore_warning2,"If lost, you cannot submit app updates to Google Play
 android_package_name_invalid_title,Package name is invalid,Package name is invalid,,Android package name is invalid
 android_package_name_invalid,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,,Android package name is invalid message and why
 clearoutputwindowoncompile,Clear output window on compile start,Clear output window on compile start,,Option to clear the output window on each compile
+autostopbeforepackage,Automatically Stop Running before packaging,Automatically Stop Running before packaging,,Option to automatically Stop Running before packaging
 openpackagesinexplorer,Show package in ${explorer} on build completion,Show package in ${explorer} on build completion,,Setting in Preferences General Compiling
 Build_StopBeforeRun,Stop the current running project before running again?,Stop the current running project before running again?,,Stop the current running project before running again?
 Build_NoDebugInYYC,"You cannot debug a project while using YYC, running using VM instead.","You cannot debug a project while using YYC, running using VM instead.",,Dialog shown when trying to debug a build whilst YYC is selected
@@ -3242,6 +3268,48 @@ ggs_advertising_key1,Key 1,Key 1,,Key 1
 ggs_advertising_key2,Key 2,Key 2,,Key 2
 ggs_advertising_key3,Key 3,Key 3,,Key 3
 ggs_advertising_key4,Key 4,Key 4,,Key 4
+wasm_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+wasm_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
+wasm_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
+wasm_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
+wasm_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
+wasm_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
+wasm_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_received,OAuth2 response received,OAuth2 response received,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_exiting,OAuth2 Exiting...,OAuth2 Exiting...,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
+operagx_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+operagx_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
+operagx_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
+operagx_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
+operagx_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
+operagx_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
+operagx_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_received,OAuth2 response received,OAuth2 response received,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_exiting,OAuth2 Exiting...,OAuth2 Exiting...,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
 windowsuwp_package_arm,Package an ARM build,Package an ARM build,,Package an ARM build
 windowsuwp_package_x86,Package an x86 build,Package an x86 build,,Package an x86 build
 windowsuwp_package_x64,Package an x64 build,Package an x64 build,,Package an x64 build
@@ -3504,7 +3572,7 @@ ExtensionEditor_Macros,Macros,Macros,,edit macros button label
 ExtensionEditor_Tooltip_AddMacro,Add Macro,Add Macro,,add macro button tooltip
 ExtensionEditor_Tooltip_RemoveMacro,Remove Macro,Remove Macro,,remove macro button tooltip
 ExtensionEditor_CopiesTo,Copies To:,Copies To:,,copies to title
-ExtensionEditor_UncompressAsZip,Uncompress as zip file,Uncompress as zip file,,uncompress as zip title
+ExtensionEditor_UncompressAsZip,Uncompress on build,Uncompress on build,,uncompress as zip title
 ExtensionEditor_Key,Key:,Key:,,key label
 ExtensionEditor_Value,Value:,Value:,,value label
 ExtensionEditor_Hidden,Hidden,Hidden,,hidden label
@@ -3555,6 +3623,7 @@ ExtensionEditor_RemoveIosSystemFrameworkAreYouSure,Are you sure you want to dele
 ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice on iOS System Framework deletion,Automatic button choice on iOS System Framework deletion,,Automatic button choice on android permission deletion setting
 ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,Are you sure you want to delete the iOS 3rd party framework?,,confirm message
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatic button choice on iOS 3rd Party Framework deletion,,Automatic button choice on iOS 3rd Party Framework deletion setting
+ExtensionEditor_CodeInjection,Code Injection:,Code Injection:,,ext editor code injection label
 GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Search for Assets, Options, Preferences:",,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,What are you looking for?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maximum number of search results to display,,Go To max number pref
@@ -4785,12 +4854,6 @@ ListBoxEnum_eOrigin_MiddleRight,Middle Right,Middle Right,,enum name
 ListBoxEnum_eOrigin_BottomLeft,Bottom Left,Bottom Left,,enum name
 ListBoxEnum_eOrigin_BottomCentre,Bottom Centre,Bottom Centre,,enum name
 ListBoxEnum_eOrigin_BottomRight,Bottom Right,Bottom Right,,enum name
-ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Rectangle,,sprite collision kind rectangle
-ListBoxEnum_eSpriteColKind_Ellipse,Ellipse,Ellipse,,sprite collision kind ellipse
-ListBoxEnum_eSpriteColKind_Diamond,Diamond,Diamond,,sprite collision kind diamond
-ListBoxEnum_eSpriteColKind_Precise,Precise,Precise,,sprite collision kind precise
-ListBoxEnum_eSpriteColKind_PrecisePerFrame,PrecisePerFrame,PrecisePerFrame,,sprite collision kind precise per frame
-ListBoxEnum_eSpriteColKind_RectangleRotation,RectangleRotation,RectangleRotation,,sprite collision kind rectangle rotation
 RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in use and has been updated to '{1}',Attempting to restore item '{0}' name is already in use and has been updated to '{1}',,console log message when restoring an item whose name has been taken by another instance
 Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',ERROR: Unable to extract '{0}' at '{1}',,Error message when gmz/yyz extraction fails
 FontEditor_SampleText,Sample Text,Sample Text,,Font editor sample text
@@ -5016,7 +5079,7 @@ ExtEditor_ToolTip_AddRemoveResource,Add or Remove resource,Add or Remove resourc
 ExtEditor_ToolTip_TogglePlatformSettings,Toggle extra platforms,Toggle extra platforms,,tooltip
 ExtEditor_ToolTip_AddProxyFile,Add Proxy File,Add Proxy File,,tooltip
 ExtEditor_ToolTip_RemoveProxyFile,Remove Proxy File,Remove Proxy File,,tooltip
-ExtEditor_ToolTip_UncompressAsZipFile,Check to uncompress zip,Check to uncompress zip,,tooltip
+ExtEditor_ToolTip_UncompressAsZipFile,Check to uncompress this file after being copied to the target platform,Check to uncompress this file after being copied to the target platform,,tooltip
 ExtEditor_ToolTip_SelectInitFunction,Select Init function,Select Init function,,tooltip
 ExtEditor_ToolTip_SelectFinalFunction,Select Final function,Select Final function,,tooltip
 ExtEditor_ToolTip_AddArgument,Add Argument,Add Argument,,tooltip
@@ -5102,7 +5165,7 @@ ListBoxEnum_eSymbolType_eObsolete,Obsolete,Obsolete,,Symbol type
 Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,The file '{0}' is not supported. See Compile Errors window.,,Generate preview error message
 Spine_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,,Generate preview error message for Spine sprites
 serverportunavailable_title,Webserver Port Unavailable,Webserver Port Unavailable,,Webserver Port Unavailable title message
-serverportunavailable_message,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,,Webserver port is unavailable message content
+serverportunavailable_message_range,Ports {0} - {1} are unavailable for launching help.\nPlease change the Help manual port or select 'Use online manual' in Preferences.,Ports {0} - {1} are unavailable for launching help.\nPlease change the Help manual port or select 'Use online manual' in Preferences.,,Webserver port is unavailable message content
 Marketplace_MyLibrary_Empty,Your library is empty.,Your library is empty.,,Empty library
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,Click here to browse the marketplace.,,Click to browse marketplace
 StartPage_Offline,This link cannot be opened as you are currently offline.,This link cannot be opened as you are currently offline.,,User is offline and trying to open an external url
@@ -5271,6 +5334,7 @@ Preferences_xbone_vs_path,Visual Studio location,Visual Studio location,,Prefere
 Preferences_xboxseriesxs_dir,GDK location,GDK location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_xboxseriesxs_tools_dir,GDK base location,GDK base location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_operagx_sdk_dir,EMSCRIPTEN SDK location,EMSCRIPTEN SDK location,,Preferences/Platform Settings/Opera GX
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
@@ -5471,6 +5535,9 @@ Xbox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
 XBox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
 Xbox Series XS,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,Xbox Series X/S preference group subheading
 Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
+WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
+Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
+Opera GX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX preference group subheading
 Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,Dialog Editor,,Dialog Editor preference group subheading
 Options,Options,Options,,Options preference group subheading
@@ -5830,7 +5897,7 @@ Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file 
 TargetSelection_Platform_switch,Switch,Switch,,Switch
 Switch,Switch,Switch,,Switch
 Preferences_switch_sdk_dir,NintendoSDK Directory,NintendoSDK Directory,,Path to NintendoSDK Directory
-Preferences_switch_vs_path,Path to VS2015 (14.0),Path to VS2015 (14.0),,Path to VS2015 (14.0)
+Preferences_switch_vs_path,Visual Studio location,Visual Studio location,,Visual Studio location
 platformdevice_targetip,Target IP,Target IP,,Target IP
 preferences_import_nmeta,Import nmeta file,Import nmeta file,,Import an nmeta file into the project
 preferences_open_authoring,Open Authoring Editor,Open Authoring Editor,,Open the Authoring Editor
@@ -6755,5 +6822,11 @@ SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Co
 SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,Couldn't retrieve log. Please check Source Control Output for more information,,Warning for git log failure.
 SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,Couldn't create repository. Please check Source Control Output for more information,,Warning for git create failure.
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
-KeyRebinding_Conflicts_Warning,Shortcut Conflicts Found,Shortcut Conflicts Found,,Shortcut Conflicts Found
-KeyRebinding_Conflicts_Description,There were conflicts with the button maps!,There were conflicts with the button maps!,,Description of conflicts shown to the user
+KeyRebinding_Conflicts_Warning,Conflicting Keybind,Conflicting Keybind,,Conflicting Keybind
+KeyRebinding_Conflicts_Description,That keybind is invalid as it would conflict with another active keybind,That keybind is invalid as it would conflict with another active keybind,,Description of conflicts shown to the user
+Redefine Keys, Redefine Keys, Redefine Keys,,Redefine Key Menu Header
+RedefineKeys_Import_Button, Import file, Import file,,Import file button caption
+RedefineKeys_Export_Button, Export as file, Export as file,,Export file button caption
+RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
+Redefine_Keys_Show_Unbound_Commands, Show Unbound Commands, Show Unbound Commands,,Show Unbound Commands caption
+Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show Only Redefined Commands,, Show Only Redefined Commands caption
